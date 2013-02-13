@@ -1,0 +1,331 @@
+SkypeTalking
+Versija 0.9
+Copyright (c)2010 Hrvoje Katic/SkypeTalking izstrādātāju komanda
+Pēdējais atjauninājums: %%mtime(%x)
+
+=Ievads=[introduction]
+
+==Kas ir SkypeTalking?==[WhatIsSkypeTalking]
+
+SkypeTalking ir noderīgs programmatūras papildinājums, kas padara populāro Interneta telefonijas programmu Skype draudzīgāku un pieejamāku neredzīgiem lietotājiem. Tā izmanto Skype API iesaiņojumu un jūsu ekrānlasošās programmas runas un braila izvadi, saņemot informāciju no  Skype un nosūtot to ekrānlasītājam. SkypeTalking darīs jums zināmu lielāko daļu Skype paziņojumu, ieskaitot lietotāju statusa maiņu, ienākošās un izejošās sarakstes ziņas, zvanu statusu, kā arī vēl daudz ko citu. Īsāk sakot, SkypeTalking vienkārši liks Skype ar jums runāt.
+SkypeTalking sākotnēji tika izstrādāts priekš NVDA, bezmaksas  ekrānlasītāja ar atvērto kodu, lai panāktu NVDA plašāku piekļuvi programmai Skype. Tomēr tas lieliski strādā arī ar JAWS, Window-Eyes, System Access, Dolphin Hal/Supernova un SAPI5 izvadi, kaut gan SAPI5 jums nenodrošinās braila atbalstu.
+SkypeTalking ir pieejama daudzās pasaules valodās, ļaujot jums to lietot jūsu dzimtajā valodā. Pašreiz atbalstītās valodas ir: angļu, arābu, baltkrievu, bulgāru, čehu, dāņu, ebreju, franču, gruzīnu, horvātu, krievu, ķīniešu, itāļu, japāņu, latviešu, lietuviešu, maķedoniešu, malajiešu, poļu, portugāļu, serbu, somu, spāņu, turku, ukraiņu, ungāru un vācu. 
+
+==Sistēmas prasības==[SystemRequirements]
+
+Lai sekmīgi lietotu SkypeTalking, nepieciešams sekojošs programmatūras nodrošinājums:
+- Windows XP, Vista vai 7
+- jebkurš no atbalstītajiem ekrānlasītājiem: Pašreiz atbalstītie ir NVDA 2010.1 vai jaunāks, JAWS (jebkura versija), Window-Eyes (jebkura versija), System Access (jebkura versija), ieskaitot System Access to Go, un Dolphin products (versija 12 vai jaunāka)
+- Ja jūs nelietojat nevienu no atbalstītajiem ekrānlasītājiem, tā vietā var izmantot SAPI5 runas izvadi. Šajā gadījumā jābūt pieejamai kādai SAPI5 savietojamai balsij (operētājsistēmā Windows jau nāk līdzi vismaz 1 iebūvēta SAPI5 balss)
+- Un, protams, programma Skype (3.x, 4.x, 5.x vai jaunāka versija); iespējams, SkypeTalking strādās arī ar Skype 2.x un pat 1.x, taču tas nav izmēģināts.
+
+
+=Darba uzsākšana=[GettingStarted]
+
+==Instalācija un pirmā palaišana==[InstallationAndFirstRun]
+
+Lai instalētu SkypeTalking, palaidiet SkypeTalking_X.X_setup.exe (kur X ir pašreizējās versijas numurs) un sekojiet instrukcijām. Instalācija izveidos ikonu uz darbvirsmas, programmu grupu Start izvēlnē un mapi x:\Program Files\SkypeTalking kur x ir jūsu sistēmas diska burts.
+Atinstalēt SkypeTalking jūs varat, atverot SkypeTalking programmu grupu start izvēlnē un izvēlēties Uninstall SkypeTalking.
+Lai palaistu SkypeTalking, nospiediet SkypeTalking ikonu vai nu uz darbvirsmas, vai ierakstu SkypeTalking start (Sākt) izvēlnē zem programs\SkypeTalking.
+Kad pirmo reizi palaižat SkypeTalking, iespējams, tas nebūs autorizēts darbībai sasaistē ar programmu Skype. Drošības apsvērumu dēļ Skype neatļauj nevienam papildinājumam no malas darboties bez lietotāja piekrišanas. Tas darīts, lai izvairītos no vīrusiem un trojaniem, kuri varētu bojāt Skype. Parasti Skype piedāvā dialogu, vaicājot atļauju konkrētajai lietojumprogrammai to izmantot, un šādā gadījumā jums ar taustiņu tab jānokļūst līdz pogai Allow (Atļaut) un tā jānoklikšķina, lai dotu atļauju SkypeTalking savienoties ar Skype. Ja tas tomēr neparādās, lai piešķirtu SkypeTalking pieeju Skype, izdariet sekojošo:
+1. PalaidietSkypeTalking vai nu no darbvirsmas, vai no start (Sākt) izvēlnes caur Programs>SkypeTalking. Vajadzētu atskanēt "savienojas ar Skype".
+2. Atveriet Skype.
+3. Dodieties uz izvēļņu joslu, izvēlne Rīki un bultiņa uz augšu līdz Uzstādījumi, tad spiediet enter.
+4. Bultiņa uz leju līdz Izvērsti uzstādījumi.
+5. Spiediet taustiņu Tab, līdz dzirdēsiet: "Kārtot citu programmu pieeju Skype" link. Spiediet Space, lai to aktivizētu.
+6. Atrodiet SkypeTalking sarakstā (tam vajadzētu būt pirmajam punktam), ar tab jādodas līdz pogai Mainīt un ar taustiņu Space tā jāaktivizē.
+7. Spiediet atkal Tab. Vajadzētu atskanēt, ka esat uz radiopogas, kas saka "Neatļaut programmai lietot Skype". Ar bultiņu uz augšu izvēlieties "Atļaut programmai pieeju Skype" un nospiežiet enter.
+8. Vualā! Jūs nupat devāt atļauju SkypeTalking lietot Skype! SkypeTalking tagad vajadzētu paziņot, ka tā ir ielādēta. Varat tagad vairākas reizes nospiest Escape, lai izietu no  Uzstādījumiem. Jums pat nav obligāti tie jāsaglabā.
+Ņemiet vērā, jums būs jāatkārto šīs  darbības ik reizi, kad pārinstalēsiet SkypeTalking, bet nesatraucieties - tas jādara tikai vienreiz katrai SkypeTalking instalācijai. Tāpat tas jādara, mainot SkypeTalking.exe atrašanās vietu.
+
+Pēc palaišanas SkypeTalking darbosies fonā un nolasīs paziņojumus,kamēr jūs to neizslēgsiet. SkypeTalking ikona pēc noklusējuma atradīsies arī operētājsistēmas Windows sistēmas teknē (System Tray) , tomēr jūs varat atspējot to SkypeTalking iestatījumos.
+
+==SkypeTalking atjauninājumi==[SkypeTalkingUpdates]
+
+Regulāri tiek izlaisti nelieli SkypeTalking atjauninājumi, lai uzturētu  SkypeTalking pēc iespējas stabilu. Sākot no SkypeTalking 0.9, versijas, jūs varat automātiski pārbaudīt un lejupielādēt pēdējos atjauninājumus, neapmeklējot projekta interneta vietni. SkypeTalking pēc noklusējuma automātiski meklē atjauninājumus projekta mājas lapā un paziņo jums, ja tur ir kas jauns. Tādā gadījumā jūs varat vai nu atcelt atjauninājumus, vai arī ļaut SkypeTalking tos lejupielādēt. Lejupielādes process darbojas fonā un ir pavisam ātrs. Jūs tiksiet informēts par lejupielādes pabeigšanu, līdzko  tā noslēgsies. Atjauninājumu automātisku pārbaudi var atslēgt SkypeTalking iestatījumos sadaļā Atjauninājumi.
+Lai pārbaudītu atjauninājumus manuāli, vai nu nospiediet SkypeTalking atbilstošo taustiņu kombinācijuAlt+Control+Shift+U, vai arī noklikšķiniet peles labo taustiņu uz uzdevumu joslā esošās SkypeTalking ikonas un tad atrodiet izvēlnē Palīdzība>Pārbaudīt atjauninājumus... .
+
+=Komandu saskarne=[CommandInterface]
+
+SkypeTalking jūs varat izmantot dažādas, uz taustiņu kombinācijām balstītas komandas, lai kontrolētu  SkypeTalking uzvedību un gūtu iespēju izrunāt vai atkārtot jebkuru svarīgu informāciju. Visās SkypeTalking taustiņu komandās ir izmantoti taustiņi Alt, Control and Shift (Alt+Control+Shift+kaut kas). Tādējādi var teikt, ka taustiņi Alt+Control+Shift darbojas kā SkypeTalking modifikatori. Tātad, lai dotu kādu komandu, jums jāpietur Alt+Control+Shift (SkypeTalking modifikatori) un jānospiež jebkurš cits taustiņš, kamēr tie tiek turēti.
+Piezīme: Jūs varat mainīt visas SkypeTalking taustiņu komandas pēc savas patikas, atverot  SkypeTalking.ini failu, kurš atrodas SkypeTalking direktorijā, tomēr to ieteicams darīt tikai pieredzējušiem lietotājiem.
+Turpmākajās sadaļās būs aprakstītas visas SkypeTalking komandas un to pielietojums.
+
+==Skype sarakstes ziņojumu un balss pastu pārbaudīšana==[ReviewingSkypeChatMessagesAndVoicemails]
+
+===Ziņojumu/balss pastu režīms (Alt+Control+Shift+Z)===[MessageVoicemailMode]
+
+Lai Pārslēgtos starp pēdējo 10 sarakstes ziņojumu vai pēdējo 10 balss pastu pārlūkošanu, izmantojot Alt+Control+Shift+ciparus no 1 līdz 0, pēc noklusējuma lieto taustiņu kombināciju Alt+Control+Shift+Z. SkypeTalking vajadzētu teikt: "Ziņojumu režīms" vai "balss pasta režīms". Noklusētais stāvoklis ir ziņojumu režīms.
+
+===Teikt pēdējos 10 ienākušos/izsūtītos sarakstes ziņojumus vai balss pastus (Alt+Control+Shift+cipari no 1 līdz 0)===[LastTen]
+
+Ziņojumu režīmā, lietojot Alt+Control+Shift+ciparus no 1 līdz 0 augšējā ciparu rindā, jūs varat lasīt pēdējās ienākušās un izsūtītā sarakstes ziņas (no 1 līdz 10), kuras esat saņēmis vai nosūtījis SkypeTalking sesijas laikā. Nospiežot to divreiz, ar attiecīgajam ciparam atbilstošais ziņojums tiks kopēts starpliktuvē. Nospiežot trīsreiz, šī  kombinācija atvērs interneta adresi noklusētajā web pārlūkā (ja ziņojums satur kaut kādu web adresi. Ņemiet vērā, SkypeTalking atzīst tikai vienu vienīgu interneta adresi \katrā atsevišķā ziņojumā.
+Balss pasta režīmā lieto Alt+Control+Shift+ciparus no 1 līdz 0, lai pārlūkotu pēdējos  10 nosūtītos/saņemtos balss pastus. Nospiežot divreiz, SkypeTalking atvērs un atskaņos balss pastu. Ja nospiedīsiet to trīsreiz, SkypeTalking dzēsīs attiecīgo balss pastu, tā ka esiet uzmanīgi, izmantojot šo iespēju.
+
+===Aktīvo čatu pārlūkošana (Alt+Control+Shift+Function taustiņi no F1 līdz F10)===[MonitoringActiveChats]
+
+Šī funkcija ļauj jums pārlūkot aktīvos čatus jeb citiem vārdiem - atvērtos sarakstes logus. Tas noderēs, ja vēlaties pārskatīt tikai pēdējos 10 sarakstes ziņojumus, kas saistīti ar  konkrētu čatu, nevis ar visu saraksti kopumā. Lietojiet Alt+Control+Shift+Funkciju taustiņus no F1 līdz F10, lai aplūkotu vienu no 10 aktīvajiem čatiem (vai spiediet to divreiz, lai  novietotu fokusu šajā sarakstes logā), tad jūs varēsiet izmantot Alt+Control+Shift+ciparus pēdējo 10 ziņojumu nolasīšanai pašreiz aplūkojamajā čatā. Nospiežot Alt+Control+Shift+C, tiks paziņots pašreiz aplūkojamais čats un, nospiežot to divreiz, šajā sarakstes logā tiks novietots fokuss.
+Ņemiet vērā, ka, lai šī funkcija darbotos, Skype jābūt uzliktam kompaktajam skatam, ja izmantojat Skype 4.x, 5.x vai jaunāku versiju.
+
+===Atkārtot pēdējo sarakstes ziņu (Alt+Control+Shift+R)===[RepeatLastChatMessage]
+
+Šī komanda atkārto pēdējo ienākušo vai izsūtīto sarakstes ziņu. Nospiesta divreiz, tā atvērs ar šo ziņu saistīto Skype sarakstes logu, kā arī pārvietos uz to fokusu.
+
+===Pārbaudīt pēdējo balss pastu (Alt+Control+Shift+W)===[ReviewLastVoicemail]
+
+Lietojiet Alt+Control+Shift+W, lai pārbaudītu pēdējo nosūtīto vai saņemto balss pastu. Nospiežot divreiz, balss pasts tiks atvērts  un atskaņots. Nospiežot trīsreiz, balss pasts tiks dzēsts, tā ka uzmanieties, izmantojot šo iespēju.
+
+==Skype notikumu pārlūkošana==[ReviewingSkypeEvents]
+
+===Atkārtot pēdējo notikumu(Alt+Control+Shift+E)===[RepeatLastEvent]
+
+Šī komanda atkārto pēdējo Skype notikumu: piemēram, statusa maiņu, pēdējo sarakstes ziņu vai zvana statusu.
+
+===Ieslēgt un izslēgtSkype notikumu ignorēšanu (Alt+Control+Shift+I)===[IgnoreSkypeEvents]
+
+šī komanda pārslēdz visu Skype notikumu ignorēšanu. Ja to ieslēdz, SkypeTalking vienkārši ignorēs šos notikumus, neteiks un neierakstīs tos.
+
+===Notikumu vēsture===[TheEventsHistory]
+
+Jūs varat aplūkot visus līdzšinējos notikumus SkypeTalking sesijas laikā, kā arī to norises laiku, lietojot sekojošas komandas:
+- Alt+Control+Shift+Period - doties uz nākošo notikumu vēstures sadaļā
+- Alt+Control+Shift+Comma - doties uz iepriekšējo notikumu vēstures sadaļā
+- Alt+Control+Shift+Slash - pārslēgties starp aplūkojamajiem statusa maiņas notikumiem, zvanu notikumiem, ziņu notikumiem, failu pārsūtīšanas notikumiem, lietotāja darbību notikumiem vai balss pasta notikumiem.
+
+
+==Mainīt savu Skype statusu (Alt+Control+Shift+Backspace)==[ChangeStatus]
+
+Lietojiet šo komandu, lai ātri nomainītu savu Skype statusu . Pēc komandas atliek tikai izvēlēties ar bultiņām vēlamo statusu no piedāvātā saraksta un beigās nospiest enter, lai apstiprinātu izmaiņas. Jūs to varat veikt jebkurā vietā bez fokusēšanās uz Skype.
+
+==Nosaukt zvana un mikrofona statusu (Alt+Control+Shift+L)==[CallStatus]
+
+Šī komanda nosauks aktīvā Skype zvana statusu. Tā arī jūs informēs gadījumos, kad mikrofons būs izslēgts . Nospiežot to divreiz, atvērsies dialoga logs, ļaujot jums ierakstīt kādu Skypelietotājvārdu un tam piezvanīt. Jūs tāpat arī varat izdarīt Skype konferences zvanu, ievadot vairākus, ar komatiem atdalītus  Skype lietotājvārdus. Piemēram: john2010,little.marry,perfect_paul. Aiz pēdējā Skype lietotājvārda nav jāliek komats.
+
+==Teikt sarunas ilgumu (Alt+Control+Shift+D)==[SayCallDuration]
+
+Šī komanda darbojas Skype zvana laikā, un paziņo noritošās sarunas ilgumu stundās/minūtēs/sekundēs.
+
+==Ziņot faila pārsūtīšanas statusu (Alt+Control+Shift+F)==[FileTransferStatus]
+
+šī komanda nosauks pēdējā ienākošā vai izejošā faila pārsūtīšanas statusu. Ja pašreiz norit faila pārsūtīšana, dzirdēsiet arī tās ātrumu megabaitos sekundē un jau pārsūtīto megabaitu skaitu, procentus, kā arī atlikušo laiku. Ja aktīva ir vairāk kā viena faila pārsūtīšana, jūs varat izvēlēties, kuru pārsūtīšanu vēlaties aplūkot, spiežot komandu Alt+Control+Shift+F divreiz, un tad izvēloties faila sūtītāju/saņēmēju no piedāvātā saraksta. Nospiediet enter, lai apstiprinātu izmaiņas.
+
+==Paziņot jūsu pašreizējo tiešsaistes statusu vai kredīta bilanci(Alt+Control+Shift+O)==[CurrentStatus]
+
+Vienreiz nospiesta, šī komanda nosauks jūsu pašreizējo tiešsaistes statusu, bet, nospiežot to  divreiz, pateiks pašreizējo jūsu Skype kredīta bilanci.
+
+==Paziņot vai mainīt jūsu Skype garastāvokļa tekstu(Alt+Control+Shift+M)==[ReportOrChangeMoodText]
+
+Šī komanda nosauks jūsu pašreizējo Skype garastāvokļa tekstu, ja tāds ir uzstādīts. Ja jūs to nospiedīsiet divreiz, tā atvērs dialoga logu, ļaujot jums ievadīt jaunu tekstu. Pēc jaunā teksta ievades jūs varēsiet vienkārši nospiest enter un garastāvokļa teksts būs mainīts.
+
+==Citas komandas==[OtherCommands]
+
+===Par SkypeTalking dialogs (Alt+Control+Shift+A)===[AboutSkypeTalking]
+
+Šis dialogs rāda SkypeTalking pašreizējo versiju, autortiesību informāciju, informāciju par mājas lapu u.c. Jūs varat to aizvērt, nospiežot enter. Šeit ir vēl papildu uzstādījumi, tādi kā apmekl'ēt projekta mājas lapu, aplūkot licenci tiešsaistē, apskatīt izstrādātāju sarakstu, aplūkot pamācību vai Kas jauns dokumentu.
+
+===Paziņot Skype versiju (Alt+Control+Shift+V)===[ReportSkypeVersion]
+
+Šī komanda nosauc pašreiz palaistās programmas Skype versiju, kas instalēta uz lietotāja datora. Nospiežot to divreiz, tā nosauks Skype API iesaiņojuma versiju (pamatā tas noder izstrādātājiem).
+
+===SAPI5 apturēt runas izvadi (Alt+Control+Shift+Space)===[StopSpeech]
+
+Šī komanda apturēs runu, kad SkypeTalking tiek lietots ar SAPI5 runas izvadi. Ja jūs lietojat SkypeTalking ar kādu ekrānlasītāju, jūs varēsiet apturēt runu kā parasti - nospiežot Control taustiņu.
+
+===Aizvērt SkypeTalking (Alt+Control+Shift+Q)===[QuitSkypeTalking]
+
+Šī komanda izlādē SkypeTalking no datora atmiņas. Pēc noklusējuma jums vēl tiks pieprasīts apstiprinājums šai darbībai. Ja atbildēsiet Jā, SkypeTalking tiks izlādēts un jebkurš iepriekšējais notikums, pašreizējā faila pārsūtīšana vai sarakstes ziņojums  tiks aizmirsts, tā kā SkypeTalking glabā tos datora atmiņā un tādējādi tie tiek dzēsti no atmiņas, ja reiz  SkypeTalking tiek izlādēts. Ja atbildat Nē, SkypeTalking turpinās strādāt savu pašreizējo sesiju.
+
+===Taustiņu aprakstītājs (Alt+Control+Shift+K)===[KeyDescriber]
+
+SkypeTalking taustiņu aprakstītājs ir vislabākais veids kā iemācīties SkypeTalking taustiņu kombinācijas. Šajā režīmā, kad spiežat jebkuru ar SkypeTalking komandām saistītu taustiņu kombināciju, SkypeTalking aprakstīs, ko ikviena šāda taustiņu kombinācija dara . Tas strādā līdzīgi klaviatūras palīdzības režīmam programmās JAWS, Window-Eyes un NVDA. Jūs varat ieslēgt un izslēgt taustiņu aprakstītāju ar kombināciju Alt+Control+Shift+K.
+
+=SkypeTalking iestatījumi=[preferences]
+
+Pēc noklusējuma SkypeTalking iestatījumu dialogu var izsaukt ar Alt+Control+Shift+P. Jūs varat to aktivizēt arī, noklikšķinot peles labo taustiņu  uz SkypeTalking ikonas sistēmas teknē (system tray) un tad izvēloties Rīki->Iestatījumi. Tos var lietot, lai mainītu SkypeTalking darbību, norādītu valodu un runas izvades veidu. Jūs šeit varat arī piešķirt SkypeTalking komandām citas taustiņu kombinācijas.
+Iestatījumu dialogam ir daudzpakāpju kategoriju izvēles koks, kurā jūs varat pārslēgties  starp tām ar bultiņām līdzīgi kā to darāt  Skype uzstādījumu dialogā. OK poga vai taustiņš Enter saglabās izdarītās izmaiņas jebkurā iestatījumu kategorijā, kamēr Apply poga saglabās iestatījumus, aizverot dialoga logu. Lai atceltu izmaiņas, spiediet taustiņu Escape vai Cancel pogu. Turpmākajās sadaļās sīkāk iepazīsimies ar iestatījumu kategorijām.
+
+==Vispārīgi==[general]
+
+Iestatījumu kategorijā Vispārīgi tiek uzstādīta jums vēlamā SkypeTalking valoda, kā arī  veids, kādā SkypeTalking tiks palaists un aizvērts. Šī kategorija satur sekojošos uzstādījumus.
+
+===Valoda===[language]
+
+Kombinētais saraksts Valoda ataino visas pieejamās valodas, kuras  pašreiz atbalsta SkypeTalking. Šeit jūs varat izvēlēties sev vēlamo valodu un tūdaļ pēc iestatījumu saglabāšanas tā tiks nekavējoties pielietota. Pēc noklusējuma SkypeTalking lieto valodu, kura tiek izmantota jūsu datora operētājsistēmā. Ņemiet vērā, ka, lai  jaunā valodā darbotos arī taustiņu aprakstītājs, jums jāaizver un no jauna jāpalaiž SkypeTalking.
+
+===Palaist SkypeTalking reizē ar Windows===[StartSkypeTalkingWithWindows]
+
+Kad ieslēgts šis uzstādījums, SkypeTalking tiks palaists automātiski, līdzko  pieteiksieties sistēmā Windows. Pēc noklusējuma tas nav atzīmēts.
+
+===Automātiski palaist Skype ar SkypeTalking===[AutoStartSkype]
+
+Kad ieslēgts šis uzstādījums, tas ļauj SkypeTalking automātiski palaist jūsu Skype, ja esat to aizmirsis ieslēgt pirms tam. Tas ir noderīgi arī, ja vēlaties  sākt Skype, un jums ir tūlītēja pieeja Skype. Šis uzstādījums ir ieslēgts pēc noklusējuma, kas nozīmē, ka SkypeTalking ielādēs Skype, ja tas atradīs, ka Skype jau nedarbojas.
+
+===Automātiski aizvērt Skype, kad tiek izslēgts SkypeTalking===[AutoCloseSkype]
+
+Kad ieslēgts šis uzstādījums, tas uzreiz izlādēs arī Skype, kad aizvērsiet SkypeTalking. Tomēr, ja vēlaties turpināt lietot Skype pēc SkypeTalking izslēgšanas, jūs, iespējams, gribēsiet izslēgt attiecīgo uzstādījumu, un tāpēc tas pēc noklusējuma jau ir izslēgts.
+
+===Apstiprināt, kad SkypeTalking tiek izslēgts===[ConfirmExit]
+
+Šis uzstādījums ir ieslēgts pēc noklusējuma. Ja jūs to atslēgsiet, SkypeTalking tiks nekavējoties izlādēts, līdzko dosiet attiecīgu komandu, un tam sekos atbilstošs paziņojums.
+
+===Rādīt SkypeTalking ikonu uzdevumu joslā===[SkypeTalkingTaskbarIcon]
+
+Šis uzstādījums prasa pārstartēt SkypeTalking, lai tam būtu efekts, un ir ieslēgts pēc noklusējuma. Izslēdziet to, ja negribat vērot SkypeTalking ikonu sistēmas teknē
+
+==Izvade==[output]
+
+Kategorijas Izvade iestatījumi saistīti ar runas un braila izvadi. Šeit jūs varat veikt sekojošos uzstādījumus.
+
+===Runas izvade===[SpeechOutput]
+	
+Kombinētais saraksts Runas izvade ļauj jums uzstādīt sev vēlamo runas izvades veidu. Ja izvēlaties Automātiskā noteikšana , tā tiks noteikta automātiski un izmantos jūsu pašreiz lietoto ekrānlasītāju vai SAPI5, ja ekrānlasītājs nav ieslēgts vai arī SkypeTalking to neatpazīst. Savukārt ja izvēlaties SAPI5, tas automātiski lietos SAPI5 runas izvadi un ignorēs jūsu ekrānlasošās programmas.
+
+===SAPI5 runas kontrole===[SpeechControls]
+
+Nākamie 3 iestatījumi ir izvēles-rediģēšanas  saraksti, kuros jūs varat kontrolēt SAPI5 runas sintezatora skaļumu un ātrumu gadījumos, kad tiek izmantota SAPI5 runas izvade. Jūs varat izmantot gan bultiņu taustiņus, lai mainītu piedāvātās vērtības, gan arī ierakstīt izvēlēto ciparu.
+
+===Iespējot braila izvadi===[EnableBrailleOutput]
+
+Šis izvēles lauciņš ļauj jums izlemt, vai vēlaties SkypeTalking izvadi uz jūsu braila displeja. Uzstādījums nestrādā ar SAPI5.
+
+==Paziņojumi==[alerts]
+
+Šī kategorija ļauj jums ieslēgt un izslēgt dažādu Skype paziņojumu nolasīšanu, ko pašreiz nodrošina SkypeTalking. Jebkas, kam šeit esošajos izvēles lauciņos izņemsiet iezīmējumu, tiks ignorēts no SkypeTalking puses. Jūs varat izslēgt ienākošās vai izejošās sarakstes nolasīšanu, tiešsaistes statusa, kā arī Skype garastāvokļa  paziņošanu u.c.
+
+==Daudzvārdība==[verbosity]
+
+Šī kategorija satur iestatījumus, ar kuriem konfigurē, cik  daudz informācijas pasniegs SkypeTalking un konkrēti kādi SkypeTalking ziņojumi netiks nolasīti. Šeit jūs varat veikt sekojošos uzstādījumus.
+
+===Teikt ziņas nosūtīšanas laiku===[ShowMessageTime]
+
+šis uzstādījums ir ieslēgts pēc noklusējuma, kas nozīmē, ka SkypeTalking teiks laiku, kad attiecīgā ziņa ir nosūtīta. Ziņas laiks tiek atainots lietotājam draudzīgā formātā. Piemēram, "pirms minūtes, 10.54 Kristaps1983 sacīja: Kā tev iet?" Ja nevēlaties dzirdēt nosaucam laiku, atslēdziet šo uzstādījumu.
+
+===Teikt kontakta vārdu kopā ar ziņu===[SpeakContactNameWithMessage]
+
+Ja šis uzstādījums ir atslēgts, SkypeTalking nenosauks tās personas vārdu, kura sūta vai kurai tiek nosūtīta ziņa. Pēc noklusējuma tas ir ieslēgts.
+
+===Teikt frāzi "Skype paziņojums"===[SkypeAlertMessage]
+
+šo uzstādījumu veido radiopogu grupa. Tas kontrolē, kā SkypeTalking paziņos jums par jauniem notikumiem. Radiopoga "Pirms paziņojuma" liks SkypeTalking teikt frāzi "Skype paziņojums" pirms notikuma teksta nolasīšanas. Radiopoga Pēc  paziņojuma" liks SkypeTalking izrunāt šo frāzi uzreiz pēc notikuma teksta. Radiopoga "Nekad" liks SkypeTalking teikt tikai notikuma tekstu bez vārdiem "Skype paziņojums". Pēc noklusējuma ir nozīmēta radiopoga "Pirms paziņojuma". 
+
+==Papildus==[advanced]
+
+Šī kategorija satur dažus papildu iestatījumus, 			kas kontrolē, kā darbības ar SkypeTalking ietekmē Skype klientu un Skype savienojumu. Šeit jūs varat veikt sekojošos uzstādījumus.
+
+===Savienojuma mēģinājumu skaits, pirms tos pārtraukt===[ConnectionRetries]
+
+Šis uzstādījums kontrolē, cik reižu  SkypeTalking mēģinās savienoties ar Skype neveiksmes gadījumā. Pēc noklusējuma tas uzstādīts uz 5.
+
+===Palaist Skype saritinātā veidā===[StartSkypeMinimized]
+
+Šis uzstādījums ir ieslēgts pēc noklusējuma, kas nozīmē, ka programmas Skype galvenais logs neparādīsies uz ekrāna, kad Skype tiks palaists caur SkypeTalking.
+
+===Neuzplaiksnīt ekrānu, kad tiek palaists Skype===[NoSplashScreen]
+
+Šis uzstādījums ir ieslēgts pēc noklusējuma. Tas ļauj izvairīties no ekrāna uzplaiksnījuma, kad caur SkypeTalking tiek palaists Skype.
+
+==Atjauninājumi==[updates]
+
+Šī kategorija satur iestatījumus SkypeTalking atjauninātāja konfigurācijai. Šeit jūs varat veikt sekojošos uzstādījumus.
+
+===Automātiski pārbaudīt SkypeTalking atjauninājumus===[AutoCheckForUpdates]
+
+Šis uzstādījums ir ieslēgts pēc noklusējuma, kas nozīmē, ka SkypeTalking ik reizi, kad tiks palaists, automātiski pārbaudīs atjauninājumu pieejamību. Lai atslēgtu  automātisko  atjauninājumu pārbaudi, izņemiet iezīmējumu no šā uzstādījuma. 
+
+===Lejupielādes tips===[DownloadType]
+
+Šis uzstādījums konfigurē to, kurš  SkypeTalking tiks lejupielādētsno interneta vietnes. Tas ir kombinētais saraksts ar divām izvēles iespējām: instalatoru un pārvietojamo arhīvu. Pēc noklusējuma te ir uzstādīts instalators.
+
+==Kontaktu pārvaldnieks==[ContactsManagerCategory]
+
+Šī kategorija satur iestatījumus SkypeTalking iebūvētā kontaktu pārvaldnieka konfigurācijai. Te ir uzstādījums, lai rādītu  atslēgušos kontaktus, kas pēc noklusējuma ir atslēgts. Kad tas iezīmēts, kontaktu pārvaldnieks parādīs arī kontaktus, kuru statuss pašreiz ir "atslēdzies".
+
+==Karstie taustiņi==[hotkeys]
+
+Šī kategorija ļauj jums pielāgot SkypeTalking taustiņu kombinācijas pēc savas patikas. Tālāk parādīts, kā to darīt.
+
+===Taustiņu komandu saraksts===[KeystrokesList]
+
+Taustiņu komandu saraksts (Listview) attēlo funkciju sarakstu un tām atbilstošo SkypeTalking taustiņu kombināciju, kuru jūs varat mainīt. Šeit varat lasīt funkcijas vārdu, pašreiz noteikto taustiņu kombināciju šai funkcijai un tās aprakstu. Izmantojiet bultiņu taustiņus uz augšu un leju, lai izvēlētos to funkciju, kurai  jūs gribētu mainīt taustiņu kombināciju.
+
+===Taustiņu kombinācijas maiņa===[ChangingKeystroke]
+
+Poga Mainīt atvērs dialoga logu, kas ļauj mainīt pašreiz izvēlēto taustiņu kombināciju. Tajā ir 4 modifikatoru izvēles lauciņi (Alt, Win, Control and Shift), un teksta ievades lauciņš, kurā jums jāieraksta taustiņš, kurš tiks lietots kopā ar modifikatoriem. Piemēram, ja vēlaties izmantot Control+Shift+H kā taustiņu kombināciju attiecīgās darbības veikšanai (Control un Shift kā modifikatorus un H kā attiecīgo taustiņu), jums jāiezīmē izvēles lauciņi Modifikatori Control un Shift, kamēr Alt un Win jāatstāj tukši, un teksta ievades laukā Taustiņš jāieraksta burts h. Izmaiņas tiks saglabātas, kad nospiedīsiet pogu Labi. Ja taustiņu kombinācija jau ir aizņemta, saņemsiet kļūdas ziņojumu un tādā gadījumā būs jāmēģina cita kombinācija. Ir svarīgi ievadīt derīgu taustiņu,savādāk jūsu jaunā taustiņu kombinācija nedarbosies.
+
+=Kontaktu pārvaldnieks=[TheContactsManager]
+
+SkypeTalking kontaktu pārvaldnieks ļauj jums aplūkot un pārvaldīt Skype kontaktus vieglākā un daudz pieejamākā veidā. Jūs varat tam piekļūt, nospiežot Alt+Control+Shift+F11. Ja nospiedīsiet šo komandu divreiz, SkypeTalking fokusēsies uz  oriģinālo Skype kontaktu saraksta logu.
+
+==Pārvietošanās kontaktu pārvaldniekā==[NavigatingContactsManager]
+
+SkypeTalking's kontaktu pārvaldnieks ataino jūsu  kontaktus saraksta izskatā (Listview) un tam piemīt multiiezīmējuma iespējas, ļaujot jums izvēlēties vienu vai vairākus kontaktus, ar kuriem pēc tam veikt kādas darbības. Izmantojiet bultiņu taustiņus  uz augšu un leju, lai pārvietotos pa saviem kontaktiem, un lietojiet taustiņu Space, lai iezīmētu šo kontaktu un atkal atceltu iezīmējumu. Kontaktu pārvaldnieks arī ataino papildus saraksta stabiņus ar jūsu kontakta statusu, garastāvokļa tekstu, kā arī  pēdējās parādīšanās datumu un laiku kontaktiem kuri  pašreiz ir atslēgušies.
+
+==Darbības izvēlēšanās iezīmētajam kontaktam==[ChoosingAnAction]
+
+Kādas darbības tiks rādītas kontaktu pārvaldniekā, ir atkarīgs no iezīmēto kontaktu skaita.
+Ja iezīmēts tikai viens kontakts, pieejamas sekojošas pogas:
+1. Zvans - veic Skype zvanu norādītajam kontaktam - Šī ir poga pēc noklusējuma, tā ka nospiežot Enter, kad fokuss ir uz kontaktu saraksta, tiks aktivizēts zvans.
+2. Sarakste - atver logu sarakstei ar norādīto kontaktu.
+3. Apskatīt profilu - atver kontaktu pārvaldnieka profila aplūkotāju. 
+
+Ja iezīmēti divi vai vairāk profilu, pieejamas sekojošas pogas:
+1. Izveidot konferenci - veido konferences zvanu ar visiem norādītajiem kontaktiem - Šī ir izvēlēta kā poga pēc noklusējuma, tā ka nospiežot Enter,kad fokuss ir uz kontaktu saraksta, tiks aktivizēts konferences zvans.
+2. Izveidot multisaraksti - atver sarakstes logu un izveido multisaraksti ar visiem norādītajiem kontaktiem.
+
+Jūs varat izmantot taustiņus Tab un Shift+Tab, lai pārvietotos starp  darbību pogām un kontaktu sarakstu. Spiediet Alt+F4 vai aktivizējiet Aizvērt pogu jebkurā brīdī, lai aizvērtu kontaktu pārvaldnieku.
+
+==Profila apskate==[ProfileViewer]
+
+Profila apskate ir tā kontaktu pārvaldnieka daļa, kas tiks atvērta, kad aktivizēsiet pogu Apskatīt profilu atsevišķam kontaktam. Tā ataino profila  detaļas viegli izmantojama un pieejama dialoga loga veidā . Lietojiet Tab un Shift+Tab, lai pārvietotos  pa detaļām, tad varēsiet izmantot bultiņu taustiņus un visas standarta teksta iezīmēšanas komandas, lai nokopētu jebkuru atsevišķu detaļu, ja to vēlēsieties. Lai aizvērtu profila apskati, aktivizējiet Aizvērt pogu vai spiediet Escape, lai atgrieztos  kontaktu pārvaldniekā.
+
+=Īsziņu nosūtīšana un saņemšana ar SkypeTalking=[SMS]
+
+SkypeTalking ļauj jums nosūtīt un saņemt īsziņas atvieglotā veidā ar tajā iebūvēto īsziņu veidni.
+
+==Īsziņu veidnis==[SMSWizard]
+
+Īsziņu veidnim var piekļūt, spiežot  	Alt+Control+Shift+S. Kad tas atvērts, jums tajā  jāievada vajadzīgais tālruņa numurs. Šeit jāieraksta derīgs tālruņa numurs, iekļaujot arī valsts kodu . Piemēram: +37123456789. Ja numurs nav derīgs, jūs atmetīs atpakaļ numura ievades laukā, lai mēģinātu to rakstīt par jaunu . Spiežiet Enter, lai turpinātu, vai Escape, lai  atceltu.
+Ja tālruņa numurs bija derīgs, veidnis turpināsies un jūs tiksiet pārvietots teksta ievades lauciņā, kur jums vajadzētu sastādīt īsziņas tekstu. Kamēr atrodaties šajā dialoga logā, jebkurā brīdī varat nospiest funkcionālo taustiņu F2, lai saņemtu informāciju par pašreiz sastādāmās īsziņas statusu. Gadījumā, kad īsziņas tekstā atlikušo  simbolu skaits sasniegs 0, būs dzirdams brīdinājuma signāls. Kad esat sastādījis īsziņu, , varat spiest Enter vai arī ar taustiņu Tab doties uz pogu Sūtīt , lai nosūtītu ziņu, vai  uz pogu Atcelt, lai atceltu sūtīšanu. Ja tiek aktivizēta poga Sūtīt un jūsu kredītbilance ir pozitīva, īsziņa tiks nosūtīta.
+
+=Beigu informācija un kontakti=[FinalInfo]
+
+==Izejas koda saņemšana==[ObtainingSourceCode]
+
+SkypeTalking ir brīva un atvērta koda programma, kas rakstīta [Python programmēšanas valodā http://www.python.org]. Atvērtais kods nozīmē, ka programmas izejas kods ir pieejams jebkuram interesentam. SkypeTalking izmanto GNU General Public License 2.0. Jūs varat izlasīt pilnu licences tekstu failā license.txt, kurš ir iekļauts SkypeTalking.
+Ja esat programmētājs vai gribat izstrādāt izejas kodu, vai varbūt palaist SkypeTalking tieši no tā, varat apmeklēt SVN repozitoriju, kurš atrodas  http://skypetalking.googlecode.com - projekta interneta vietnē. Turpat jūs varat arī lejupielādēt jaunāko SkypeTalking versiju.
+
+==Palīdzība ar lokalizāciju==[ContributingTranslation]
+
+Ja esat lokalizators un gribat pārtulkot SkypeTalking saskarni un dokumentāciju savā valodā, kontaktējiet ar programmas autoru caur e-pastu, lai saņemtu pēdējo valodas failu un instrukcijas, pēc tam tieši tāpat varēsiet nosūtīt viņam arī savus tulkojumus. Tāpat arī, ja jums ir kādas zināšanas par repozitorija apakšversijas lietošanu, autors būs priecīgs piešķirt jums piekļuves tiesības, lai laiku pa laikam atjaunotu tulkojumu.
+
+==SkypeTalking vēstkopa==[MailingList]
+
+Jūs varat pievienoties SkypeTalking vēstkopai, kas atrodas Google Groups, lietojot sekojošo  adresi: [skypetalking+subscribe@googlegroups.com skypetalking+subscribe@googlegroups.com]. Lai nosūtītu e-pastu uz vēstkopu, izmantojiet [skypetalking@googlegroups.com skypetalking@googlegroups.com] adresi. Ņemiet vērā, ka vēstkopa ir vienīgi angļu valodā. Šis  ir labākais resurss, kur saņemt tehnisko atbalstu, kā arī dažādus ieteikumus  attiecībā uz SkypeTalking. šeit jūs arī saņemsiet ikdienas informāciju par to, kas notiek ar SkypeTalking izstrādi tās repozitorijā. Jebkuri jautājumi tiek laipni gaidīti - gan no iesācējiem, gan izstrādātājiem.
+
+==Pateicības==[credits]
+
+Sekojošie cilvēki ir atbalstījuši SkypeTalking izstrādi dažādos veidos:
+- Hrvoje Katičs(Hrvoje Katiж), kurš ir SkypeTalking projekta dibinātājs un galvenais cilvēks tajā.
+- Džanluka Kazalino (Gianluca Casalino), kurš ir attīstījis dažādas SkypeTalking papildiespējas un ir ieguldījis  daudz darba SkypeTalking koda izstrādē. Pateicamies viņam par sniegto atbalstu un palīdzību, SkypeTalking ir kļuvis vēl labāks kā agrāk!
+- Renē Linke (Renй Linke), kurš arī ir lielā mērā atbalstījis  SkypeTalking izstrādi, veidojot ielāpus un sniedzot sākotnējās idejas.
+- Daudz jauku cilvēku, kuri ir padarījuši SkypeTalking pieejamu savās valodās, tādējādi SkypeTalking tagad runā vairāk nekā 20 valodās!
+- Un, protams, visiem lietotājiem visā pasaulē, kuri ikdienā lieto SkypeTalking un veicina to, lai pēc iespējas vairāk cilvēku uzzina par šo produktu!
+
+
+Liels paldies jums visiem!
+
+==Autora kontakti==[ContactDetails]
+
+SkypeTalking projekta interneta vietne lejupielādēm, atjauninājumiem un citām lietām: [skypetalking.googlecode.com http://skypetalking.googlecode.com]
+
+Autora e-pasta adrese jautājumiem, priekšlikumiem, atbalstam un tulkojumu sūtīšanai: [hrvojekatic@gmail.com hrvojekatic@gmail.com]
+
+Jūs varat sekot viņam arī Tviterī: [@hkatic http://www.twitter.com/hkatic]
+
+Facebook lappuse: [www.facebook.com/jukebox2009 http://www.facebook.com/jukebox2009]
+
+Klango Id on klango.net: DJ_Jukebox
+
+Autora MSN adrese: [hrkatic@hotmail.com hrkatic@hotmail.com]
+
+Autora Skype: hrvojekatic

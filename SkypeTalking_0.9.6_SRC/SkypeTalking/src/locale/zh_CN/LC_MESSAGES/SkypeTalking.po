@@ -1,0 +1,225 @@
+# SkypeTalking.
+# Copyright (C) 2010 HRVOJE KATICH
+# Hrvoje Katich <hrvojekatic@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.6\n"
+"POT-Creation-Date: 2010-02-25 21:31+Central European Standard Time\n"
+"PO-Revision-Date: 2010-03-08 12:58+0100\n"
+"Last-Translator: Harison <gamer@istan.com>\n"
+"Language-Team: ZH <gamer@istan.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: Source\APIFunctions.py:13
+msgid "Connecting to Skype..."
+msgstr "zen zai jin chi skype"
+
+#: Source\APIFunctions.py:17
+msgid "Skype client version %s"
+msgstr "$s ge skype"
+
+#: Source\APIFunctions.py:18
+msgid "API wrapper version %s"
+msgstr "$s de api wrapper"
+
+#: Source\APIFunctions.py:25
+msgid "Skype: %s calling"
+msgstr "skype: $s zen zai da dien hua"
+
+#: Source\APIFunctions.py:30
+#: Source\APIFunctions.py:32
+msgid "%s says: %s"
+msgstr "%s shuo: %s"
+
+#: Source\APIFunctions.py:34
+msgid "Sending..."
+msgstr "wo zen zai fa"
+
+#: Source\APIFunctions.py:35
+msgid "%s said: %s"
+msgstr "$s shuo: %s"
+
+#: Source\APIFunctions.py:39
+msgid "Skype: %s's status is unknown"
+msgstr "skype: %s shi bu ze dao"
+
+#: Source\APIFunctions.py:41
+msgid "Skype: %s went Offline"
+msgstr "skype: %s chu lai"
+
+#: Source\APIFunctions.py:43
+msgid "Skype: %s is Online"
+msgstr "skype: %s jin lai"
+
+#: Source\APIFunctions.py:45
+msgid "Skype: %s is Away"
+msgstr "skype: %s mei zai"
+
+#: Source\APIFunctions.py:47
+msgid "Skype: %s is Not Available"
+msgstr "skype: %s bu zai"
+
+#: Source\APIFunctions.py:49
+msgid "Skype: %s is Do Not Disturb"
+msgstr "skype: %s shi mang"
+
+#: Source\APIFunctions.py:51
+msgid "Skype: %s went offline"
+msgstr "skype: %s chu lai le"
+
+#: Source\APIFunctions.py:53
+msgid "Skype: %s is Skype Me"
+msgstr "skype: %s shi skype wo"
+
+#: Source\APIFunctions.py:55
+msgid "Skype: %s is Skype Out"
+msgstr "skype: %s shi skypeout"
+
+#: Source\APIFunctions.py:59
+msgid "No new messages since you've launched SkypeTalking."
+msgstr "%s mei you shin de shin wen chong ni kai shi skype talking de shi ho"
+
+#: Source\APIFunctions.py:68
+msgid "SkypeTalking is ready. Currently logged on user is %s"
+msgstr "skype talking kai shi le. Shien zai de ren shi %s"
+
+#: Source\UI\UIFunctions.py:8
+msgid "Settings"
+msgstr "shi ze"
+
+#: Source\UI\UIFunctions.py:21
+msgid "Goodbye!"
+msgstr "zai jien"
+
+#: Source\UI\settings.py:13
+msgid "&Language:"
+msgstr "&ir yen"
+
+#: Source\UI\settings.py:23
+msgid "&Automatically start Skype if not running"
+msgstr "&ze dong kai shi skype ru guo hai me kai shi"
+
+#: Source\UI\settings.py:34
+msgid "Speech Output:"
+msgstr "ze me yang jiang hua"
+
+#: Source\UI\settings.py:35
+msgid "Auto detect"
+msgstr "ze dong shren ze"
+
+#: Source\UI\settings.py:35
+msgid "SAPI5"
+msgstr "sapi5"
+
+#: Source\UI\settings.py:39
+msgid "SAPI5 Speech Rate:"
+msgstr "sapi5 de jiang man cuai"
+
+#: Source\UI\settings.py:45
+msgid "SAPI5 Volume:"
+msgstr "sapi5 in liang:"
+
+#: Source\UI\settings.py:50
+msgid "Enable &braille output"
+msgstr "kai shi &dien zi"
+
+#: Source\UI\settings.py:60
+msgid "Chat message &received"
+msgstr "fa dao de"
+
+#: Source\UI\settings.py:62
+msgid "Chat message &sent"
+msgstr "fa le"
+
+#: Source\UI\settings.py:64
+msgid "Online status &unknown"
+msgstr "bu ze dao"
+
+#: Source\UI\settings.py:66
+msgid "Online status O&ffline"
+msgstr "me zai"
+
+#: Source\UI\settings.py:68
+msgid "Online status &Online"
+msgstr "zai"
+
+#: Source\UI\settings.py:70
+msgid "Online status &Away"
+msgstr "me zai dien nao"
+
+#: Source\UI\settings.py:72
+msgid "Online status &Not Available"
+msgstr "bu nen jiang hua"
+
+#: Source\UI\settings.py:74
+msgid "Online status &Do Not Disturb"
+msgstr "bu yao zao ta ma fan"
+
+#: Source\UI\settings.py:76
+msgid "Online status &Invisible"
+msgstr "bu nen kan jien"
+
+#: Source\UI\settings.py:78
+msgid "Online status &SkypeOut"
+msgstr "skypeout"
+
+#: Source\UI\settings.py:80
+msgid "Online status &Skype Me!"
+msgstr "skype wo"
+
+#: Source\UI\settings.py:96
+msgid "General"
+msgstr "yi pan"
+
+#: Source\UI\settings.py:97
+msgid "Output"
+msgstr "chu lai"
+
+#: Source\UI\settings.py:98
+msgid "Alerts"
+msgstr "shin wen"
+
+#: Source\UI\settings.py:116
+msgid "Error in %s language file"
+msgstr "wen ti zai %s dan xin"
+
+#: Source\UI\settings.py:116
+msgid "Language Error"
+msgstr "wen ti zai ir yen"
+
+#: Source\UI\settings.py:137
+msgid "Settings saved."
+msgstr "shi ji shie chi lai le"
+
+#: Source\UI\settings.py:142
+msgid "Settings canceled."
+msgstr "shi chi me shie le"
+
+#: Source\UI\sysTrayIcon.py:12
+msgid "&Settings..."
+msgstr "shi ze..."
+
+#: Source\UI\sysTrayIcon.py:12
+msgid "Settings Dialog"
+msgstr "shi ze de he ze"
+
+#: Source\UI\sysTrayIcon.py:14
+msgid "&About Skype Talking..."
+msgstr "skype talking de xin xi"
+
+#: Source\UI\sysTrayIcon.py:14
+msgid "About Skype Talking"
+msgstr "skype talking de xin xi"
+
+#: Source\UI\sysTrayIcon.py:16
+msgid "E&xit"
+msgstr "chu lai"
+
+#: Source\UI\sysTrayIcon.py:16
+msgid "Exit Skype Talking"
+msgstr "chu lai skype talking"
+

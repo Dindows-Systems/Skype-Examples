@@ -1,0 +1,1944 @@
+# SkypeTalking bulgarian localization
+# Copyright (C) 2010 HRVOJE KATICH
+# Hrvoje Katich <hrvojekatic@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.00\n"
+"POT-Creation-Date: 2011-01-16 13:29+Ôèíëàíäèÿ - ñòàíäàðòíî âðåìå\n"
+"PO-Revision-Date: 2011-01-16 13:42+0200\n"
+"Last-Translator: Kostadin Kolev <kostadin.kolev1985@gmail.com>\n"
+"Language-Team: BG Kostadin Kolev <Kostadin.kolev1985@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-Bookmarks: -1,0,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: SkypeTalking.pyw:59
+msgid "Error writing config file. The application may not be started. Please contact development team for help."
+msgstr "Грешка при опит за запис на конфигурационния файл. Приложението не може да бъде стартирано. Моля свържете се с разработващия екип, за съдействие."
+
+#: SkypeTalking.pyw:59
+#: SkypeTalking.pyw:70
+#: SkypeTalking.pyw:80
+#: interface\__init__.py:41
+msgid "Error"
+msgstr "Грешка"
+
+#: SkypeTalking.pyw:70
+msgid "Could not set application language. The application may not be started. Please contact development team for help."
+msgstr "Не е възможно задаването на избрания език. Приложението не може да бъде стартирано. Моля свържете се с разработващия екип, за съдействие."
+
+#: SkypeTalking.pyw:74
+msgid "Application already running."
+msgstr "Програмата е вече стартирана."
+
+#: SkypeTalking.pyw:78
+msgid "Connecting to Skype..."
+msgstr "Свързване със Скайп..."
+
+#: SkypeTalking.pyw:80
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "Грешка при опит за инициализиране на изходната подсистема. Приложението не може да бъде стартирано. Моля свържете се с разработващия екип, за съдействие."
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "Обаждане от %s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "Избиране на %s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "Телефонно обаждане от %s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "Телефонно обаждане до %s"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "Разговорът с %s приключи, Времетраене %s."
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "Избиране на %s, свързване..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "Съжаляваме, разговорът с %s се разпадна"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "В разговор с %s"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "Разговорът с %s е задържан"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "Пропуснато обаждане от %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "Повикването е отхвърлено"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "Разговор с %s, сигнал \"заето\""
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "Разговорът с %s е отменен"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "Разговорът с %s е задържан от вас"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "Разговорът с %s е задържан от отсрещната страна"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Прехвърляне на разговора към %s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "Разговорът е прехвърлен към %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Неизвестна причина"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Разнородна грешка"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "Такъв потребител не съществува"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "Абонатът е извън линия"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Няма намерено Proxy"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Сесията бе прекратена"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Няма общ кодек"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Грешка във звуковия вход/изход"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Грешка в отсрещното устройство"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "Блокирани сте от абоната"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "Потребителят не е във вашия списък с абонати"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Не сте упълномощени от абоната"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Грешка в звукозаписа"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "час "
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "часа "
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "минута "
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "минути "
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "и "
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "секунда"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "секунди"
+
+#: communication\files.py:38
+msgid "Receiving file %s from %s. "
+msgstr "Получаване на файла %s от %s. "
+
+#: communication\files.py:40
+msgid "Sending file %s to %s. "
+msgstr "Изпращане на файла %s до %s. "
+
+#: communication\files.py:42
+msgid "File transfer %s, file %s. "
+msgstr "Прехвърляне на файл %s, файла %s. "
+
+#: communication\files.py:44
+msgid "New file transfer: "
+msgstr "Ново прехвърляне на файл: "
+
+#: communication\files.py:46
+msgid "Connecting..."
+msgstr "Свързване..."
+
+#: communication\files.py:48
+msgid "Transferring..."
+msgstr "Прехвърляне..."
+
+#: communication\files.py:50
+msgid "Transferring over relay..."
+msgstr "Прехвърляне чрез препредаване..."
+
+#: communication\files.py:52
+msgid "Waiting for accept..."
+msgstr "Изчакване за потвърждение..."
+
+#: communication\files.py:54
+msgid "Paused."
+msgstr "На пауза."
+
+#: communication\files.py:56
+msgid "Paused remotely."
+msgstr "Поставено на пауза от отсрещната страна."
+
+#: communication\files.py:58
+msgid "Cancelled!"
+msgstr "Отменено!"
+
+#: communication\files.py:60
+msgid "Finished!"
+msgstr "Завършено!"
+
+#: communication\files.py:62
+msgid "File transfer failed."
+msgstr "Прехвърлянето на файла се провали."
+
+#: communication\files.py:64
+msgid "Sender not authorized."
+msgstr "Подателят не е упълномощен."
+
+#: communication\files.py:66
+msgid "Remotely cancelled."
+msgstr "Отменено от отсрещната страна"
+
+#: communication\files.py:68
+msgid "Failed read."
+msgstr "Грешка при четене."
+
+#: communication\files.py:70
+msgid "Failed remote read."
+msgstr "Грешка при четене при отсрещната страна."
+
+#: communication\files.py:72
+msgid "Failed write."
+msgstr "Грешка при запис."
+
+#: communication\files.py:74
+msgid "Failed remote write."
+msgstr "Грешка при запис при отсрещната страна."
+
+#: communication\files.py:76
+msgid "Remote does not support file transfer."
+msgstr "Прехвърлянето на файлове не се поддържа от отсрещната страна."
+
+#: communication\files.py:78
+msgid "Remote offline too long."
+msgstr "Отсрещната страна бе извън линия твърде дълго."
+
+#: communication\files.py:83
+msgid "Size: %.1f Mb"
+msgstr "Размер: %.1f Mb"
+
+#: communication\files.py:88
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Прехвърлени: %.1f MB, Скорост: %.1f KB/с"
+
+#: communication\files.py:94
+msgid "Progress: %6.2f"
+msgstr "Напредък: %6.2f"
+
+#: communication\files.py:104
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "Оставащо време: %d часа, %d минути и %d секунди"
+
+#: communication\main.py:36
+msgid "Waiting for authorization..."
+msgstr "Изчакване за упълномощаване..."
+
+#: communication\main.py:38
+msgid "Authorization refused."
+msgstr "Упълномощаването е отказано."
+
+#: communication\main.py:43
+msgid "Error, API not available."
+msgstr "Грешка, API не е наличен."
+
+#: communication\main.py:50
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s е в готовност. Текущо вписаният потребител е %s."
+
+#: communication\main.py:68
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Грешка! Просрочено време за свързване със Скайп. Осъществявам опит %d от общо %d за 5 секунди."
+
+#: communication\main.py:75
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Грешка! Просрочено време за свързване със Скайп. Моля рестартирайте приложението и опитайте отново."
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "Изпращане..."
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "Мигновено съобщение от %s: %s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "SMS съобщение от %s: %s"
+
+#: communication\messages.py:56
+msgid "at %s, %s said: %s"
+msgstr "в %s, %s каза: %s"
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr "%s в %s, %s каза: %s"
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr "в %s, %s казва: %s"
+
+#: communication\messages.py:63
+msgid "%s at %s, %s says: %s"
+msgstr "%s в %s, %s казва: %s"
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr "в %s: %s"
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr "%s в %s: %s"
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%s каза: %s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%s казва: %s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "Съобщението все още не е доставено."
+
+#: communication\messages.py:84
+msgid "Message copied to clipboard."
+msgstr "Съобщението е копирано в клипборда."
+
+#: communication\messages.py:86
+msgid "copy failed"
+msgstr "Копирането е неуспешно"
+
+#: communication\messages.py:95
+msgid "opening URL"
+msgstr "Отваряне на URL адреса"
+
+#: communication\messages.py:98
+msgid "Failed to open this URL."
+msgstr "Не бе възможно да се отвори този URL адрес."
+
+#: communication\messages.py:100
+msgid "url not found"
+msgstr "URL адреса не е намерен"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "Версията на Скайп е %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "Версията на API опаковчика е %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "Няма нови събития, откакто стартирахте %s."
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "Няма нови съобщения, откакто стартирахте %s."
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Все още няма нови прехвърляния на файлове."
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "Няма активни прехвърляния на файлове."
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s, файлът %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "Текущо прехвърлящи се файлове"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "Изберете подателя/получателя на файла"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Балансът по вашия Скайп кредит е %s"
+
+#: communication\misc.py:93
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Няма чат наблюдение на тази позиция, първото е на позиция %s."
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "Наблюдаване на чата с %s"
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr "и"
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "Няма активни чатове"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "Няма активно наблюдаване на чатове"
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "Наблюдаване на чата с %s"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Няма нови съобщения от стартирането на %s или не е избрано наблюдение на чат."
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "Няма съобщение на тази позиция. Първото е на позиция %d"
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Нямате зададено съобщение с настроение. Натиснете тази команда двукратно, за да си зададете такова."
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "Текущото ви съобщение с настроение е: %s."
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr " - Промяна на вашето съобщение с настроение"
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "Въведете вашето ново съобщение с настроение:"
+
+#: communication\misc.py:151
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s промени своето съобщение с настроение на: %s"
+
+#: communication\misc.py:167
+#: communication\misc.py:207
+msgid "no active call"
+msgstr "Няма активни разговори"
+
+#: communication\misc.py:170
+#: communication\misc.py:176
+#: communication\misc.py:182
+#: communication\misc.py:196
+msgid "Not on call."
+msgstr "В момента не сте в разговор."
+
+#: communication\misc.py:174
+msgid "Microphone unmuted"
+msgstr "Микрофонът е освободен"
+
+#: communication\misc.py:180
+#: communication\misc.py:228
+msgid "Microphone muted"
+msgstr "Микрофонът е заглушен"
+
+#: communication\misc.py:188
+msgid "call on hold "
+msgstr "Разговорът е задържан "
+
+#: communication\misc.py:191
+msgid "call resumed"
+msgstr "Разговорът е подновен"
+
+#: communication\misc.py:193
+msgid "No incoming or active call."
+msgstr "Няма входящи или текущо провеждащи се разговори."
+
+#: communication\misc.py:199
+msgid "%s has joined the current call."
+msgstr "%s се присъедини към текущия разговор."
+
+#: communication\misc.py:201
+msgid "only one active call"
+msgstr "Има само един активен разговор"
+
+#: communication\misc.py:214
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: interface\contactsManager.py:53
+msgid "Not available"
+msgstr "Недостъпен"
+
+#: communication\misc.py:218
+msgid "Audio In: %s"
+msgstr "Микрофон: %s"
+
+#: communication\misc.py:219
+msgid "Audio Out: %s"
+msgstr "Говорители: %s"
+
+#: communication\misc.py:220
+msgid "Video In: %s"
+msgstr "Камера: %s"
+
+#: communication\misc.py:221
+msgid "Ringing device: %s"
+msgstr "Звънене: %s"
+
+#: communication\misc.py:230
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Няма нови или текущо провеждащи се разговори. Натиснете тази команда двукратно, за да се обадите на някого."
+
+#: communication\misc.py:235
+msgid " - make call"
+msgstr " - създаване на разговор"
+
+#: communication\misc.py:235
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Въведете едно или повече потребителски Скайп имена, разделени със запетаи:"
+
+#: communication\misc.py:255
+#: communication\misc.py:278
+#: communication\misc.py:289
+#: communication\misc.py:301
+msgid "There are no voicemails."
+msgstr "Няма гласови съобщения."
+
+#: communication\misc.py:263
+#: communication\misc.py:285
+msgid "Error, cannot open that voicemail."
+msgstr "Грешка, Не може да бъде отворено това гласово съобщение."
+
+#: communication\misc.py:265
+msgid "No voicemail to play."
+msgstr "Няма гласови съобщения за прослушване."
+
+#: communication\misc.py:270
+#: communication\misc.py:295
+msgid "Voicemail deleted."
+msgstr "Гласовото съобщение е изтрито."
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Error, voicemail cannot be deleted."
+msgstr "Грешка, гласовото съобщение не може да бъде изтрито."
+
+#: communication\misc.py:274
+msgid "No voicemail to delete."
+msgstr "Няма гласови съобщения за изтриване."
+
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "Няма гласово съобщение на тази позиция, първото е на позиция %s."
+
+#: communication\misc.py:306
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Гласово съобщение от %s. "
+
+#: communication\misc.py:308
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Гласово съобщение до %s. "
+
+#: communication\misc.py:310
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Поздрав по подразбиране за гласовата поща. "
+
+#: communication\misc.py:312
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Поздрав по избор за гласовата поща. "
+
+#: communication\misc.py:314
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Непознат тип на гласовата поща. "
+
+#: communication\misc.py:316
+msgid "Not played."
+msgstr "Не е прослушвано."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Съставяне"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Доставено"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "SMS съобщението е прочетено"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "Получено SMS съобщение"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "Неуспешно изпращане"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "Изпращане към сървъра"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "Изпратено до сървъра"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "Неуспешно доставяне до някои номера."
+
+#: communication\sms.py:28
+#: interface\contactsManager.py:53
+msgid "Unknown"
+msgstr "Непознато"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "Вие платихте %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Въведете един или няколко телефонни номера, разделени със знак за точка и запетая:"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "Съветник за ново SMS съобщение"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Съветник за ново SMS съобщение: от %s до %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Невалиден номер. Проверете това което сте въвели, и опитайте отново."
+
+#: communication\status.py:33
+#: interface\contactsManager.py:53
+msgid "Online"
+msgstr "На линия"
+
+#: communication\status.py:34
+#: interface\contactsManager.py:53
+msgid "Away"
+msgstr "Отсъстващ"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "Недостъпен"
+
+#: communication\status.py:36
+#: interface\contactsManager.py:53
+msgid "Do not disturb"
+msgstr "Отпочиващ"
+
+#: communication\status.py:37
+#: interface\contactsManager.py:53
+msgid "Invisible"
+msgstr "Инкогнито"
+
+#: communication\status.py:38
+#: interface\contactsManager.py:53
+msgid "Skype Me"
+msgstr "Скайпващ"
+
+#: communication\status.py:39
+#: interface\contactsManager.py:53
+msgid "Offline"
+msgstr "Извън линия"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "%s е с непознат статус"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s излезе Извън линия"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s е На линия"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s е Отсъстващ"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s е Недостъпен"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s е Отпочиващ"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s излезе Извън линия"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s е Скайпващ"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s е с активирано пренасочване"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "Промяна на Скайп статуса"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Избор на статус"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "Преминаване към статус %s"
+
+#: communication\status.py:82
+msgid "Current online status is %s"
+msgstr "Текущият ви статус е %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "Потребителят %s %s ви заяви пълномощно. Представящ текст: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "Вече можете да общувате с %s %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "Потребителят %s %s бе блокиран."
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s премахна своето съобщение с настроение"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s промени своето съобщение с настроение на %s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Непознат статус."
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "Не е изтеглено."
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "Изтегляне..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Не е прослушвано, времетраене %d секунди."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Буфериране..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "Възпроизвеждане..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Прослушано, времетраене %d секунди."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "Празно гласово съобщение."
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Записване..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Записано."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Качване..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "Качено."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Изтриване..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Грешка в гласовата поща."
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Няма грешки."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Разнородна грешка."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Неуспешно свързване."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Нямате активирана услуга за гласова поща."
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Няма такова гласово съобщение."
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "Неуспешно прочитане на файл."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "Неуспешен запис на файл."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Неуспешно записване на гласовото съобщение."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Неуспешно възпроизвеждане на гласовото съобщение."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Скайп уведомление"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s в %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (току-що в %s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "Все още няма нови събития в тази категория."
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "преди %d секунди"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "преди една минута"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "преди %d минути"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "преди един час"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "преди %d часа"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "вчера"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "преди %d дни"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "преди %d седмици"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "преди %d месеца"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "преди %d години"
+
+#: interface\__init__.py:41
+msgid "An error has occured while attempting to configure autostart."
+msgstr "Възникна грешка при опит за конфигуриране на автоматичното зареждане."
+
+#: interface\__init__.py:63
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Сигурни ли сте, че искате да затворите %s? Това ще затвори и Скайп, ако сте включили съответната опция в настройките."
+
+#: interface\__init__.py:63
+msgid "Confirm Exit"
+msgstr "Потвърждение за изход от програмата"
+
+#: interface\__init__.py:81
+msgid "Goodbye!"
+msgstr "Довиждане!"
+
+#: interface\about.py:29
+#: interface\systemTray.py:78
+msgid "About %s"
+msgstr "Относно %s"
+
+#: interface\about.py:42
+msgid "Project &Web site"
+msgstr "&Уеб сайт на проекта"
+
+#: interface\about.py:43
+msgid "&License online"
+msgstr "Онлайн &лиценз"
+
+#: interface\about.py:44
+msgid "C&ontributors"
+msgstr "С&ътрудници"
+
+#: interface\about.py:45
+msgid "User &Guide"
+msgstr "&Помощна документация"
+
+#: interface\about.py:46
+#: interface\systemTray.py:58
+msgid "&What's New"
+msgstr "&Списък с промените"
+
+#: interface\about.py:47
+#: interface\systemTray.py:74
+msgid "Check for &updates..."
+msgstr "Проверка за &обновления..."
+
+#: interface\about.py:67
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Запазено право %s Hrvoje Katic / сътрудниците на SkypeTalking\n"
+"Уеб сайт на проекта: %s\n"
+"Тази програма се разпространява под правилата на GNU General Public License версия 2.\n"
+"За повече информация, моля щракнете върху бутона Преглед на Онлайн Лиценза или погледнете файла license.txt разпространяван с програмата.\n"
+
+#: interface\contactsManager.py:40
+#: interface\preferences\main.py:50
+msgid "Contacts Manager"
+msgstr "Диспечер на абонатите"
+
+#: interface\contactsManager.py:53
+msgid "Skype Out"
+msgstr "Skype Out"
+
+#: interface\contactsManager.py:85
+#: interface\contactsManager.py:160
+msgid "Checked"
+msgstr "Избрано"
+
+#: interface\contactsManager.py:88
+msgid "Unchecked"
+msgstr "Неизбрано"
+
+#: interface\contactsManager.py:90
+msgid "&Create Conference"
+msgstr "&Създай конферентен разговор"
+
+#: interface\contactsManager.py:91
+msgid "Create multi c&hat"
+msgstr "Създай конферентен &чат"
+
+#: interface\contactsManager.py:94
+#: interface\contactsManager.py:135
+msgid "&Call"
+msgstr "&Повикване"
+
+#: interface\contactsManager.py:95
+#: interface\contactsManager.py:137
+msgid "C&hat"
+msgstr "&Чат"
+
+#: interface\contactsManager.py:115
+msgid "&Contact List"
+msgstr "&Списък с абонати"
+
+#: interface\contactsManager.py:117
+msgid "Contact"
+msgstr "Абонат"
+
+#: interface\contactsManager.py:118
+msgid "Skype Name"
+msgstr "Скайп име"
+
+#: interface\contactsManager.py:119
+msgid "Status"
+msgstr "Статус"
+
+#: interface\contactsManager.py:120
+msgid "Mood Text"
+msgstr "Съобщение с настроение"
+
+#: interface\contactsManager.py:121
+msgid "Last seen"
+msgstr "Последно в Скайп на"
+
+#: interface\contactsManager.py:128
+msgid "%s at %s"
+msgstr "%s в %s"
+
+#: interface\contactsManager.py:138
+msgid "View &Profile..."
+msgstr "П&окажи профила"
+
+#: interface\contactsManager.py:189
+msgid "Profile Viewer for %s (%s)"
+msgstr "Показване на профила на %s (%s)"
+
+#: interface\contactsManager.py:193
+msgid "Skype name:"
+msgstr "Скайп име:"
+
+#: interface\contactsManager.py:199
+msgid "Full name:"
+msgstr "Пълно име:"
+
+#: interface\contactsManager.py:205
+msgid "Mood:"
+msgstr "Настроение:"
+
+#: interface\contactsManager.py:211
+msgid "Birth date:"
+msgstr "Рождена дата:"
+
+#: interface\contactsManager.py:217
+msgid "Gender:"
+msgstr "Пол:"
+
+#: interface\contactsManager.py:220
+msgid "Male"
+msgstr "Мъжки"
+
+#: interface\contactsManager.py:221
+msgid "Female"
+msgstr "Женски"
+
+#: interface\contactsManager.py:224
+msgid "Language:"
+msgstr "Говорим език:"
+
+#: interface\contactsManager.py:230
+msgid "Location:"
+msgstr "Местоположение:"
+
+#: interface\contactsManager.py:236
+msgid "Home phone:"
+msgstr "Домашен телефон:"
+
+#: interface\contactsManager.py:242
+msgid "Office phone:"
+msgstr "Служебен телефон:"
+
+#: interface\contactsManager.py:248
+msgid "Mobile phone:"
+msgstr "Мобилен телефон:"
+
+#: interface\contactsManager.py:254
+msgid "Home page:"
+msgstr "Уеб страница:"
+
+#: interface\contactsManager.py:260
+msgid "About me:"
+msgstr "Представяне:"
+
+#: interface\contactsManager.py:266
+msgid "Number of contacts:"
+msgstr "Брой абонати:"
+
+#: interface\contactsManager.py:273
+msgid "This user is not authorized to contact me.\n"
+msgstr "Този потребител не е упълномощен да се свързва с мен.\n"
+
+#: interface\contactsManager.py:275
+msgid "This user is blocked.\n"
+msgstr "Този потребител е блокиран.\n"
+
+#: interface\contactsManager.py:277
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Този потребител няма необходимото оборудване за провеждане на разговори.\n"
+
+#: interface\contactsManager.py:279
+msgid "This user has call forwarding activated.\n"
+msgstr "Този потребител има активирано пренасочване на повикванията.\n"
+
+#: interface\contactsManager.py:281
+msgid "This user has a camera.\n"
+msgstr "Този потребител разполага с камера.\n"
+
+#: interface\contactsManager.py:283
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Този потребител може да изпраща и получава гласова поща.\n"
+
+#: interface\contactsManager.py:285
+msgid "Other information:"
+msgstr "Друга информация:"
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Дава достъп до прозореца с настройките на SkypeTalking където можете да промените поведението на програмата, или да промените езика на SkypeTalking и речевия изход."
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Отваря Диспечера на Абонатите, за да можете да преглеждате и управлявате вашите Скайп контакти по по-лесен начин. Ако бъде натисната двукратно, се показва вградения в Скайп списък с абонати."
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Показва основна информация относно програмата SkypeTalking, като текуща версия, детайли относно авторските права и уеб сайта на програмата."
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Изход от SkypeTalking."
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Заглушава речта, ако вашият речев изход е настроен на SAPI5."
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "Включено"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "Изключено"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Игнорирането на Скайп събитията е %s."
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Превключва игнорирането на всички Скайп събития. Ако е включено, SkypeTalking ще игнорира и няма нито да прочита, нито да записва Скайп събитията."
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "Описването на командите е %s."
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Включва или изключва описването на командите. Когато е включено, то ще описва всяка натисната клавишна команда асоциирана със SkypeTalking."
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Бърза промяна на вашия Скайп статус."
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "Проверява за нови версии или обновления на SkypeTalking."
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "Прочита Скайп настроението на потребителя. Ако бъде натисната двукратно, извиква функция за промяна на Скайп настроението."
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Съобщава текущия Скайп статус на потребителя. Ако бъде натисната двукратно, извиква функция за съобщаване на текущия Скайп кредитен баланс."
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Съобщава версията на стартираното в момента копие на Скайп. Ако бъде натисната двукратно, извиква функция за съобщаване на версията на API Опаковчика, което е полезно най-вече за разработчици."
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Повтаря последно проявилото се по време на тази сесия на SkypeTalking Скайп събитие."
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Съобщава състоянието на последното входящо или изходящо прехвърляне на файл. Ако бъде натисната двукратно, ви позволява да изберете файловото прехвърляне, което да бъде наблюдавано."
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Съобщава времетраенето на активен в момента разговор, в часове/минути/секунди."
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Съобщава състоянието на активния разговор. Ако е натисната двукратно, ще се отвори прозорец от който можете да изберете някого, въвеждайки неговото Скайп име, или група от потребители, за да създадете конферентен разговор."
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Стартира съветник за по-лесно изпращане на SMS съобщения, използвайки SkypeTalking."
+
+#: interface\interfaceCommands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "Преминаване към следващо събитие от буфера със събития в хронологията."
+
+#: interface\interfaceCommands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "Преминаване към предишно събитие от буфера със събития в хронологията."
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "Разговори"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "Чат съобщения"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "Прехвърляния на файлове"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "Потребителски действия"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "Гласова поща"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "Промени в статусите"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Избира типа събитие, което ще бъде преглеждано в буфера със събития от хронологията между промени в статусите, разговори, съобщения, прехвърляния на файлове или потребителски действия."
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Избиране на чат наблюдение. Ако бъде натисната двукратно, отваря чат прозорец за текущо наблюдавания чат."
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Съобщава кой е текущо наблюдавания чат. Ако бъде натисната двукратно, отваря Скайп прозорец за текущо наблюдавания чат."
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Преглед на някой от последните 10 елемента в зависимост от избрания режим за преглеждане. Натиснете командата двукратно или трикратно, за да изпълните вторичното или третичното действие върху елемента (ако е налично такова)."
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "Режим на гласови съобщения"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "Режим на текстови съобщения"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Превключва между режим на текстови и режим на гласови съобщения."
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Повтаря последното входящо или изходящо чат съобщение. Ако бъде натисната двукратно, отваря Скайп прозореца асоцииран с това чат съобщение и прехвърля наблюдението върху този чат."
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Отговаря на обаждане, или превключва между задържане и възобновяване за текущо провеждащ се разговор."
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Отговаря на обаждането и го добавя към конферентния разговор (ако има в момента провеждащ се конферентен разговор)."
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Прекратява разговора или спира записването на гласово съобщение."
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Заглушава или освобождава микрофона, в зависимост от текущото му състояние."
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Съобщава текущо използваните входящи/изходящи устройства."
+
+#: interface\interfaceCommands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Съобщава състоянието на последното гласово съобщение. Ако бъде натисната двукратно, отваря и възпроизвежда гласовото съобщение. Ако бъде натисната трикратно, изтрива гласовото съобщение."
+
+#: interface\main.py:141
+#: interface\preferences\categories\hotKeys.py:55
+msgid "No description"
+msgstr "Няма описание"
+
+#: interface\preferences\__init__.py:27
+#: interface\preferences\main.py:160
+msgid "Preferences"
+msgstr "Настройки"
+
+#: interface\preferences\categories\advanced.py:28
+msgid "Number of &connection retries before giving up:"
+msgstr "&Брой опити за свързване, преди отказване:"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "Start Skype &minimized"
+msgstr "Стартирай Скайп &намален"
+
+#: interface\preferences\categories\advanced.py:33
+msgid "No &splash screen when starting Skype"
+msgstr "Без &зареждащ екран, при пускане на Скайп"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "Когато даден потребител промени своето с&ъобщение с настроение"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "&Получено чат съобщение"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "&Изпратено чат съобщение"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "&Непознат статус"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Статус И&звън линия"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Статус Н&а линия"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Статус &Отсъстващ"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Статус Н&едостъпен"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "Статус О&тпочиващ"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Статус Ин&когнито"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Статус &SkypeOut"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Статус &Скайпващ"
+
+#: interface\preferences\categories\contactsManager.py:28
+msgid "Show &offline contacts"
+msgstr "Показвай абонатите, които са &извън линия"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&Език:"
+
+#: interface\preferences\categories\general.py:40
+msgid "Start %s with &Windows"
+msgstr "З&ареждай %s заедно с Windows"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &start Skype with %s"
+msgstr "Автоматично &зареждай Skype със %s"
+
+#: interface\preferences\categories\general.py:44
+msgid "Automatically &close Skype when %s exits"
+msgstr "Автоматично затвар&яй Skype когато се затваря %s"
+
+#: interface\preferences\categories\general.py:45
+msgid "C&onfirm when exiting %s"
+msgstr "&Потвърждение при изход от %s"
+
+#: interface\preferences\categories\general.py:46
+msgid "Show %s icon on the &taskbar"
+msgstr "Показвай иконата на %s в областта за &уведомяване"
+
+#: interface\preferences\categories\hotKeys.py:43
+msgid "&Keystrokes"
+msgstr "&Клавишни комбинации"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "Function"
+msgstr "Действие"
+
+#: interface\preferences\categories\hotKeys.py:46
+msgid "Keystroke"
+msgstr "Клавишна команда"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Description"
+msgstr "Описание"
+
+#: interface\preferences\categories\hotKeys.py:59
+msgid "&Change..."
+msgstr "&Промяна..."
+
+#: interface\preferences\categories\hotKeys.py:70
+msgid "Change keystroke for %s"
+msgstr "Промяна на клавишната команда за %s"
+
+#: interface\preferences\categories\hotKeys.py:79
+msgid "Modifiers"
+msgstr "Модификатори"
+
+#: interface\preferences\categories\hotKeys.py:86
+msgid "&Key:"
+msgstr "&Клавиш:"
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "%s keystroke already in use. Please try another one."
+msgstr "Клавишната комбинация %s вече е заета. Моля опитайте с друга."
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "Change Keystroke Error"
+msgstr "Грешка при опит за промяна на клавишната комбинация"
+
+#: interface\preferences\categories\output.py:28
+msgid "Speech Output:"
+msgstr "Речев изход:"
+
+#: interface\preferences\categories\output.py:29
+msgid "Auto detect"
+msgstr "Автоматично откриване"
+
+#: interface\preferences\categories\output.py:29
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "Скорост на SAPI5 речта:"
+
+#: interface\preferences\categories\output.py:33
+msgid "SAPI5 Volume:"
+msgstr " Сила на звука за SAPI5:"
+
+#: interface\preferences\categories\output.py:36
+msgid "Enable &braille output"
+msgstr "Включи &брайлов изход"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Automatically check for %s updates"
+msgstr "&Автоматично проверявай за обновления на %s"
+
+#: interface\preferences\categories\updates.py:30
+msgid "&Download Type:"
+msgstr "&Тип на изтегления файл:"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Installer"
+msgstr "Инсталационна версия"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Portable Archive"
+msgstr "Преносима версия"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "Прочитай &времевото клеймо на съобщението"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "Прочитай &името на подателя на съобщението"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "След уведомлението"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "Преди Уведомлението"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Никога"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Добавяй пояснението \"Скайп уведомление\""
+
+#: interface\preferences\main.py:38
+msgid "General"
+msgstr "Общи"
+
+#: interface\preferences\main.py:40
+msgid "Output"
+msgstr "Изход"
+
+#: interface\preferences\main.py:42
+msgid "Alerts"
+msgstr "Уведомления"
+
+#: interface\preferences\main.py:44
+msgid "Verbosity"
+msgstr "Четене"
+
+#: interface\preferences\main.py:46
+msgid "Advanced"
+msgstr "Разширени"
+
+#: interface\preferences\main.py:48
+msgid "Updates"
+msgstr "Обновления"
+
+#: interface\preferences\main.py:52
+msgid "Hot keys"
+msgstr "Бързи клавиши"
+
+#: interface\preferences\main.py:89
+msgid "Settings saved."
+msgstr "Настройките са съхранени"
+
+#: interface\preferences\main.py:94
+msgid "Settings applied."
+msgstr "Настройките са приложени."
+
+#: interface\preferences\main.py:97
+msgid "Settings canceled."
+msgstr "Настройките са отменени"
+
+#: interface\preferences\main.py:108
+msgid "Error in %s language file"
+msgstr "Грешка в %s езиковия файл"
+
+#: interface\preferences\main.py:108
+msgid "Language Error"
+msgstr "Грешка в езика"
+
+#: interface\preferences\main.py:160
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "За да може да се завърши смяната на езика, сега ще трябва да рестартирам %s. Щракнете OK за да продължите, или Отмяна за да рестартирате ръчно по-късно."
+
+#: interface\smsDialog.py:32
+msgid "Message text:"
+msgstr "Текст на съобщението:"
+
+#: interface\smsDialog.py:37
+msgid "&Send"
+msgstr "&Изпрати"
+
+#: interface\smsDialog.py:55
+msgid "SMS sending failed."
+msgstr "Неуспешно изпращане на SMS съобщението."
+
+#: interface\smsDialog.py:65
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMS %d, %d оставащи знака, текуща цена %s."
+
+#: interface\smsDialog.py:67
+msgid "Empty"
+msgstr "Празно"
+
+#: interface\systemTray.py:40
+msgid "&Contacts Manager..."
+msgstr "&Диспечер на абонатите"
+
+#: interface\systemTray.py:40
+msgid "Open Contacts Manager"
+msgstr "Отваряне на Диспечера на абонатите"
+
+#: interface\systemTray.py:44
+msgid "&Send SMS Wizard..."
+msgstr "&Съветник за изпращане на SMS..."
+
+#: interface\systemTray.py:44
+msgid "Start SMS Send Wizard"
+msgstr "Отваряне на съветника за изпращане на SMS"
+
+#: interface\systemTray.py:48
+msgid "&Preferences..."
+msgstr "&Настройки..."
+
+#: interface\systemTray.py:48
+msgid "Open Preferences Dialog"
+msgstr "Отваряне на прозореца с настройките"
+
+#: interface\systemTray.py:51
+msgid "&Tools"
+msgstr "&Инструменти"
+
+#: interface\systemTray.py:54
+msgid "&User Guide"
+msgstr "&Помощна документация"
+
+#: interface\systemTray.py:54
+msgid "Read User Guide"
+msgstr "Преглед на помощната документация"
+
+#: interface\systemTray.py:58
+msgid "Read What's New"
+msgstr "Преглед на списъка с промените"
+
+#: interface\systemTray.py:62
+msgid "&Contributors"
+msgstr "&Сътрудници"
+
+#: interface\systemTray.py:62
+msgid "View Contributors List"
+msgstr "Преглед на списъка със сътрудниците"
+
+#: interface\systemTray.py:66
+msgid "&License"
+msgstr "&Лиценз"
+
+#: interface\systemTray.py:66
+msgid "View the license"
+msgstr "Преглед на лиценза"
+
+#: interface\systemTray.py:70
+msgid "%s on the &Web"
+msgstr "&Уеб страница на %s"
+
+#: interface\systemTray.py:70
+msgid "Launch project Web Site in default browser"
+msgstr "Зареждане на уеб сайта на проекта в подразбиращия се браузър"
+
+#: interface\systemTray.py:74
+msgid "Check for the latest application updates"
+msgstr "Проверка за нова версия на програмата"
+
+#: interface\systemTray.py:78
+msgid "&About %s..."
+msgstr "&Относно %s..."
+
+#: interface\systemTray.py:81
+msgid "&Help"
+msgstr "Помо&щ"
+
+#: interface\systemTray.py:83
+msgid "E&xit"
+msgstr "&Изход"
+
+#: interface\systemTray.py:83
+msgid "Exit %s"
+msgstr "Изход от %s"
+
+#: updater.py:70
+msgid "New version available"
+msgstr "Налична е нова версия"
+
+#: updater.py:70
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Вие разполагате с версия: %s. Най-новата версия е: %s. Искате ли да изтеглите най-новата версия на %s?"
+
+#: updater.py:78
+msgid "Update cancelled."
+msgstr "Обновяването е отменено."
+
+#: updater.py:86
+msgid "Accessing download URL... Please wait..."
+msgstr "Отваряне на адреса за изтеглянето... Моля изчакайте..."
+
+#: updater.py:98
+msgid "Downloading update... Please wait..."
+msgstr "Изтегляне на обновлението... Моля изчакайте..."
+
+#: updater.py:110
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Обновлението е готово за инсталиране! Изберете Ok за да затворите %s и да стартирате обновяващия инсталатор."
+
+#: updater.py:112
+msgid "Update ready! Choose Ok to continue."
+msgstr "Обновлението е готово! Изберете Ok за да продължите."
+
+#: updater.py:113
+msgid "Download completed"
+msgstr "Изтеглянето завърши"
+
+#: updater.py:127
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Не бе възможно да се вземе версията от интернет, най-вероятно поради разпадане на връзката или профилактика на мрежата. Моля проверете интернет свързаността си, или опитайте по-късно."
+
+#: updater.py:127
+#: updater.py:128
+#: updater.py:129
+#: updater.py:130
+msgid "Update error"
+msgstr "Грешка при обновяването"
+
+#: updater.py:128
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Не бе възможно да се намери версията от интернет. Възможно е уеб сайтът да е временно недостъпен, или съдържанието му се обновява. Моля опитайте по-късно."
+
+#: updater.py:129
+msgid "Couldn't access download URL. Please try again later."
+msgstr "Не бе възможно да се зареди адреса за изтегляне. Моля опитайте по-късно."
+
+#: updater.py:130
+msgid "Download failed!"
+msgstr "Изтеглянето се провали!"
+
+#: updater.py:131
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Вие разполагате с най-новата версия на %s. Не е необходимо обновяване. Вашата версия е: %s. Версия от интернет: %s."
+
+#: updater.py:140
+msgid "Checking for updates... Please wait..."
+msgstr "Проверка за обновления... Моля изчакайте..."
+
+#~ msgid "Reports the status of the last incoming or outgoing file transfer."
+#~ msgstr ""
+#~ "Съобщава състоянието на последното входящо или изходящо прехвърляне на "
+#~ "файл."
+
+#~ msgid "%s on %s"
+#~ msgstr "%s в %s"
+
+#~ msgid "just now"
+#~ msgstr "току-що"
+
+#~ msgid "%s: %s"
+#~ msgstr "%s: %s"
+
+#~ msgid "Authorization refused. %s may not be started. Exiting."
+#~ msgstr ""
+#~ "Достъпът е отказан. %s не може да бъде стартиран. Изход от програмата."
+
+#~ msgid "Error, API not available. %s may not be started. Exiting."
+#~ msgstr ""
+#~ "Грешка, API не е наличен. %s не може да бъде стартиран. Изход от "
+#~ "програмата."
+
+#~ msgid "Exiting."
+#~ msgstr "Излизане."
+
+#~ msgid "Messages"
+#~ msgstr "Чат съобщения"
+
+#~ msgid ""
+#~ "Toggles the review mode between last 10 chat messages or last 10 "
+#~ "voicemails."
+#~ msgstr ""
+#~ "Превключва режима на преглеждане между последните 10 чат или гласови "
+#~ "съобщения."
+
+#~ msgid "Ends the call."
+#~ msgstr "Прекратява разговора."
+
+#~ msgid ""
+#~ "Press Enter to go offline, or repeat the command to change to another "
+#~ "status."
+#~ msgstr ""
+#~ "Натиснете Enter за да смените статуса си на \"извън линия\", или "
+#~ "повторете командата, за да изберете друг статус."
+
+#~ msgid ""
+#~ "Speaks one of the last sent/received chat messages or one of the last "
+#~ "messages in a chat currently being monitored. If pressed twice, the "
+#~ "message will be copied to the clipboard for later pasting. If pressed "
+#~ "thrice, the URL in a message will be launched in your default web browser "
+#~ "(if a message contains any URLs)."
+#~ msgstr ""
+#~ "Прочита едно от последните изпратени/получени съобщения или едно от "
+#~ "последните съобщения в текущо наблюдаван чат. Ако бъде натисната "
+#~ "двукратно, съобщението ще бъде копирано в клипборда за по-нататъшно "
+#~ "поставяне. Ако бъде натисната трикратно, URL адресът от съобщението ще "
+#~ "бъде отворен във вашия подразбиращ се уеб браузър (ако съобщението "
+#~ "съдържа URL адрес)."
+
+#~ msgid ""
+#~ "No new file transfers yet. Press this command twice to select an active "
+#~ "file transfer."
+#~ msgstr ""
+#~ "Няма нови прехвърляния на файлове. Натиснете тази команда двукратно, за "
+#~ "да изберете някое от активните такива."
+
+#~ msgid "No calls have been made during this %s session."
+#~ msgstr "Няма проведени разговори по време на тази сесия на %s."
+
+#~ msgid "Ends currently active call or conference."
+#~ msgstr ""
+#~ "Прекратява текущо провеждащият се нормален или конферентен разговор."
+
+#~ msgid "Start time"
+#~ msgstr "Време на стартиране"
+
+#~ msgid "Finish time"
+#~ msgstr "Време на приключване"
+
+#~ msgid ""
+#~ "%s may not be started because it may not be authorized from an unknown "
+#~ "reason. Exiting."
+#~ msgstr ""
+#~ "%s не може да бъде стартиран, защото може би не е упълномощен по "
+#~ "неизвестни причини. Изход от програмата."
+
+#~ msgid "Creating chat with %s"
+#~ msgstr "Създаване на чат с %s"
+
+#~ msgid "Selected"
+#~ msgstr "Избрано"
+
+#~ msgid ""
+#~ "Speaks the caller name of the current incoming call or the call currently "
+#~ "in progress."
+#~ msgstr ""
+#~ "Съобщава името на абоната от когото е текущото входящо повикване, или с "
+#~ "когото в момента се провежда разговор."
+
+#~ msgid "Skype: Input changed to %s."
+#~ msgstr "Скайп: Входящото устройство е променено и в момента е %s."
+
+#~ msgid "Transferring failed."
+#~ msgstr "Прехвърлянето на файла се провали."
+
+#~ msgid "Skype: %s ringing"
+#~ msgstr "Скайп: Обаждане от %s."
+
+#~ msgid "File transfer %s; File %s; Status Connecting."
+#~ msgstr "Прехвърляне на файл с %s; Файлът %s; В процес на свързване."
+
+#~ msgid "File transfer %s; File %s; Status Transferring"
+#~ msgstr "Прехвърляне на файл с %s; Файлът %s; В процес на прехвърляне"
+
+#~ msgid "File transfer %s; File %s; Status Transferring over relay"
+#~ msgstr ""
+#~ "Прехвърляне на файл с %s; Файлът %s; В процес на прехвърляне чрез "
+#~ "препредаване"
+
+#~ msgid "File transfer %s; File %s; Status Waiting for accept."
+#~ msgstr "Прехвърляне на файл с %s; Файлът %s; Изчакване за потвърждение."
+
+#~ msgid "File transfer %s; File %s; Status Paused."
+#~ msgstr "Прехвърляне на файл с %s; Файлът %s; В състояние на пауза."
+
+#~ msgid "File transfer %s; File %s; Status Paused remotely."
+#~ msgstr ""
+#~ "Прехвърляне на файл с %s; Файлът %s; Поставено на пауза от отсрещната "
+#~ "страна."
+
+#~ msgid "File transfer %s; File %s; Status Canceled."
+#~ msgstr "Прехвърляне на файл с %s; Файлът %s; Прехвърлянето е отменено."
+
+#~ msgid "File transfer %s; File %s; Status Completed."
+#~ msgstr "Прехвърляне на файл с %s; Файлът %s; Прехвърлянето е завършено."
+
+#~ msgid "File transfer %s; File %s; Status Failed."
+#~ msgstr "Прехвърляне на файл с %s; Файлът %s; Прехвърлянето е провалено."
+
+#~ msgid "Events are currently ignored."
+#~ msgstr "В момента събитията биват игнорирани."
+
+#~ msgid "Skype: %s %s requests authorization. Intro text: %s"
+#~ msgstr "Скайп: %s %s ви заяви пълномощно. Представящ текст: %s"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Please select at least one contact."
+#~ msgstr "Моля изберете поне един абонат."
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Ignore Skype events Off."
+#~ msgstr "Игнорирането на Скайп събитията е изключено."
+
+#~ msgid "When exiting %s, also &quit Skype if running"
+#~ msgstr "При изход от %s, &да се затвори и  Скайп ако е зареден"
+
+#~ msgid "Settings Dialog"
+#~ msgstr "Настройки"
+
+#~ msgid "&About Skype Talking..."
+#~ msgstr "&Относно Skype Talking..."
+
+#~ msgid "About Skype Talking"
+#~ msgstr "Относно Skype Talking"

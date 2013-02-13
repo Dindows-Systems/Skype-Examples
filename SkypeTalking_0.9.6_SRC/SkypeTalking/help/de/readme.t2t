@@ -1,0 +1,267 @@
+SkypeTalking
+Version 0.9
+Copyright © %%date(%Y) Hrvoje Katic / SkypeTalking-Mitwirkende
+Zuletzt aktualisiert: %%date(%d.%m.%Y)
+
+=Einleitung=[introduction]
+
+==Was ist SkypeTalking?==[what-is-skypetalking]
+
+SkypeTalking ist ein Tool für die bekannteste Internettelefonie Skype. Es steht für barrierefreie Nutzung blinder Anwender. Es wird mittels einer so genannten programmierbaren Anwendungsoberfläche (API) und die Braille- und Sprachausgabe des eigenen Screenreaders benötigt, um sich die Informationen von Skype vorlesen zu lassen. SkypeTalking gibt sämtliche Benachrichtigungen, die Statusmeldungen der Kontakte, die ein- und ausgehenden Unterhaltungsnachrichten sowie die Anrufinformationen und vieles mehr an den Screenreader weiter.
+Ursprünglich wurde SkypeTalking eigentlich für den NonVisual Desktop Access, dem freien Screenreader, entwickelt, um ihn besser mit Skype bedienerfreundlich zu gestalten. Und jetzt wird auch daneben noch JAWS, Window Eyes, Dolphin und SAPI - der systemeigenen Microsoft-Sprachausgabe - unterstützt; jedoch mit SAPI5 gibt es keine Braille-Unterstützung.
+
+==Systemvoraussetzungen==[requirements]
+
+Für SkypeTalking werden folgende Voraussetzungen benötigt:
+
+- Windows XP, Windows Vista oder Windows 7
+- Unterstützte Screenreader:
+ - NVDA ab Version 2010.1 oder neuer
+ - JAWS (alle Versionen)
+ - Window Eyes (alle Versionen)
+ - System Access inkl. System Access To Go (alle Versionen)
+ - Dolphin-Produkte (ab Version 12 oder neuer)
+ - Wenn Sie keine der unterstützten Screenreader verwenden, wird automatisch SAPI stattdessen angesteuert. In einigen Fällen haben Sie mit unter auch verschiedene kompatible Stimmen für die SAPI-Sprachausgaben installiert. Windows besitzt standardmäßig eine Stimme als SAPI5-Sprachausgabe.
+- Skype (Versionen 4.x, 5.x oder neuer)
+
+
+=Erste Schritte=[getting-started]
+
+==Installation und erster Start==[installation]
+
+Zum Installieren von SkypeTalking einfach die Setup-Datei starten und den wenigen Anweisungen folgen. Die Installationsroutine wird ein Desktop-Symbol, ein Eintrag im Startmenü und das Unterverzeichnis SkypeTalking in Ihrem Programmverzeichnis erstellen.
+Um SkypeTalking wieder zu deinstallieren, gehen Sie über das Startmenü in "Programme" -> "SkypeTalking" und wählen "SkypeTalking deinstallieren" aus. Über das Desktop-Symbol - oder auch über das Startmenü in "Programme" -> "SkypeTalking" können Sie es aufrufen. Wenn Sie die Anwendung zum ersten Mal starten, wird eine Anfrage zur Autorisierung bei Skype angefordert. Aus Sicherheitsgründen wird in der Skype-Software von Drittanbietern den Zugriff nicht gestattet, wenn nicht die benötigten Berechtigungen vorliegen. Das dient dem Schutz vor Viren und anderer Schadsoftware. Um den Zugriff dennoch zu gewähren, gehen Sie wie folgt vor:
+
+1. Starten Sie wie oben beschrieben SkypeTalking. Sie bekommen dann die Meldung dass die Verbindung zu skype hergestellt wird.
+2. Öffnen Sie Skype.
+3. Wählen Sie im Menü "Aktionen" mit den Pfeiltasten den Eintrag "Optionen" aus und öffnen Sie es mit der Eingabetaste.
+4. Gehen Sie in der Auswahl der einzelnen Bereiche bis nach unten auf "Erweitert".
+5. Drücken Sie solange die Tabulatortaste, bis Sie auf den Link "Zugriffsverwaltung von externen Anwendungen" angelangt sind. Dort mit der Leertaste den Eintrag entsprechend aktivieren.
+6. Suchen Sie in der Liste nach SkypeTalking, es sollte gleich der erste Eintrag sein. Aktivieren Sie den Schalter "Ändern" mit der Leertaste erneut.
+7. Drücken Sie die Tabulatortaste bis Sie in der Auswahlliste gelangt sind. Die erste aktive Option ist, "Den zugriff des Programms auf Skype nicht erlauben". Einmal Pfeil nach unten drücken. Sie hören dann "Den Zugriff des Programms auf Skype erlauben" und dies mit der Eingabetaste bestätigen.
+8. Voilà! Sie haben damit nun den Zugriff auf Skype via SkypeTalking erteilt. SkypeTalking sollte jetzt melden, dass die Verbindung erfolgreich hergestellt werden konnte. Jetzt können Sie die anderen Fenster einfach mit der Escape-Taste schließen. Dieser Vorgang muss nur einmal durchgeführt werden. Es sei denn, Sie installieren Skype erneut. Dann müssen Sie die Schritte wiederholen.
+
+Einmal gestartet, läuft SkypeTalking im Hintergrund und sagt Ihnen alle Benachrichtigungen an. Sie werden auch standardmäßig ein SkypeTalking-Symbol im Infobereich sehen. Dieses kann bei Bedarf auch in den Skype-Talking-Einstellungen im Bereich "Allgemein" deaktiviert werden.
+
+==SkypeTalking-Updates==[updates]
+
+Um SkypeTalking so stabil wie möglich zu halten, werden in regelmäßigen Abständen kleinere Aktualisierungen veröffentlicht. Ab der Version 0.9 können Sie SkypeTalking automatisch aktualisieren, ohne dabei die Projekt-webseite besuchen zu müssen. Standardmäßig wird SkypeTalking automatisch nach Updates suchen und Sie benachrichtigen, sobald es etwas neues gibt. Sie können dann die Aktualisierung durchführen oder den Vorgang abbrechen. Das Herunterladen nimmt nur kurze Zeit in anspruch und läuft vollautomatisch ab. Sie werden benachrichtigt, sobald das Herunterladen beendet ist. Die automatische Prüfung auf Aktualisierungen kann in den SkypeTalking-Einstellungen im Bereich "Updates" abgeschaltet werden.
+Um manuell nach Updates zu suchen, drücken Sie entweder die Standardtastenkombination Alt+STRG+Umschalt+U oder wählen Sie aus dem Kontextmenü von SkypeTalking im Infobereich den Befehl "Hilfe" -> "Nach Updates suchen...".
+
+
+=Die Tastenkombinationen=[commands]
+
+SkypeTalking beinhaltet eine Vielzahl von Tastenbelegungen mit der Sie SkypeTalking steuern können, um Ihnen diverse Informationen sich anzusagen lassen. Alle Tastaturbelegungen von SkypeTalking werden die Tasten in Kombination mit Alt, Steuerung und Umschalt betätigt. Diese Tastenkombination wird dabei auch als SkypeTalking-Modifikator bezeichnet. Um so einen Befehl von SkypeTalking auszuführen, müssen Sie diese drei Tasten zusammen mit einer der anderen gemeinsam drücken.
+
+Hinweis: Die Tastenbelegungen können Sie in der Datei "SkypeTalking.ini" (empfehelnswert eher für erfahrene Nutzer) oder auch in den SkypeTalking-Einstellungen im Bereich "Tastenbelegungen" ändern.
+
+Die folgenden Bereiche beschreiben alle SkypeTalking-Befehle und deren Auswirkungen.
+
+==Sofort- und Sprachnachrichten von Skype anzeigen==[reviewing]
+
+===Modus für Sofort- / Sprachnachrichten (Alt+STRG+Umschalt+Z)===[message-voicemail-mode]
+
+Um zwischen den letzten 10 Nachrichten anzeigen und den letzten 10 Sprachnachrichten mit den Tastenkombinationen Alt+STRG+Umschalt+1 bis 0 umzuschalten, geht dies mit der Standardtastenkombination Alt+STRG+Umschalt+Z. SkypeTalking sollte dies entsprechend mit "Sofortnachrichten" oder mit "Sprachnachrichten" mitteilen. Der Standardmodus ist "Sofortnachrichten".
+
+===Letzte 10 eingegangene / ausgegangene Sofortnachrichten oder Sprachnachrichten ansagen (Alt+STRG+Umschalt+(Ziffern 1 bis 0))===[last-10]
+
+Im Modus für Sofortnachrichten können Sie mit den Tastenkombinationen Alt+STRG+Umschalt+(1 bis 0) die letzten 10 eingehenden und ausgehenden Sofortnachrichten anzeigen.  Werden die Tastenkombinationen zwei Mal gedrückt, so werden die Sofortnachrichten in die Zwischenablage kopiert. Falls die Nachricht eine Internet-Adresse enthält, wird diese bei dreimaligem Drücken der Tastenkombinationen im Standardbrowser geöffnet. Bitte beachten Sie, dass SkypeTalking nur eine Adresse pro Nachricht akzeptiert.
+Im Modus für Sprachnachrichten werden beim Drücken von Alt+STRG+Umschalt+(1 bis 0) Daten über die letzten 10 Sprachnachrichten angezeigt. Bei zweimaligem Drücken wird die Sprachnachricht geöffnet und wiedergegeben. Bei dreimaligem Drücken wird die Sprachnachricht gelöscht; seien Sie also vorsichtig, wenn Sie diese Funktion verwenden.
+
+===Laufende Unterhaltungen beobachten (Alt+STRG+Umschalt+(Funktionstasten F1 bis F10))===[monitoring]
+
+Diese Funktion ermöglicht Ihnen das Beobachten der Sofortnachrichten. Das ist gerade dann nützlich, wenn Sie zu einer ganz bestimmten Unterhaltung sich die letzten zehn Sofortnachrichten anzeigen lassen und nicht diese Funktion auf alle zusammen anwenden möchten. Sie können dabei die Tastenkombinationen "Alt+STRG+Umschalt+(F1 bis F10)" verwenden, um eine von mehreren Unterhaltungsfenstern beobachten möchten. Mit den Tastenkombinationen "Alt+STRG+Umschalt+(1 bis 0)" können Sie sich die jeweils zehn letzten Sofortnachrichten vorlesen lassen. Mit "Alt+STRG+Umschalt+C" können Sie sich die aktuell beobachteten Unterhaltungsfenster ansagen lassen. Wenn Sie diese zwei Mal drücken, wird das entsprechende Unterhaltungsfenster fokussiert.
+Beachten Sie, dass bei Skype 4.x, 5.x oder höher, der Kompaktmodus eingeschaltet sein muss um dieses Feature nutzen zu können.
+
+===Letzte Sofortnachricht wiederholen (Alt+STRG+Umschalt+R)===[repeat]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+R" wird die letzte ausgegangene bzw. eingegangene Nachricht wiederholt. Wird diese Tastenkombination zwei Mal gedrückt, wird ein Skype-Fenster mit der Nachricht geöffnet und die Funktion zur Beobachtung des Unterhaltungsfensters gesetzt.
+
+===Letzte Sprachnachricht abrufen (Alt+STRG+Umschalt+W)===[review-last-voicemail]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+W" können Sie die zuletzt eingegangene bzw. versendete Sprachnachricht abrufen. Wenn Sie diese zwei Mal drücken, wird die Sprachnachricht abgespielt und bei drei Mal drücken wird sie unwiderruflich gelöscht. Seien Sie daher vorsichtig!
+
+
+==Skype-Ereignisse abrufen==[events]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+E" können Sie sich das letzte Skype-Ereignis inklusiv der Sofortnachricht wiederholen lassen. Dabei kann es auf Status-Änderungen, Sofortnachrichten sowie auf Anrufe angewendet werden.
+
+===Letztes Ereignis wiederholen (Alt+STRG+Umschalt+E)===[repeat-last-event]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+I" können Sie die Ignorierten Skype-Ereignisse ein- und wieder ausschalten. Wenn es eingeschaltet ist, ignoriert SkypeTalking einfach alle Ereignisse von Skype.
+
+===Skype-Ereignisse umschalten(Alt+STRG+Umschalt+I)===[ignore]
+
+Dieser Befehl schaltet die Funktion "Skype-Ereignisse ignorieren" ein oder aus. Wenn diese Funktion eingeschaltet ist, werden alle Ereignisse einfach nicht weiter angesagt.
+
+===Der Ereignisverlauf===[history]
+
+Sie können alle verpassten Ereignisse während der SkypeTalking-Sitzung bei Gelegenheit wie folgt sich ansagen lassen:
+- Alt+STRG+Umschalt+Punkt = Geht zum nächsten Eintrag im Ereignisverlauf.
+- Alt+STRG+Umschalt+Komma = Geht zum vorherigen Eintrag im Ereignisverlauf.
+- Alt+STRG+Umschalt+Schrägstrich = Schaltet zwischen den Ereignisanzeigen von Statusänderungen, Anrufen, Nachrichten, Übertragungen von Dateien, Benutzeraktionen oder Sprachnachrichten um.
+
+==Skype-Status ändern (Alt+STRG+Umschalt+Rücktaste)==[change-status]
+
+Mit dieser Tastenkombination "Alt+STRG+Umschalt+Rücktaste" können Sie den Skype-Status zwischen Online, Abwesend, Nicht verfügbar, Beschäftigt, etc. umschalten. Etwa eine Sekunde später, schaltet SkypeTalking nach der Ansage des momentanen Statuses den Status auch in Skype entsprechend um.
+
+==Anrufer und Mikrofonstatus ansagen (Alt+STRG+Umschalt+L)==[call-status]
+
+Dieser Befehl sagt den Status des laufenden Gesprächs an. Ebenfalls wird es auch angesagt, wenn das Mikrofon stumm geschaltet ist. Bei zweimaligen Drücken können Sie eine weitere Person anrufen, in dem Sie den Skype-Namen der Person eingeben und Eingabe drücken. Eine Konferenzschaltung können Sie auch machen, wenn Sie mehrere Personen angeben bzw. deren Skype-Namen, getrennt durch ein Komma von einander, eingeben. Zum Beispiel: "john2010,little.marry,perfect_paul". Nach dem letzten eingegebenen Namen wird kein Komma gesetzt.
+
+==Gesprächsdauer ansagen (Alt+STRG+Umschalt+D)==[duration]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+D" können Sie sich während eines Gesprächs die Gesprächsdauer in Stunden, Minuten, Sekunden ansagen lassen.
+
+==Status der Übertragung einer Datei ansagen (Alt+STRG+Umschalt+F)==[file-status]
+
+Dieser Befehl sagt den Übertragungsstatus einer oder mehrerer Dateien an. Bei laufender Übertragung wird in Megabytes pro Sekunde angesagt und wieviel Megabytes bereits übertragen wurde und der Fortschritt in Prozent sowie der restlichen Zeit. Wenn mehr als eine Übertragung parallel läuft, können Sie die Übertragung auswählen, in dem Sie die Tastenkombination "Alt+STRG+Umschalt+F" zwei Mal schnell drücken, um anschließend eine Übertragung aus der Liste mit der Eingabetaste auswählen, die Sie von nun an beobachten möchten.
+
+==Aktueller Online-Status oder Skype-Guthaben ansagen (Alt+STRG+Umschalt+O)==[current-status]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+O" können Sie sich den aktuellen Status ansagen lassen. Bei zwei Mal drücken, wird Ihnen Ihr zur Verfügung stehendes Skype-Guthaben angegeben.
+
+==Den Skype-Statustext ansagen oder ändern (Alt+STRG+Umschalt+M)==[mood-text]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+M" können Sie sich den momentanen Skype-Statustext ansagen lassen. Wird Sie zwei mal gedrückt, so können Sie einen neuen Statustext im nun angezeigten Eingabefeld eingeben und den neuen Text mit der Eingabetaste abschicken.
+
+==Weitere Befehle==[other]
+
+===Das Dialogfeld "Über SkypeTalking" (Alt+STRG+Umschalt+A)===[about]
+
+Dieses Dialogfeld zeigt die aktuelle Versionsnummer von SkypeTalking, Copyright-Informationen sowie Website-Information, etc. an. Geschlossen werden kann es mit der Eingabetaste. Hierbei gibt es weitere Optionen, wie beispielsweise die Option zum Öffnen der Projekt-Website, Anzeigen der Lizenz, Anzeigen der Liste der Mitwirkenden, Anzeigen des Benutzerhandbuchs sowie Neues in SkypeTalking.
+
+===Skype-Version ansagen (Alt+STRG+Umschalt+V)===[version]
+
+Dieser Befehl sagt die aktuelle Versionsnummer von Skype an. Bei zwei Mal drücken wird die API-Version angesagt (hautpsächlich für Entwickler interessant).
+
+===SAPI5-Sprachausgabe unterbrechen (Alt+STRG+Umschalt+Leertaste)===[stop-speech]
+
+Die Tastenkombination "Alt+STRG+Umschalt+Leertaste" unterbricht bzw. stoppt den Sprechvorgang der SAPI-Sprachausgabe in SkypeTalking. Wenn Sie SkypeTalking mit Ihrem gewöhnlichen Screenreader benutzen, können Sie in der Regel den Sprechvorgang mit der STRG-Taste unterbrechen.
+
+===SkypeTalking beenden (Alt+STRG+Umschalt+Q)===[quit]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+Q" (Q = Quit) entfernen Sie SkypeTalking aus dem Speicher. Standardmäßig wird beim Beenden eine Bestätigung angezeigt. Wenn Sie auf "Ja" klicken, wird SkypeTalking beendet und sämtliche Informationen zu Ereignissen bzw. Datei-Übertragungen gehen verloren. Wenn Sie auf "Nein" klicken, läuft SkypeTalking in der aktuellen Sitzung ganz normal weiter.
+
+=SkypeTalking-Einstellungen=[preferences]
+
+Das Einstellungsdialogfeld von SkypeTalking kann mit der Tastenkombination "Alt+STRG+Umschalt+P" aufgerufen werden. Ebenfalls können Sie es über das Kontextmenü des SkypeTalking-Symbols im Imfobereich unter "Tools" öffnen. In den Einstellungen können Sie die Sprachoberfläche des Programms, Sprachausgabe, Benachrichtigungen sowie die Tastenbelegungen anpassen. Die Kategorien sind gleichermaßen wie in Skype mit dem Pfeiltasten auswählbar.
+
+==Die Kategorie "Allgemein"==[general]
+
+In dieser Kategorie können Sie ihre bevorzugte Sprache einstellen sowie Optionen zum Verhalten beim Start und beim Beenden von SkypeTalking festlegen. Dieser Bereich enthält folgende Einstellungen:
+
+===Die Sprache===[language]
+
+Das Kombinationsfeld "Sprache" zeigt alle verfügbaren Sprachen an, die momentan von SkypeTalking unterstützt werden. Hier können Sie Ihre bevorzugte Sprache einstellen. Die einstellung wird sofort nach dem Speichern der Konfiguration wirksam.  Standardmäßig wird die im Betriebssystem eingestellte Sprache verwendet. Hinweis: Um die Beschreibungen für Tastenkombinationen in der neuen Sprache angezeigt zu bekommen, müssen Sie SkypeTalking erst beenden und neu starten.
+
+===Skype mit SkypeTalking automatisch starten===[auto-start-Skype]
+
+Sollten sie vor dem Start von SkypeTalking einmal vergessen haben, Skype zu starten, können Sie durch Aktivieren dieser Option sicherstellen, dass Skypetalking Skype automatisch startet. Diese Option ist standardmäßig aktiviert.
+
+===Skype beim Beenden von skypetalking automatisch schließen===[auto-close-Skype]
+
+Diese Option ist standardmäßig nicht aktiviert und bewirkt, dass Skype automatisch aus dem Speicher entfernt wird, sobald Sie SkypeTalking beenden. Wenn sie Skype nach dem Beenden von SkypeTalking noch weiterhin benutzen wollen, sollten Sie diese Option deaktiviert lassen.
+
+===Bestätigung beim Beenden von SkypeTalking===[confirm-exit]
+
+Diese Option ist standardmäßig aktiviert. Wenn Sie sie deaktivieren, wird beim Beenden von SkypeTalking keine Bestätigungsmeldung angezeigt.
+
+==Die Kategorie "Ausgaben"==[output]
+
+Diese Kategorie enthält Einstellung zu Sprach- und Brailleausgabe. Hier können sie die folgenden Optionen einstellen:
+
+===Sprachausgabe===[speech-output]
+
+In diesem Kombinationsfeld können Sie die bevorzugte Sprachausgabe einstellen. Wenn Sie hier "Automatisch erkennen" einstellen, wird SkypeTalking den laufenden Screenreader automatisch erkennen und verwenden. Wenn SkypeTalking keinen Screenreader finden konnte oder den laufenden Screenreader nicht kennt, wird die SAPI-Sprache verwendet. Wenn Sie "SAPI5" einstellen, wird SAPI5 verwendet, unabhängig davon, welcher Screenreader gerade läuft.
+
+===Steuerungen der SAPI5-Sprache===[speech-controls]
+
+Mit den nächsten drei Drehfeldern können sie Lautstärke, Tonhöhe und Geschwindigkeit der SAPI5-Stimmen einstellen. Zum Einstellen der Optionen können Sie entweder die Pfeiltasten verwenden oder Sie geben den Wert direkt ein.
+
+===Braille-Ausgabe einschalten===[braille]
+
+Mit diesem Kontrollfeld können Sie entscheiden, ob Sie die Ausgaben von SkypeTalking auf Ihrer Braillezeile parallel lesen möchten. Diese Option funktioniert nicht im Zusammenhang mit SAPI5.
+
+==Die Kategorie "Benachrichtigungen"==[alerts]
+
+In dieser Kategorie können Sie diverse Benachrichtigungen über verschiedene Skype-Ereignisse konfigurieren. Alle deaktivierten Ereignisse werden von Skypetalking ignoriert. Sie können Hier die Benachrichtigungen über Ereignisse wie eingehende und ausgehende Nachrichten, Skype-Statusänderungen, etc. ändern.
+
+=Die Kontakteverwaltung=[contacts]
+
+Mit der Kontaktverwaltung können Sie Skype-Kontakte auf eine einfachere und zugänglichere Weise verwalten. Die Kontaktverwaltung kann über die Tastenkombination "Alt+STRG+Umschalt+F11" aufgerufen werden. Wenn Sie diese Tastenkombination zwei Mal drücken, wird die Original-Skype-Kontaktliste fokussiert.
+
+==In der Kontaktverwaltung navigieren==[action]
+
+Die Kontaktverwaltung von SkypeTalking zeigt Ihre Kontaktliste in einer speziellen Listenansicht an; das bedeutet, Sie können einfach mit den Pfeiltasten die gewünschten Kontakte aus der Liste auswählen und diese mit der Leertaste "markieren" und anschließend eine Aktion für alle ausgewählten Kontakte ausführen. Mit der Leertaste können Sie auch einen Kontakt wieder abwählen. In der Kontaktverwaltung wird auch der Skype-Status sowie auch der Statustext angezeigt und auch wann der "Offline"-Kontakt zuletzt gesehen wurde. Welche Aktionen möglich sind, hängt auch von der Anzahl der ausgewählten Kontakte ab.
+
+==Eine Aktion für einen ausgewählten Kontakt auswählen==[action]
+
+Diese Aktion wird in der Kontaktverwaltung angezeigt, abhängig davon, wie viele Kontakte ausgewählt sind.
+Falls keine Kontakte ausgewählt sind, wird eine Warnmeldung angezeigt.
+Ist nur ein Kontakt ausgewählt, sind die folgenden Aktionen verfügbar:
+1. Schaltfläche "Anrufen" - Ruft den gewählten Skype-Kontakt an - Dies ist die Standardaktion, Wenn Sie auf einem Kontakt die eingabetaste drücken, wird dieser Schalter ausgelöst.
+2. Schaltfläche "Sofortnachricht" = Öffnet ein Unterhaltungsfenster mit dem ausgewählten Kontakt.
+3. Profil anzeigen - Zeigt das Profil des ausgewählten Kontakts an.
+Sind zwei oder mehr Kontakte ausgewählt, sind die folgenden Optionen verfügbar:
+ 1. Konferenz erstellen = Dieser Schalter erstellt eine Konferenz mit den ausgewählten Kontakten. Dies ist die Standardaktion, wenn Sie bei fokussierter Kontaktliste die eingabetaste drücken, wird dieser automatisch ausgelöst.
+ 2. Gruppenunterhaltung erstellen - Erstellt eine Gruppenunterhaltung mit den gewählten Kontakten.
+Verwenden Sie Tab und Umschalt+Tab, um zwischen den Aktionsschaltern und der Kontaktliste zu wechseln. Drücken Sie die Escape-Taste, um den Schalter "abbrechen" zu betätigen und die Kontaktverwaltung zu schließen.
+
+==Die Profilansicht==[profile]
+
+Die Profilansicht ist ein Teil der Kontaktverwaltung und wird angezeigt, wenn Sie einen Kontakt ausgewählt haben und den entsprechenden Schalter betätigen. In einem einfachen Dialogfeld werden die Profildetails angezeigt. Sie können mit der Tabulatortaste von Feld zu Feld sich bewegen. Um das Fenster zu schließen, können Sie entweder mit der Escape-Taste zurückkehren oder klicken Sie auf "Abbrechen", um zurück zur Kontaktverwaltung zu gelangen.
+
+=SMS-Nachrichten mit SkypeTalking senden und empfangen=[sms]
+
+Mit dem SMS-Assistent in SkypeTalking ist es total einfach, SMS-Nachrichten zu senden und zu empfangen:
+
+==Der SMS-Assistent==[sms-wizard]
+
+Mit der Tastenkombination "Alt+STRG+Umschalt+S" rufen Sie den SMS-Assistenten auf. Einmal geöffnet, tragen Sie eine gültige Nummer mit Landesvorwahl ein. Zum Beispiel: +11234567. Wenn die Nummer nicht akzeptiert wurde, gelangen Sie zurück zum Eingabefeld und Sie werden dann erneut aufgefordert, eine gültige Empfängernummer einzugeben. Mit der Eingabetaste schließen Sie den Vorgang ab oder mit Escape brechen Sie ihn ab. Wenn der SMS-Assistent die eingegebene Nummer akzeptiert hat, gelangen Sie anschließend in das Texteingabefeld für die Nachricht. Während Sie sich in diesem Eingabefeld bewegen, können Sie mit der Taste "F2" den momentanen Status abfragen, wie viele Zeichen Sie bereits benötigt haben. Wenn Sie kein Zeichen mehr übrig haben,wird das Ihnen durch eine entsprechende Warnung signalisiert. Einmal die SMS verfasst, können Sie sie entweder mit der Eingabetaste versenden oder mit der Tabulatortaste auf "Senden" gehen. Zum Abbrechen des Vorgangs einfach auf "Abbrechen" klicken. Wenn der Schalter zum Versenden betätigt wurde und Sie über entsprechendes Guthaben verfügen, wird die SMS erfolgreich gesendet werden können.
+
+
+=Schlusswort und Kontaktdetails=[final]
+
+==Den Quellcode beziehen==[source]
+
+SkypeTalking ist frei und OpenSource-Software, geschrieben in der Programmiersprache Python, die unter www.python.org erhältlich ist.
+
+Unter OpenSource versteht man, die Offenlegung des Quellcodes für jeden, der ihn haben möchte. SkypeTalking unterliegt der GNU General Public License Version 2.0, die Sie in der mitgeführten Datei "License.txt" ausführlich nachlesen können.
+
+Wenn Sie bereits ein Programmierer sind und sich am Quellcode mit einbringen möchten oder den Quellcode von SkypeTalking einfach nur direkt ausführen möchten, können Sie die [Projektseite http://skypetalking.googlecode.com/] besuchen. Dort können Sie sich u. a. die neueste Version downloaden.
+
+==Sich an einer Übersetzung beteiligen==[translation]
+
+Wenn Sie bereits ein Übersetzer sind und die Sprachdatei sowie auch die Dokumentation von SkypeTalking in Ihrer Landessprache übersetzen möchten, kontaktieren Sie den Autor bitte, damit er Ihnen die Sprachdatei und die Anleitungen zusenden kann. Wenn Sie mit den Übersetzungen fertig sind, schicken Sie die Dateien an ihn zurück. Falls Sie zusätzlich bereits ebenfalls Kenntnisse über SubVersion haben, kann der Autor Ihnen zur Aktualisierung der Übersetzungen von Zeit zu Zeit Ihnen die entsprechenden Zugriffsrechte erteilen.
+
+==Die SkypeTalking-Mailingliste==[mailing-list]
+
+Sie können der bei Google Groups gehosteten Mailingliste [hier skypetalking+subscribe@googlegroups.com]
+beitreten.
+Nach erfolgreicher Anmeldung können Sie anschließend an die Mailingliste [hier skypetalking@googlegroups.com] eine Nachricht senden. Beachten Sie, dass es sich um eine rein englischsprachige Liste handelt. Dies ist der beste Weg um technischen Support und diverse Tipps und Tricks bezüglich SkypeTalking zu erhalten. Hier erhalten Sie täglich neue Informationen über den Entwicklungsstand von SkypeTalking. Alle Fragen vom Anfänger bis zum Entwickler sind willkommen.
+
+==Danksagungen==[credits]
+
+Die folgenden Menschen haben sich auf unterschiedliche Weise an der Entwicklung von SkypeTalking beteiligt:
+- Hrvoje Katiæ, er ist der, der das Projekt ins Leben gerufen hat.
+- Gianluca Casalino, er hat einige Features in SkypeTalking weiterentwickelt und auch am gesamten Quellcode mitgewirkt. Danke für die tatkräftige Arbeit und die Hilfe. SkypeTalking ist viel besser als zuvor!
+- René Linke, er ist auch an der Weiterentwicklung von SkypeTalking beteiligt. Entwickelte einige Patches und brachte gute Ideen ein.
+- Diverse Menschen haben sich schon an der Übersetzung von SkypeTalking beteiligt. Mittlerweile sind es über 15 Sprachen.
+- Und natürlich an alle Anwender in der Welt, die SkypeTalking täglich verwenden. Und somit auch helfen, es noch bekannter zu machen!
+
+Einen herzlichen Dank an Euch allen!!!
+
+==Kontaktdetails==[contact-details]
+
+===Autor===[author]
+
+E-Mail-Adresse des Autors [Hrvoje Katic hrvojekatic@gmail.com] für Fragen, Vorschläge, Unterstützung und Übersetzung.
+Sie können mir in [Twitter www.twitter.com/hkatic] oder bei [Facebook www.facebook.com/jukebox2009] folgen. Die Klango-ID lautet: DJ_Jukebox,
+Oder auch via MSN (hkatic@hotmail.com) oder via Skype (hrvojekatic) Kontakt aufnehmen.
+
+===Deutsche Übersetzung===[german-translation]
+
+Für die deutschsprachige Dokumentation sowie für die Sprachdatei bin ich verantwortlich. Bei Fragen, Vorschlägen, Fehlern oder auch bei anderen dem Projekt betreffenden Angelegenheiten können Sie mich gerne entweder via [E-Mail rene.linke@blindzeln.de] oder auch in Skype (Demetry82) kontaktieren.
+
+Ende des Dokuments.

@@ -1,0 +1,264 @@
+Esta es una traducción no oficial de la GNU General Public License en español. No ha sido publicada por la Free Software Foundation, y determina
+no en los términos de distribución para el software que usa la GNU GPL, sólo el texto original en Inglés de la GNU GPL determina estos términos. Sin embargo,
+Esperamos que esta traducción ayudará a entender mejor la GNU GPL en español.
+
+Esta declaración es necesaria en virtud de las recomendaciones formuladas en la
+información de la página sobre las traducciones no oficiales,
+http://www.gnu.org/licenses/translations.html
+en el sitio
+Proyecto GNU.
+Vér también
+texto original en Inglés:
+el Sitio del Proyecto GNU
+http://www.gnu.org/copyleft/fdl.html
+
+GNU Licencia Pública General
+Versión 2, junio de 1991
+
+Las licencias de la mayoría del software están diseñadas para quitarle a usted la libertad de compartirlo y modificarlo.
+
+Por el contrario, la Licencia Pública General GNU pretende garantizarle la libertad de compartir y modificar software libre, y asegurar que el software
+es gratuito para todos los usuarios.
+
+Esta Licencia Pública General se aplica a la mayoría del software de la Free Software Foundation, así como cualquier otro programa si sus
+los autores se comprometen a utilizarla.
+
+(Algunos software de la Free Software Foundation están cubiertos por la GNU Licencia Pública General).
+
+También puede aplicar a programas que son suyos.
+
+Cuando hablamos de software libre, nos estamos refiriendo a la libertad, no de precio.
+
+Nuestras Licencias Públicas Generales están diseñadas para proporcionar las garantías de la libertad de distribuir copias de software libre (y cobrar por
+ese
+servicio si quiere), que recibe el código fuente o que pueda conseguirlo si lo desea, puede cambiar el software o usar
+piezas de él en nuevos programas libres y saber que usted puede hacer.
+
+Para proteger sus derechos necesitamos algunas restricciones que prohiban a cualquiera negarle estos derechos o pedirle que
+renunciar.
+
+determinadas responsabilidades para usted debido a estas limitaciones afectan si distribuye copias del software, o si lo modifica.
+
+Por ejemplo, si distribuye copias de tal programa, ya sea gratuitamente o en contra de una contraprestación, debe dar a los receptores todos los
+derechos que usted tiene.
+
+Usted debe asegurarse de que ellos también reciban o puedan conseguir el código fuente.
+
+Y debe mostrarles estas condiciones de forma que conozcan sus derechos.
+
+Nosotros protegemos sus derechos con dos pasos: (1) que posee el copyright del software, y (2) le ofrecemos esta licencia,
+da permiso legal para copiar, distribuir y / o modificar el software.
+
+Además, para la protección de cada autor y la nuestra, queremos asegurarnos de que todo el mundo entiende que el software libre no está sujeto a ninguna
+garantía.
+
+Si el software se modifica por cualquiera y éste a terceros, queremos que los receptores sepan que lo que han recibido
+no es la original, por lo que cualquier problema introducido por otros no empañar la reputación del autor original.
+
+Por último, cualquier programa libre se lo agradecerán las patentes de software.
+
+Queremos evitar el peligro de que los redistribuidores de un programa libre obtengan licencias de patentes, esto tiene el efecto
+así patentar el programa.
+
+Para evitar esto, hemos dejado claro que cualquier patente debe ser pedida por lo que su uso es gratuito para todos o ninguno
+licencia se concede.
+
+Los términos exactos y las condiciones para la copia, distribución y modificación son los siguientes:
+
+Condiciones para la copia, distribución y modificación de la GNU General Public License.
+
+0. Esta Licencia se aplica a cualquier programa u otro trabajo que contenga una nota colocada por el tenedor del copyright diciendo que
+puede ser distribuido bajo los términos de esta Licencia Pública General.
+
+En lo sucesivo, el "Programa" se refiere a cualquier programa o trabajo, y un "trabajo basado en el Programa» se referirá bien al Programa oa cualquier
+libro que se deriva en virtud de las leyes de derecho de autor: en otras palabras, un trabajo que contenga el Programa o una porción del mismo, o
+de forma idéntica, o con modificaciones y / o traducido a otro idioma.
+
+(En lo sucesivo, el término "modificación" está incluida sin limitaciones en la traducción plazo)
+
+Cada beneficiario es asimilable a "usted".
+
+Cualquier otra actividad que no sea la copia, distribución y modificación no están cubiertas por esta Licencia, está fuera de su alcance.
+
+El acto de ejecutar el Programa no está restringido y los resultados del Programa están cubiertos únicamente si sus contenidos constituyen
+un trabajo basado en el Programa (independientemente de haberlo producido mediante la ejecución del Programa).
+
+La validez de lo anterior depende de lo que haga el programa.
+
+1. Puede copiar y distribuir copias exactas del código fuente del Programa, según lo has recibido, en cualquier medio, siempre que
+adecuada y bien visible publique en cada copia de un aviso especial y claramente visible del derecho de autor y descargo de responsabilidad adecuado de
+garantía, que
+mantenga intactos todos los anuncios que se refieran a esta Licencia ya la ausencia de cualquier garantía, y proporcione a cualquier destinatario de
+Programa que no sea usted una copia de esta licencia junto con el Programa.
+
+Puede cobrar un precio por el acto físico de transferir una copia, y puede, según su garantía ofrecen la opción de un pago.
+
+2. Puede modificar su copia o copias del Programa o parte de ella, formando así un trabajo basado en el Programa, y
+copiar y distribuir esa modificación o trabajo bajo los términos del apartado 1 anterior, siempre que además cumpla las
+siguientes obligaciones:
+
+a) Debe hacer que los ficheros modificados lleven anuncios prominentes indicando que los ha cambiado los archivos y la fecha de cualquier cambio
+
+b) Usted debe hacer los arreglos para cualquier trabajo que distribuya o publique y que en su totalidad o en parte contenga o
+basado en el Programa - o parte de ella - para ser licenciado como un todo sin cargo a todos los terceros en condiciones de
+de esta Licencia.
+
+c) Si el programa modificado lee normalmente órdenes interactivamente cuando es ejecutado, debe, cuando comience su ejecución para
+ese uso interactivo de la forma más habitual, para que muestre o escriba un mensaje que incluya un aviso de derechos de autor
+ad hoc, y un aviso de que no hay ninguna garantía (o por el contrario que sí se ofrece garantía) y que los usuarios pueden
+redistribuir el programa bajo estas condiciones, e indicando al usuario cómo ver una copia de esta licencia.
+
+(Excepción: si el propio programa es interactivo pero normalmente no muestra ese anuncio, su trabajo basado en el Programa no está
+necesarios para imprimir un anuncio).
+
+Estos requisitos se aplican al trabajo modificado como un todo.
+
+Si partes identificables de ese trabajo no son derivadas del Programa, y que pueden ser consideradas trabajos independientes
+se separan, entonces esta Licencia y sus términos no se aplican a esas partes cuando sean distribuidas como
+distintos.
+
+Pero cuando usted distribuye las mismas secciones como parte de un todo que es un trabajo basado en el Programa, la distribución del todo debe
+estar en los términos de esta licencia, cuyos permisos para otros licenciatarios se extienden a toda la estructura
+y por lo tanto a todas y cada una independientemente de quién lo escribió.
+
+Por lo tanto, el propósito de este trabajo no es reclamar derechos o desafiar sus derechos sobre trabajos escritos totalmente por usted mismo, su
+es más bien objeto de ejercer el derecho a controlar la distribución de trabajos derivados o colectivos basados en el Programa.
+
+Además, el programa de la mera agregación de otro trabajo no basado en el Programa (o un trabajo basado en el Programa) en una partición
+un medio de almacenamiento o distribución no hace que dicho trabajo entre dentro del ámbito de aplicación de esta Licencia.
+
+3. Puede copiar y distribuir el Programa (o un trabajo basado en él, bajo la Sección 2) en código objeto o ejecutable en las palabras
+Los artículos 1 y 2, siempre que además cumpla una de las siguientes:
+
+a) Acompañarlo con el correspondiente código fuente completo, legible por un ordenador, que debe ser distribuido bajo los términos
+Los artículos 1 y 2 anteriores, en un medio habitualmente utilizado para el intercambio de software, o,
+
+b) Acompañarlo con una oferta escrita, válida durante al menos tres años, para dar a cualquier tercero, por un costo no exceda de lo que
+costo de realizar físicamente la distribución fuente, una copia completa del código fuente legible por una computadora, que
+ser distribuido bajo los términos de los apartados 1 y 2 anteriores, en un medio habitualmente utilizado para el intercambio de software, o,
+
+c) Acompañarlo con la información que recibiste ofreciendo distribuir el código fuente correspondiente. (Esta opción se permite
+como en el caso de la distribución no comercial y sólo si usted recibió el programa como código objeto o ejecutable con un
+Dicha propuesta - de conformidad con el apartado b anterior).
+
+El código fuente de un trabajo significa la forma preferida del trabajo para hacer modificaciones a la misma. Para un trabajo ejecutable, el código fuente
+completo
+todo el código fuente de todos los módulos que contiene, más cualquier fichero asociado de definición de interfaz que se
+accionistas, más los guiones utilizados para controlar la compilación e instalación del ejecutable. Sin embargo, como excepción especial, el código fuente
+distribuido no necesita incluir nada que sea distribuido normalmente (bien como fuente, bien en forma binaria) con los componentes principales (compilador,
+núcleo, y así sucesivamente) del sistema operativo en el cual funciona el ejecutable, a menos que el propio componente acompañe al ejecutable.
+
+Si la distribución del ejecutable o del código objeto se realiza ofreciendo acceso a copiar desde un lugar determinado, la oferta de acceso
+para copiar el código fuente desde el mismo lugar como distribución del código fuente - incluso aunque terceras partes no estén forzadas a copiar el
+fuente junto con el código objeto.
+
+4. Usted no puede copiar, modificar, licenciar, sublicenciar o distribuir el Programa excepto como prevé expresamente esta Licencia. Cualquier
+intento de copiar, modificar, licenciar, sublicenciar o distribuir el Programa excepto como se considerará válida y se terminará automáticamente
+sus derechos bajo esta Licencia. Sin embargo, las partes que hayan recibido copias, o derechos de usted bajo esta Licencia
+no terminadas sus licencias siempre y cuando esas partes continúen cumpliéndola.
+
+5. Usted no está obligado a aceptar esta licencia, ya que no la ha firmado. Sin embargo, nada más le concede permiso
+para modificar o distribuir el Programa o trabajos basados en él. Estas acciones están prohibidas por la ley si no acepta esta Licencia.
+Por lo tanto, si modifica o distribuye el Programa (o cualquier trabajo basado en el Programa), usted expresa su aceptación de esta
+Licencia para poder hacerlo, y todas sus condiciones para copiar, distribuir o modificar el Programa o trabajos basados en él.
+
+6. Cada vez que redistribuya el Programa (o cualquier trabajo basado en el Programa), la licencia se concede automáticamente a los destinatarios
+por el otorgante del licenciatario original para copiar, distribuir o modificar el Programa sujeto a estas condiciones. Usted puede
+imponer ninguna restricción adicional sobre el ejercicio de los derechos aquí concedidos por el beneficiario. Usted no tiene la responsabilidad
+para hacer cumplir esta Licencia a terceros.
+
+7. Si, como consecuencia de un tribunal o de una alegación de infracción de patente o por cualquier otra razón (no limitada a asuntos relacionados con
+patentes),
+obligaciones que se imponen a usted (ya sea por orden judicial, acuerdo u otra manera) que contradigan las condiciones de esta Licencia, ello no
+de las condiciones de esta Licencia. Si no puede realizar distribuciones de forma que se satisfagan simultáneamente sus obligaciones bajo este
+Licencia y cualquier otra obligación pertinente, entonces, como consecuencia, no puede distribuir el Programa de ninguna. Por ejemplo, si una licencia
+de
+Pat no permite la distribución sin derechos de autor del Programa por todos aquellos que reciban copias directa o indirectamente a través de usted,
+entonces la única forma en que podría satisfacer tanto la licencia de patente y la licencia sería evitar completamente la distribución
+Programa.
+
+Si alguna parte de este apartado se considera inválida o imposible de cumplir bajo cualquier circunstancia particular, la intención es que el resto
+sección se aplica. Toda la sección de aplicar en otras circunstancias.
+
+Este artículo no tiene la intención de inducir a infringir ninguna patente u otro derecho de propiedad o impugnar la validez de la
+de estas reclamaciones, esta sección tiene el único propósito de proteger la integridad de la distribución de software libre, que se está
+realiza mediante prácticas de licencia pública. Mucha gente ha hecho contribuciones generosas a la gran variedad de software distribuido
+a través de ese sistema con la confianza en la aplicación coherente de dicho sistema y que pertenece al autor / donante quien decida si él o ella está
+dispuesto a distribuir
+software mediante cualquier otro sistema y un licenciatario no puede imponer esa elección.
+
+En este artículo se pretende dejar completamente claro lo que se cree que es una consecuencia del resto de esta Licencia.
+
+8. Si la distribución y / o uso del Programa está restringida en ciertos países, bien por patentes o por interfaces sujetos a la ley
+derechos de autor, el propietario original de los derechos de autor que coloca este Programa bajo esta Licencia puede añadir una explícita geográfica
+distribución geográfica excluyendo esos países, de modo que la distribución se permita sólo en o entre los países no excluidos de esta manera. En
+este caso, esta Licencia incorpora la limitación como si estuviese escrita en el cuerpo de esta Licencia.
+
+9. La Free Software Foundation puede, de vez en cuando publicar versiones revisadas y / o nueva Licencia Pública General. La nueva
+versiones serán similares a esta versión en mente, pero pueden diferir en detalles para solucionar nuevos problemas
+o inquietudes.
+
+Cada versión tiene un número de versión que la distingue. Si el Programa especifica un número de versión de esta Licencia que se refiere a ella y "un
+cualquier versión posterior ", usted tiene la opción de seguir los términos de dicha versión o de cualquier versión posterior publicada por la
+Fundación para el Software Libre. Si el Programa no especifica un número de versión de esta Licencia, puedes escoger cualquier versión publicada
+por la Fundación de Software Libre en cualquier momento que sea.
+
+10. Si usted desea incorporar partes del Programa en otros programas libres cuyas condiciones de distribución son diferentes, escribe
+el autor para pedirle permiso. Si el software de la Free Software Foundation posee los derechos de autor, escribe a la Free
+Software Foundation: algunas veces hacemos excepciones en estos casos. Nuestra decisión estará guiada por el doble objetivo de preservar la libertad
+de todos los derivados de nuestro software libre y promover el intercambio y la reutilización del software en general.
+
+NINGUNA GARANTÍA
+
+11. COMO LA LICENCIA DE LA programa se licencia libre de cargas, no se ofrece ninguna garantía sobre el programa, A LA EXTENSIÓN PERMITIDA POR LA LEY APLICABLE.
+EXCEPTO CUANDO SE INDIQUE POR ESCRITO LOS TITULARES DE DERECHOS DE AUTOR Y / O DE OTRAS PARTES DEL PROGRAMA "TAL CUAL" SIN GARANTÍA DE
+NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO, PERO NO LIMITADO A, LAS GARANTÍAS DE COMERCIALIZACIÓN Y APTITUD
+UN PROPÓSITO PARTICULAR. USTED ASUME EL RIESGO EN CUANTO A LA CALIDAD Y LA EJECUCIÓN DEL PROGRAMA. SI EL PROGRAMA TIENE UN ERROR,
+EL COSTO DE MANTENIMIENTO, REPARACIÓN O SERVICIO corrección necesaria.
+
+12. EN NINGÚN CASO, A MENOS QUE REQUIERE LA LEY O ACUERDO POR ESCRITO SE NECESITA UN TITULAR DE DERECHOS DE AUTOR DE CUALQUIER TIPO, O CUALQUIER OTRA PARTE
+QUE
+Modifique y / o redistribuya el Programa según se permite en esta Licencia será responsable ante usted por daños, INCLUYENDO CUALQUIER
+General, especial, incidental o daños DERIVADOS DEL USO O LA IMPOSIBILIDAD DE USO DEL PROGRAMA (INCLUYENDO PERO NO
+LA PÉRDIDA DE DATOS O EL HECHO DE QUE LOS DATOS INCORRECTOS oa pérdidas sufridas por usted o por terceros, o el hecho de que el
+PROGRAMA NO FUNCIONA CON OTROS PROGRAMAS), incluso si dicho tenedor DE PARTE DE AUTOR O DE OTRO TIPO HA SIDO NOTIFICADO
+ACERCA DE LA POSIBILIDAD DE TALES DAÑOS.
+
+FIN DE CONDICIONES
+Cómo aplicar estos términos a sus nuevos programas
+
+Si usted desarrolla un nuevo programa, y si quieres que sea el mayor uso posible para el público, la mejor forma de lograr
+es convirtiéndolo en software libre que cualquiera pueda redistribuir y cambiar bajo estos términos.
+
+Para hacerlo, añada los siguientes anuncios al programa. Lo más seguro es añadirlos al principio de cada fichero fuente para transmitir lo más efectivamente
+posible la
+posible ausencia de cualquier garantía, cada archivo debe tener al menos la línea de copyright y un puntero a la ubicación
+Revisión completa.
+
+[Una línea para indicar el nombre del programa y una idea de lo que hace.] Copyright (C) [año] [nombre del autor] Este programa es software libre
+; Usted puede redistribuirlo y / o modificarlo bajo los términos de la GNU General Public License publicada por la Free Software Foundation
+, Ya sea la versión 2 de la Licencia, o (a su elección) cualquier versión posterior. Este programa se distribuye con la esperanza de que sea útil,
+pero SIN NINGUNA GARANTÍA, incluso sin la garantía implícita de COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Ver la Licencia Pública
+General de GNU para más detalles. Debería haber recibido una copia de la Licencia Pública General GNU junto con este programa si no es el caso,
+escriba a la Free Software Foundation Inc.., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, EE.UU..
+
+Añada también información sobre cómo contactar con usted por correo electrónico y correo postal.
+
+Si el programa es interactivo, haga que muestre un pequeño anuncio como el siguiente, cuando se inicia en modo interactivo:
+
+Gnomovision versión 69, Copyright (C) año nombre del autor Gnomovision no ofrece ABSOLUTAMENTE NINGUNA GARANTÍA; para más detalles escriba «show
+w ". Este es software libre y te invitamos a ser redistribuido bajo ciertas condiciones, para más detalles escriba« show c ».
+
+Los comandos hipotéticos `show w 'y` show c »deberían mostrar las partes adecuadas de la Licencia Pública General. Por supuesto, las instrucciones
+que use pueden llamarse de cualquier otra `show w 'y` show c', sino que podría incluso ser pulsaciones del ratón o elementos de menú o
+cualquiera que sea apropiado para su programa.
+
+También deberías conseguir que su empleador (si trabaja como programador) o su escuela, si es así, él (o ella) ha firmado un
+"Renuncia de copyright" para el programa, si es necesario. He aquí un ejemplo (cambiar los nombres):
+
+Yoyodyne, Inc.., Por la presente renuncia a cualquier reclamo de los derechos de autor del programa Gnomovision (que hace que avances a compiladores)
+escrito por James Hacker. [Firma de Pepito Grillo] 1 de abril de 1989 Ty Coon, Presidente del Vicepresidente
+
+Esta Licencia Pública General no permite que incluya sus programas en programas propietarios. Si su programa es una biblioteca
+sub-programas, puede considerar más útil el permitir el enlazado de aplicaciones propietarias con la biblioteca. Si esto es lo que
+desea, use la GNU Licencia Pública General de esta Licencia.

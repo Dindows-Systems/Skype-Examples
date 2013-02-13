@@ -1,0 +1,20 @@
+Wichtige Anmerkungen (bitte aufmerksam lesen)!
+
+Bitte die nachstehenden Anmerkungen aufmerksam durchlesen.
+
+Bei der ersten Verwendung von SkypeTalking *MUSS* unbedingt die Software von Skype autorisiert werden. Anderenfalls kann sonst keine Kommunikation stattfinden!
+
+Um Skype mit SkypeTalking benutzen zu können, folgen Sie den Anweisungen:
+1. Nach der Installation von SkypeTalking können Sie es anschließend vom Setup aus starten lassen, oder Sie klicken manuell auf das entsprechend erstellte Desktop-Symbol oder starten es über das Startmenü aus der Programmkategorie "SkypeTalking".
+2. Sie sollten nun die Meldung hören, dass eine Verbdinung zu Skype hergestellt wird und auf Autorisation gewartet wird.
+3. Anschließend werden Sie gefragt, ob Sie den Zugriff auf die Skype-Anwendung gestatten. Wählen Sie "Zugriff zulassen". Danach ist die Meldung zu hören, dass SkypeTalking bereit ist.
+Falls Sie widererwartend nicht diese Sicherheitsabfrage beim Starten von SkypeTalking erhalten haben, gehen Sie wie folgt vor:
+1. Skype öffnen.
+2. In das Menü gehen Sie mit der Alt-Taste. Dann nach rechts auf "Aktionen" und mit den Pfeiltasten nach unten "Optionen" auswählen. Dies mit der Eingabetaste bestätigen.
+3. Soweit nach unten mit der Pfeiltaste gehen bis Sie auf "Erweitert" gelangen.
+4. Drücken Sie dann solange "Umschalt+Tab" bis Sie zum Schalter "Zugriffsverwaltung (externe Anwendungen)" gelangen. Mit der Leertaste öffnen Sie den Bereich.
+5. Suchen Sie mit den Pfeiltasten nach "SkypeTalking" in der Liste der Programme. Es sollte in den meisten Fällen gleich der erste Eintrag sein. Anschließend mit Tab-Taste auf "Ändern" gehen und diesen mit der Leertaste ausführen.
+6. Drücken Sie die Tab-Taste. Sie werden vermutlich die Option hören, dass diese Option den Zugriff nicht erlaubt. Um dies zu ändern, einfach einmal Pfeiltaste nach unten drücken, es sollte jetzt die Option melden, dass der Zugriff auf Skype gestattet wird. Anschließend diese Auswahl mit der Eingabetaste bestätigen.
+7. SkypeTalking sollte von nun an bereit sein.
+
+Für weitere Informationen wählen Sie die Readme-Datei am Ende der Installation aus und lassen Sie sie sich anzeigen.

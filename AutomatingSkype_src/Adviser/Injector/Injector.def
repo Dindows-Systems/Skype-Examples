@@ -1,0 +1,9 @@
+; Injector.def : Declares the module parameters.
+
+LIBRARY      "Injector.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

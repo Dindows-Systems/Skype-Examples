@@ -1,0 +1,175 @@
+Neues in SkypeTalking
+Zuletzt aktualisiert: %%date(%d.%m.%Y)
+
+=Version 0.9.3=
+
+- SkypeTalking funktioniert auch wieder bei Systemen mit Benutzernamen, die keine lateinischen Buchstaben enthalten.
+- SkypeTalking erkennt nun auch ältere JAWS-Versionen wie 8.0, bevor es auf SAPI5 umschaltet (gefixt in der Komponente Accessible Output Version 0.7.4).
+-
+
+=Version 0.9.2=
+
+- Serbische Übersetzung aktualisiert.
+- SAPI5-Unterstützung sowie die automatische Erkennung des Screenreaders behoben.
+-
+
+=Version 0.9.1=
+
+- Besserer Umgang der Konfigurationsdatei implementiert. Die Standardkonfigurationseinstellungen werden auch dann benutzt, wenn die Konfiguration in einigen Fällen nicht geladen wurde.
+- Bibliothek für die barrierefreien Ausgaben aktualisiert. Dies behebt in SkypeTalking die (automatische) Erkennung einiger neuere JAWS-Versionen anstatt die SAPI5-Stimme zu verwenden.
+- Russische Dokumentation aktualisiert.
+-
+
+=Version 0.9=
+
+==Neue Features==[features]
+- SkypeTalking-Updatefunktion implementiert; mit der Tastenkombination "Alt+STRG+Umschalt+U" können Sie direkt aus dem Programm heraus die neuesten kleineren oder auch größeren Versionen herunterladen und automatisch SkypeTalking aktualisieren. In den Einstellungen im Bereich "Updates" können Sie festlegen, in welchem Format die Aktualisierung bezogen werden soll.
+- Neue SkypeTalking-Tastaturhilfe hinzugefügt, in der die Tasten mit Alt+STRG+Umschalt+K geändert werden können. Es beschreibt die Tastenkombinationen, wenn sie gedrückt werden. Jedoch werden diese Zuordnungen nicht ausgeführt. Es ähnelt der Tastaturhilfe in JAWS bzw. der Eingabehilfe im NVDA.
+- Neue Kategorie in den Einstellungen Tastenkombinationen hinzugefügt; es zeigt sämtliche Tastenbefehle an, die Sie in SkypeTalking verwendet werden können. Auch Ihre manuell hinzugefügten werden aufgelistet. Sie können sich alle anzeigen lassen oder auch nach Belieben anpassen. Es ist dabei kein Neustart erforderlich; ebenso das manuelle Bearbeiten der Konfigurationsdatei entfällt.
+- Neues Feature zum Anzeigen verpasster Ereignisse während der SkypeTalking-Sitzung hinzugefügt. Sie können die Anzeige dabei zwischen den Änderungen der Statusereignisse, Anruf- und Nachrichtenereignisse, Übertragungen von Dateien, Benutzeraktionen sowie Sprachnachrichten wechseln. Die Standardtastenkombination für die Betrachtung der Verlaufsansicht werden in der Dokumentation von SkypeTalking ausführlicher beschrieben.
+- Unterstützung für Sprachnachrichten hinzugefügt. Sie können sie abspielen oder löschen. Zum Abspielen der letzten Sprachnachricht ist standardmäßig die Tastenkombination Alt+STRG+Umschalt+W. Wenn Sie diese zwei Mal drücken, wird sie wiedergegeben. Beim dreimaligen Drücken wird sie gelöscht.
+- Sie können nun mit Alt+STRG+Umschalt+Z zwischen zwei Ansichten wählen; den Modus für Sofortnachrichten oder für Sprachnachrichten. Die jeweiligen lezten 10 Nachrichten können Sie wie in früheren Versionen mit Alt+STRG+Umschalt+(1 bis 0) abfragen.
+- Befehl "Alt+STRG+Umschalt+L" zum Statusansagen eines Gesprächs hinzugefügt. Es sagt auch den Status des Mikrofons an. Beim zweimaligem Drücken wird ein Dialogfeld geöffnet, in dem Sie einen Skype-Namen oder mehrere Namen, getrennt durch ein Komma oder Semikolon voneinander, eingeben können. Werden mehrere Skype-Namen eingetragen, so wird eine Konferenz aufgebaut.
+- Befehl "Alt+STRG+Umschalt+X" zum Ansagen der in Skype verwendeten Namen der Video-/Audio-Ein- und -Ausgänge hinzugefügt.
+- Die Möglichkeit einer laufenden Dateiübertragung zu beobachten wurde, wenn mehr als eine gleichzeitig vorhanden ist, hinzugefügt. Wenn die Standardtastenkombination Alt+STRG+Umschalt+F zwei Mal betätigt wird, können Sie aus der Liste die entsprechende Übertragung zum Verfolgen auswählen.
+- SkypeTalking lässt Sie von nun an wissen, ob jemand mit Ihnen ihre bzw. seine Kontaktdetails austauschen möchte. Derzeit ist es jedoch nur über Skype selbst möglich diese anzunehmen oder abzulehnen. Für eine spätere Version von SkypeTalking wird dies dann auch hierüber möglich sein.
+- Neues Feature für Benachrichtigungen, welches Ihnen automatisch ansagt, wenn jemand seinen / ihren Statustext geändert hat. Dies ist zu finden in den Einstellungen im Bereich "Benachrichtigungen". Standardmäßig ist dies nicht aktiviert.
+- Neue Option "SkypeTalking mit Windows starten" hinzugefügt. SkypeTalking wird dann automatisch nach der Anmeldung in Windows gestartet. Wenn es ebenfalls so eingestellt ist, wird auch Skype gleich mit gestartet. Zu finden ist diese Option in den Einstellungen im Bereich "Allgemein".
+- Neuer Bereich "Verschiedenes" in den Einstellungen hinzugefügt, in dem Sie die Ansage der zusätzlichen Details einstellen können. Es beinhaltet dabei u. a. die Ansage der Uhrzeiten bei Nachrichten, Ansage des Kontaktnamens oder auch die Ansagen von "Skype-Benachrichtigung" vor oder nach der Benachrichtigung.
+- Neuer Bereich "Erweitert" in den Einstellungen hinzugefügt. Diese Optionen gestatten Ihnen die Konfiguration, ob z. B. Skype beim Starten von SkypeTalking gleich mit gestartet werden soll oder wieviele Verbindungsversuche bei Fehlschlägen SkypeTalking automatisch aufbauen soll.
+- Die Option zum Anzeigen der Offline-Kontakte in der Kontaktverwaltung hinzugefügt. Standardmäßig ist sie deaktiviert. Dabei werden nur die Kontakte angezeigt, die tatsächlich Online sind. Zu finden ist diese in den Einstellungen im Bereich "Kontaktverwaltung".
+- In der Profilansicht der Kontaktverwaltung werden zusätzliche Felder für die Anzeige zur Verfügbarkeit einer Webcam oder eines Mikrofons bzw. Headsets sowie, ob Sprachnachrichten eingeschaltet sind, angezeigt.
+- Erneut das Symbol von SkypeTalking im Infobereich implementiert. Sie können es verstecken, wenn Sie das Kontrollfeld "SkypeTalking-Symbol im Infobereich anzeigen" im Einstellungsdialog "Allgemein" deaktivieren.
+- Das Kontextmenü von SkypeTalking im Infobereich wurde um die Menüs "Tools" und "Hilfe" erweitert. Das Menü "Tools" enthält Kurztasten zum Zugriff auf die Kontaktverwaltung, den SMS-Assistenten sowie zu den Einstellungen. Das Menü "Hilfe" beinhaltet die Optionen zur Aktualisierungsmöglichkeit des Programms, aktuelle Versionsinformationen, das Benutzerhandbuch sowie Informationen zu SkypeTalking selbst.
+- Das Dialogfeld "Über" wurde komplett neu überarbeitet. Es enthält zusätzlich auch die Schalter "Mitwirkende", "Lizenz online anzeigen", "Neues in SkypeTalking", "Benutzerhandbuch" und "Nach Updates suchen".
+- Sprachen hinzugefügt: Belarussisch, Dänisch, Hebräisch und Lettisch.
+
+==Änderungen und Verbesserungen==[improvements]
+- Verbesserte Statusansage bei Übertragungen von Dateien. Sie können nun den Fortschritt in Prozent sowie die restliche Zeit der beobachteten Übertragung sich anhören.
+- Befehl "Alt+STRG+Umschalt+Rücktaste" für Statusänderungen wurde reorganisiert. Von nun an können Sie aus der Listenansicht mit den Pfeiltasten einen Status auswählen und diesen mit der Eingabetaste bestätigen.
+- Das Dialogfeld der Einstellungen wurde komplett neu geschrieben und modernisiert. Die einzelnen Bereiche sind jetzt als Baumansicht verfügbar anstatt der Registerkarten. Durch die Baumansicht können Sie sich mit den Pfeiltasten nach oben und nach unten bewegen und durch die einzelnen Optionen mit Tab bzw. Umschalt+Tab navigieren.
+- Schalter zum Übernehmen der Einstellungen sowie die Schalter "OK" und "Abbrechen" wurden angepasst.
+- Einige Optionen in den Einstellungen wurden die Beschriftungen geändert (sind kürzer und klingen hoffentlich so besser)
+- SkypeTalking-Einstellungen und Protokolle werden von nun an benutzerspezifisch abgelegt, außer Sie verwenden es als Portable Edition. Die benutzerspezifischen Einstellungen werden in SkypeTalking des jeweiligen in Windows angemeldeten Benutzers gespeichert.
+- Bei der Installation wird SkypeTalking nun unter "Programme" abgelegt.
+- Die Kontaktverwaltung wurde neu geschrieben; von nun an werden die Kontakte in einer Listenansicht aufgeführt, in der die einzelnen Kontakte via Kontrollfelder auszuwählen sind.
+- Laden der Kontakte in der Kontaktverwaltung sollte nun schneller laufen.
+- Diverse Verbesserungen während des Startvorgangs sowie beim Verbindungsprozess in SkypeTalking.
+- SkypeTalking versucht erneut von nun an eine Verbindung zu Skype herzustellen, falls diese fehlschlägt. Die Anzahl der Verbindungsversuche kann im Bereich "Erweitert" im Einstellungsdialog konfiguriert werden.
+- SkypeTalking zeigt von nun an die Meldungen über Probleme beim Startvorgang.
+- SkypeTalking kann von nun an die Übertragungen von Dateien sowie laufende Gespräche bei Wiederverbindung verfolgen.
+- SkypeTalking-Tastenkombinationen mit mehr als eine Funktion wird rascher umgesetzt.
+
+==Fehlerbehebungen==[bugfixes]
+- Langsame Reaktion beim Beenden eines Gespräches mit der Tastenkombination 
+Alt+STRG+Umschalt+Ende behoben.
+
+==Aktualisierungen==[updates]
+- SkypeTalking ist jetzt entwickelt und kompiliert mit Python 2.7.
+- Bibliothek für die barrierefreien Ausgaben aktualisiert auf Version 0.6. Mit dieser Version unterstützt SkypeTalking die Dolphin-Produkte (Hal, Lunar und Supernova Version 12 oder neuer).
+
+=Version 0.8.1=
+
+==Neue Features==[features]
+- Sprachen hinzugefügt: Arabisch, Finnisch und Serbisch.
+- Tastenkombination Alt+STRG+Umschalt+N zur Ansage des aktuellen oder hereinkommenden Gesprächsteilnehmers.
+
+==Änderungen und Verbesserungen==[improvements]
+- Wiederholen der gesprochenen Tastenkombinationen verhindern von SkypeTalking, falls SkypeTalking mit einem Screenreader, beispielsweise JAWS, verwendet wird und dort standardmäßig diese Sprachfunktion eingeschaltet ist.
+- Die Kontakte in der Kontaktverwaltung sollten nun jetzt ein bisschen zügiger laden.
+
+==Fehlerbehebungen==[bugfixes]
+- Beim Aufruf des Einstellungsdialogs von SkypeTalking: Fehler in der deutschen Sprachdatei korrigiert.
+
+==Aktualisierungen==[updates]
+- Bibliothek für die barrierefreien Ausgaben auf Version 0.4.3 aktualisiert. Das bedeutet, SkypeTalking läuft auch mit dem letzten Update für JAWS 11.
+
+
+=Version 0.8=
+
+==Neue Features==[features]
+
+- Die Möglichkeit aktive Chats zu beobachten wurde hinzugefügt, oder auch in anderen Worten, geöffnete Chat-Fenster. Benutzen Sie dafür die Tastenkombinationen Alt+STRG+Umschalt+Funktionstasten F1 bis F10, um bei einer der letzten zehn Unterhaltungsfenster die Beobachtung zu aktivieren. (Zwei Mal drücken, setzt den Fokus in das jeweilige aktive Fenster.) In dem zu beobachtendem Unterhaltungsfenster können Sie mit Alt+STRG+Umschalt+Nummer 1 bis 10 (auf der alphanumerischen Tastatur) sich die letzten zehn Nachrichten ansagen lassen. Mit der Tastenkombination Alt+STRG+Umschalt+C wird Ihnen die aktuell beobachtete Unterhaltung angesagt und fokussiert anschließend das entsprechende Fenster.
+- Die Möglichkeit sich den aktuellen Statustext ansagen zu lassen oder auch zu ändern wurde hinzugefügt. Wenn Sie die Tastenkombination Alt+STRG+Umschalt+M einmal drücken, wird Ihnen der Statustext angesagt und wenn Sie die zwei Mal drücken, können Sie diesen ändern.
+- Mit Alt+STRG+Umschalt+U können Sie sich den aktuellen Online-Status ansagen lassen und wenn Sie diese zwei Mal drücken, wird Ihnen das verbleibende Skype-Guthaben von Ihrem Skype-Konto angesagt.
+- Tastenkombination zur Ansage der Gesprächsdauer mit Alt+STRG+Umschalt+D hinzugefügt.
+- Kontaktverwaltung wurde hinzugefügt und kann mit Alt+STRG+Umschalt+F11 aufgerufen werden. Die Kontaktverwaltung ist die Alternative zur Kontaktliste von Skype. Es werden alle Ihre Kontakte aufgelistet, in der Sie mit Leertaste die Kontakte auswählen können, um einen anzurufen oder denen eine Nachricht zu schicken oder auch um deren Profile sich anzeigen zu lassen. In dieser Liste werden Ihnen auch bei den Offline-Kontakten angezeigt, wann diese zuletzt gesehen worden waren. Diese Information ist in den meisten Skype-Versionen und auch für einige Screenreader, wie beispielsweise NVDA, nicht zugänglich. Mit dem Schalter "Profil anzeigen" können Sie sich die einzelnen Informationen anzeigen lassen und diese mit der Tabulatortaste und den Pfeiltasten auslesen. Die Schalter "Anrufen" und "Sofortnachricht" sind selbsterklärend. Wenn Sie die Tastenkombination Alt+STRG+Umschalt+F11 zwei Mal betätigen, so wird Ihnen die Originalansicht der Kontaktliste in Skype angezeigt.
+- Tastenkombinationen zum Annehmen mit Alt+STRG+Umschalt+Pos1 und Auflegen mit Alt+STRG+Umschalt+Ende (nicht im Nummernblock) eines Gesprächs. Wird die Tastenkombination Alt+STRG+Umschalt+Pos1 zwei Mal gedrückt, können Sie das aktuelle Gespräch halten oder wieder fortsetzen. Wenn Sie die Tastenkombination Alt+STRG+Umschalt+Ende zwei Mal schnell drücken, können Sie das Mikrofon aus- oder einschalten.
+- Unterstützung zum Senden von SMS in SkypeTalking wurde implementiert. Die Tastenkombination Alt+STRG+Umschalt+S öffnet den SMS-Assistenten, in dem es zwei Eingabefelder gibt. Das Eine ist für die Mobilfunknummer und das Andere für die Nachricht der SMS. (Anmerkung: Um an mehrere Empfänger eine Nachricht zu schicken, können Sie sie getrennt durch ein Semikolon und der Landeskennung angeben. Während der Eingabe der Nachricht, können Sie mit F2 den Status der noch verbleibenden Zeichen sowie die entstehenden Kosten abfragen. Wenn die Zeichengrenze erreicht wurde, wird dies durch ein Signalton quittiert. Anschließend können Sie mit der Eingabetaste die SMS versenden. Alternativ können Sie auch mit der Tabulatortaste zum "Senden"-Schalter gehen und diesen mit der Eingabetaste betätigen oder mit der Escape-Taste den Vorgang abbrechen.)
+- Eine neue Option im Einstellungsdialog zum Skype automatisch beenden wurde hinzugefügt. Standardmäßig ist diese Option eingeschaltet.
+- Die Option "Bestätigen, wenn SkypeTalking beendet wird" wurde zum Einstellungsdialog hinzugefügt, um bei einigen Anwendern das Absturzrisiko von Skype zu verringern. Standardmäßig ist diese Option eingeschaltet und Sie sollten beim Beenden nun die Sicherheitsfrage erhalten. Wenn diese Option ausgeschaltet ist, verhält SkypeTalking sich so wie in den früheren Versionen.
+- Über die Konfigurationsdatei können Sie u. a. auch die vordefinierten Tastenkombinationen ändern. Bei fehlerhafter Zuordnung einer Tastenkombination in der Konfigurationsdatei, werden Sie über den Miss-Stand in Kenntnis gesetzt und SkypeTalking benutzt wieder die Standardzuordnung. Im Bereich "[Shortcuts]" können Sie alle Tastenkombinationen anpassen. Aber seien Sie vorsichtig! Anschließend muss SkypeTalking einmal neu gestartet werden, damit die Änderungen wirksam werden. Die Registerkarte mit der Auflistung aller Tastenkombinationen im Einstellungsdialog ist für das nächste Release geplant.
+- Sprachen hinzugefügt: Dänisch und Französisch.
+
+==Änderungen und Verbesserungen==[improvements]
+
+- Befehl zum Lesen der letzten Chat-Nachricht wurde von Alt+STRG+Umschalt+M jetzt auf Alt+STRG+Umschalt+NumPlus gelegt. Wird diese Tastenkombination zwei Mal gedrückt, so wird das Fenster fokussiert und diese Unterhaltung beobachtet.
+- Die Tastenkombination Alt+STRG+Umschalt+F4 zum Beenden von SkypeTalking wurde auf Alt+STRG+Umschalt+Q gelegt (Q = Quit).
+- Die Tastenkombination Alt+STRG+Umschalt+F12 für den Einstellungsdialog wurde auf Alt+STRG+Umschalt+P gelegt.
+- Infobereich-Symbol entfernt. Anstatt des Kontextmenüs können Sie jetzt die Funktionen auch mit den assozierten SkypeTalking-Tastenkombinationen erreichen.
+- Die API-Version wird erst dann angesagt, wenn Sie die Tastenkombination Alt+STRG+Umschalt+V zwei Mal drücken. Diese Information ist für den Endanwender nicht relevant.
+- Gesprächsdauer wird nun in Stunden, Minuten und Sekunden angesagt.
+- Geschwindigkeit und Informationen über den Status der Datei-Übertragungen (Alt+STRG+Umschalt+F) hinzugefügt.
+- Es ist nur eine einzige Instanz von SkypeTalking möglich. Ansonsten wird bei erneutem Versuch ein Fehlersignal wiedergegeben.
+- Wenn während des Ladevorgangs von SkypeTalking ein kritischer Fehler auftritt, wird über den Computer-internen  Lautsprecher ein Fehlersignal wiedergegeben. Bitte informieren Sie die Entwickler darüber sobald das auftritt.
+
+==Fehlerbehebungen==[bugfixes]
+
+- SkypeTalking ignoriert nicht mehr die Kontakte, die keinen Anzeigenamen gesetzt haben. Anstelle wird die Skype-ID angesagt. Die Meldung "Skype: is online" wird nicht länger mehr erscheinen.
+- Wenn der Einstellungsdialog geöffnet wird, landet der Fokus gleich in der Auswahlliste der Sprachen. (Anmerkung: Der Bug beim Rückwärtsnavigieren mit Umschalt+Tab konnte bislang noch nicht gefixt werden.)
+
+=Version 0.7=
+
+==Neue Features==[features]
+- Sie können nun die leztten zehn Nachrichten mit Alt+STRG+Umschalt+1 bis 0 sich anzeigen lassen. Wenn Sie die Tastenkombination zwei Mal schnell drücken, werden die Nachrichten in die Zwischenablage kopiert. Wenn Sie die schnell drei Mal drücken, wird die enthaltene Webadresse geöffnet, falls eine vorhanden ist.
+- Sie können nun Ihren Status mit der Tastenkombination Alt+STRG+Umschalt+Rücktaste umschalten.
+- Umschalten der ignorierten Skype-Ereignisse mit Alt+STRG+Umschalt+I.
+- Standardunterstützung für Datei-Übertragungen. Sie können den aktuellen Status der letzten Übertragung mit Alt+STRG+Umschalt+F lesen.
+- Sprachen hinzugefügt: Tschechisch, Türkisch, Japanisch und Malisch.
+
+==Änderungen und Verbesserungen==[improvements]
+- Besserer Umgang mit dem Status der Anrufe.
+
+==Aktualisierungen==[updates]
+- Bibliothek für die barrierefreien Ausgaben auf dem neuesten Stand.
+- Installationsprogramm: Standardpfad des Speicherorts auf das Wurzelverzeichnis der Windows-Partition Ihres Computers festgelegt, da unter Windows Vista und Windows 7 Fehler auftraten.
+
+=Version 0.6.1=
+
+- Sprachen hinzugefügt: Bulgarisch, Chinesisch (Mandarin), Deutsch, Italienisch, Ungarisch, Polnisch, Russisch, Ukrainisch und Portugiesisch wurden hinzugefügt.
+- Lezten Ereignisbefehl wiederholen, Tastenkombination Alt+STRG+Umschalt+E.
+- Tastenkombination von Alt+STRG+Umschalt+Tabulatortaste in Alt+STRG+Umschalt+M für Wiederholung der letzten Sofortnachricht.
+
+=Version 0.6=
+
+- Einstellungsdialog hinzugefügt.
+- Mehrsprachige Unterstützung hinzugefügt.
+- Tastenkombinationen hinzugefügt.
+- SkypeTalking unterstützt nun unbekannte und SkypeOut-Statusmeldungen.
+- Sie können nun die Benachrichtigungen für ein- und ausgehende Nachrichten separat einstellen.
+- Diverse geringfügige Fehler behoben.
+
+=Version 0.5.1=
+
+- Unterstützung für JAWS, Window-Eyes und der System-eigenen Sprachausgabe wie der SAPI5 hinzugefügt.
+- Konfigurationsdatei "SkypeTalking.ini" hinzugefügt, in der Änderungen für die Braille- und Sprachausgabe gesetzt werden können und andere änderbare Parametern. Anmerkung: Alle Änderungen müssen über die Konfigurationsdatei geändert werden.
+- Funktion der Protokolldatei implementiert, wichtig für die Entwickler. Bitte bei Meldung eines Anliegen dieses mitsenden.
+- Option zum automatischen Starten von Skype, falls es noch nicht läuft, wenn SkypeTalking gestartet wird, hinzugefügt.
+- Für automatisches Lesen der Sofortnachrichten (können abgeschaltet werden), hinzugefügt. Empfehlenswert auszuschalten, wenn die JAWS-Scripts für Skype benutzt werden, um in SkypeTalking das doppelte Ansagen der Nachrichten zu vermeiden.
+- Ansage der Statusmeldungen der Benutzer hinzugefügt (können abgeschaltet werden). Standardmäßig sind alle Meldungen an.
+- Verbesserte Ansage der Statusmeldungen.
+- Komplett neu geschriebener "Über"-Dialog; Versionsinformationen, Homepage und Copyright-Information hinzugefügt.
+
+=Version 0.5=
+
+Erstes Release, grundlegende Funktionen hinzugefügt:
+- Willkommensmeldung mit Anmeldenamen wird angesagt.
+- Skype-Status der Oberfläche wird angesagt.
+- Benutzer- und Kontaktstatus von Skype wird angesagt.
+- Anrufstatus und -namen von eingehenden Anrufen wird angesagt.
+- Eingehende und ausgehende Nachrichten werden angesagt.
+- Unterstützung für NVDA (Ausgabe in Braille und Sprache)
+- Läuft im Infobereich; Optionen "Über" und "Beenden" hinzugefügt.
+
+
+Ende des Dokuments.

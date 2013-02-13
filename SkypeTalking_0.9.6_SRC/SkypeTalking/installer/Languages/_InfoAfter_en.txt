@@ -1,0 +1,19 @@
+Important notes (read carefully)!
+
+Read the following notes carefully by using the standard commands for reading text.
+
+When you launch SkypeTalking for the first time, it *MUST* be authorized in order to communicate with Skype application. Otherwise, SkypeTalking will be unable to start successfully!
+To allow SkypeTalking to use Skype, do the following:
+1. Allow the installer to launch SkypeTalking after the installation is complete. You can also launch SkypeTalking manually, either from the desktop by clicking the SkypeTalking icon, or via the start menu under the category Programs->SkypeTalking.
+2. You should here the message "Connecting to Skype" and then "Waiting for authorization".
+3. After that, you should be asked would you like to authorize an application to connect to Skype. At this point, choose "Allow" button. You should then hear the message "SkypeTalking is ready" imediately up on clicking the "Allow" button.
+If you weren't asked anything after you've launched SkypeTalking application, do the following in order to authorize SkypeTalking:
+1. Open Skype.
+2. Go to menu bar with the Alt key, arrow right to Tools, and then arrow up a couple of times to Options and press Enter.
+3. Repeat arrowing down until you land on the Advanced category.
+4. Press Shift+Tab repeatedly until you land on "Manage other program's access to Skype" link. Press Spacebar to activate it.
+5. Find "SkypeTalking" item in a list with your up or down arrow keys (it should be usually the first item), tab to Change button, and press Spacebar to activate it.
+6. Press Tab. You should hear that you are positioned on a Radio Button that says "Do not allow this program access to Skype". Arrow up until you hear "Allow this program access to Skype", and then press Enter.
+7. SkypeTalking should then state that it's ready for use.
+
+For other information, please view the ReadMe file by selecting the option labeled "Read the instructions manual" on the installer's finish page.

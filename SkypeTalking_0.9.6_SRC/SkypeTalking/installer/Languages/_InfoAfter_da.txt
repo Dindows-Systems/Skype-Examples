@@ -1,0 +1,20 @@
+Vigtige oplysninger (læs omhoggeligt)fra
+
+Læs venligst de følgende bemærkninger grundigt igennem ved hjælp af de almindelige kommandoer til læsning af tekst.
+
+Første gang du starter SkypeTalking, *skal* det godkendes for at kunne kommunikere med selve Skype programmet. Ellers er SkypeTalking ikke i stand til at starte korrekt!
+For at give SkypeTalking tilladelse til at bruge programmet Skype skal du gøre følgende:
+1. Giv installationsprogrammet lov til at starte SkypeTalking, når installationen er afsluttet. SkypeTalking kan også startes manuelt. Dette gøres enten fra skrivebordet ved at klikke på ikonet SkypeTalking, eller via start-menuen under gruppen Programmer->SkypeTalking.
+2. Du bør nu høre meddelellsen "Forbinder til Skype" efterfulgt af "Afventer godkendelse".
+3. Du bliver derefter spurgt, om du vil give et program tilladelse til at forbinde til Skype. Her skal du vælge knappen "tillad". Umiddelbart efter hører du meddelelsen  "SkypeTalking er klar".
+Hvis du ikke bliver spurgt om noget efter at have startet programmet SkypeTalking, skal du gøre følgende for at autorisere SkypeTalking:
+1. Åbn Skype.
+2. Gå til menulinjen med alt-tasten, gå med højre pil til Funktioner og tryk pil-op et par gange, indtil du når punktet Indstillinger og tryk Enter.
+3. Tryk pil-ned, indtil du lander på kategorien Avancerede Indstillinger.
+4. Tryk nogle gange på Shift+Tab indtil du lander på linket "Håndter andre programmers adgang til Skype". Aktiver linket ved tryk på Mellemrum.
+5. Med pil-op og pil-ned finder du elementet "SkypeTalking" i listen (det er normalt det første element), tab til knappen Ændre og aktiver knappen med Mellemrumstasten.
+6. Tryk dernæst på Tab. Du burde nu få oplyst, at du befinder dig på en radioknap med følgende oplysning: "Tillad ikke dette program at bruge  Skype". Tryk pil-op du hører nu "Tillad dette program at bruge Skype" og tryk Enter.
+7. SkypeTalking burde derefter fortælle, at det er klar til brug.
+
+For yderligere oplysninger skal du åbne filen ReadMe ved at vælge punktet "Læs brugervejledningen" på installationsprogrammets sidste side.
+

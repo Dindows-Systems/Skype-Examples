@@ -1,0 +1,37 @@
+// Injector.idl : IDL source for Injector
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Injector.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(21619E95-EA02-47E5-B470-D76A9FB6E6CC),
+	dual,
+	nonextensible,
+	helpstring("IInjHelper Interface"),
+	pointer_default(unique)
+]
+interface IInjHelper : IDispatch{
+	[id(1), helpstring("method Run")] HRESULT Run([in] BSTR bsTargetPath, [in] BSTR bsPluginPath, [in] BSTR bsTargetWndClass);
+};
+[
+	uuid(C5FE8F1F-BEE8-47EC-A8AF-3C875D24DB21),
+	version(1.0),
+	helpstring("Injector 1.0 Type Library")
+]
+library InjectorLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(AB6DEF58-5546-4BB8-BB2F-6E30E021BD22),
+		helpstring("InjHelper Class")
+	]
+	coclass InjHelper
+	{
+		[default] interface IInjHelper;
+	};
+};

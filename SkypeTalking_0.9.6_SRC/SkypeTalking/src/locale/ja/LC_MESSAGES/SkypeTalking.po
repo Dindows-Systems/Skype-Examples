@@ -1,0 +1,1755 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking Japanese language 0.9\n"
+"POT-Creation-Date: 2010-12-15 07:34+Central European Standard Time\n"
+"PO-Revision-Date: \n"
+"Last-Translator: TomG <tomg@tomgnet.com>\n"
+"Language-Team: TomG <tomg@tomgnet.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+#: SkypeTalking.pyw:52
+msgid "Application already running."
+msgstr "既に起動しています"
+
+#: SkypeTalking.pyw:58
+msgid "Error writing config file. The application may not be started. Please contact development team for help."
+msgstr "設定ファイルの書き込みエラーです。アプリケーションが正しく開始できなかった可能性があります。開発チームに連絡してください。"
+
+#: SkypeTalking.pyw:58
+#: SkypeTalking.pyw:63
+#: SkypeTalking.pyw:69
+#: extras.py:108
+msgid "Error"
+msgstr "エラー"
+
+#: SkypeTalking.pyw:63
+msgid "Could not set application language. The application may not be started. Please contact development team for help."
+msgstr "アプリケーションの言語設定を実行できません。アプリケーションが正しく開始できなかった可能性があります。開発チームに連絡してください。"
+
+#: SkypeTalking.pyw:67
+msgid "Connecting to Skype..."
+msgstr "スカイプと接続中です"
+
+#: SkypeTalking.pyw:69
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "サブシステムの初期化に失敗しました。アプリケーションが正しく開始できなかった可能性があります。開発チームに連絡してください。"
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "%sから着信"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "%sに発信中"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "%sから外線着信"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "%sにスカイプアウト発信中"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "%sとの通話が終了しました。通話時間%s"
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "%sに接続中。相手を探しています。"
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "%sへの発信は失敗しました"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "%sと通話中"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "%sとの通話を保留しました"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "%sからの通話が失敗しました"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "着信を拒否しました"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "%sはビジー状態です"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "%sへの発信をキャンセルしました"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "%sとの通話をローカル保留しました"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "%sが通話を保留しました"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "%sに通話を転送中"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "%sへの通話転送が完了しました"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "理由不明"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "その他のエラー"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "ユーザーが見つかりません"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "ユーザーはオフラインです"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "プロキシが見つかりません"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "セッションが終了しました"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "コーデックが不正です"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "サウンド入力・出力エラー"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "リモートデバイスエラーです"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "あなたは相手先に拒否されています"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "相手先があなたのコンタクトリストに存在しません"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "あなたは相手に認証されていません"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "サウンド録音のエラーです"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "時間"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "時間"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "分"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "分"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr ""
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "秒"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "秒"
+
+#: communication\files.py:35
+msgid "Receiving file %s from %s. "
+msgstr "ファイル%sを%sから受信中"
+
+#: communication\files.py:37
+msgid "Sending file %s to %s. "
+msgstr "ファイル%sを%sに送信中"
+
+#: communication\files.py:39
+msgid "File transfer %s, file %s. "
+msgstr "%sへのファイル転送%s"
+
+#: communication\files.py:41
+msgid "New file transfer: "
+msgstr "新しいファイル転送："
+
+#: communication\files.py:43
+msgid "Connecting..."
+msgstr "接続中"
+
+#: communication\files.py:45
+msgid "Transferring..."
+msgstr "転送中"
+
+#: communication\files.py:47
+msgid "Transferring over relay..."
+msgstr "通信中傾注です"
+
+#: communication\files.py:49
+msgid "Waiting for accept..."
+msgstr "認証を待っています"
+
+#: communication\files.py:51
+msgid "Paused."
+msgstr "一時停止"
+
+#: communication\files.py:53
+msgid "Paused remotely."
+msgstr "相手が一時停止"
+
+#: communication\files.py:55
+msgid "Cancelled!"
+msgstr "中止！"
+
+#: communication\files.py:57
+msgid "Finished!"
+msgstr "終了！"
+
+#: communication\files.py:59
+msgid "File transfer failed."
+msgstr "ファイル転送に失敗しました"
+
+#: communication\files.py:61
+msgid "Sender not authorized."
+msgstr "宛先に認証されませんでした"
+
+#: communication\files.py:63
+msgid "Remotely cancelled."
+msgstr "宛先によりキャンセルされました"
+
+#: communication\files.py:65
+msgid "Failed read."
+msgstr "読み込みに失敗"
+
+#: communication\files.py:67
+msgid "Failed remote read."
+msgstr "リモート読み込みに失敗"
+
+#: communication\files.py:69
+msgid "Failed write."
+msgstr "書き込みに失敗"
+
+#: communication\files.py:71
+msgid "Failed remote write."
+msgstr "リモート書き込みに失敗"
+
+#: communication\files.py:73
+msgid "Remote does not support file transfer."
+msgstr "相手先がファイル転送をサポートしていません"
+
+#: communication\files.py:75
+msgid "Remote offline too long."
+msgstr "相手先のオフライン状態が長すぎます"
+
+#: communication\files.py:80
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "%.1f Mbが転送されました。転送速度： %.1f kb/秒"
+
+#: communication\files.py:86
+msgid "Progress: %6.2f"
+msgstr "処理中：%6.2f"
+
+#: communication\files.py:96
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "残り時間： %d時間%d分%d秒"
+
+#: communication\main.py:34
+msgid "Waiting for authorization..."
+msgstr "認証を待っています"
+
+#: communication\main.py:36
+msgid "Authorization refused."
+msgstr "認証が拒否されました"
+
+#: communication\main.py:41
+msgid "Error, API not available."
+msgstr "エラー：APIが使用できません"
+
+#: communication\main.py:45
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%sの準備が整いました。現在のログオンユーザは%sです。"
+
+#: communication\main.py:62
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "エラーです。スカイプとの接続に失敗しました。時間切れ。%d回再試行。残り%dです。5秒おきに実行し続けます。"
+
+#: communication\main.py:69
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "エラー！スカイプとの接続がタイムアウトしました。アプリケーションを再起動してください。"
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "送信中"
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "%sからのインスタントメッセージ: %s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "%sからのSMSメッセージ：%s"
+
+#: communication\messages.py:56
+msgid "at %s, %s said: %s"
+msgstr ""
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr ""
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr ""
+
+#: communication\messages.py:63
+msgid "%s at %s, %s says: %s"
+msgstr ""
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr ""
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr ""
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%sの発言：%s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%sの発言：%s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "メッセージは正常に届きませんでした。"
+
+#: communication\messages.py:86
+msgid "Message copied to clipboard."
+msgstr "メッセージはクリップボードへコピーされました"
+
+#: communication\messages.py:88
+msgid "copy failed"
+msgstr "コピー失敗"
+
+#: communication\messages.py:97
+msgid "opening URL"
+msgstr "URLを開いています"
+
+#: communication\messages.py:100
+msgid "Failed to open this URL."
+msgstr "このURLを開けません。失敗しました。"
+
+#: communication\messages.py:102
+msgid "url not found"
+msgstr "URLが見つかりません"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "現在のSkypeバージョンは%sです"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr ""
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "%sを起動してから新しいイベントはありません"
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "%sを起動してから新しいメッセージはありません"
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "新しいファイル転送はまだありません"
+
+#: communication\misc.py:72
+msgid "No active file transfers."
+msgstr "今行われているファイル転送はありません"
+
+#: communication\misc.py:75
+msgid "%s, file %s"
+msgstr ""
+
+#: communication\misc.py:76
+msgid "Active File Transfers"
+msgstr "行われているファイル転送"
+
+#: communication\misc.py:76
+msgid "Select file sender/receiver"
+msgstr "ファイル選択（送り側・請川）"
+
+#: communication\misc.py:91
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "あなたのスカイプクレジットの残高は%sです。"
+
+#: communication\misc.py:95
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "ここでのチャットモニタはありません。最初のチャットポジションは%sです。"
+
+#: communication\misc.py:99
+#: communication\misc.py:101
+msgid "Monitoring chat with %s"
+msgstr "%sとのチャットをモニタしています"
+
+#: communication\misc.py:101
+#: communication\misc.py:118
+msgid "and"
+msgstr ""
+
+#: communication\misc.py:105
+msgid "no active chats"
+msgstr "アクティブなチャットはありません"
+
+#: communication\misc.py:111
+#: communication\misc.py:120
+msgid "no active chat monitor"
+msgstr "アクティブなモニタ中のチャットはありません"
+
+#: communication\misc.py:116
+#: communication\misc.py:118
+msgid "monitor on chat with %s"
+msgstr "%sとのチャットをモニタしました"
+
+#: communication\misc.py:126
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "%Sがロードされてから新しいメッセージはありません。または、モニタのためのチャットは選択されていません。"
+
+#: communication\misc.py:129
+msgid "no message at this position. The first is at position %d"
+msgstr "ここでのメッセージモニタはありません。最初のメッセージポジションは%sです。"
+
+#: communication\misc.py:142
+msgid "No mood text set. Press this command twice to set one."
+msgstr "ムードメッセージは設定されていません。設定するには、このコマンドを2回連続で押してください。"
+
+#: communication\misc.py:143
+msgid "The current mood text is: %s."
+msgstr "現在のムードメッセージ：%s"
+
+#: communication\misc.py:147
+msgid " - Change Mood Text"
+msgstr "ムードメッセージを変更しました"
+
+#: communication\misc.py:147
+msgid "Enter your new mood text:"
+msgstr "新しいムードメッセージを入力してください："
+
+#: communication\misc.py:153
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%sがムードメッセージを「%s」に変更しました。"
+
+#: communication\misc.py:169
+#: communication\misc.py:209
+msgid "no active call"
+msgstr "アクティブな通話はありません"
+
+#: communication\misc.py:172
+#: communication\misc.py:178
+#: communication\misc.py:184
+#: communication\misc.py:198
+msgid "Not on call."
+msgstr "通話していません"
+
+#: communication\misc.py:176
+msgid "Microphone unmuted"
+msgstr "マイクミュートを解除しました"
+
+#: communication\misc.py:182
+#: communication\misc.py:230
+msgid "Microphone muted"
+msgstr "マイクをミュートしました"
+
+#: communication\misc.py:190
+msgid "call on hold "
+msgstr "通話が保留されました"
+
+#: communication\misc.py:193
+msgid "call resumed"
+msgstr "通話再会"
+
+#: communication\misc.py:195
+msgid "No incoming or active call."
+msgstr "通話がありません。または、着信がありません。"
+
+#: communication\misc.py:201
+msgid "%s has joined the current call."
+msgstr "%sが通話に酸化しました"
+
+#: communication\misc.py:203
+msgid "only one active call"
+msgstr "アクティブな通話は一つしかありません"
+
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: communication\misc.py:218
+#: communication\misc.py:219
+#: interface\contactsManager.py:53
+msgid "Not available"
+msgstr "取り込み中"
+
+#: communication\misc.py:220
+msgid "Audio In: %s"
+msgstr "入力デバイス：%s"
+
+#: communication\misc.py:221
+msgid "Audio Out: %s"
+msgstr "出力デバイス：%s"
+
+#: communication\misc.py:222
+msgid "Video In: %s"
+msgstr "ビデオ入力デバイス：%s"
+
+#: communication\misc.py:223
+msgid "Ringing device: %s"
+msgstr "着信音デバイス：%s"
+
+#: communication\misc.py:232
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "新しい通話、または実施中の通話がありません。通話相手に発信するには、このコマンドを2回連続で入力してください。"
+
+#: communication\misc.py:237
+msgid " - make call"
+msgstr "通話作成"
+
+#: communication\misc.py:237
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "ユーザのスカイプ名をカンマ区切りで入力してください："
+
+#: communication\misc.py:257
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "There are no voicemails."
+msgstr "ボイスメールはありません"
+
+#: communication\misc.py:265
+#: communication\misc.py:287
+msgid "Error, cannot open that voicemail."
+msgstr "エラー！このボイスメールを開けません。"
+
+#: communication\misc.py:267
+msgid "No voicemail to play."
+msgstr "再生すべきボイスメールはありません"
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Voicemail deleted."
+msgstr "ボイスメールは削除されました"
+
+#: communication\misc.py:274
+#: communication\misc.py:299
+msgid "Error, voicemail cannot be deleted."
+msgstr "エラー！ボイスメールを削除できません。"
+
+#: communication\misc.py:276
+msgid "No voicemail to delete."
+msgstr "削除すべきボイスメールはありません。"
+
+#: communication\misc.py:282
+#: communication\misc.py:293
+#: communication\misc.py:305
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "ここにはボイスメールがありません。最初のボイスメールポジションは、%sです。"
+
+#: communication\misc.py:308
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "%sからのボイスメール"
+
+#: communication\misc.py:310
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "%sへのボイスメール"
+
+#: communication\misc.py:312
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "デフォルトボイスメール応答メッセージ"
+
+#: communication\misc.py:314
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "カスタムボイスメール応答メッセージ"
+
+#: communication\misc.py:316
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "ボイスメールのタイプが不明です"
+
+#: communication\misc.py:318
+msgid "Not played."
+msgstr "再生されませんでした"
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "構成中"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "配信されました"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "SMS読み上げ"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "SMSが受信されました"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "送信失敗"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "サーバへ送信しています"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "サーバへ送信"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "いくつかの番号への配信ができません"
+
+#: communication\sms.py:28
+#: interface\contactsManager.py:53
+msgid "Unknown"
+msgstr "不明"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "%s支払いました"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "電話番号をセミコロンで区切って入力してください："
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr ""
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr ""
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "番号が正しくありません。もう一度確認してから再試行してください。"
+
+#: communication\status.py:33
+#: interface\contactsManager.py:53
+msgid "Online"
+msgstr "オンライン"
+
+#: communication\status.py:34
+#: interface\contactsManager.py:53
+msgid "Away"
+msgstr "一時退席中"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "退席中"
+
+#: communication\status.py:36
+#: interface\contactsManager.py:53
+msgid "Do not disturb"
+msgstr "取り込み中"
+
+#: communication\status.py:37
+#: interface\contactsManager.py:53
+msgid "Invisible"
+msgstr "非表示"
+
+#: communication\status.py:38
+#: interface\contactsManager.py:53
+msgid "Skype Me"
+msgstr "スカイプミー"
+
+#: communication\status.py:39
+#: interface\contactsManager.py:53
+msgid "Offline"
+msgstr "オフライン"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "%sのステータスが分かりません"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s：オフライン"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s：オンライン"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s：一時退席中"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s：退席中"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s：取り込み中"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s：オフライン"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s：スカイプミー"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s：スカイプアウト"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "状態変更"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "状態選択"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "状態を%sに変更しています"
+
+#: communication\status.py:85
+msgid "Current online status is %s"
+msgstr "現在のオンライン状態ー派%sです。"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "%sが%sに認証を要求しています。自己紹介メッセージ：%s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "現在のあなたのお友達は%s %sです。"
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "ユーザ%s %Sはブロックされました。"
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%sはムードメッセージを削除しました"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%sはムードメッセージを「%s」に変更しました"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "状態不明"
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "ダウンロードされませんでした"
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "ダウンロード中"
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "残り再生時間%d"
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr ""
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "再生中"
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "%d秒再生しました"
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "空のボイスメール"
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "録音中"
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "録音しました"
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "アップロード中"
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "アップロードしました"
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "削除中"
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "ボイスメールのエラー"
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "エラーはありません"
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr ""
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "接続できませんでした。"
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "ボイスメールの権利がありません（ライセンスがありません）"
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "ボイスメールは何もありません"
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "ファイルが読み込めませんでした。"
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "ファイルに書き込めませんでした。"
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "ボイスメールが録音できませんでした。"
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "ボイスメールが再生できませんでした。"
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "スカイプ情報"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr ""
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr ""
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "この種類の新しいイベントはまだありません。"
+
+#: extras.py:78
+msgid "%d seconds ago"
+msgstr "%d秒前"
+
+#: extras.py:80
+msgid "a minute ago"
+msgstr "1分前"
+
+#: extras.py:82
+msgid "%d minutes ago"
+msgstr "%d分前"
+
+#: extras.py:84
+msgid "an hour ago"
+msgstr "1時間前"
+
+#: extras.py:86
+msgid "%d hours ago"
+msgstr "%d時間前"
+
+#: extras.py:88
+msgid "yesterday"
+msgstr "昨日"
+
+#: extras.py:90
+msgid "%d days ago"
+msgstr "%d日前"
+
+#: extras.py:92
+msgid "%d weeks ago"
+msgstr "%d週間前"
+
+#: extras.py:94
+msgid "%d months ago"
+msgstr "%d月前"
+
+#: extras.py:95
+msgid "%d years ago"
+msgstr "%d年前"
+
+#: extras.py:108
+msgid "An error has occured while attempting to configure autostart."
+msgstr "自動開始の設定中にエラーが発生しました。"
+
+#: extras.py:128
+msgid "Goodbye!"
+msgstr "さようなら"
+
+#: interface\__init__.py:31
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "スカイプの自動収量を設定していた場合、スカイプも一緒に終了されます。%sを本当に終了しますか？"
+
+#: interface\__init__.py:31
+msgid "Confirm Exit"
+msgstr "終了確認"
+
+#: interface\about.py:30
+#: interface\systemTray.py:81
+msgid "About %s"
+msgstr "%sについて"
+
+#: interface\about.py:43
+msgid "Project &Web site"
+msgstr "プロジェクトのウェブサイト"
+
+#: interface\about.py:44
+msgid "&License online"
+msgstr ""
+
+#: interface\about.py:45
+msgid "C&ontributors"
+msgstr "翻訳者"
+
+#: interface\about.py:46
+msgid "User &Guide"
+msgstr "ユーザー&ガイド"
+
+#: interface\about.py:47
+#: interface\systemTray.py:61
+msgid "&What's New"
+msgstr "&新着情報"
+
+#: interface\about.py:48
+#: interface\systemTray.py:77
+msgid "Check for &updates..."
+msgstr "&更新の確認"
+
+#: interface\about.py:64
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+
+#: interface\contactsManager.py:40
+#: interface\preferences\main.py:48
+msgid "Contacts Manager"
+msgstr "コンタクトマネージャ"
+
+#: interface\contactsManager.py:53
+msgid "Skype Out"
+msgstr "スカイプアウト"
+
+#: interface\contactsManager.py:85
+#: interface\contactsManager.py:160
+msgid "Checked"
+msgstr "チェック"
+
+#: interface\contactsManager.py:88
+msgid "Unchecked"
+msgstr "チェック無し"
+
+#: interface\contactsManager.py:90
+msgid "&Create Conference"
+msgstr "&会話の作成"
+
+#: interface\contactsManager.py:91
+msgid "Create multi c&hat"
+msgstr "複数チャットの作成"
+
+#: interface\contactsManager.py:94
+#: interface\contactsManager.py:135
+msgid "&Call"
+msgstr "発信"
+
+#: interface\contactsManager.py:95
+#: interface\contactsManager.py:137
+msgid "C&hat"
+msgstr "チャット"
+
+#: interface\contactsManager.py:115
+msgid "&Contact List"
+msgstr "コンタクトリスト"
+
+#: interface\contactsManager.py:117
+msgid "Contact"
+msgstr "コンタクト"
+
+#: interface\contactsManager.py:118
+msgid "Skype Name"
+msgstr "スカイプ名"
+
+#: interface\contactsManager.py:119
+msgid "Status"
+msgstr "状態"
+
+#: interface\contactsManager.py:120
+msgid "Mood Text"
+msgstr "ムードテキスト"
+
+#: interface\contactsManager.py:121
+msgid "Last seen"
+msgstr "最終オンライン日時"
+
+#: interface\contactsManager.py:128
+msgid "%s at %s"
+msgstr ""
+
+#: interface\contactsManager.py:138
+msgid "View &Profile..."
+msgstr "プロフィールの表示"
+
+#: interface\contactsManager.py:189
+msgid "Profile Viewer for %s (%s)"
+msgstr "%s(%s)のプロフィール表示"
+
+#: interface\contactsManager.py:193
+msgid "Skype name:"
+msgstr "スカイプ名："
+
+#: interface\contactsManager.py:199
+msgid "Full name:"
+msgstr "フルネーム："
+
+#: interface\contactsManager.py:205
+msgid "Mood:"
+msgstr "ムード："
+
+#: interface\contactsManager.py:211
+msgid "Birth date:"
+msgstr "誕生日："
+
+#: interface\contactsManager.py:217
+msgid "Gender:"
+msgstr "性別："
+
+#: interface\contactsManager.py:220
+msgid "Male"
+msgstr "男性"
+
+#: interface\contactsManager.py:221
+msgid "Female"
+msgstr "女性"
+
+#: interface\contactsManager.py:224
+msgid "Language:"
+msgstr "言語："
+
+#: interface\contactsManager.py:230
+msgid "Location:"
+msgstr "場所："
+
+#: interface\contactsManager.py:236
+msgid "Home phone:"
+msgstr "自宅電話："
+
+#: interface\contactsManager.py:242
+msgid "Office phone:"
+msgstr "会社電話："
+
+#: interface\contactsManager.py:248
+msgid "Mobile phone:"
+msgstr "携帯電話："
+
+#: interface\contactsManager.py:254
+msgid "Home page:"
+msgstr "ホームページ："
+
+#: interface\contactsManager.py:260
+msgid "About me:"
+msgstr "私について："
+
+#: interface\contactsManager.py:266
+msgid "Number of contacts:"
+msgstr "コンタクト数："
+
+#: interface\contactsManager.py:273
+msgid "This user is not authorized to contact me.\n"
+msgstr "このユーザは私にコンタクトするための認証が行われていません。\n"
+
+#: interface\contactsManager.py:275
+msgid "This user is blocked.\n"
+msgstr "このユーザはブロックされています。\n"
+
+#: interface\contactsManager.py:277
+msgid "This user doesn't have a call equipment.\n"
+msgstr "このユーザには通話機器がありません。\n"
+
+#: interface\contactsManager.py:279
+msgid "This user has call forwarding activated.\n"
+msgstr "このユーザには通話転送が設定されています。\n"
+
+#: interface\contactsManager.py:281
+msgid "This user has a camera.\n"
+msgstr "このユーザはカメラを持っています。\n"
+
+#: interface\contactsManager.py:283
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "このユーザはボイスメールの送信および受信が可能です。\n"
+
+#: interface\contactsManager.py:285
+msgid "Other information:"
+msgstr "他の情報："
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "設定画面にアクセスすることにより、スカイプトーキングの動作や言語、おんせいしゅつりょくの設定を変更できます。"
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "あなたのコンタクトを表示したり、管理するための簡単な方法は、コンタクトマネージャを開いてください。このコマンドを2回連続で入力すると、オリジナルのコンタクトリストが表示されます。"
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "現在のバージョン、著作権の詳細、プロジェクトなどのSkypeTalkingについての基本的な情報を表示します。"
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "SkypeTalkingを終了します。"
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "音声出力をSAPI5に設定した場合、サイレンスモードに設定します。"
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "オン"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "オフ"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "スカイプイベント無視：%s"
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "すべてのスカイプイベントを無視するかどうかをトグルで切り替えます。オンに設定した場合、SkypeTalkingはすべてのイベントを無視し、音声出力も行いません。"
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "キー説明：%s"
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "キー説明のOn/Offを切り替えます。Onに設定した場合、SkypeTalkingに割り当てられたキーを押すと、そのコマンドの説明を行います。"
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "現在のユーザの状態を切り替えます。"
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "SkypeTalkingの新しいバージョンがないか、オンラインで確認します。"
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "現在のユーザのムードメッセージを出力します。2回連続で押すと、ムードメッセージの変更画面を呼び出します。"
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "現在のユーザのステータスを読み上げます。2回押すと、スカイプクレジットの残高を表示します。"
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "現在のSkypeのバージョンを読み上げます。2回押すと、APIラッパーのバージョンを表示します。"
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "SkypeTalkingが起動してから、最後に発生したイベントを繰り返して読み上げます。"
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "最後に開始されたファイル転送の状態を読み上げます。2回押すと、読み上げの対象とするファイル転送セッションを切り替えます。"
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "現在の通話時間を読み上げます。"
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "アクティブな通話の状態を読み上げます。2回押すと、通話発信のためのダイアログボックスを表示します。"
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "SMSメッセージウイザードを起動します。"
+
+#: interface\interfaceCommands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "イベントヒストリに記録されている次のイベントを読み上げます。"
+
+#: interface\interfaceCommands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "イベントヒストリに記録されている前のイベントを読み上げます。"
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "通話"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "メッセージ"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "ファイル転送"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "ユーザーアクション"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "ボイスメール"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "ステータス変更"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "状態変更、呼び出し、メッセージ、ファイル転送、またはユーザアクションなど、イベントヒストリの中で、何を確認するかのタイプを選択します。"
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "モニタするチャットを切り替えます。2回押すと、対象のチャットウインドウを開きます。"
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "現在モニタしているチャットを読み上げます。2回押すと、対象のチャットウインドウを開きます。"
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "直前の10個のアイテムを読み上げます。2回押すと、クリップボードにコピーします。3回押すと、URLを開こうとします。"
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "ボイスメールもー簿"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "メッセージモード"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "メッセージモードとボイスメールモードの切り替え。"
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "最後に受信または送信したチャットメッセージを読み上げます。2回押すと、対象のチャットウインドウを開きます。"
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "通話に応答するか、現在進行中の通話の保留・解除を切り替えます。"
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "会議通話中に実行すると、通話に応答し、相手を会議通話に加えます。"
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "通話を終了するか、ボイスメールの六をんを終了します。"
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "マイクのミュートのOn/Offを切り替えます。"
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "現在の入力・出力デバイスを読み上げます。"
+
+#: interface\interfaceCommands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "直前のボイスメールの状態を読み上げます。2回押すと、そのボイスメールを開き、再生します。3回押すと、そのボイスメールを削除します。"
+
+#: interface\main.py:169
+#: interface\preferences\categories\hotKeys.py:55
+msgid "No description"
+msgstr "説明がありません。"
+
+#: interface\preferences\__init__.py:27
+msgid "Preferences"
+msgstr "設定"
+
+#: interface\preferences\categories\advanced.py:28
+msgid "Number of &connection retries before giving up:"
+msgstr "接続を中止するまでの再試行回数："
+
+#: interface\preferences\categories\advanced.py:32
+msgid "Start Skype &minimized"
+msgstr "最小化してスカイプを起動する"
+
+#: interface\preferences\categories\advanced.py:33
+msgid "No &splash screen when starting Skype"
+msgstr "スプラッシュ画面無しでスカイプを起動する"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "ムードテキストの変更を通知する"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "受信チャットメッセージ"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "送信チャットメッセージ"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "オンライン状態不明"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "オフライン"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "オンライン"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "一時退席中"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "退席中"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "取り込み中"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "オンライン状態を隠す"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "スカイプアウト"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "スカイプミー！"
+
+#: interface\preferences\categories\contactsManager.py:28
+msgid "Show &offline contacts"
+msgstr "オフラインのコンタクトを表示する"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "言語："
+
+#: interface\preferences\categories\general.py:40
+msgid "Start %s with &Windows"
+msgstr "ウインドウズ起動時に%sを起動する"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &start Skype with %s"
+msgstr "%sと同時にスカイプを起動する"
+
+#: interface\preferences\categories\general.py:44
+msgid "Automatically &close Skype when %s exits"
+msgstr "%sの終了と同時にスカイプも終了する"
+
+#: interface\preferences\categories\general.py:45
+msgid "C&onfirm when exiting %s"
+msgstr "%s終了時に確認メッセージを表示する"
+
+#: interface\preferences\categories\general.py:46
+msgid "Show %s icon on the &taskbar"
+msgstr "%sのアイコンをタスクトレイに表示する"
+
+#: interface\preferences\categories\hotKeys.py:43
+msgid "&Keystrokes"
+msgstr "ホットキー"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "Function"
+msgstr "機能"
+
+#: interface\preferences\categories\hotKeys.py:46
+msgid "Keystroke"
+msgstr "割り当てキー"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Description"
+msgstr "説明"
+
+#: interface\preferences\categories\hotKeys.py:59
+msgid "&Change..."
+msgstr "変更."
+
+#: interface\preferences\categories\hotKeys.py:70
+msgid "Change keystroke for %s"
+msgstr "%sのキー割り当てを変更"
+
+#: interface\preferences\categories\hotKeys.py:79
+msgid "Modifiers"
+msgstr "更新"
+
+#: interface\preferences\categories\hotKeys.py:86
+msgid "&Key:"
+msgstr "割り当てキー："
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "%s keystroke already in use. Please try another one."
+msgstr "%sのキー割り当ては既に使用されています。別の割り当てをお試しください。"
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "Change Keystroke Error"
+msgstr "キー割り当ての変更エラー"
+
+#: interface\preferences\categories\output.py:28
+msgid "Speech Output:"
+msgstr "音声出力："
+
+#: interface\preferences\categories\output.py:29
+msgid "Auto detect"
+msgstr "自動検出"
+
+#: interface\preferences\categories\output.py:29
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "SAPI5音声速度："
+
+#: interface\preferences\categories\output.py:33
+msgid "SAPI5 Volume:"
+msgstr "SAPI5音量："
+
+#: interface\preferences\categories\output.py:36
+msgid "Enable &braille output"
+msgstr "点字出力を有効にする"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Automatically check for %s updates"
+msgstr "%sのアップデートを自動的に確認する"
+
+#: interface\preferences\categories\updates.py:30
+msgid "&Download Type:"
+msgstr "ダウンロードタイプ："
+
+#: interface\preferences\categories\updates.py:31
+msgid "Installer"
+msgstr "インストーラ"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Portable Archive"
+msgstr "圧縮ファイル"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "メッセージの時刻を読み上げる"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "メッセージの読み上げに名前を含める"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "読み上げの後に付加する"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "読み上げの前に付加する"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "付加しない"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "スカイプアラートメッセージの読み上げ"
+
+#: interface\preferences\main.py:36
+msgid "General"
+msgstr "基本"
+
+#: interface\preferences\main.py:38
+msgid "Output"
+msgstr "出力"
+
+#: interface\preferences\main.py:40
+msgid "Alerts"
+msgstr "通知"
+
+#: interface\preferences\main.py:42
+msgid "Verbosity"
+msgstr "詳細設定"
+
+#: interface\preferences\main.py:44
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: interface\preferences\main.py:46
+msgid "Updates"
+msgstr "更新"
+
+#: interface\preferences\main.py:50
+msgid "Hot keys"
+msgstr "キー割り当て"
+
+#: interface\preferences\main.py:86
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: interface\preferences\main.py:89
+msgid "Settings applied."
+msgstr "設定を適用しました。"
+
+#: interface\preferences\main.py:92
+msgid "Settings canceled."
+msgstr "設定をキャンセルしました。"
+
+#: interface\preferences\main.py:102
+msgid "Error in %s language file"
+msgstr "%s語のファイル読み込みエラーです"
+
+#: interface\preferences\main.py:102
+msgid "Language Error"
+msgstr "言語エラー"
+
+#: interface\smsDialog.py:32
+msgid "Message text:"
+msgstr "メッセージテキスト："
+
+#: interface\smsDialog.py:37
+msgid "&Send"
+msgstr "送信"
+
+#: interface\smsDialog.py:56
+msgid "SMS sending failed."
+msgstr "SMSの送信に失敗"
+
+#: interface\smsDialog.py:66
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMSは%d文字、残り%d文字、現在の金額は%sです。"
+
+#: interface\smsDialog.py:68
+msgid "Empty"
+msgstr "ありません"
+
+#: interface\systemTray.py:43
+msgid "&Contacts Manager..."
+msgstr "コンタクトマネージャ."
+
+#: interface\systemTray.py:43
+msgid "Open Contacts Manager"
+msgstr "コンタクトマネージャを開く"
+
+#: interface\systemTray.py:47
+msgid "&Send SMS Wizard..."
+msgstr "SMS送信ウイザード"
+
+#: interface\systemTray.py:47
+msgid "Start SMS Send Wizard"
+msgstr "SMS送信ウイザードの開始"
+
+#: interface\systemTray.py:51
+msgid "&Preferences..."
+msgstr "設定."
+
+#: interface\systemTray.py:51
+msgid "Open Preferences Dialog"
+msgstr "設定ダイアログを開く"
+
+#: interface\systemTray.py:54
+msgid "&Tools"
+msgstr "ツール"
+
+#: interface\systemTray.py:57
+msgid "&User Guide"
+msgstr "説明書"
+
+#: interface\systemTray.py:57
+msgid "Read User Guide"
+msgstr "ユーザガイドを読む"
+
+#: interface\systemTray.py:61
+msgid "Read What's New"
+msgstr "新着情報を読む"
+
+#: interface\systemTray.py:65
+msgid "&Contributors"
+msgstr "翻訳者"
+
+#: interface\systemTray.py:65
+msgid "View Contributors List"
+msgstr "翻訳者リストを表示する"
+
+#: interface\systemTray.py:69
+msgid "&License"
+msgstr "ライセンス"
+
+#: interface\systemTray.py:69
+msgid "View the license"
+msgstr "ライセンスを表示する"
+
+#: interface\systemTray.py:73
+msgid "%s on the &Web"
+msgstr "%sのウェブサイトを開く"
+
+#: interface\systemTray.py:73
+msgid "Launch project Web Site in default browser"
+msgstr "プロジェクトのウェブサイトを標準ブラウザで開く"
+
+#: interface\systemTray.py:77
+msgid "Check for the latest application updates"
+msgstr "最新の更新を確認"
+
+#: interface\systemTray.py:81
+msgid "&About %s..."
+msgstr "%sについて."
+
+#: interface\systemTray.py:84
+msgid "&Help"
+msgstr "ヘルプ"
+
+#: interface\systemTray.py:86
+msgid "E&xit"
+msgstr "終了"
+
+#: interface\systemTray.py:86
+msgid "Exit %s"
+msgstr "%sをしゅうりょう"
+
+#: updater.py:67
+msgid "New version available"
+msgstr "最新バージョンが利用可能です"
+
+#: updater.py:67
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "現在のバージョンは%sです。最新バージョンは%sです。最新バージョンをダウンロードしますか？"
+
+#: updater.py:75
+msgid "Update cancelled."
+msgstr "更新は取り消されました。"
+
+#: updater.py:81
+msgid "Accessing download URL... Please wait..."
+msgstr "ダウンロードURLにアクセスしています。お待ちください。"
+
+#: updater.py:93
+msgid "Downloading update... Please wait..."
+msgstr "更新をダウンロードしています。お待ちください。"
+
+#: updater.py:105
+msgid "Update ready! Choose Ok to continue."
+msgstr "更新の準備が整いました。続行するにはOKボタンを選択してください。"
+
+#: updater.py:105
+#: updater.py:110
+msgid "Download completed"
+msgstr "ダウンロードが完了しました。"
+
+#: updater.py:110
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "更新をインストールする準備が整いました。%sを終了し、更新のインストールを開始するために、OKボタンを選択してください。"
+
+#: updater.py:119
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "公開バージョン番号の取得に失敗しました。ネットワークが切断されているか、ネットワークのメンテナンスが行われている可能性があります。しばらく立ってから盲一度やり直してください。"
+
+#: updater.py:119
+#: updater.py:123
+#: updater.py:127
+#: updater.py:131
+msgid "Update error"
+msgstr "アップデートエラー"
+
+#: updater.py:123
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "公開バージョン番号が見つかりません。ウェブサイトに一時的な問題が発生しているか、更新作業中です。後でもう一度お試しください。"
+
+#: updater.py:127
+msgid "Couldn't access download URL. Please try again later."
+msgstr "ダウンロード用URLにアクセスできません。後でもう一度お試しください。"
+
+#: updater.py:131
+msgid "Download failed!"
+msgstr "ダウンロード失敗！"
+
+#: updater.py:135
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "%sの現在使用中のバージョンは%sです。現在のバージョン：%s、公開バージョン：%s"
+
+#: updater.py:141
+msgid "Checking for updates... Please wait..."
+msgstr "更新を確認しています。しばらくお待ちください。"
+

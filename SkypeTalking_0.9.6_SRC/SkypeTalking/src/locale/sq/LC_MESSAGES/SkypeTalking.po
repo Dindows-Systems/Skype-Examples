@@ -1,0 +1,1761 @@
+# SkypeTalking albanian language file.
+# Copyright (C) 2011 Hrvoje Katic
+# Hrvoje Katic <hrvojekatic@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking 0.9\n"
+"POT-Creation-Date: 2011-06-18 08:39+Central European Daylight Time\n"
+"PO-Revision-Date: 2011-06-18 08:42+0100\n"
+"Last-Translator: Bledar <bledi82@libero.it>\n"
+"Language-Team: sq <bledi82@libero.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Albanian\n"
+"X-Poedit-Country: ALBANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: SkypeTalking.pyw:70
+msgid "Application already running."
+msgstr "Programi është në ekzekutim"
+
+#: SkypeTalking.pyw:74
+msgid "Connecting to Skype..."
+msgstr "Skype ne lidhje."
+
+#: SkypeTalking.pyw:76
+msgid "Error"
+msgstr "Gabim"
+
+#: SkypeTalking.pyw:76
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "Dështim në inicializimin e nën-sistemit output. programi mund te mos kete startuar. Ju lutemi, kontaktoni grupin e zhvillimit te programit."
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "Thirrje nga %s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "Thirrje me %s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "Thirrje telefonike nga %s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "Thirrje telefonike me %s"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "Thirrja me %s perfundoi, kohezgjatja %s."
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "Thirrje me %s, në nisje..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "Ndjese, thirrja me %s deshtoi"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "Thirrja me %s në avancim."
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "Thirrja me %s në pritje"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "Thirrje e humbur nga %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "Thirrja është refuzuar"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "Thirrja me %s e pa mundur, përdoruesi është i zene"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "Thirrja me %s e anuluar."
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "Thirrja me %s ne local hold."
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "Thirrja me %s ne remote hold."
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Thirrja po transferohet tek %s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "Thirrja është transferuar tek %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Arsye e pa njohur"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Gabime të ndryshme"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "Përdoruesi nuk ekziston"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "Përdoruesi nuk është në linjë"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Asnjë proxy nuk gjendet"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Sesioni perfundoi"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Asnjë common codec"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Gabim me tingujt imput/output"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Gabim me hardware-in remote"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "marrësi ju ka bllokuar"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "Marrësi nuk është në listën tuaj të kontakteve"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Nuk jeni i autorizuar nga marrësi"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Gabim në regjistrimin e tingujve"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "orë"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "orë"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "minutë"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "Minuta"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "e"
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "Sekond"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "Sekonda"
+
+#: communication\files.py:36
+msgid "Receiving file %s from %s. "
+msgstr "File %s, në ardhje nga %s."
+
+#: communication\files.py:38
+msgid "Sending file %s to %s. "
+msgstr "File %s, në dërgim tek %s."
+
+#: communication\files.py:40
+msgid "File transfer %s, file %s. "
+msgstr "Transferim file, %s, file %s."
+
+#: communication\files.py:42
+msgid "New file transfer: "
+msgstr "Transferim i ri, file:"
+
+#: communication\files.py:44
+msgid "Connecting..."
+msgstr "Në lidhje..."
+
+#: communication\files.py:46
+msgid "Transferring..."
+msgstr "Në transferim..."
+
+#: communication\files.py:48
+msgid "Transferring over relay..."
+msgstr "Transferimi në vijim..."
+
+#: communication\files.py:50
+msgid "Waiting for accept..."
+msgstr "Në pritje të pranimit..."
+
+#: communication\files.py:52
+msgid "Paused."
+msgstr "Pezulluar."
+
+#: communication\files.py:54
+msgid "Paused remotely."
+msgstr "Paused remotely."
+
+#: communication\files.py:56
+msgid "Cancelled!"
+msgstr "Anulluar!"
+
+#: communication\files.py:58
+msgid "Finished!"
+msgstr "Përfunduar!"
+
+#: communication\files.py:60
+msgid "File transfer failed."
+msgstr "Transferimi i file dështoi."
+
+#: communication\files.py:62
+msgid "Sender not authorized."
+msgstr "Dërgues i pa autorizuar."
+
+#: communication\files.py:64
+msgid "Remotely cancelled."
+msgstr "Remotely cancelled."
+
+#: communication\files.py:66
+msgid "Failed read."
+msgstr "Leximi i pa mundur."
+
+#: communication\files.py:68
+msgid "Failed remote read."
+msgstr "Failed remote read."
+
+#: communication\files.py:70
+msgid "Failed write."
+msgstr "Shkrimi i pa mundur"
+
+#: communication\files.py:72
+msgid "Failed remote write."
+msgstr "Failed remote write."
+
+#: communication\files.py:74
+msgid "Remote does not support file transfer."
+msgstr "Remote nuk suporton transferimin e file-it."
+
+#: communication\files.py:76
+msgid "Remote offline too long."
+msgstr "Remote offline too long."
+
+#: communication\files.py:81
+msgid "Size: %.1f Mb"
+msgstr "Përmasat e file: %.1f Mb"
+
+#: communication\files.py:86
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Transferimi u krye: %.1f Mb, shpejtësi: %.1f kb/s."
+
+#: communication\files.py:92
+msgid "Progress: %6.2f"
+msgstr "Avancim: %6.2f"
+
+#: communication\files.py:102
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "%d orë, %d minuta, %d sekonda të mbetura"
+
+#: communication\main.py:36
+msgid "Waiting for authorization..."
+msgstr "Në pritje të autorizimit..."
+
+#: communication\main.py:38
+msgid "Authorization refused."
+msgstr "Autorizimi është refuzuar."
+
+#: communication\main.py:43
+msgid "Error, API not available."
+msgstr "Error, Api i pa disponueshëm."
+
+#: communication\main.py:50
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s është gati. Aktualisht i lidhur ne Skype është %s."
+
+#: communication\main.py:67
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Gabim! Hapja e programit skype nuk u krye ne kohën e caktuar. Do të bëhet një tjeter tentativë %d e %d, per 5 sekonda."
+
+#: communication\main.py:74
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Gabim! Hapja e programit skype nuk u krye në kohën e caktuar. Ju lutemi, ristartoni programin dhe provoni përsëri. Dalje"
+
+#: communication\messages.py:34
+msgid "Sending..."
+msgstr "Dërgim..."
+
+#: communication\messages.py:38
+#: communication\messages.py:42
+msgid "Instant message from %s: %s"
+msgstr "Mesazh chat nga %s: %s"
+
+#: communication\messages.py:44
+msgid "SMS message by %s: %s"
+msgstr "Mesazh SMS nga %s: %s"
+
+#: communication\messages.py:57
+msgid "at %s, %s said: %s"
+msgstr "%s në %s, %s shkruan: %s %s"
+
+#: communication\messages.py:59
+msgid "%s at %s, %s said: %s"
+msgstr "%s në %s, %s shkruan: %s"
+
+#: communication\messages.py:62
+msgid "at %s, %s says: %s"
+msgstr "në %s, %s shkruan: %s"
+
+#: communication\messages.py:64
+#, fuzzy
+msgid "%s at %s, %s says: %s"
+msgstr "%s në %s, %s shkruan: %s"
+
+#: communication\messages.py:67
+msgid "at %s: %s"
+msgstr "në %s: %s"
+
+#: communication\messages.py:69
+msgid "%s at %s: %s"
+msgstr "%s në %s: %s"
+
+#: communication\messages.py:72
+msgid "%s said: %s"
+msgstr "%s shkruante: %s"
+
+#: communication\messages.py:74
+msgid "%s says: %s"
+msgstr "%s shkruan: %s"
+
+#: communication\messages.py:78
+msgid "Message not delivered yet."
+msgstr "Mesazhi nuk ka mbëritur ende."
+
+#: communication\messages.py:85
+msgid "Message copied to clipboard."
+msgstr "Mesazhi u kopjua"
+
+#: communication\messages.py:87
+msgid "copy failed"
+msgstr "Kopjimi dështoi"
+
+#: communication\messages.py:96
+msgid "opening URL"
+msgstr "Po hap adresën URL"
+
+#: communication\messages.py:99
+msgid "Failed to open this URL."
+msgstr "E pa mundur hapja e adresës URL"
+
+#: communication\messages.py:101
+msgid "url not found"
+msgstr "Adresa URL nuk gjendet"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "Versioni aktual i Skype: %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "API Wrapper version %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "asnjë eveniment i ri nga momenti i lançimit të %s."
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "asnjë mesazh i ri nga momenti i lancimit të %s."
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Ende nuk ka file të transferuar."
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "Asnjë file ne transferim."
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s, file %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "një transferim file është aktiv"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "Seleksiononi marrësin/dërguesin e një file"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Krediti juaj Skype është %s"
+
+#: communication\misc.py:93
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Asnjë chat në monitorim në këtë pozicion, i pari është në pozicionin %s."
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "Chat në monitorim me %s."
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr "Dhe"
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "Asnjë chat aktiv"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "Asnjë chat aktiv në monitorim"
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "Chat në monitorim, chat me %s"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Asnjë mesazh i ri nga momenti kur %s është lançuar, ose asnjë chat i monitoruar ende."
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "Asnjë mesazh në këtë pozicion. i pari është në pozicionin %d"
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Nuk keni afishuar asnjë mesazh personal. Shtypni këtë kombinim tastesh nëse dëshironi të afishoni një të tillë."
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "Mesazhi personal aktual është: %s."
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr "Ndryshoni mesazhin personal"
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "Shkruani mesazhin tuaj personal të ri:"
+
+#: communication\misc.py:152
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s ka ndryshuar mesazhin personal, tani ai është: %s"
+
+#: communication\misc.py:168
+#: communication\misc.py:208
+msgid "no active call"
+msgstr "Asnjë thirrje aktive"
+
+#: communication\misc.py:171
+#: communication\misc.py:177
+#: communication\misc.py:183
+#: communication\misc.py:197
+msgid "Not on call."
+msgstr "Nuk është në thirrje."
+
+#: communication\misc.py:175
+msgid "Microphone unmuted"
+msgstr "Mikrofoni është i hapur"
+
+#: communication\misc.py:181
+#: communication\misc.py:229
+msgid "Microphone muted"
+msgstr "Mikrofoni është i fikur"
+
+#: communication\misc.py:189
+msgid "call on hold "
+msgstr "Thirrje në pritje"
+
+#: communication\misc.py:192
+msgid "call resumed"
+msgstr "Thirrja rifilloi."
+
+#: communication\misc.py:194
+msgid "No incoming or active call."
+msgstr "Asnjë thirrje në ardhje, ose aktive."
+
+#: communication\misc.py:200
+msgid "%s has joined the current call."
+msgstr "%s është bashkuar në këtë thirrje."
+
+#: communication\misc.py:202
+msgid "only one active call"
+msgstr "Vetëm një thirrje aktive"
+
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: communication\misc.py:218
+#: interface\contactsManager\__init__.py:57
+msgid "Not available"
+msgstr "I pa disponueshëm"
+
+#: communication\misc.py:219
+msgid "Audio In: %s"
+msgstr "Audio in: %s"
+
+#: communication\misc.py:220
+msgid "Audio Out: %s"
+msgstr "Audio out: %s"
+
+#: communication\misc.py:221
+msgid "Video In: %s"
+msgstr "Video in: %s"
+
+#: communication\misc.py:222
+msgid "Ringing device: %s"
+msgstr "Zilja %s"
+
+#: communication\misc.py:231
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Nuk ka thirrje të reja, ose në lidhje. Shtypni këtë kombinim tastesh për të thirrur dikë."
+
+#: communication\misc.py:236
+msgid " - make call"
+msgstr "Kryeni një thirrje"
+
+#: communication\misc.py:236
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Shkruani emrin Skype te përdoruesit, ose dhe me shumë se një emër, të ndarë nga një presje"
+
+#: communication\misc.py:256
+#: communication\misc.py:279
+#: communication\misc.py:290
+#: communication\misc.py:302
+msgid "There are no voicemails."
+msgstr "Nuk ka Voicemail."
+
+#: communication\misc.py:264
+#: communication\misc.py:286
+msgid "Error, cannot open that voicemail."
+msgstr "Gabim, hapja e këtij voicemail nuk është e mundur."
+
+#: communication\misc.py:266
+msgid "No voicemail to play."
+msgstr "Asnjë voicemail për të dëgjuar."
+
+#: communication\misc.py:271
+#: communication\misc.py:296
+msgid "Voicemail deleted."
+msgstr "Voicemail i eleminuar."
+
+#: communication\misc.py:273
+#: communication\misc.py:298
+msgid "Error, voicemail cannot be deleted."
+msgstr "Gabim, ky voicemail nuk është e mundur të fshihet."
+
+#: communication\misc.py:275
+msgid "No voicemail to delete."
+msgstr "Asnjë voicemail për të eleminuar."
+
+#: communication\misc.py:281
+#: communication\misc.py:292
+#: communication\misc.py:304
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "asnjë voicemail në këtë pozicion, i pari është në pozicionin %s."
+
+#: communication\misc.py:307
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Voicemail nga %s."
+
+#: communication\misc.py:309
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Voicemail në drejtim të %s."
+
+#: communication\misc.py:311
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Voicemail përshëndetjeje, default."
+
+#: communication\misc.py:313
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Voicemail përshëndetjeje, personale."
+
+#: communication\misc.py:315
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr " Voicemail i pa njohur."
+
+#: communication\misc.py:317
+msgid "Not played."
+msgstr "Nuk është ekzekutuar."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Në kompozim"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Dorëzuar"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "SMS i lexuar"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "SMS në hyrje"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "Dërgimi dështoi"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "Në dërgim tek serveri"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "Dërguar tek serveri"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "I pa mundur dërgimi në një ose disa numra."
+
+#: communication\sms.py:28
+#: interface\contactsManager\__init__.py:57
+msgid "Unknown"
+msgstr "I pa njohur"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "Ju keni paguar %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Shkruani numrin e telefonit, ose më shumë numra telefoni, te ndare nga një pikëpresje:"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "SMS i ri"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "SMS i ri, nga %s tek %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Numër i pa saktë. Ju lutemi, kontrolloni këtë imput dhe provoni sërisht."
+
+#: communication\status.py:33
+#: interface\contactsManager\__init__.py:57
+msgid "Online"
+msgstr "Në linjë"
+
+#: communication\status.py:34
+#: interface\contactsManager\__init__.py:57
+msgid "Away"
+msgstr "Larguar"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "i pa disponueshëm"
+
+#: communication\status.py:36
+#: interface\contactsManager\__init__.py:57
+msgid "Do not disturb"
+msgstr "i zënë"
+
+#: communication\status.py:37
+#: interface\contactsManager\__init__.py:57
+msgid "Invisible"
+msgstr "i pa dukshëm"
+
+#: communication\status.py:38
+#: interface\contactsManager\__init__.py:57
+msgid "Skype Me"
+msgstr "Skype me"
+
+#: communication\status.py:39
+#: interface\contactsManager\__init__.py:57
+msgid "Offline"
+msgstr "Jashtë linje"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "Statusi i %s është i pa njohur"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s doli nga linja"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s hyri në linjë"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s është larguar"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s është i pa disponueshëm"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s është i zënë"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s doli nga linja"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s është në skype me"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s është në skype out"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "Ndryshoni statusin"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "përzgjidhni statusin"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "Statusi ndryshon në %s"
+
+#: communication\status.py:82
+msgid "Current online status is %s"
+msgstr "aktualisht statusi juaj është %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "%s %s ju kërkon autorizimin. Teksti i kërkesës: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "Tani ju jeni mik me %s %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "%s %s është i bllokuar."
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s ka fshirë mesazhin personal"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s ka ndryshuar mesazhin personal në: %s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Status i pa njohur."
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "Nuk është shkarkuar."
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "në shkarkim..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Ende nuk është ekzekutuar, kohezgjatja %d sekonda."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Buffering..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "Në ekzekutim..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Ekzekutuar, kohëzgjatja %d sekonda."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "Voicemail bosh."
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Në regjistrim..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Regjistruar."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Në karikim..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "I karikuar."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Në eliminim..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Gabim Voicemail."
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Asnjë gabim."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Gabime të ndryshme."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Lidhja nuk është e mundur."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Nuk ka voicemail speciale."
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Nuk ka voicemail."
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "i pa mundur leximi i një file."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "I pa mundur shkrimi i një file."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "I pa mundur regjistrimi i një voicemail."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "I pa mundur ekzekutimi i një voicemail."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Njoftim Skype"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s në %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (tani, në %s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "asnjë eveniment i ri të këtij tipi."
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "para %d sekondash"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "Para një minute"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "para &d minutash"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "para një ore"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "Para %d orësh"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "dje"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "Para %d ditësh"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "para %d javësh"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "para %d muajsh"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "para %d vitesh"
+
+#: hotkey.py:131
+#: interface\preferences\categories\hotKeys.py:57
+msgid "No description"
+msgstr "Asnjë përshkrim"
+
+#: interface\__init__.py:34
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Dëshironi vërtetë të dilni nga %s? Ky veprim mund të shkaktoje mbylljen e Skype nëse e keni konfiguruar kështu."
+
+#: interface\__init__.py:34
+msgid "Confirm Exit"
+msgstr "Konfirmim dalje"
+
+#: interface\__init__.py:58
+msgid "Goodbye!"
+msgstr "Mirupafshim."
+
+#: interface\about.py:30
+#: interface\systemTray.py:79
+msgid "About %s"
+msgstr "Rreth %s"
+
+#: interface\about.py:49
+msgid "Project &Web site"
+msgstr "&Faqja web e projektit"
+
+#: interface\about.py:51
+msgid "&License online"
+msgstr "&lishenca online"
+
+#: interface\about.py:53
+msgid "C&ontributors"
+msgstr "&Kolaboratoret"
+
+#: interface\about.py:55
+msgid "User &Guide"
+msgstr "&Manual"
+
+#: interface\about.py:57
+#: interface\systemTray.py:59
+msgid "&What's New"
+msgstr "&të rejat"
+
+#: interface\about.py:59
+#: interface\systemTray.py:75
+msgid "Check for &updates..."
+msgstr "&Kontrolloni për azhornime të reja..."
+
+#: interface\about.py:63
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+
+#: interface\commands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Mundëson aksesin në menunë Preferenca, ku ju mund te konfiguroni si të sillet Skype Talking me programin Skype."
+
+#: interface\commands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Mundëson menaxhimin e kontakteve në mënyrën më të thjeshtë, nëse Skype është i hapur."
+
+#: interface\commands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Shfaq informacione bazë mbi Skypetalking, si versioni actual, autori, etj."
+
+#: interface\commands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Mbyll programin skypetalking."
+
+#: interface\commands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Pushon zërin, nese sintetizator i zerit tuaj output është Sapi5."
+
+#: interface\commands.py:59
+#: interface\commands.py:69
+msgid "on"
+msgstr "aktivizuar"
+
+#: interface\commands.py:62
+#: interface\commands.py:72
+msgid "off"
+msgstr "çaktivizuar"
+
+#: interface\commands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Nuk njofton për eventet  Skype %s."
+
+#: interface\commands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Aktivizon ose çaktivizon mosnjoftimin e të gjitha evenimenteve skype. Nëse vendoset On, Skypetalking nuk do t'u njoftoje për asnjë eveniment te programit Skype."
+
+#: interface\commands.py:73
+msgid "Key describer %s."
+msgstr "Njofton per tastet perkatese %s."
+
+#: interface\commands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Aktivizon ose çaktivizon përshkrimin e tasteve. Nëse vendoset on, do të njoftoheni mbi kombinimin e tasteve përkatës të programit Skype."
+
+#: interface\commands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Ndryshon me shpejtësi statusin e përdoruesit."
+
+#: interface\commands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "Kontrollon në kërkim të një versioni të ri, ose azhornim të Skypetalking."
+
+#: interface\commands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "Tregon cili është mesazhi personal. nëse ky kombinim tastesh shtypet dy herë të jep mundësinë per ta ndryshuar atë."
+
+#: interface\commands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Njofton statusin e përdoruesit online. Nëse ky kombinim tastesh shtypet dy herë të jep mundësinë për t'u informuar mbi kreditin Skype të mbetur."
+
+#: interface\commands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Njofton mbi versionin aktual të  programit Skype, nëse ky kombinim tastesh shtypet dy here shfaqen informacione të tjera, si copiright dhe faqja web e projektit."
+
+#: interface\commands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Njofton cili ishte eventi i fundit nga momenti në të cilin Skypetalking është aktiv."
+
+#: interface\commands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Lajmeron mbi gjendjen e transferimit e një file në ardhje ose në dërgim. nëse ky kombinim tastesh shtypet dy ose tre herë është i mundur seleksionimi dhe kontrollimi në ç'do moment i këtij transferimi."
+
+#: interface\commands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Njofton mbi kohëzgjatjen e një thirrjeje, orë/minuta/sekonda."
+
+#: interface\commands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Njofton mbi statusin e një thirrjeje aktive. nëse ky kombinim tastesh shtypet dy herë do të hapet një dialog box I CILI U JEP mundësine të kryeni një thirrje duke shkruajtur emrin Skype, ose më shumë emra, te ndare nga një presje, duke aktivizuar kështu një konferencë."
+
+#: interface\commands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Lançon një procedurë të thjeshtë për të bërë të mundur dërgimin e një SMS në një mënyrë më të thjeshtë nëpërmjet programit Skypetalking."
+
+#: interface\commands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "Shkon në evenimentin e ardhshëm në historikun e evenimenteve."
+
+#: interface\commands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "Shkon në evenimentin e mëparshëm në historikun e evenimenteve."
+
+#: interface\commands.py:142
+msgid "calls"
+msgstr "Thirrje"
+
+#: interface\commands.py:145
+msgid "messages"
+msgstr "Mesazhe"
+
+#: interface\commands.py:148
+msgid "file transfers"
+msgstr "Transferim File"
+
+#: interface\commands.py:151
+msgid "user actions"
+msgstr "Veprimet e përdoruesit"
+
+#: interface\commands.py:154
+msgid "voicemail"
+msgstr "Voicemail"
+
+#: interface\commands.py:157
+msgid "status changes"
+msgstr "Ndryshime statusi"
+
+#: interface\commands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Seleksionon tipin e evenimenteve në historikun e evenimenteve, si ndryshime statusi, thirrje, mesazhe."
+
+#: interface\commands.py:165
+#: interface\commands.py:172
+#: interface\commands.py:179
+#: interface\commands.py:186
+#: interface\commands.py:193
+#: interface\commands.py:200
+#: interface\commands.py:207
+#: interface\commands.py:214
+#: interface\commands.py:221
+#: interface\commands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Seleksionon chatin e monitoruar. Nëse ky kombinim tastesh shtypet dy herë hap një dritare të këtij chati."
+
+#: interface\commands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Njofton për ndonjë chat në fokus, nëse ky kombinim tastesh shtypet dy herë hap dritaren e chatit në monitorim."
+
+#: interface\commands.py:253
+#: interface\commands.py:271
+#: interface\commands.py:289
+#: interface\commands.py:307
+#: interface\commands.py:325
+#: interface\commands.py:343
+#: interface\commands.py:361
+#: interface\commands.py:379
+#: interface\commands.py:397
+#: interface\commands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Njofton për një nga 10 elementet sipas metodës së kontrollit që keni seleksionuar. nëse ky kombinim tastesh shtypet dy ose tre herë ekzekuton detyrën që i keni caktuar."
+
+#: interface\commands.py:420
+msgid "Voicemail mode"
+msgstr "Voicemail"
+
+#: interface\commands.py:423
+msgid "Message mode"
+msgstr "Mesazh"
+
+#: interface\commands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Ky kombinim tastesh alternon midis modalitetit voicemail dhe mesazh."
+
+#: interface\commands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Përsërit mesazhin e fundit të marrë ose të dërguar. Nëse ky kombinim tastesh shtypet dy herë do të hapet dritarja përkatëse e këtij chati."
+
+#: interface\commands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Përgjigjet thirrjes,ose alternon midis vënjes në pritje dhe rifillimit të thirrjes."
+
+#: interface\commands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Përgjigjet thirrjes dhe e bashkon atë në konference, nëse ndodheni në një konferencë."
+
+#: interface\commands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Përfundon thirrjen ose regjistrimin e një voicemail."
+
+#: interface\commands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Hap ose mbyll mikrofonin. Kjo varet nga statusi në të cilin mikrofoni ndodhet."
+
+#: interface\commands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Njofton për hardware imput dhe output në përdorim."
+
+#: interface\commands.py:460
+#, fuzzy
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Njofton mbi statusin e voicemail të fundit. nëse ky kombinim tastesh shtypet dy herë hap dhe ekzekuton atë."
+
+#: interface\contactsManager\__init__.py:44
+#: interface\preferences\__init__.py:57
+msgid "Contacts Manager"
+msgstr "Menaxhimi i kontakteve"
+
+#: interface\contactsManager\__init__.py:57
+msgid "Skype Out"
+msgstr "Skype out"
+
+#: interface\contactsManager\__init__.py:89
+#: interface\contactsManager\__init__.py:167
+msgid "Checked"
+msgstr "I seleksionuar"
+
+#: interface\contactsManager\__init__.py:92
+msgid "Unchecked"
+msgstr "I pa seleksionuar"
+
+#: interface\contactsManager\__init__.py:94
+msgid "&Create Conference"
+msgstr "&krijoni një konferencë"
+
+#: interface\contactsManager\__init__.py:95
+msgid "Create multi c&hat"
+msgstr "Krijo konferencë c&hat"
+
+#: interface\contactsManager\__init__.py:98
+#: interface\contactsManager\__init__.py:147
+msgid "&Call"
+msgstr "&Thirrje"
+
+#: interface\contactsManager\__init__.py:99
+#: interface\contactsManager\__init__.py:151
+msgid "C&hat"
+msgstr "C&hat"
+
+#: interface\contactsManager\__init__.py:120
+msgid "&Contact List"
+msgstr "&lista e kontakteve"
+
+#: interface\contactsManager\__init__.py:121
+msgid "Contact"
+msgstr "Kontakt"
+
+#: interface\contactsManager\__init__.py:122
+msgid "Skype Name"
+msgstr "Emri Skype"
+
+#: interface\contactsManager\__init__.py:123
+msgid "Status"
+msgstr "Statusi"
+
+#: interface\contactsManager\__init__.py:124
+msgid "Mood Text"
+msgstr "Mesazhi personal"
+
+#: interface\contactsManager\__init__.py:125
+msgid "Last seen"
+msgstr "evenimenti i fundit"
+
+#: interface\contactsManager\__init__.py:133
+msgid "%s at %s"
+msgstr "%s në %s"
+
+#: interface\contactsManager\__init__.py:154
+msgid "View &Profile..."
+msgstr "Shiko &profilin..."
+
+#: interface\contactsManager\profileViewer.py:29
+msgid "Profile Viewer for %s (%s)"
+msgstr "Vizuesi i profilit për %s (%s)"
+
+#: interface\contactsManager\profileViewer.py:30
+msgid "Skype name:"
+msgstr "Emri skype:"
+
+#: interface\contactsManager\profileViewer.py:32
+msgid "Full name:"
+msgstr "Emër dhe mbiemër:"
+
+#: interface\contactsManager\profileViewer.py:34
+msgid "Mood:"
+msgstr "Mesazhi personal:"
+
+#: interface\contactsManager\profileViewer.py:36
+msgid "Birth date:"
+msgstr "Data e lindjes:"
+
+#: interface\contactsManager\profileViewer.py:38
+msgid "Male"
+msgstr "Mashkull"
+
+#: interface\contactsManager\profileViewer.py:39
+msgid "Female"
+msgstr "Femër"
+
+#: interface\contactsManager\profileViewer.py:40
+msgid "Gender:"
+msgstr "Gjinia:"
+
+#: interface\contactsManager\profileViewer.py:43
+msgid "Language:"
+msgstr "Gjuha:"
+
+#: interface\contactsManager\profileViewer.py:46
+msgid "Location:"
+msgstr "Vendndodhja:"
+
+#: interface\contactsManager\profileViewer.py:48
+msgid "Home phone:"
+msgstr "Numër telefoni i shtëpisë:"
+
+#: interface\contactsManager\profileViewer.py:50
+msgid "Office phone:"
+msgstr "Numër telefoni i zyrës:"
+
+#: interface\contactsManager\profileViewer.py:52
+msgid "Mobile phone:"
+msgstr "Numri i telefonit celular:"
+
+#: interface\contactsManager\profileViewer.py:54
+msgid "Home page:"
+msgstr "Home page:"
+
+#: interface\contactsManager\profileViewer.py:56
+msgid "About me:"
+msgstr "Rreth meje:"
+
+#: interface\contactsManager\profileViewer.py:59
+msgid "Number of contacts:"
+msgstr "Numri i kontakteve:"
+
+#: interface\contactsManager\profileViewer.py:62
+msgid "This user is not authorized to contact me.\n"
+msgstr "Ky përdorues nuk është i autorizuar të më kontaktojë.\n"
+
+#: interface\contactsManager\profileViewer.py:64
+msgid "This user is blocked.\n"
+msgstr "Ky përdorues është i bllokuar.\n"
+
+#: interface\contactsManager\profileViewer.py:66
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Ky përdorues nuk ka pajisjet për të kryer një thirrje.\n"
+
+#: interface\contactsManager\profileViewer.py:68
+msgid "This user has call forwarding activated.\n"
+msgstr "Ky përdorues ka aktivizuar deviimin e thirrjeve.\n"
+
+#: interface\contactsManager\profileViewer.py:70
+msgid "This user has a camera.\n"
+msgstr "Ky përdorues është i pajisur me një camera.\n"
+
+#: interface\contactsManager\profileViewer.py:72
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Ky përdorues e ka të mundur të dërgojë dhe të marrë  voicemail.\n"
+
+#: interface\contactsManager\profileViewer.py:74
+msgid "Other information:"
+msgstr "Informacione të tjera:"
+
+#: interface\preferences\__init__.py:35
+#: interface\preferences\__init__.py:118
+msgid "Preferences"
+msgstr "Preferenca."
+
+#: interface\preferences\__init__.py:45
+msgid "General"
+msgstr "Të përgjithshme"
+
+#: interface\preferences\__init__.py:47
+msgid "Output"
+msgstr "Output"
+
+#: interface\preferences\__init__.py:49
+msgid "Alerts"
+msgstr "Njoftime të çastit"
+
+#: interface\preferences\__init__.py:51
+msgid "Verbosity"
+msgstr "Përzgjedhja e mesazheve njoftues nga Skypetalking"
+
+#: interface\preferences\__init__.py:53
+msgid "Advanced"
+msgstr "Opsione të avancuara"
+
+#: interface\preferences\__init__.py:55
+msgid "Updates"
+msgstr "Azhornime"
+
+#: interface\preferences\__init__.py:59
+msgid "Hot keys"
+msgstr "Kombinime tastesh"
+
+#: interface\preferences\__init__.py:92
+msgid "Settings saved."
+msgstr "Renditja e opsioneve u shpëtua."
+
+#: interface\preferences\__init__.py:97
+msgid "Settings applied."
+msgstr "Opsionet e zgjedhura jane në funksionim"
+
+#: interface\preferences\__init__.py:100
+msgid "Settings canceled."
+msgstr "Renditja e opsioneve u fshi"
+
+#: interface\preferences\__init__.py:111
+msgid "Error in %s language file"
+msgstr "Gabim në file e gjuhës %s"
+
+#: interface\preferences\__init__.py:111
+msgid "Language Error"
+msgstr "Gabim gjuha"
+
+#: interface\preferences\__init__.py:118
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "në mënyrë që gjuha e përzgjedhur të jetë plotësisht aktive, është i domosdoshëm ristartimi i %s. ... Shtypni Ok për të ristartuar programin ose Cancel për ta kryer atë manualisht.. shtypni ok"
+
+#: interface\preferences\categories\advanced.py:27
+msgid "Number of &connection retries before giving up:"
+msgstr "Numri maksimal i &tentativave për t'u lidhur."
+
+#: interface\preferences\categories\advanced.py:31
+msgid "Start Skype &minimized"
+msgstr "Starton programin Skype &në ikonë."
+
+#: interface\preferences\categories\advanced.py:32
+msgid "No &splash screen when starting Skype"
+msgstr "Asnjë display me &mesazh paraprak kur starton programi Skype."
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "Përdoruesi ka ndryshuar mesazhin e tij personal"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "Mesazhe chat &në ardhje"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "Mesazhe chat & të dërguara"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "Statusi &i pa njohur."
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Statusi &Jo Në Linjë"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Statusi &Në Linjë"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Statusi &larguar"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Statusi &I pa disponueshëm"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "statusi &I zënë"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Statusi &I pa dukshëm."
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Statusi &Skype Out"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Statusi &Skype Me!"
+
+#: interface\preferences\categories\contactsManager.py:27
+msgid "Show &offline contacts"
+msgstr "Shfaq &kontaktet jo në linjë"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&gjuha:"
+
+#: interface\preferences\categories\general.py:39
+msgid "Start %s with &Windows"
+msgstr "Startoni %s me Windows"
+
+#: interface\preferences\categories\general.py:42
+msgid "Automatically &start Skype with %s"
+msgstr "&Startoni Skype automatikisht me %s"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &close Skype when %s exits"
+msgstr "&Mbyll Skype automatikisht kur %s mbyllet"
+
+#: interface\preferences\categories\general.py:44
+msgid "C&onfirm when exiting %s"
+msgstr "&konfirmo daljen nga %s"
+
+#: interface\preferences\categories\general.py:45
+msgid "Show %s icon on the &taskbar"
+msgstr "Shfaq ikonën e %s në taskbar"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "&Keystrokes"
+msgstr "&kombinime tastesh"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Function"
+msgstr "Funksion"
+
+#: interface\preferences\categories\hotKeys.py:48
+msgid "Keystroke"
+msgstr "Kombinim tastesh"
+
+#: interface\preferences\categories\hotKeys.py:49
+msgid "Description"
+msgstr "Përshkrim"
+
+#: interface\preferences\categories\hotKeys.py:61
+msgid "&Change..."
+msgstr "ndrysho..."
+
+#: interface\preferences\categories\hotKeys.py:69
+msgid "Change keystroke for %s"
+msgstr "Ndërro kombinimin e tasteve për %s"
+
+#: interface\preferences\categories\hotKeys.py:78
+msgid "&Key:"
+msgstr "&Tasti:"
+
+#: interface\preferences\categories\hotKeys.py:80
+msgid "Modifiers"
+msgstr "Modifiko"
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "%s keystroke already in use. Please try another one."
+msgstr "Tasti %s është në përdorim. Ju lutemi provoni një tjetër"
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "Change Keystroke Error"
+msgstr "Ndryshim i kombinimit të tasteve i gabuar"
+
+#: interface\preferences\categories\output.py:27
+msgid "Speech Output:"
+msgstr "Output Zëri"
+
+#: interface\preferences\categories\output.py:28
+msgid "Auto detect"
+msgstr "Seleksiono automatikisht"
+
+#: interface\preferences\categories\output.py:28
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "Shpejtësia e zërit SAPI5:"
+
+#: interface\preferences\categories\output.py:34
+msgid "SAPI5 Volume:"
+msgstr "Volumi i zërit SAPI5:"
+
+#: interface\preferences\categories\output.py:38
+msgid "Enable &braille output"
+msgstr "&Abilito outputin Braille"
+
+#: interface\preferences\categories\updates.py:28
+msgid "&Automatically check for %s updates"
+msgstr "&Kërkim automatik i azhornimeve të %s"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Download Type:"
+msgstr "&Tipi i software-it për të shkarkuar:"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Installer"
+msgstr "Installer"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Portable Archive"
+msgstr "Portable Archive"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "&Trego orën e mesazhit"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "&Trego emrin e kontaktit dhe mesazhin"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "Pas njoftimit"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "Përpara njoftimit"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Kurrë"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Thotë mesazhin \"Njoftim Skype\""
+
+#: interface\smsDialog.py:31
+msgid "Message text:"
+msgstr "Mesazh tekstual:"
+
+#: interface\smsDialog.py:41
+msgid "&Send"
+msgstr "&dërgo"
+
+#: interface\smsDialog.py:51
+msgid "SMS sending failed."
+msgstr "Dërgimi i i mesazhit SMS dështoi"
+
+#: interface\smsDialog.py:61
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMS %d, %d shkronja të mbetura, çmimi aktual %s."
+
+#: interface\smsDialog.py:63
+msgid "Empty"
+msgstr "Bosh"
+
+#: interface\systemTray.py:41
+msgid "&Contacts Manager..."
+msgstr "&Menaxhimi i kontakteve..."
+
+#: interface\systemTray.py:41
+msgid "Open Contacts Manager"
+msgstr "Hap menaxhimin e kontakteve"
+
+#: interface\systemTray.py:45
+msgid "&Send SMS Wizard..."
+msgstr "procedurë për dërgimin e një sms..."
+
+#: interface\systemTray.py:45
+msgid "Start SMS Send Wizard"
+msgstr "Startoni procedurën për të dërguar një SMS"
+
+#: interface\systemTray.py:49
+msgid "&Preferences..."
+msgstr "&Preferenca..."
+
+#: interface\systemTray.py:49
+msgid "Open Preferences Dialog"
+msgstr "Hap djalogun Preferenca"
+
+#: interface\systemTray.py:52
+msgid "&Tools"
+msgstr "&Mjete"
+
+#: interface\systemTray.py:55
+msgid "&User Guide"
+msgstr "&Manuali i përdorimit"
+
+#: interface\systemTray.py:55
+msgid "Read User Guide"
+msgstr "Lexo manualin"
+
+#: interface\systemTray.py:59
+msgid "Read What's New"
+msgstr "Lexo të rejat"
+
+#: interface\systemTray.py:63
+msgid "&Contributors"
+msgstr "&Kolaboratorët"
+
+#: interface\systemTray.py:63
+msgid "View Contributors List"
+msgstr "Shiko listën e kolaboratorëve"
+
+#: interface\systemTray.py:67
+msgid "&License"
+msgstr "&Lishenca"
+
+#: interface\systemTray.py:67
+msgid "View the license"
+msgstr "Shiko lishencën"
+
+#: interface\systemTray.py:71
+msgid "%s on the &Web"
+msgstr "%s në &web"
+
+#: interface\systemTray.py:71
+msgid "Launch project Web Site in default browser"
+msgstr "Lançoni faqen web të projektit nëpërmjet browserit tuaj default"
+
+#: interface\systemTray.py:75
+msgid "Check for the latest application updates"
+msgstr "Kërkoni azhornimet e fundit të programit"
+
+#: interface\systemTray.py:79
+msgid "&About %s..."
+msgstr "&Rreth %s..."
+
+#: interface\systemTray.py:82
+msgid "&Help"
+msgstr "&Ndihmë"
+
+#: interface\systemTray.py:84
+msgid "E&xit"
+msgstr "&Dil"
+
+#: interface\systemTray.py:84
+msgid "Exit %s"
+msgstr "&Dil nga %s"
+
+#: updater.py:75
+msgid "New version available"
+msgstr "është i disponueshëm një version i ri"
+
+#: updater.py:75
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Versioni juaj është %s. Versioni i fundit është %s. Dëshironi të shkarkoni versionin e fundit të %s?"
+
+#: updater.py:83
+msgid "Update cancelled."
+msgstr "Azhornimi u anulua."
+
+#: updater.py:97
+msgid "Accessing download URL... Please wait..."
+msgstr "është duke u kryer hapja e adresës së programit për të shkarkuar. Ju lutemi, prisni."
+
+#: updater.py:111
+msgid "Downloading update... Please wait..."
+msgstr "Programi i azhornimit në shkarkim... Ju lutemi prisni..."
+
+#: updater.py:121
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Azhornimi është gati për të instaluar! Shtypni Ok për të dalë nga %s dhe lançoni instalimin e azhornimit"
+
+#: updater.py:123
+msgid "Update ready! Choose Ok to continue."
+msgstr "Azhornimi është gati! Shtypni Ok për të vazhduar."
+
+#: updater.py:124
+msgid "Download completed"
+msgstr "Shkarkimi u kompletua"
+
+#: updater.py:140
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "E pa mundur të gjendet numri i versionit online, ndoshta për shkak të ndërprerjes se lidhjes, ose rrjeti nuk është i qëndrueshëm."
+
+#: updater.py:140
+#: updater.py:141
+#: updater.py:142
+#: updater.py:143
+msgid "Update error"
+msgstr "Gabim në azhornim"
+
+#: updater.py:141
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "E pa mundur të gjendet numri i versionit online, ndoshta për shkak se faqja web nuk është e disponueshme."
+
+#: updater.py:142
+msgid "Couldn't access download URL. Please try again later."
+msgstr "I pa mundur aksesi në adresën URL për azhornimin e programit. Ju lutemi provoni më vonë."
+
+#: updater.py:143
+msgid "Download failed!"
+msgstr "Shkarkimi dështoi!"
+
+#: updater.py:144
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Versioni juaj i %s është i fundit. Azhornimi nuk është i nevojshëm. Versioni aktual: %s. Versioni online %s"
+
+#: updater.py:153
+msgid "Checking for updates... Please wait..."
+msgstr "Në kërkim të azhornimeve... Ju lutemi prisni..."

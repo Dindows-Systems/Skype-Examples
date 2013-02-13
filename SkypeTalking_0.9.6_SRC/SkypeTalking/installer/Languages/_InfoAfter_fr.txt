@@ -1,0 +1,24 @@
+Notes importantes (lire attentivement) !
+
+Lisez attentivement les notes suivantes en utilisant les commandes standards pour la lecture de texte.
+
+Lorsque vous lancez SkypeTalking pour la première fois, il  *doit* être autorisé à communiquer avec l'application Skype. Sinon, SkypeTalking sera dans l'impossibilitée de démarrer avec succès !
+Pour permettre à SkypeTalking d'utiliser Skype, procédez comme suit :
+1. Permettent à l'installateur de lancer SkypeTalking une fois l'installation terminée. Vous pouvez également lancer SkypeTalking manuellement, soit à partir du Bureau en cliquant sur l'icône  SkypeTalking , ou via le menu Démarrer dans les catégorie des programmes-> SkypeTalking.
+2. D'autre part, vous devriez ici avoir le message "Connexion à Skype" et puis "en attente d'autorisation".
+3. Après cela, on vous demande si vous souhaitez autoriser une demande pour se connecter à Skype. À ce stade, en cliquant  sur le bouton "Autoriser". Vous devriez alors entendre le message "SkypeTalking est prêt" immédiatement d'avoir cliquez  sur le bouton "Autoriser". Si on ne vous  demande pas quoi que ce soit après que vous avez lancé l'application SkypeTalking, procédez comme suit afin d'autoriser  SkypeTalking :
+1. Ouvrez Skype.
+2. Aller  a la bar  de menu avec la touche ALT, flèche droite pour aller sur outils puis ensuite faire deux flèches haute pour Options, puis appuyez sur ENTRÉE.
+3. Répétez les flêches bas jusqu'à ce que vous atterrissez sur la catégorie avancée.
+4. Appuyez sur MAJ + TAB à plusieurs reprises jusqu'à ce que vous atterrissez sur le 
+lien "Gérer l'accès des autres programmes à Skype". Appuyez sur la barre d'espace pour l'activer.
+5. Trouver  l'item "SkypeTalking" dans une liste avec votre flêche haute ou bas  (il est généralement dans le premier item), faire tab pour être sur le bouton Modifier, puis appuyez sur la barre d'espace pour l'activer.
+6. Appuyez sur TAB. Vous devriez entendre que vous êtes positionné sur un bouton radio qui dit
+"Ne pas autoriser ce programme à utiliser Skype"
+Faire une flèche vers le haut jusqu'à ce que vous entendez 
+"Autoriser ce programme «  à utiliser Skype"
+et appuyez sur ENTRÉE.
+7. SkypeTalking devrait alors préciser qu'il est prêt à l'emploi.
+
+Pour d'autres informations, veuillez consulter le fichier Lisez-moi en sélectionnant l'option marquée 
+"Lire le manuel d'instructions" qui se trouve sur la fin de la page de l'installateur.

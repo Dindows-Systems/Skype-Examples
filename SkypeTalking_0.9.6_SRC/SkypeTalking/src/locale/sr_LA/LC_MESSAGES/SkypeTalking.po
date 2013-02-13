@@ -1,0 +1,1820 @@
+# SkypeTalking serbian localization.
+# Copyright (C) 2010-2011 SkypeTalking Team
+# Hrvoje Katić <hrvojekatic@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking 0.9\n"
+"POT-Creation-Date: 2011-04-03 09:00+Central European Daylight Time\n"
+"PO-Revision-Date: 2011-04-04 15:00+0100\n"
+"Last-Translator: Gašić Dejan <gasicd@gmail.com>\n"
+"Language-Team: sr Gašić Dejan <gasicd@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Serbian\n"
+"X-Poedit-Country: Serbia\n"
+
+#: SkypeTalking.pyw:70
+msgid "Application already running."
+msgstr "Program već radi."
+
+#: SkypeTalking.pyw:74
+msgid "Connecting to Skype..."
+msgstr "Povezivanje na Skajp..."
+
+#: SkypeTalking.pyw:76
+msgid "Error"
+msgstr "Greška"
+
+#: SkypeTalking.pyw:76
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "Nije uspelo uključenje izlaznog podsistema. Program možda neće startovati. Molimo kontaktirajte razvojni tim radi pomoći."
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "Poziv od %s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "Zovem %s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "Telefonski poziv od %s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "Telefonski poziv za %s"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "Poziv sa %s je završen, trajanje %s."
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "pozivam %s, usmeravanje..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "Na žalost poziv sa %s nije uspeo"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "Razgovor sa %s je u toku"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "Poziv sa %s je na čekanju"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "Propušten poziv od %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "Poziv odbijen"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "Poziv sa %s, zauzeto"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "Poziv sa %s, je odkazan"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "Ostavili ste %s na čekanje"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "%s vas je ostavio na čekanje"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Prebacivanje poziva ka %s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "Poziv prebačen na %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "status nepoznat"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Greška razno"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "Korisnik ne postoji"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "Korisnik je isključen"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Proxi nije nađen"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Akcija je okončana"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Nema uobičajenog kodeka"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Zvučna ulazna/izlazna greška"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Greška daljinskog uređaja"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "Primalac vas je blokirao"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "Primalac nije u vašoj kontakt listi"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Niste odobreni od primaoca"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Greška u snimanju zvuka"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "Sat"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "Sati"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "Minut"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "Minuta"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr " i "
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "Sekunda"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "Sekundi"
+
+#: communication\files.py:36
+msgid "Receiving file %s from %s. "
+msgstr "preuzimanje datoteke %s od %s."
+
+#: communication\files.py:38
+msgid "Sending file %s to %s. "
+msgstr "Slanje datoteke %s za %s."
+
+#: communication\files.py:40
+msgid "File transfer %s, file %s. "
+msgstr "Prenos datoteke %s, datoteka %s."
+
+#: communication\files.py:42
+msgid "New file transfer: "
+msgstr "Novi prenos datoteke: "
+
+#: communication\files.py:44
+msgid "Connecting..."
+msgstr "Povezivanje..."
+
+#: communication\files.py:46
+msgid "Transferring..."
+msgstr "Prenos..."
+
+#: communication\files.py:48
+msgid "Transferring over relay..."
+msgstr "Prenos preko relaya..."
+
+#: communication\files.py:50
+msgid "Waiting for accept..."
+msgstr "Očekujem prihvatanje..."
+
+#: communication\files.py:52
+msgid "Paused."
+msgstr "Pauzirano."
+
+#: communication\files.py:54
+msgid "Paused remotely."
+msgstr "daljinski pauzirano."
+
+#: communication\files.py:56
+msgid "Cancelled!"
+msgstr "Odkazano!"
+
+#: communication\files.py:58
+msgid "Finished!"
+msgstr "Završeno!"
+
+#: communication\files.py:60
+msgid "File transfer failed."
+msgstr "Prenos datoteke nije uspeo."
+
+#: communication\files.py:62
+msgid "Sender not authorized."
+msgstr "Pošiljalac nije odobren."
+
+#: communication\files.py:64
+msgid "Remotely cancelled."
+msgstr "Otkazano od strane sagovornika."
+
+#: communication\files.py:66
+msgid "Failed read."
+msgstr "Neuspelo čitanje."
+
+#: communication\files.py:68
+msgid "Failed remote read."
+msgstr "Neuspelo čitanje kod sagovornika."
+
+#: communication\files.py:70
+msgid "Failed write."
+msgstr "Neuspelo pisanje."
+
+#: communication\files.py:72
+msgid "Failed remote write."
+msgstr "Neuspelo pisanje od strane sagovornika."
+
+#: communication\files.py:74
+msgid "Remote does not support file transfer."
+msgstr "Taj korisnik ne podržava prenos datoteke."
+
+#: communication\files.py:76
+msgid "Remote offline too long."
+msgstr "Korisnik je predugo isključen."
+
+#: communication\files.py:81
+msgid "Size: %.1f Mb"
+msgstr "Veličina: %.1f Mb"
+
+#: communication\files.py:86
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Preneto: %.1f Mb, brzina: %.1f kb/s"
+
+#: communication\files.py:92
+msgid "Progress: %6.2f"
+msgstr "Napredak: %6.2f"
+
+#: communication\files.py:102
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "Preostalo vreme: %d sati, %d minuta i %d sekundi"
+
+#: communication\main.py:36
+msgid "Waiting for authorization..."
+msgstr "Čeka na odobravanje..."
+
+#: communication\main.py:38
+msgid "Authorization refused."
+msgstr "Odobravanje odbijeno."
+
+#: communication\main.py:43
+msgid "Error, API not available."
+msgstr "Greška API nije dostupan"
+
+#: communication\main.py:50
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s je spreman. Trenutno prijavljeni korisnik je %s."
+
+#: communication\main.py:67
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Greška! Vreme za povezivanje sa skajpom je isteklo. Pokušavam ponovo %d od %d za 5 sekundi."
+
+#: communication\main.py:74
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Greška! Vreme za povezivanje sa skajpom je isteklo. Molimo restartujte program i pokušajte opet. Izlaz."
+
+#: communication\messages.py:34
+msgid "Sending..."
+msgstr "Šaljem..."
+
+#: communication\messages.py:38
+#: communication\messages.py:42
+msgid "Instant message from %s: %s"
+msgstr "Ćaskanje od %s: %s"
+
+#: communication\messages.py:44
+msgid "SMS message by %s: %s"
+msgstr "SMS poruka od %s: %s"
+
+#: communication\messages.py:57
+msgid "at %s, %s said: %s"
+msgstr " u %s, %s reče: %s"
+
+#: communication\messages.py:59
+msgid "%s at %s, %s said: %s"
+msgstr "%s u %s, %s reče: %s"
+
+#: communication\messages.py:62
+msgid "at %s, %s says: %s"
+msgstr " u %s, %s kaže: %s"
+
+#: communication\messages.py:64
+msgid "%s at %s, %s says: %s"
+msgstr "%s u %s, %s kaže: %s"
+
+#: communication\messages.py:67
+msgid "at %s: %s"
+msgstr " u %s: %s"
+
+#: communication\messages.py:69
+msgid "%s at %s: %s"
+msgstr "%s u %s: %s"
+
+#: communication\messages.py:72
+msgid "%s said: %s"
+msgstr "%s reče: %s"
+
+#: communication\messages.py:74
+msgid "%s says: %s"
+msgstr "%s kaže: %s"
+
+#: communication\messages.py:78
+msgid "Message not delivered yet."
+msgstr "Poruka još nije isporučena."
+
+#: communication\messages.py:85
+msgid "Message copied to clipboard."
+msgstr "Poruka je kopirana u međuspremnik (clipboard)."
+
+#: communication\messages.py:87
+msgid "copy failed"
+msgstr "Kopiranje nije uspelo"
+
+#: communication\messages.py:96
+msgid "opening URL"
+msgstr "Otvaranje internet adrese."
+
+#: communication\messages.py:99
+msgid "Failed to open this URL."
+msgstr "Nije uspelo otvaranje ove internet adrese."
+
+#: communication\messages.py:101
+msgid "url not found"
+msgstr "Internet adresa (URL) nije pronađena."
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "Verzija Skajpa %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "API wrapper verzija %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "Nema novih događaja od kada ste uključili %s."
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "Nema novih poruka od kada ste uključili %s."
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Još nema aktivnih prenosa datoteka."
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "Nema aktivnih prenosa datoteka."
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s, datoteka %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "Aktivni prenosi datoteka"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "Odaberi datoteku pošiljalac/primalac"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Vaš Skajp kredit balans je %s"
+
+#: communication\misc.py:93
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Nadgledanje ćaskanja nije na ovoj poziciji, prvi je na poziciji %s."
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "Nadgledanje ćaskanja sa %s"
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr "i"
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "Nema aktivnih ćaskanja"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "Nema aktivnog nadgledanja ćaskanja"
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "Nadgledanje ćaskanja sa %s"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Nema novih poruka od kako je %s učitan ili nadgledanje ćaskanja još nije odabran."
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "Nema poruka na ovoj poziciji. Prva je na poziciji %d"
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Tekst raspoloženja nije postavljen. Pritisnite ovu komandu2 puta da ga postavite."
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "Tekst raspoloženja je: %s."
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr " - promeni tekst raspoloženja - "
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "Upišite novi tekst raspoloženja:"
+
+#: communication\misc.py:152
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s je promenio/la svoj tekst raspoloženja u: %s"
+
+#: communication\misc.py:168
+#: communication\misc.py:208
+msgid "no active call"
+msgstr "Nema aktivnog poziva"
+
+#: communication\misc.py:171
+#: communication\misc.py:177
+#: communication\misc.py:183
+#: communication\misc.py:197
+msgid "Not on call."
+msgstr "Nije na pozivu"
+
+#: communication\misc.py:175
+msgid "Microphone unmuted"
+msgstr "Mikrofon je uključen"
+
+#: communication\misc.py:181
+#: communication\misc.py:229
+msgid "Microphone muted"
+msgstr "Mikrofon je isključen"
+
+#: communication\misc.py:189
+msgid "call on hold "
+msgstr "Poziv na čekanju"
+
+#: communication\misc.py:192
+msgid "call resumed"
+msgstr "Razgovor je nastavljen"
+
+#: communication\misc.py:194
+msgid "No incoming or active call."
+msgstr "Nema dolaznog ni aktivnog poziva."
+
+#: communication\misc.py:200
+msgid "%s has joined the current call."
+msgstr "%s se pridružio/la ovom razgovoru."
+
+#: communication\misc.py:202
+msgid "only one active call"
+msgstr "Samo jedan aktivan poziv"
+
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: communication\misc.py:218
+#: interface\contactsManager\__init__.py:56
+msgid "Not available"
+msgstr "nedostupan"
+
+#: communication\misc.py:219
+msgid "Audio In: %s"
+msgstr "Audio ulaz: %s"
+
+#: communication\misc.py:220
+msgid "Audio Out: %s"
+msgstr "Audio izlaz: %s"
+
+#: communication\misc.py:221
+msgid "Video In: %s"
+msgstr "Video ulaz: %s"
+
+#: communication\misc.py:222
+msgid "Ringing device: %s"
+msgstr "Uređaj za zvonjenje: %s"
+
+#: communication\misc.py:231
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Nema novih ni aktivnih poziva. Pritisnite ovu komandu 2 puta da pozovete nekoga."
+
+#: communication\misc.py:236
+msgid " - make call"
+msgstr " - Pozovi - "
+
+#: communication\misc.py:236
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Upišite Skajp ime korisnika ili imena razdvojena zarezima:"
+
+#: communication\misc.py:256
+#: communication\misc.py:279
+#: communication\misc.py:290
+#: communication\misc.py:302
+msgid "There are no voicemails."
+msgstr "Nema glasovnih poruka."
+
+#: communication\misc.py:264
+#: communication\misc.py:286
+msgid "Error, cannot open that voicemail."
+msgstr "Greška, ne može se otvoriti ova glasovna poruka."
+
+#: communication\misc.py:266
+msgid "No voicemail to play."
+msgstr "Nema glasovne pošte za pustiti."
+
+#: communication\misc.py:271
+#: communication\misc.py:296
+msgid "Voicemail deleted."
+msgstr "Glasovna poruka je izbrisana."
+
+#: communication\misc.py:273
+#: communication\misc.py:298
+msgid "Error, voicemail cannot be deleted."
+msgstr "Greška, glasovna poruka se ne može obrisati."
+
+#: communication\misc.py:275
+msgid "No voicemail to delete."
+msgstr "Nema glasovne pošte za brisanje."
+
+#: communication\misc.py:281
+#: communication\misc.py:292
+#: communication\misc.py:304
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "Glasovna pošta nije na ovoj poziciji, prva je na poziciji %s."
+
+#: communication\misc.py:307
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Glasovna pošta od %s."
+
+#: communication\misc.py:309
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Glasovna pošta za %s."
+
+#: communication\misc.py:311
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Podrazumevani pozdrav glasovne pošte."
+
+#: communication\misc.py:313
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Prilagođeni pozdrav glasovne pošte."
+
+#: communication\misc.py:315
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Nepoznati tip glasovne pošte."
+
+#: communication\misc.py:317
+msgid "Not played."
+msgstr "Nije puštana."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Stvaranje"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Poslato"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "SMS pročitan"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "SMS je primljen"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "Slanje nije uspelo"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "Slanje na server"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "Poslato na server"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "Ne može se poslati na neke brojeve."
+
+#: communication\sms.py:28
+#: interface\contactsManager\__init__.py:56
+msgid "Unknown"
+msgstr "nepoznat"
+
+#: communication\sms.py:31
+#, fuzzy
+msgid "You've paid %s"
+msgstr "Platili ste %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Upišite broj telefona ili brojeve razdvojene sa tačka zarez:"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "Novi SMS čarobnjak"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Novi SMS čarobnjak: od %s za %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Netačan broj. proverite šta ste upisali i probajte ponovo."
+
+#: communication\status.py:33
+#: interface\contactsManager\__init__.py:56
+msgid "Online"
+msgstr "na vezi"
+
+#: communication\status.py:34
+#: interface\contactsManager\__init__.py:56
+msgid "Away"
+msgstr "odsutan"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "nedostupan"
+
+#: communication\status.py:36
+#: interface\contactsManager\__init__.py:56
+msgid "Do not disturb"
+msgstr "ne uznemiravaj"
+
+#: communication\status.py:37
+#: interface\contactsManager\__init__.py:56
+msgid "Invisible"
+msgstr "nevidljiv"
+
+#: communication\status.py:38
+#: interface\contactsManager\__init__.py:56
+msgid "Skype Me"
+msgstr "Skype me"
+
+#: communication\status.py:39
+#: interface\contactsManager\__init__.py:56
+msgid "Offline"
+msgstr "isključen"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "status %s je nepoznat"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s se isključio/la"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s je na vezi"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s je odsutan/na"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s nije dostupan/na"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s je ne uznemiravaj"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s se isključio/la"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s je Skype me"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s je Skype out "
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "Promeni stanje"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Odaberi stanje"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "Promena stanja na %s"
+
+#: communication\status.py:82
+msgid "Current online status is %s"
+msgstr "Trenutni status na mreži je %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "Korisnik %s %s zahteva odobrenje. Poruka o zahtevu: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "sada ste prijatelj sa %s %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "Korisnik %s %s je blokiran."
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s je uklonio/la svoj tekst raspoloženja"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s je promenio/la svoj tekst raspoloženja u %s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Status nepoznat."
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "Nije preuzeta."
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "Preuzimanje..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Nije puštena, trajanje %d sekundi."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Memorisanje..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "Reprodukcija..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Puštena, trajanje %d sekundi."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "Prazna glasovna poruka."
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Snimanje..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Snimljena."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Podizanje..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "Podignuta."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Brisanje..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Greška glasovne pošte."
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Nema greške."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Greška razno."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Nije mogao da se poveže."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Nema privilegije glasovne pošte."
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Nema takve glasovne pošte."
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "Nije mogao da pročita datoteku."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "Nije mogao da piše datoteku."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Nije mogao da snimi glasovnu poruku."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Nije mogao da pusti glasovnu poruku."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Skajp upozorenje"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s u %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (trenutno kod %s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "Još nema novih događaja za ovaj tip događaja."
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "Pre %d sekundi"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "Minut ranije"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "Pre %d minuta"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "Sat ranije"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "Pre %d sati"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "Juče"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "pre %d dana"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "Pre %d nedelja"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "Pre %d meseci"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "pre %d godina"
+
+#: hotkey.py:130
+#: interface\preferences\categories\hotKeys.py:57
+msgid "No description"
+msgstr "Nema opisa"
+
+#: interface\__init__.py:34
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Jeste li sigurni da želite da zatvorite %s? Ovo će takođe zatvoriti i Skajp, ako ste tako odredili."
+
+#: interface\__init__.py:34
+msgid "Confirm Exit"
+msgstr "Potvrdi zatvaranje"
+
+#: interface\__init__.py:58
+msgid "Goodbye!"
+msgstr "Doviđenja!"
+
+#: interface\about.py:30
+#: interface\systemTray.py:79
+msgid "About %s"
+msgstr "O %s "
+
+#: interface\about.py:49
+msgid "Project &Web site"
+msgstr "Projekat &web sajt"
+
+#: interface\about.py:51
+msgid "&License online"
+msgstr "&Licenca na mreži"
+
+#: interface\about.py:53
+msgid "C&ontributors"
+msgstr "S&aradnici"
+
+#: interface\about.py:55
+msgid "User &Guide"
+msgstr "Korisnički &Vodič"
+
+#: interface\about.py:57
+#: interface\systemTray.py:59
+msgid "&What's New"
+msgstr "&Šta je novo"
+
+#: interface\about.py:59
+#: interface\systemTray.py:75
+msgid "Check for &updates..."
+msgstr "Proveri &Nadogradnju..."
+
+#: interface\about.py:63
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Zaštićena prava %s Hrvoje Katic / SkypeTalking saradnici \n"
+"Projekat URL: %s\n"
+"Ovaj program je dostavljen pod uslovima GNU Opšte javne licence verzije 2.\n"
+"Za više informacija, molimo kliknite Vidi Licencu Na mreži Dugme ili vidite licencu datoteke.txt unutar ovog programa.\n"
+
+#: interface\commands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Dozvoljava pristup Skypetalking opcijama gde možete podesiti ponašanje programa, Ili promeniti jezik Skypetalkinga ili izlaznu govornu jedinicu.."
+
+#: interface\commands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Otvara upravljač kontaktima radi pregleda ili upravljanja kontaktima na jednostavan način. Ako pritisnete dva puta, originalni skajp kontakt prozor će biti prikazan."
+
+#: interface\commands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Prikazuje neke osnovne informacije o Skypetalking programu, kao što su trenutna verzija, detalji o autorskim pravima i programski web sajt."
+
+#: interface\commands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Napusti program Skype talking."
+
+#: interface\commands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Ućutkajte govor ako je izlazna govorna jedinica podešena na SAPI 5."
+
+#: interface\commands.py:59
+#: interface\commands.py:69
+msgid "on"
+msgstr "uključeno"
+
+#: interface\commands.py:62
+#: interface\commands.py:72
+msgid "off"
+msgstr "isključeno"
+
+#: interface\commands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Ignoriši Skajp događaje %s."
+
+#: interface\commands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Uključivanje i isključivanje svih skajp događaja. Ako je uključeno, Skypetalking će ignorisati sve skajp događaje Niti će ih izgovarati niti snimati."
+
+#: interface\commands.py:73
+msgid "Key describer %s."
+msgstr "Opis tastera %s."
+
+#: interface\commands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Uključuje i isključuje opis tastera. Kad je uključen, opisaće komandu koja je povezana sa Skypetalking prečicom koju pritisnete."
+
+#: interface\commands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Leteći menja stanje korisnika na skajpu."
+
+#: interface\commands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "Proverava ima li nove verzije ili nadogradnje za Skypetalking program."
+
+#: interface\commands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "Izveštava o trenutnom tekstu raspoloženja. Ako se pritisne dva puta pokreće dijalog za promenu teksta raspoloženja."
+
+#: interface\commands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Izveštava o trenutnom statusu veze . Ako se pritisne dva puta, izveštava o trenutnom iznosu skajp kredita korisnika."
+
+#: interface\commands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Izveštava o trenutnoj verziji skajpa. Ako se pritisne dva puta izveštava o API Wrapper verziji, koja je jako korisna za proizvođače."
+
+#: interface\commands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Ponavlja zadnji skajp događaj koji se desio tokom rada Skypetalkinga."
+
+#: interface\commands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Izveštava o stanju zadnjeg protoka datoteka. Ako se pritisne dva puta, dozvoljava biranje između trenutno aktivnih transfera radi nadgledanja."
+
+#: interface\commands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Izveštava o trajanju aktivnog poziva u satima/minutima/sekundama."
+
+#: interface\commands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Izveštava o stanju aktivnog poziva. Ako se pritisne 2 puta, otvoriće dijalog prozor da bi ste pozvali još nekoga upisivanjem skajp imena korisnika, ili više korisnika odvojenih zarezom radi pravljenja konferencije."
+
+#: interface\commands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Otvara dijalog za jednostavno slanje SMS poruka."
+
+#: interface\commands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "Ide na sledeći događaj u istoriji događaja."
+
+#: interface\commands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "Ide na predhodni događaj u istoriji događaja."
+
+#: interface\commands.py:142
+msgid "calls"
+msgstr "Pozivi"
+
+#: interface\commands.py:145
+msgid "messages"
+msgstr "Poruke"
+
+#: interface\commands.py:148
+msgid "file transfers"
+msgstr "Prenosi datoteka"
+
+#: interface\commands.py:151
+msgid "user actions"
+msgstr "Akcije korisnika"
+
+#: interface\commands.py:154
+msgid "voicemail"
+msgstr "Glasovna pošta"
+
+#: interface\commands.py:157
+msgid "status changes"
+msgstr "Promene stanja"
+
+#: interface\commands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Odabira tip događaja radi pregleda u istoriji događaja između promena stanja, poziva, poruka, transfera datoteka, ili korisničkih akcija."
+
+#: interface\commands.py:165
+#: interface\commands.py:172
+#: interface\commands.py:179
+#: interface\commands.py:186
+#: interface\commands.py:193
+#: interface\commands.py:200
+#: interface\commands.py:207
+#: interface\commands.py:214
+#: interface\commands.py:221
+#: interface\commands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Odabira nadgledanje ćaskanja. Ako se pritisne 2 puta otvara prozor ćaskanja koji se nadgleda."
+
+#: interface\commands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Izveštava o trenutnom ćaskanju koje se nadgleda. Ako se pritisne 2 puta otvara prozor ćaskanja koje se nadgleda."
+
+#: interface\commands.py:253
+#: interface\commands.py:271
+#: interface\commands.py:289
+#: interface\commands.py:307
+#: interface\commands.py:325
+#: interface\commands.py:343
+#: interface\commands.py:361
+#: interface\commands.py:379
+#: interface\commands.py:397
+#: interface\commands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Pregleda jedan od zadnjih 10 stavki zavisno od odabranog načina pregleda. Pritisnite 2 ili 3 puta da izvršite drugu ili treću akciju za datu stavku (ako je moguće)."
+
+#: interface\commands.py:420
+msgid "Voicemail mode"
+msgstr "Glasovna pošta"
+
+#: interface\commands.py:423
+msgid "Message mode"
+msgstr "Ćaskanje"
+
+#: interface\commands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Uključuje glasovnu poštu ili ćaskanje."
+
+#: interface\commands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Izgovara zadnju odlaznu ili dolaznu poruku ćaskanja. Ako se pritisne 2 puta, otvara prozor ćaskanja vezan za tu poruku i postavlja nadgledanje za to ćaskanje."
+
+#: interface\commands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Odgovara na poziv, ili prebacuje poziv na čekanje ili vraća poziv koji je na čekanju."
+
+#: interface\commands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Odgovara na poziv i pridružuje ga konferenciji (ako je u konferencijskom pozivu)."
+
+#: interface\commands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Završava poziv ili zaustavlja snimanje glasovne pošte."
+
+#: interface\commands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Isključuje ili uključuje mikrofon zavisno od njegovog trenutnog stanja."
+
+#: interface\commands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Izveštava o trenutno korišćenim ulaznim i izlaznim uređajima."
+
+#: interface\commands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Izveštava o zadnjoj glasovnoj poruci. Ako se pritisne 2 puta otvara i pušta tu poruku, ako se pritisne 3 puta briše je."
+
+#: interface\contactsManager\__init__.py:43
+#: interface\preferences\__init__.py:57
+msgid "Contacts Manager"
+msgstr "Upravljač kontaktima"
+
+#: interface\contactsManager\__init__.py:56
+msgid "Skype Out"
+msgstr "Skype out (zvanje fiksnih i mobilnih telefona)"
+
+#: interface\contactsManager\__init__.py:88
+#: interface\contactsManager\__init__.py:164
+msgid "Checked"
+msgstr "Štiklirano"
+
+#: interface\contactsManager\__init__.py:91
+msgid "Unchecked"
+msgstr "Nije štiklirano"
+
+#: interface\contactsManager\__init__.py:93
+msgid "&Create Conference"
+msgstr "Napravi konferen&ciju"
+
+#: interface\contactsManager\__init__.py:94
+msgid "Create multi c&hat"
+msgstr "Napravi &grupno ćaskanje"
+
+#: interface\contactsManager\__init__.py:97
+#: interface\contactsManager\__init__.py:146
+msgid "&Call"
+msgstr "&Pozovi"
+
+#: interface\contactsManager\__init__.py:98
+#: interface\contactsManager\__init__.py:149
+msgid "C&hat"
+msgstr "ć&askanje"
+
+#: interface\contactsManager\__init__.py:120
+msgid "&Contact List"
+msgstr "L&ista kontakata"
+
+#: interface\contactsManager\__init__.py:121
+msgid "Contact"
+msgstr "Kontakt"
+
+#: interface\contactsManager\__init__.py:122
+msgid "Skype Name"
+msgstr "Skajp ime"
+
+#: interface\contactsManager\__init__.py:123
+msgid "Status"
+msgstr "Stanje"
+
+#: interface\contactsManager\__init__.py:124
+msgid "Mood Text"
+msgstr "Tekst raspoloženja"
+
+#: interface\contactsManager\__init__.py:125
+msgid "Last seen"
+msgstr "Poslednji put viđen"
+
+#: interface\contactsManager\__init__.py:133
+msgid "%s at %s"
+msgstr "%s u %s"
+
+#: interface\contactsManager\__init__.py:151
+msgid "View &Profile..."
+msgstr "Vidi P&rofil..."
+
+#: interface\contactsManager\profileViewer.py:29
+msgid "Profile Viewer for %s (%s)"
+msgstr "Pregledač profila za %s (%s)"
+
+#: interface\contactsManager\profileViewer.py:30
+msgid "Skype name:"
+msgstr "Skajp ime:"
+
+#: interface\contactsManager\profileViewer.py:32
+msgid "Full name:"
+msgstr "Puno ime i prezime:"
+
+#: interface\contactsManager\profileViewer.py:34
+msgid "Mood:"
+msgstr "način:"
+
+#: interface\contactsManager\profileViewer.py:36
+msgid "Birth date:"
+msgstr "Rođendan:"
+
+#: interface\contactsManager\profileViewer.py:38
+msgid "Male"
+msgstr "muški"
+
+#: interface\contactsManager\profileViewer.py:39
+msgid "Female"
+msgstr "ženski"
+
+#: interface\contactsManager\profileViewer.py:40
+msgid "Gender:"
+msgstr "Pol:"
+
+#: interface\contactsManager\profileViewer.py:43
+msgid "Language:"
+msgstr "Jezik:"
+
+#: interface\contactsManager\profileViewer.py:46
+msgid "Location:"
+msgstr "Područje:"
+
+#: interface\contactsManager\profileViewer.py:48
+msgid "Home phone:"
+msgstr "Kućni telefon:"
+
+#: interface\contactsManager\profileViewer.py:50
+msgid "Office phone:"
+msgstr "Kancelarijski telefon:"
+
+#: interface\contactsManager\profileViewer.py:52
+msgid "Mobile phone:"
+msgstr "Mobilni telefon:"
+
+#: interface\contactsManager\profileViewer.py:54
+msgid "Home page:"
+msgstr "Početna stranica:"
+
+#: interface\contactsManager\profileViewer.py:56
+msgid "About me:"
+msgstr "O meni:"
+
+#: interface\contactsManager\profileViewer.py:59
+msgid "Number of contacts:"
+msgstr "Broj kontakata:"
+
+#: interface\contactsManager\profileViewer.py:62
+msgid "This user is not authorized to contact me.\n"
+msgstr "Ovom korisniku nije dozvoljeno da me kontaktira.\n"
+
+#: interface\contactsManager\profileViewer.py:64
+msgid "This user is blocked.\n"
+msgstr "Ovaj korisnik je blokiran.\n"
+
+#: interface\contactsManager\profileViewer.py:66
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Ovaj korisnik nema opremu za pozivanje.\n"
+
+#: interface\contactsManager\profileViewer.py:68
+msgid "This user has call forwarding activated.\n"
+msgstr "Ovaj korisnik je aktivirao preusmeravanje poziva.\n"
+
+#: interface\contactsManager\profileViewer.py:70
+msgid "This user has a camera.\n"
+msgstr "Ovaj korisnik ima kameru.\n"
+
+#: interface\contactsManager\profileViewer.py:72
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Ovaj korisnik može da šalje i prima glasovnu poštu.\n"
+
+#: interface\contactsManager\profileViewer.py:74
+msgid "Other information:"
+msgstr "Druga informacija:"
+
+#: interface\preferences\__init__.py:35
+#: interface\preferences\__init__.py:118
+msgid "Preferences"
+msgstr "Podešavanja"
+
+#: interface\preferences\__init__.py:45
+msgid "General"
+msgstr "Opšte"
+
+#: interface\preferences\__init__.py:47
+msgid "Output"
+msgstr "Izlaz"
+
+#: interface\preferences\__init__.py:49
+msgid "Alerts"
+msgstr "Upozorenja"
+
+#: interface\preferences\__init__.py:51
+msgid "Verbosity"
+msgstr "Opširnost"
+
+#: interface\preferences\__init__.py:53
+msgid "Advanced"
+msgstr "Napredno"
+
+#: interface\preferences\__init__.py:55
+msgid "Updates"
+msgstr "Nadogradnje"
+
+#: interface\preferences\__init__.py:59
+msgid "Hot keys"
+msgstr "Prečice"
+
+#: interface\preferences\__init__.py:92
+msgid "Settings saved."
+msgstr "Podešavanja su sačuvana."
+
+#: interface\preferences\__init__.py:97
+msgid "Settings applied."
+msgstr "Podešavanja su primenjena."
+
+#: interface\preferences\__init__.py:100
+msgid "Settings canceled."
+msgstr "Podešavanja su otkazana."
+
+#: interface\preferences\__init__.py:111
+msgid "Error in %s language file"
+msgstr "Greška u %s jezičkoj datoteci"
+
+#: interface\preferences\__init__.py:111
+msgid "Language Error"
+msgstr "Jezička greška"
+
+#: interface\preferences\__init__.py:118
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "Da bi novoizabrani jezik imao pun efekt, Moram da restartujem %s. Pritisni OK (u redu) da nastaviš, ili cancel (odustani) da restartuješ kasnije ručno."
+
+#: interface\preferences\categories\advanced.py:27
+msgid "Number of &connection retries before giving up:"
+msgstr "Broj &pokušaja povezivanja pre odustajanja:"
+
+#: interface\preferences\categories\advanced.py:31
+msgid "Start Skype &minimized"
+msgstr "Startuj skajp &minimalizovan"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "No &splash screen when starting Skype"
+msgstr "Nema prola&znog ekrana pri uključenju skajpa"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "Korisnik je promenio tekst raspolo&ženja"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "Poruka p&rimljena"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "Poruka po&slata"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "status veze nepo&znat"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Status veze is&ključen"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Status veze &na vezi"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Status veze &odsutan"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Status veze ni&je dostupan"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "Status veze ne u&znemiravaj"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Status veze ne&vidljiv"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Status veze skype ou&t"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Status veze skype &me!"
+
+#: interface\preferences\categories\contactsManager.py:27
+msgid "Show &offline contacts"
+msgstr "Prikaži &isključene kontakte"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&Jezik"
+
+#: interface\preferences\categories\general.py:39
+msgid "Start %s with &Windows"
+msgstr "Uključi %s sa &windowsom"
+
+#: interface\preferences\categories\general.py:42
+msgid "Automatically &start Skype with %s"
+msgstr "&Automatski pokreni skajp sa %s"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &close Skype when %s exits"
+msgstr "Automatski za&tvori Skajp kad se isključi %s"
+
+#: interface\preferences\categories\general.py:44
+msgid "C&onfirm when exiting %s"
+msgstr "P&otvrdi zatvaranje %s"
+
+#: interface\preferences\categories\general.py:45
+msgid "Show %s icon on the &taskbar"
+msgstr "Prikaži %s ikonicu u &traci zadataka"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "&Keystrokes"
+msgstr "&Prečice"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Function"
+msgstr "Funkcija"
+
+#: interface\preferences\categories\hotKeys.py:48
+msgid "Keystroke"
+msgstr "Prečica"
+
+#: interface\preferences\categories\hotKeys.py:49
+msgid "Description"
+msgstr "Opis"
+
+#: interface\preferences\categories\hotKeys.py:61
+msgid "&Change..."
+msgstr "P&romeni..."
+
+#: interface\preferences\categories\hotKeys.py:69
+msgid "Change keystroke for %s"
+msgstr "Promeni prečicu za %s"
+
+#: interface\preferences\categories\hotKeys.py:78
+msgid "&Key:"
+msgstr "T&aster:"
+
+#: interface\preferences\categories\hotKeys.py:80
+msgid "Modifiers"
+msgstr "Izmenjivači"
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "%s keystroke already in use. Please try another one."
+msgstr "%s prečica se već koristi. Molimo pokušajte sa nekom drugom."
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "Change Keystroke Error"
+msgstr "Greška u promeni prečice"
+
+#: interface\preferences\categories\output.py:27
+msgid "Speech Output:"
+msgstr "Govorna jedinica:"
+
+#: interface\preferences\categories\output.py:28
+msgid "Auto detect"
+msgstr "Automatski određena"
+
+#: interface\preferences\categories\output.py:28
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "SAPI5 brzina govora:"
+
+#: interface\preferences\categories\output.py:34
+msgid "SAPI5 Volume:"
+msgstr "SAPI5 glasnoća:"
+
+#: interface\preferences\categories\output.py:38
+msgid "Enable &braille output"
+msgstr "Omogućen &Brajev red"
+
+#: interface\preferences\categories\updates.py:28
+msgid "&Automatically check for %s updates"
+msgstr "A&utomatski proveri %s nadogradnju"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Download Type:"
+msgstr "Tip &preuzimanja"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Installer"
+msgstr "Instalacija"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Portable Archive"
+msgstr "Portabilna verzija"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "Izgovori v&reme poruke"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "Izgovori &ime kontakta sa porukom"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "Posle upozorenja"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "Pre upozorenja"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Nikada"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Izgovori\"Skajp upozorenje\" poruku"
+
+#: interface\smsDialog.py:31
+msgid "Message text:"
+msgstr "Tekst poruke:"
+
+#: interface\smsDialog.py:41
+msgid "&Send"
+msgstr "&Pošalji"
+
+#: interface\smsDialog.py:51
+msgid "SMS sending failed."
+msgstr "Slanje SMS nije uspelo."
+
+#: interface\smsDialog.py:61
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMS %D,%d karaktera preostalo, trenutna cena %s."
+
+#: interface\smsDialog.py:63
+msgid "Empty"
+msgstr "Prazno"
+
+#: interface\systemTray.py:41
+msgid "&Contacts Manager..."
+msgstr "&Upravljač kontaktima..."
+
+#: interface\systemTray.py:41
+msgid "Open Contacts Manager"
+msgstr "Otvori upravljač kontaktima"
+
+#: interface\systemTray.py:45
+msgid "&Send SMS Wizard..."
+msgstr "Pošalji &SMS čarobnjak."
+
+#: interface\systemTray.py:45
+msgid "Start SMS Send Wizard"
+msgstr "Pokreni novi SMS čarobnjak"
+
+#: interface\systemTray.py:49
+msgid "&Preferences..."
+msgstr "&Podešavanja..."
+
+#: interface\systemTray.py:49
+msgid "Open Preferences Dialog"
+msgstr "Otvori dijalog podešavanja"
+
+#: interface\systemTray.py:52
+msgid "&Tools"
+msgstr "Ala&ti"
+
+#: interface\systemTray.py:55
+msgid "&User Guide"
+msgstr "&Korisnički vodič"
+
+#: interface\systemTray.py:55
+msgid "Read User Guide"
+msgstr "Pročitaj korisnički vodič"
+
+#: interface\systemTray.py:59
+msgid "Read What's New"
+msgstr "Pročitaj šta je novo"
+
+#: interface\systemTray.py:63
+msgid "&Contributors"
+msgstr "&Saradnici"
+
+#: interface\systemTray.py:63
+msgid "View Contributors List"
+msgstr "Vidi listu saradnika"
+
+#: interface\systemTray.py:67
+msgid "&License"
+msgstr "&Licenca"
+
+#: interface\systemTray.py:67
+msgid "View the license"
+msgstr "Vidi licencu"
+
+#: interface\systemTray.py:71
+msgid "%s on the &Web"
+msgstr "%s na mreži"
+
+#: interface\systemTray.py:71
+msgid "Launch project Web Site in default browser"
+msgstr "Pokreni projekat web sajta u podrazumevanom pregledaču"
+
+#: interface\systemTray.py:75
+msgid "Check for the latest application updates"
+msgstr "Proveri poslednju programsku nadogradnju"
+
+#: interface\systemTray.py:79
+msgid "&About %s..."
+msgstr "&O %s..."
+
+#: interface\systemTray.py:82
+msgid "&Help"
+msgstr "&Pomoć"
+
+#: interface\systemTray.py:84
+msgid "E&xit"
+msgstr "I&zlaz"
+
+#: interface\systemTray.py:84
+msgid "Exit %s"
+msgstr "Izlaz %s"
+
+#: updater.py:75
+msgid "New version available"
+msgstr "Dostupna je nova verzija"
+
+#: updater.py:75
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Vaša verzija: %s. Poslednja verzija: %s. Želite li da preuzmete poslednju verziju %s?"
+
+#: updater.py:83
+msgid "Update cancelled."
+msgstr "Nadogradnja odkazana."
+
+#: updater.py:97
+msgid "Accessing download URL... Please wait..."
+msgstr "Pristup preuzimanju linka... molim sačekajte..."
+
+#: updater.py:111
+msgid "Downloading update... Please wait..."
+msgstr "Preuzimanje nadogradnje... molim sačekajte..."
+
+#: updater.py:121
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Nadogradnja spremna za instalaciju. Izaberite OK da isključite %s  i pokrenete instalaciju programa!"
+
+#: updater.py:123
+msgid "Update ready! Choose Ok to continue."
+msgstr "Nadogradnja spremna! Izaberite OK da nastavite."
+
+#: updater.py:124
+msgid "Download completed"
+msgstr "Preuzimanje je završeno"
+
+#: updater.py:140
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Broj verzije na mreži nije dostupan, Verovatno zbog gubitka veze ili mrežne podrške. Molimo proverite vezu ili pokušajte ponovo kasnije."
+
+#: updater.py:140
+#: updater.py:141
+#: updater.py:142
+#: updater.py:143
+msgid "Update error"
+msgstr "Greška u nadogradnji"
+
+#: updater.py:141
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Broj verzije na mreži nije dostupan. Možda sajt nije privremeno dostupan ili je njegov sadržaj izmenjen. Molimo pokušajte kasnije ponovo."
+
+#: updater.py:142
+msgid "Couldn't access download URL. Please try again later."
+msgstr "Preuzimanje linka nije uspelo. Molimo pokušajte kasnije."
+
+#: updater.py:143
+msgid "Download failed!"
+msgstr "Preuzimanje nije uspelo!"
+
+#: updater.py:144
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Već imate novu verziju %s. Nadogradnja nije potrebna. Trenutna verzija: %s. Verzija na mreži:%s."
+
+#: updater.py:153
+msgid "Checking for updates... Please wait..."
+msgstr "Provera nadogradnje... molimo sačekajte..."
+
+#~ msgid "Skype: %s ringing"
+#~ msgstr "Skype: %s zvoni"
+
+#~ msgid "File transfer %s; File %s; Status Connecting."
+#~ msgstr "Prenos datoteke %s; datoteka %s; povezivanje."
+
+#~ msgid "File transfer %s; File %s; Status Transferring"
+#~ msgstr "Prenos datoteke %s; datoteka %s; prenos u toku"
+
+#~ msgid "File transfer %s; File %s; Status Transferring over relay"
+#~ msgstr "Prenos datoteke %s; datoteka %s; transfer preusmeren"
+
+#~ msgid "File transfer %s; File %s; Status Waiting for accept."
+#~ msgstr "Prenos datoteke %s; datoteka %s; čeka prihvatanje."
+
+#~ msgid "File transfer %s; File %s; Status Paused."
+#~ msgstr "Prenos datoteke %s; datoteka %s; prenos je pauziran."
+
+#~ msgid "File transfer %s; File %s; Status Paused remotely."
+#~ msgstr "Prenos datoteke %s; datoteka %s; sagovornik je pauzirao prenos."
+
+#~ msgid "File transfer %s; File %s; Status Canceled."
+#~ msgstr "Prenos datoteke %s; datoteka %s; prenos je otkazan."
+
+#~ msgid "File transfer %s; File %s; Status Completed."
+#~ msgstr "Prenos datoteke %s; datoteka %s; prenos je završen."
+
+#~ msgid "File transfer %s; File %s; Status Failed."
+#~ msgstr "Prenos datoteke %s; datoteka %s; prenos nije uspeo."
+
+#~ msgid "Events are currently ignored."
+#~ msgstr "Događaji su trenutno ignorisani."
+
+#~ msgid ""
+#~ "%s may not be started because it may not be authorized from an unknown "
+#~ "reason. Exiting."
+#~ msgstr ""
+#~ "%s možda ne može da startuje jer možda ne može da bude odobren iz "
+#~ "nepoznatih razloga. Izlaz."
+
+#~ msgid "Authorization refused. %s may not be started. Exiting."
+#~ msgstr "Odobravanje je odbijeno. %s možda ne može da startuje. Izlaz."
+
+#~ msgid "Error, API not available. %s may not be started. Exiting."
+#~ msgstr "Greška, API nije dostupan. %s možda neće startovati. Izlaz."
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Please select at least one contact."
+#~ msgstr "Izaberite bar jedan kontakt"
+
+#~ msgid "Settings"
+#~ msgstr "Podešavanja"
+
+#~ msgid "Ignore Skype events Off."
+#~ msgstr "Ignoriši Skajp događaje je isključeno."
+
+#~ msgid "When exiting %s, also &quit Skype if running"
+#~ msgstr "Pri zatvaranju %s takođe &zatvori Skajp ako je uključen"

@@ -1,0 +1,2047 @@
+# SkypeTalking.
+# Copyright (C) 2010 HRVOJE KATICH
+# Hrvoje Katich <hrvojekatic@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.6\n"
+"POT-Creation-Date: 2011-01-21 21:46+Közép-európai téli idõ\n"
+"PO-Revision-Date: 2011-02-07 15:50+0100\n"
+"Last-Translator: Aron Ocsvari <oaron1@gmail.com>\n"
+"Language-Team: HU <lali.belteki@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: SkypeTalking.pyw:59
+msgid "Error writing config file. The application may not be started. Please contact development team for help."
+msgstr "Hiba történt a konfigurációs fájl írása közben. Az alkalmazás valószínüleg nem indult el, kérjük vegye fel a kapcsolatot a fejlesztői csapattal."
+
+#: SkypeTalking.pyw:59
+#: SkypeTalking.pyw:70
+#: SkypeTalking.pyw:80
+#: interface\__init__.py:41
+msgid "Error"
+msgstr "hiba"
+
+#: SkypeTalking.pyw:70
+msgid "Could not set application language. The application may not be started. Please contact development team for help."
+msgstr "Nem sikerült az alkalmazás nyelvét beállítani. Az alkalmazás valószínüleg nem indult el, kérjük vegye fel a kapcsolatot a fejlesztői csapattal."
+
+#: SkypeTalking.pyw:74
+msgid "Application already running."
+msgstr "az alkalmazás már fut"
+
+#: SkypeTalking.pyw:78
+msgid "Connecting to Skype..."
+msgstr "Kapcsolódás a skypehoz..."
+
+#: SkypeTalking.pyw:80
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "A kimeneti rendszer inicializálása nem sikerült. Az alkalmazás valószínüleg nem indult el. A hiba kijavításához vegye fel a kapcsolatot a fejlesztő csapattal!"
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "%s hív"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "%s hívása"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "Telefonhívás tőle: %s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "%s telefonhívása"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "%s hívása befejeződött. Ennek időtartama %s volt."
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "%s tárcsázása..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "%s hívása sikertelen"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "%s hívása folyamatban"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "%s hívása tartásban van"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "nem fogadott hívás tőle: %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "a hívás elutasítva"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "%s hívása foglalt"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "%s hívása megszakítva"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "%s hívása tartásban van"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "%s tartásba rakta a hívást"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Hívás átirányítása: %s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "a hívás átadva a következőnek: %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Ismeretlen ok."
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Egyéb hiba"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "A felhasználó nem létezik"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "A felhasználó nem érhető el."
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Nem található proxy."
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "A kapcsolódás megszakítva"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Nincs ismert kodek"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Hang ki/bemenet hiba"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Távoli eszközhiba"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "A fogadó blokkolta önt"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "A fogadó nincs az ön partnerlistáján"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "A fogadó nem hitelesítette önt"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Hangfelvételi hiba"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "óra"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "óra"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "perc"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "perc"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "és"
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "másodperc"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "másodperc"
+
+#: communication\files.py:38
+msgid "Receiving file %s from %s. "
+msgstr "%s fájl fogadása %s felhasználótól"
+
+#: communication\files.py:40
+msgid "Sending file %s to %s. "
+msgstr "%s file külldése a következőnek: %s"
+
+#: communication\files.py:42
+msgid "File transfer %s, file %s. "
+msgstr "Fájlátvitel %s, fájl %s. "
+
+#: communication\files.py:44
+msgid "New file transfer: "
+msgstr "új fájlátvitel "
+
+#: communication\files.py:46
+msgid "Connecting..."
+msgstr "Kapcsolódás..."
+
+#: communication\files.py:48
+msgid "Transferring..."
+msgstr "Átvitel..."
+
+#: communication\files.py:50
+msgid "Transferring over relay..."
+msgstr "Átvitel közbülső kapcsolódással..."
+
+#: communication\files.py:52
+msgid "Waiting for accept..."
+msgstr "Várakozás az elfogadásra..."
+
+#: communication\files.py:54
+msgid "Paused."
+msgstr "Megállítva"
+
+#: communication\files.py:56
+msgid "Paused remotely."
+msgstr "távoli szüneteltetés"
+
+#: communication\files.py:58
+msgid "Cancelled!"
+msgstr "Megszakítva!"
+
+#: communication\files.py:60
+msgid "Finished!"
+msgstr "befejezve"
+
+#: communication\files.py:62
+msgid "File transfer failed."
+msgstr "A fájlátvitel megszakadt"
+
+#: communication\files.py:64
+msgid "Sender not authorized."
+msgstr "a küldő nincs hitelesítve"
+
+#: communication\files.py:66
+msgid "Remotely cancelled."
+msgstr "távvezérelten megszakítva"
+
+#: communication\files.py:68
+msgid "Failed read."
+msgstr "olvasási hiba"
+
+#: communication\files.py:70
+msgid "Failed remote read."
+msgstr "távvezérelt olvasási hiba"
+
+#: communication\files.py:72
+msgid "Failed write."
+msgstr "írási hiba"
+
+#: communication\files.py:74
+msgid "Failed remote write."
+msgstr "távvezérelt írási hiba"
+
+#: communication\files.py:76
+msgid "Remote does not support file transfer."
+msgstr "a távvezérlés nem támogatja a fájl átvitelt"
+
+#: communication\files.py:78
+msgid "Remote offline too long."
+msgstr "a távvezérlés túl sokáig elérhetetlen"
+
+#: communication\files.py:83
+msgid "Size: %.1f Mb"
+msgstr "Méret: %.1f Mb"
+
+#: communication\files.py:88
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "átment: %.1f Mb, sebesség: %.1f kb/s"
+
+#: communication\files.py:94
+msgid "Progress: %6.2f"
+msgstr "Állapot: %6.2f"
+
+#: communication\files.py:104
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "%d óra, %d perc és %d másodperc van hátra."
+
+#: communication\main.py:36
+msgid "Waiting for authorization..."
+msgstr "Várakozás a hitelesítésre..."
+
+#: communication\main.py:38
+msgid "Authorization refused."
+msgstr "hitelesítés elutasítva"
+
+#: communication\main.py:43
+msgid "Error, API not available."
+msgstr "Hiba, az API nem elérhető"
+
+#: communication\main.py:50
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "A %s elindult, a jelenleg bejelentkezett felhasználó %s"
+
+#: communication\main.py:68
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Skype kapcsolódási hiba. Próbálkozás %d per %d 5 másodpercig."
+
+#: communication\main.py:75
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Skype kapcsolódási hiba. Kérem indítsa újra az alkalmazást és próbálja újra. Kilépés."
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "küldés..."
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "Azonnali üzenet %s felhasználótól: %s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "sms üzenet %s: %s"
+
+#: communication\messages.py:56
+msgid "at %s, %s said: %s"
+msgstr "%s -kor , %s mondta: %s"
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr "%s %s -kor, %s mondta: %s"
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr "%s, %s mondja: %s"
+
+#: communication\messages.py:63
+msgid "%s at %s, %s says: %s"
+msgstr "%s: %s mondja: %s"
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr "%s időpontban: %s"
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr "%s időpontban %s: %s"
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%s mondta: %s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%s mondja: %s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "az üzenet még nincs kézbesítve"
+
+#: communication\messages.py:84
+msgid "Message copied to clipboard."
+msgstr "az üzenet vágólapra másolva"
+
+#: communication\messages.py:86
+msgid "copy failed"
+msgstr "másolás sikertelen"
+
+#: communication\messages.py:95
+msgid "opening URL"
+msgstr "url megnyitása"
+
+#: communication\messages.py:98
+msgid "Failed to open this URL."
+msgstr "az url megnyitásakor hiba történt."
+
+#: communication\messages.py:100
+msgid "url not found"
+msgstr "url nem található"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "skype verzió: %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "api wrapper verzió: %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "nincs új esemény a %s indítása óta"
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "nincs új üzenet a %s indítása óta"
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "nincs aktív fájlátvitel"
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "nincs aktív fájlátvitel"
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s file, %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "aktív fájlátvitelek"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "Válassza ki a file fogadót/küldőt"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Az ön skype kreditjének összege %s"
+
+#: communication\misc.py:93
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "ezen a pozíción nincsen chat megfigyelve, az első a %s pozíción található"
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "%s chatje megfigyelés alatt"
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr "és"
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "nincs aktív chat"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "nincs figyelve aktív chat"
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "%s chat-je figyelés alatt"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "nincs új üzenet, mióta a %s betöltődött vagy nem állítottak be követendő chatet"
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "nincs üzenet a megadott pozíción. Az utolsó a %d pozíción található"
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "nincs beállítva mottó. Kétszeri gyors leütésre ez megtehető."
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "a jelenlegi mottó: %s"
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr "A mottó megváltoztatása"
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "írja be az új mottóját"
+
+#: communication\misc.py:151
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s megváltoztatta a mottóját a következőre: %s "
+
+#: communication\misc.py:167
+#: communication\misc.py:207
+msgid "no active call"
+msgstr "nincs aktív hívás"
+
+#: communication\misc.py:170
+#: communication\misc.py:176
+#: communication\misc.py:182
+#: communication\misc.py:196
+msgid "Not on call."
+msgstr "Nincs a hívásban."
+
+#: communication\misc.py:174
+msgid "Microphone unmuted"
+msgstr "mikrofon elnémítása feloldva"
+
+#: communication\misc.py:180
+#: communication\misc.py:228
+msgid "Microphone muted"
+msgstr "mikrofon elnémítva"
+
+#: communication\misc.py:188
+msgid "call on hold "
+msgstr "a hívás tartásban van"
+
+#: communication\misc.py:191
+msgid "call resumed"
+msgstr "A hívás folytatva"
+
+#: communication\misc.py:193
+msgid "No incoming or active call."
+msgstr "nincs aktív vagy bejövő hívás"
+
+#: communication\misc.py:199
+msgid "%s has joined the current call."
+msgstr "%s csatlakozott a jelenlegi híváshoz."
+
+#: communication\misc.py:201
+msgid "only one active call"
+msgstr "csak egy aktív hívás van"
+
+#: communication\misc.py:214
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: interface\contactsManager.py:53
+msgid "Not available"
+msgstr "nem elérhető"
+
+#: communication\misc.py:218
+msgid "Audio In: %s"
+msgstr "Audio bemenet: %s"
+
+#: communication\misc.py:219
+msgid "Audio Out: %s"
+msgstr "Audiokimenet: %s"
+
+#: communication\misc.py:220
+msgid "Video In: %s"
+msgstr "Video bemenet: %s"
+
+#: communication\misc.py:221
+msgid "Ringing device: %s"
+msgstr "Csörgő eszköz: %s"
+
+#: communication\misc.py:230
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "nincs bejövő, vagy folyamatban lévő hívás. Nyomja meg kétszer ezt a billentyűparancsot, ahhoz hogy hívhasson valakit."
+
+#: communication\misc.py:235
+msgid " - make call"
+msgstr "Hívás"
+
+#: communication\misc.py:235
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "írjon be skype neveket vagy felhasználók nevét vagy  telefonszámokat vesszővel elválasztva"
+
+#: communication\misc.py:255
+#: communication\misc.py:278
+#: communication\misc.py:289
+#: communication\misc.py:301
+msgid "There are no voicemails."
+msgstr "Nem található hangüzenet"
+
+#: communication\misc.py:263
+#: communication\misc.py:285
+msgid "Error, cannot open that voicemail."
+msgstr "Hiba, a hangüzenet nem nyitható meg."
+
+#: communication\misc.py:265
+msgid "No voicemail to play."
+msgstr "Nincs lejátszandó hangposta üzenet"
+
+#: communication\misc.py:270
+#: communication\misc.py:295
+msgid "Voicemail deleted."
+msgstr "Hangüzenet törölve"
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Error, voicemail cannot be deleted."
+msgstr "Hiba, a hangüzenet nem törölhető."
+
+#: communication\misc.py:274
+msgid "No voicemail to delete."
+msgstr "Nincs törlendő hangüzenet"
+
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "ezen a pozíción nincsen hangpostaüzenet megfigyelve, az első a %s pozíción található"
+
+#: communication\misc.py:306
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Hangposta üzenet tőle: %s"
+
+#: communication\misc.py:308
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Hangpostaüzenet neki: %s."
+
+#: communication\misc.py:310
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Alapértelmezett hangposta üdvözlés."
+
+#: communication\misc.py:312
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Egyéni hangposta üdvözlő"
+
+#: communication\misc.py:314
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Ismeretlen hangpostatípus"
+
+#: communication\misc.py:316
+msgid "Not played."
+msgstr "Nincs lejátszva"
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "összeállítás"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "megérkezett"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "sms olvasás"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "sms érkezett"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "a küldés közben hiba történt"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "küldés a szervernek"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "elküldve a szervernek"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "néhány számra a küldés lehetetlen."
+
+#: communication\sms.py:28
+#: interface\contactsManager.py:53
+msgid "Unknown"
+msgstr "ismeretlen"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "ön %s fizetett"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "írjon be telefonszámot/telefonszámokat pontosvesszővel elválasztva"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "új sms varázsló"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "új sms varázsló: üzenet feladója %s, az üzenet címzetje %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "helytelen szám. kérem, nézze meg, mit tárcsázott és próbálja ismét!"
+
+#: communication\status.py:33
+#: interface\contactsManager.py:53
+msgid "Online"
+msgstr "elérhető"
+
+#: communication\status.py:34
+#: interface\contactsManager.py:53
+msgid "Away"
+msgstr "nincs a gépnél"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "nem elérhető"
+
+#: communication\status.py:36
+#: interface\contactsManager.py:53
+msgid "Do not disturb"
+msgstr "elfoglalt"
+
+#: communication\status.py:37
+#: interface\contactsManager.py:53
+msgid "Invisible"
+msgstr "láthatatlan"
+
+#: communication\status.py:38
+#: interface\contactsManager.py:53
+msgid "Skype Me"
+msgstr "híváskész"
+
+#: communication\status.py:39
+#: interface\contactsManager.py:53
+msgid "Offline"
+msgstr "kijelentkezve"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "%s állapota ismeretlen"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s kijelentkezett"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s elérhető"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s nincs a gépnél"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s nem elérhető"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s elfoglalt"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s kijelentkezett"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s híváskész"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s skype out"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "az állapot megváltoztatása"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Állapot"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "az állapot megváltozása a következőre %s"
+
+#: communication\status.py:82
+msgid "Current online status is %s"
+msgstr "Jelenlegi állapot: %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "A felhasználó%s %s elfogadásra vár. Üdvözlőszöveg: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "%s %s mostantól barátja."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "A felhasználó %s %s blokkolva."
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s törölte a hangulatát."
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s megváltoztatta a hangulatát a következőre: %s "
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Állapot ismeretlen"
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "nincs letötve"
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "Letöltés..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Nincs lejátszva, hossz %d másodperc."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Bufferelés..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "Lejátszás..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Lejátszva, hossz %d másodperc."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "Üres hangposta"
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Felvétel..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "felvéve"
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Feltöltés..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "feltöltve"
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Törlés..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Hangposta hiba"
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Nincs hiba"
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Egyéb hiba"
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "a kapcsolódás sikertelen"
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Nincs hangposta jog"
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Nincs ilyen hangposta üzenet"
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "a file nem olvasható"
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "a file nem írható"
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Nem lehetett a hangposta üzenetet felvenni"
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Nem lehetett a hangpostaüzenetet lejátszani"
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "skype figyelmeztetés"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s at %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr ""
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "Nincs új esemény ebben a típusban."
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "%d másodperce"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "perce"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "%d perce"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "órája"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "%d órája"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "tegnap"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "%d napja"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "%d hete"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "%d hónapja"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "%d éve"
+
+#: hotkey.py:130
+#: interface\preferences\categories\hotKeys.py:55
+msgid "No description"
+msgstr "nincsen leírás"
+
+#: interface\__init__.py:41
+msgid "An error has occured while attempting to configure autostart."
+msgstr "hiba történt az automatikus indítás beállításakor"
+
+#: interface\__init__.py:63
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Biztosan bezárja a %s programot? Ha úgy van beállítva, a Skype is bezárul"
+
+#: interface\__init__.py:63
+msgid "Confirm Exit"
+msgstr "kilépés megerősítése"
+
+#: interface\__init__.py:81
+msgid "Goodbye!"
+msgstr "viszlát!"
+
+#: interface\about.py:29
+#: interface\systemTray.py:78
+msgid "About %s"
+msgstr "A %s névjegye"
+
+#: interface\about.py:42
+msgid "Project &Web site"
+msgstr "a project &weboldala"
+
+#: interface\about.py:43
+msgid "&License online"
+msgstr "&licensz szerződés online elolvasása"
+
+#: interface\about.py:44
+msgid "C&ontributors"
+msgstr "&közreműködők"
+
+#: interface\about.py:45
+msgid "User &Guide"
+msgstr "&felhasználói útmutató"
+
+#: interface\about.py:46
+#: interface\systemTray.py:58
+msgid "&What's New"
+msgstr "&újdonságok"
+
+#: interface\about.py:47
+#: interface\systemTray.py:74
+msgid "Check for &updates..."
+msgstr "f&rissítések ellenőrzése"
+
+#: interface\about.py:67
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking közreműködők\n"
+"A project weboldala: %s\n"
+"A szoftver a GNU General Public License 2-es verziója alatt áll.\n"
+"Több információért kattintson a \"licensz szerződés online elolvasása\" gombra, vagy nézze meg a szoftverhez mellékelt license.txt fájlt.\n"
+
+#: interface\contactsManager.py:40
+#: interface\preferences\main.py:50
+msgid "Contacts Manager"
+msgstr "partnerkezelő"
+
+#: interface\contactsManager.py:53
+msgid "Skype Out"
+msgstr "skype out"
+
+#: interface\contactsManager.py:85
+#: interface\contactsManager.py:160
+msgid "Checked"
+msgstr "kijelölve"
+
+#: interface\contactsManager.py:88
+msgid "Unchecked"
+msgstr "nincs kijelölve"
+
+#: interface\contactsManager.py:90
+msgid "&Create Conference"
+msgstr "&konferencia készítése"
+
+#: interface\contactsManager.py:91
+msgid "Create multi c&hat"
+msgstr "cs&oportos chat készítése"
+
+#: interface\contactsManager.py:94
+#: interface\contactsManager.py:135
+msgid "&Call"
+msgstr "&hívás"
+
+#: interface\contactsManager.py:95
+#: interface\contactsManager.py:137
+msgid "C&hat"
+msgstr "c&hat"
+
+#: interface\contactsManager.py:115
+msgid "&Contact List"
+msgstr "&Partnerlista"
+
+#: interface\contactsManager.py:117
+msgid "Contact"
+msgstr "ismerős"
+
+#: interface\contactsManager.py:118
+msgid "Skype Name"
+msgstr "skypenév: "
+
+#: interface\contactsManager.py:119
+msgid "Status"
+msgstr "Állapot"
+
+#: interface\contactsManager.py:120
+msgid "Mood Text"
+msgstr "Hangulat"
+
+#: interface\contactsManager.py:121
+msgid "Last seen"
+msgstr "utoljára látható volt"
+
+#: interface\contactsManager.py:128
+msgid "%s at %s"
+msgstr "%s időpontban %s"
+
+#: interface\contactsManager.py:138
+msgid "View &Profile..."
+msgstr "&profil megtekintése"
+
+#: interface\contactsManager.py:189
+msgid "Profile Viewer for %s (%s)"
+msgstr "adatlap megjelenítő %s (%s)"
+
+#: interface\contactsManager.py:193
+msgid "Skype name:"
+msgstr "skypenév: "
+
+#: interface\contactsManager.py:199
+msgid "Full name:"
+msgstr "teljes név:"
+
+#: interface\contactsManager.py:205
+msgid "Mood:"
+msgstr "hangulat"
+
+#: interface\contactsManager.py:211
+msgid "Birth date:"
+msgstr "születési idő:"
+
+#: interface\contactsManager.py:217
+msgid "Gender:"
+msgstr "nem:"
+
+#: interface\contactsManager.py:220
+msgid "Male"
+msgstr "férfi"
+
+#: interface\contactsManager.py:221
+msgid "Female"
+msgstr "nő"
+
+#: interface\contactsManager.py:224
+msgid "Language:"
+msgstr "nyelv:"
+
+#: interface\contactsManager.py:230
+msgid "Location:"
+msgstr "lakóhely: "
+
+#: interface\contactsManager.py:236
+msgid "Home phone:"
+msgstr "vezetékes telefonszám"
+
+#: interface\contactsManager.py:242
+msgid "Office phone:"
+msgstr "munkahelyi telefonszám"
+
+#: interface\contactsManager.py:248
+msgid "Mobile phone:"
+msgstr "mobil telefonszám: "
+
+#: interface\contactsManager.py:254
+msgid "Home page:"
+msgstr "honlap: "
+
+#: interface\contactsManager.py:260
+msgid "About me:"
+msgstr "magamról"
+
+#: interface\contactsManager.py:266
+msgid "Number of contacts:"
+msgstr "ismerősök száma: "
+
+#: interface\contactsManager.py:273
+msgid "This user is not authorized to contact me.\n"
+msgstr "Ez a felhasználó nincs hitelesítve a kapcsolatfelvételhez.\n"
+
+#: interface\contactsManager.py:275
+msgid "This user is blocked.\n"
+msgstr "Ez a felhasználó blokkolva.\n"
+
+#: interface\contactsManager.py:277
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Ez a felhasználó nem rendelkezik a szükséges eszközökkel.\n"
+
+#: interface\contactsManager.py:279
+msgid "This user has call forwarding activated.\n"
+msgstr "Ez a felhasználó hívásátirányítással rendelkezik.\n"
+
+#: interface\contactsManager.py:281
+msgid "This user has a camera.\n"
+msgstr "Ennek a felhasználónak van kamerája.\n"
+
+#: interface\contactsManager.py:283
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Ez a felhasználó képes hangüzenetet küldeni és fogadni.\n"
+
+#: interface\contactsManager.py:285
+msgid "Other information:"
+msgstr "Egyéb információ:"
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "megváltoztathatja a SkypeTalking nyelvét, a beszédkimenetet, és testreszabhatja a programot egyéb kritériumok alapján."
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Megnyílik a partnerkezelő. Kétszer gyorsan megnyomva a Skype eredeti partnerlistája jelenik meg."
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Megjelenít néhány információt a SkypeTalkingról. Ide tartozik a program verziója, copyright információk, és a project weboldala."
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "a Skypetalking alkalmazás bezárása"
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "A beszéd elnémítása, ha az alapértelmezett beszédkimenet a Sapi5"
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "bekapcsolva"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "kikapcsolva"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "skype események bemondása %s"
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "A Skype események bemondásának ki-be kapcsolása. Ha be van kapcsolva, a Skype minden eseményt bemond."
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "%s billentyű TANÍTÓ"
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Be és kikapcsolja a billentyűzet tanítót. Ha bekapcsolja, meghallgathatja a SkypeTalking billentyűparancsainak részletes leírását"
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Vált a különböző jelenléti állapotok között. A kiválasztott állapot egy másodperc után lép életbe."
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "A SkypeTalking program frissítéseinek vagy új verzióinak keresése"
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "Bemondja az aktuális hangulatot. Kétszer gyorsan megnyomva előhoz egy ablakot, ahol módosíthatja a sajátját."
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Bemondja az aktuális jelenléti állapotot. Kétszer gyorsan lenyomva a Skype egyenlegét hallgathatja meg."
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Bemondja az éppen futó Skype verziószámát. Kétszer gyorsan megnyomva a Skype apy függvény verziószámát tudhatja meg, ami a fejlesztőknek fontos."
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Megismétli a legutolsó Skype eseményt a SkypeTalking elindítása óta"
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Felolvassa az utolsó bejövő vagy kimenő fájlátvitel állapotát. Kétszer megnyomva kiválasztható egy a több aktív fájlátvitel közül figyelésre."
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Bemondja az aktuális hívás idejét (óra, perc, másodperc)"
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Bemondja az aktív hívás állapotát. Kétszeri megnyomásra begépelhet egy felhasználónevet, vagy konferenciahívást kezdeményezhet egy vesszővel elválasztott lista létrehozásával."
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Megnyitja az sms varázslót, amivel egyszerűen küldhet üzenetet a SkypeTalking segítségével."
+
+#: interface\interfaceCommands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "ugrás a következő eseményhez az esemény listában"
+
+#: interface\interfaceCommands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "ugrás az előző eseményhez az esemény listában"
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "hívás"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "Üzenetek"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "Fileátvitel"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "Felhasználói műveletek"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "Hangposta"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "Állapotváltozások"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Kijelöli a megtekintendő eseményt az előzmény bufferben az állapotváltozások, hívások, üzenetek, fájlátvitelek, vagy felhasználói műveletek közül."
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "A chat figyelésének kiválasztása. Kétszer gyorsan lenyomva megnyitja az éppen figyelt chat ablakot."
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Bemondja az éppen figyelt chatet. Kétszer gyorsan megnyom va megnyitja annak ablakát."
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Az utolsó tíz esemény megtekintése a kiválasztott eseménytípustól függően. Nyomja meg kétszer vagy háromszor a billentyűparancsot a másodlagos ill. harmadlagos művelet elvégzéséhez, ha lehetséges."
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "Hangposta mód"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "üzenetmód"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Vált az üzenet és hangposta mód között"
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Bemondja a legutolsó be vagy kimenő chat üzenetet. Kétszer gyorsan lenyomva megnyitja a chat ablakát."
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Hívás fogadása, vagy váltás a hívás tartása/folytatása között"
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Hívás fogadása és  belépés a konferenciába (ha a hívás egy konferencia beszélgetés)"
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Befejezi a hívást vagy a hangposta üzenet felvételét"
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "a mikrofon némítása vagy feloldása"
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Bemondja az aktuálisan használt ki- és bemeneti hangeszközt"
+
+#: interface\interfaceCommands.py:460
+#, fuzzy
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Bemondja az utolsó hangpostaüzenet állapotát. Kétszeri megnyomásra megnyitja és lejátsza azt."
+
+#: interface\preferences\__init__.py:27
+#: interface\preferences\main.py:160
+msgid "Preferences"
+msgstr "beállítások"
+
+#: interface\preferences\categories\advanced.py:28
+msgid "Number of &connection retries before giving up:"
+msgstr "&Kapcsolódások számának újrapróbálása:"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "Start Skype &minimized"
+msgstr "A Skype-ot indítja és a &rendszertálcára teszi"
+
+#: interface\preferences\categories\advanced.py:33
+msgid "No &splash screen when starting Skype"
+msgstr "A &Skype üdvözlőképernyőjének kikapcsolása"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "%s megváltoztatta a &hangulatát"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "chat üzenet &érkezett"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "chat üzenet &elküldve"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "jelenléti állapot &ismeretlen"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "jelenléti állapot &kijelentkezve"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "jelenléti állapot &elérhető"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "jelenléti állapot nincs a &gépnél"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "jelenléti állapot &nem elérhető"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "jelenléti állapot el&foglalt"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "jelenléti állapot &láthatatlan"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "jelenléti állapot &skype out"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "jelenléti állapot &híváskész"
+
+#: interface\preferences\categories\contactsManager.py:28
+msgid "Show &offline contacts"
+msgstr "&Kijelentkezett partnerek mutatása"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&nyelv"
+
+#: interface\preferences\categories\general.py:40
+msgid "Start %s with &Windows"
+msgstr "a %s indítása a Windows elindulásakor"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &start Skype with %s"
+msgstr "A &Skype  automatikus  elindítása a  %s programmal"
+
+#: interface\preferences\categories\general.py:44
+msgid "Automatically &close Skype when %s exits"
+msgstr "A skype &bezárása amikor a %s kilép"
+
+#: interface\preferences\categories\general.py:45
+msgid "C&onfirm when exiting %s"
+msgstr "A %s &megerősítést kér kilépéskor"
+
+#: interface\preferences\categories\general.py:46
+msgid "Show %s icon on the &taskbar"
+msgstr "A %s ikonjának mutatása az &asztalon"
+
+#: interface\preferences\categories\hotKeys.py:43
+msgid "&Keystrokes"
+msgstr "&billentyűparancsok"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "Function"
+msgstr "függvény"
+
+#: interface\preferences\categories\hotKeys.py:46
+msgid "Keystroke"
+msgstr "billentyűparancs"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Description"
+msgstr "leírás"
+
+#: interface\preferences\categories\hotKeys.py:59
+msgid "&Change..."
+msgstr "&változtat"
+
+#: interface\preferences\categories\hotKeys.py:70
+msgid "Change keystroke for %s"
+msgstr "%s billentyűparancsának megváltoztatása"
+
+#: interface\preferences\categories\hotKeys.py:79
+msgid "Modifiers"
+msgstr "módosító billentyűk"
+
+#: interface\preferences\categories\hotKeys.py:86
+msgid "&Key:"
+msgstr "&betü"
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "%s keystroke already in use. Please try another one."
+msgstr "%s billentyűparancs már használva van, kérem válasszon egy másikat"
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "Change Keystroke Error"
+msgstr "hiba a billentyűparancs megváltoztatásakor"
+
+#: interface\preferences\categories\output.py:28
+msgid "Speech Output:"
+msgstr "kimeneti beszédszintetizátor"
+
+#: interface\preferences\categories\output.py:29
+msgid "Auto detect"
+msgstr "automatikus felismerés"
+
+#: interface\preferences\categories\output.py:29
+msgid "SAPI5"
+msgstr "sapi5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "sapi 5 tempó"
+
+#: interface\preferences\categories\output.py:33
+msgid "SAPI5 Volume:"
+msgstr "sapi 5 hangerő"
+
+#: interface\preferences\categories\output.py:36
+msgid "Enable &braille output"
+msgstr "&braille kimenet engedélyezése"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Automatically check for %s updates"
+msgstr "A %s frissítéseinek &automatikus keresése"
+
+#: interface\preferences\categories\updates.py:30
+msgid "&Download Type:"
+msgstr "&letöltési típus"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Installer"
+msgstr "telepítő"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Portable Archive"
+msgstr "hordozható"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "az idő és az üzenet bemondása"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "Az partner &nevének bemondása az üzenettel"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "az esemény után"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "az esemény elött"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "soha"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "a \"Skype figyelmeztetés\" üzenet bemondása"
+
+#: interface\preferences\main.py:38
+msgid "General"
+msgstr "általános"
+
+#: interface\preferences\main.py:40
+msgid "Output"
+msgstr "kimenet"
+
+#: interface\preferences\main.py:42
+msgid "Alerts"
+msgstr "figyelmeztetések"
+
+#: interface\preferences\main.py:44
+msgid "Verbosity"
+msgstr "bőbeszéd"
+
+#: interface\preferences\main.py:46
+msgid "Advanced"
+msgstr "haladó"
+
+#: interface\preferences\main.py:48
+msgid "Updates"
+msgstr "frissítések"
+
+#: interface\preferences\main.py:52
+msgid "Hot keys"
+msgstr "billentyű parancsok"
+
+#: interface\preferences\main.py:89
+msgid "Settings saved."
+msgstr "beállítások elmentve"
+
+#: interface\preferences\main.py:94
+msgid "Settings applied."
+msgstr "beállítások elmentve"
+
+#: interface\preferences\main.py:97
+msgid "Settings canceled."
+msgstr "beállítások megszakítva"
+
+#: interface\preferences\main.py:108
+msgid "Error in %s language file"
+msgstr "hiba a %s nyelvi fájlban"
+
+#: interface\preferences\main.py:108
+msgid "Language Error"
+msgstr "nyelvi hiba"
+
+#: interface\preferences\main.py:160
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "Az új nyelv aktiválásához újra kell indítani a %s programot. Nyomja meg az ok gombot a folytatáshoz, vagy a mégsem gombot a kézi újraindításhoz."
+
+#: interface\smsDialog.py:32
+msgid "Message text:"
+msgstr "üzenet szöveg"
+
+#: interface\smsDialog.py:37
+msgid "&Send"
+msgstr "&küldés"
+
+#: interface\smsDialog.py:55
+msgid "SMS sending failed."
+msgstr "az sms küldése közben hiba történt"
+
+#: interface\smsDialog.py:65
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "sms %d %d karakter felhasználva, jelenlegi ár %s."
+
+#: interface\smsDialog.py:67
+msgid "Empty"
+msgstr "üres"
+
+#: interface\systemTray.py:40
+msgid "&Contacts Manager..."
+msgstr "&partnerkezelő"
+
+#: interface\systemTray.py:40
+msgid "Open Contacts Manager"
+msgstr "partnerkezelő megnyitása"
+
+#: interface\systemTray.py:44
+msgid "&Send SMS Wizard..."
+msgstr "&sms elküldő varázsló"
+
+#: interface\systemTray.py:44
+msgid "Start SMS Send Wizard"
+msgstr "az  sms varázsló elindítása"
+
+#: interface\systemTray.py:48
+msgid "&Preferences..."
+msgstr "&beállítások"
+
+#: interface\systemTray.py:48
+msgid "Open Preferences Dialog"
+msgstr "beállítások megnyitása"
+
+#: interface\systemTray.py:51
+msgid "&Tools"
+msgstr "&eszközök"
+
+#: interface\systemTray.py:54
+msgid "&User Guide"
+msgstr "&felhasználói útmutató"
+
+#: interface\systemTray.py:54
+msgid "Read User Guide"
+msgstr "a felhasználói útmutató elolvasása"
+
+#: interface\systemTray.py:58
+msgid "Read What's New"
+msgstr "az újdonságok elolvasása"
+
+#: interface\systemTray.py:62
+msgid "&Contributors"
+msgstr "&közreműködők"
+
+#: interface\systemTray.py:62
+msgid "View Contributors List"
+msgstr "a közreműködők megtekintése"
+
+#: interface\systemTray.py:66
+msgid "&License"
+msgstr "&licensz szerződés"
+
+#: interface\systemTray.py:66
+msgid "View the license"
+msgstr "a licensz szerződés megtekintése"
+
+#: interface\systemTray.py:70
+msgid "%s on the &Web"
+msgstr "%s a weben"
+
+#: interface\systemTray.py:70
+msgid "Launch project Web Site in default browser"
+msgstr "a Project weboldalának megjelenítése az alapértelmezett böngészőben"
+
+#: interface\systemTray.py:74
+msgid "Check for the latest application updates"
+msgstr "az alkalmazás legújabb frissítéseinek keresése"
+
+#: interface\systemTray.py:78
+msgid "&About %s..."
+msgstr "A %s &névjegye"
+
+#: interface\systemTray.py:81
+msgid "&Help"
+msgstr "&súgó"
+
+#: interface\systemTray.py:83
+msgid "E&xit"
+msgstr "ki&lépés"
+
+#: interface\systemTray.py:83
+msgid "Exit %s"
+msgstr "a %s bezárása"
+
+#: updater.py:70
+msgid "New version available"
+msgstr "új verzió érhető el"
+
+#: updater.py:70
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Az ön verziója %s, a legfrissebb verzió %s. Szeretné letölteni a legfrissebb verzióját a %s programnak?"
+
+#: updater.py:78
+msgid "Update cancelled."
+msgstr "a frissítés megszakítva"
+
+#: updater.py:86
+msgid "Accessing download URL... Please wait..."
+msgstr "A fájlok keresése az interneten... Kérem várjon..."
+
+#: updater.py:98
+msgid "Downloading update... Please wait..."
+msgstr "A frissítés letöltése folyamatban, kérem várjon..."
+
+#: updater.py:110
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "A frissítés készen áll a telepítésre. Válassza az ok gombot a %s bezárására, majd futtassa a letöltött fájlt!"
+
+#: updater.py:112
+msgid "Update ready! Choose Ok to continue."
+msgstr "A frissítés kész, aktiválja az ok gombot a folytatáshoz."
+
+#: updater.py:113
+msgid "Download completed"
+msgstr "A letöltés befejeződött"
+
+#: updater.py:127
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Az online verziószám nem kérhető le, ezért kérem ellenőrizze internet kapcsolatát, vagy próbálja meg késöbb."
+
+#: updater.py:127
+#: updater.py:128
+#: updater.py:129
+#: updater.py:130
+msgid "Update error"
+msgstr "frissítési hiba"
+
+#: updater.py:128
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Az online verziószám nem található. Valószínüleg a szerver nem érhet ő el, vagy épp egy új verzió van készülőben. Kérem próbájlja meg késöbb!"
+
+#: updater.py:129
+msgid "Couldn't access download URL. Please try again later."
+msgstr "Nem sikerült a fájlokat elérni az interneten, kérem próbálkozzon késöbb!"
+
+#: updater.py:130
+msgid "Download failed!"
+msgstr "A letöltés megszakítva!"
+
+#: updater.py:131
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Az ön %s verziója a legfrissebb, az aktuális verzió száma %s. Nem kell új frissítést telepítenie. Az online verzió: %s"
+
+#: updater.py:140
+msgid "Checking for updates... Please wait..."
+msgstr "frissítések keresése... Kérem várjon..."
+
+#, fuzzy
+#~ msgid "HTML page"
+#~ msgstr "honlap: "
+
+#, fuzzy
+#~ msgid "HTML5 page"
+#~ msgstr "honlap: "
+
+#, fuzzy
+#~ msgid "XHTML page"
+#~ msgstr "honlap: "
+
+#, fuzzy
+#~ msgid "%s version %s <%s>"
+#~ msgstr "%s alapon %s"
+
+#, fuzzy
+#~ msgid "%s: Error: "
+#~ msgstr "hiba"
+
+#, fuzzy
+#~ msgid "Cannot read file:"
+#~ msgstr "a file nem olvasható"
+
+#, fuzzy
+#~ msgid "The input file is empty: %s"
+#~ msgstr "%s file külldése a következőnek: %s"
+
+#, fuzzy
+#~ msgid "Areas found: %s"
+#~ msgstr "%s alapon %s"
+
+#, fuzzy
+#~ msgid "command line"
+#~ msgstr "parancs"
+
+#, fuzzy
+#~ msgid "Active filters"
+#~ msgstr "aktív fileátvitelek"
+
+#, fuzzy
+#~ msgid "%s wrote %s"
+#~ msgstr "%s időpontban %s"
+
+#, fuzzy
+#~ msgid "Table of Contents"
+#~ msgstr "ismerősök száma: "
+
+#, fuzzy
+#~ msgid "Composing target Body"
+#~ msgstr "összeállítás"
+
+#, fuzzy
+#~ msgid "Composing target TOC"
+#~ msgstr "összeállítás"
+
+#, fuzzy
+#~ msgid "All files"
+#~ msgstr "%s file, %s"
+
+#, fuzzy
+#~ msgid "Output: "
+#~ msgstr "kimenet"
+
+#~ msgid "Reports the status of the last incoming or outgoing file transfer."
+#~ msgstr "Bemondja a küldött vagy fogadott fájl státuszát."
+
+#~ msgid "Authorization refused. %s may not be started. Exiting."
+#~ msgstr "hitelesítés elutasítva... %s talán nem indult el. kilépés. "
+
+#~ msgid "Error, API not available. %s may not be started. Exiting."
+#~ msgstr "hiba, az API nem elérhető... %s talán nem lett elindítva. kilépés."
+
+#~ msgid "Exiting."
+#~ msgstr "kilépés."
+
+#~ msgid ""
+#~ "Press Enter to go offline, or repeat the command to change to another "
+#~ "status."
+#~ msgstr ""
+#~ "Nyomja meg az entert a kijelentkezéshez, vagy ismételje meg a "
+#~ "billentyűparancsot egy másik állapot kiválasztásához."
+
+#, fuzzy
+#~ msgid "Messages"
+#~ msgstr "chat üzenet &elküldve"
+
+#, fuzzy
+#~ msgid "Ends the call."
+#~ msgstr "nincs aktív hívás"
+
+#, fuzzy
+#~ msgid ""
+#~ "No new file transfers yet. Press this command twice to select an active "
+#~ "file transfer."
+#~ msgstr "nincs beállítva mottó. Kétszeri gyors leütésre ez megtehető."
+
+#~ msgid "No calls have been made during this %s session."
+#~ msgstr "A %s kapcsolódás óta nem kezdeményezett hívást."
+
+#~ msgid ""
+#~ "Speaks one of the last sent/received chat messages or one of the last "
+#~ "messages in a chat currently being monitored. If pressed twice, the "
+#~ "message will be copied to the clipboard for later pasting. If pressed "
+#~ "thrice, the URL in a message will be launched in your default web browser "
+#~ "(if a message contains any URLs)."
+#~ msgstr ""
+#~ "Bemondja a legutolsó chat üzenetet az ezen a  pozíción található felhaszn "
+#~ "álóval. Kétszer gyorsan megnyomva az üzenet a vágólapra kerül, háromszor "
+#~ "gyorsan megnyomva megnyitásra kerül az url (ha van ilyen az üzenetben) az "
+#~ "ön alapértelmezett böngészőjében."
+
+#~ msgid ""
+#~ "%s may not be started because it may not be authorized from an unknown "
+#~ "reason. Exiting."
+#~ msgstr ""
+#~ "%s Talán nem indult el, mert nem lett hitelesítve egy ismeretlen okból"
+
+#~ msgid "Start time"
+#~ msgstr "kezdési időpont"
+
+#~ msgid "Finish time"
+#~ msgstr "befejezési időpont"
+
+#~ msgid "Selected"
+#~ msgstr "kijelölve"
+
+#~ msgid "Skype: %s ringing"
+#~ msgstr "skype: %s kicsöng"
+
+#~ msgid "File transfer %s; File %s; Status Connecting."
+#~ msgstr "fájl átvitel %s; fájl %s; állapot kapcsolódás "
+
+#~ msgid "File transfer %s; File %s; Status Transferring"
+#~ msgstr "fájl átvitel %s; fájl %s; állapot átvitel"
+
+#~ msgid "File transfer %s; File %s; Status Transferring over relay"
+#~ msgstr "fájl átvitel %s; fájl %s; állapot időtúllépés miatt megszakítva"
+
+#~ msgid "File transfer %s; File %s; Status Waiting for accept."
+#~ msgstr "fájl átvitel %s; fájl %s; állapot várakozás az elfogadásra"
+
+#~ msgid "File transfer %s; File %s; Status Paused."
+#~ msgstr "fájl átvitel %s; fájl %s; állapot szüneteltetve"
+
+#~ msgid "File transfer %s; File %s; Status Paused remotely."
+#~ msgstr "fájl átvitel %s; fájl %s; állapot távvezérelten szüneteltetve"
+
+#~ msgid "File transfer %s; File %s; Status Canceled."
+#~ msgstr "fájl átvitel %s; fájl %s; állapot megszakítva"
+
+#~ msgid "File transfer %s; File %s; Status Completed."
+#~ msgstr "fájl átvitel %s; fájl %s; állapot befejeződött"
+
+#~ msgid "File transfer %s; File %s; Status Failed."
+#~ msgstr "fájl átvitel %s; fájl %s; állapot sikertelen"
+
+#~ msgid "Events are currently ignored."
+#~ msgstr "az események jelenleg mellőzve vannak"
+
+#~ msgid ""
+#~ "Speaks the caller name of the current incoming call or the call currently "
+#~ "in progress."
+#~ msgstr ""
+#~ "Bemondja az éppen beérkező hívó, vagy az éppen vonalban lévő személy "
+#~ "nevét."
+
+#~ msgid ""
+#~ "Invalid keystroke for %s, the default assignment will be used instead."
+#~ msgstr ""
+#~ "Nem lehet hozzárendelni a billentyűparancsot a következőhöz: %s, ezért az "
+#~ "eredeti beállítás marad érvényben."
+
+#~ msgid ""
+#~ "Keystroke for %s already in use, the default assignment will be used "
+#~ "instead."
+#~ msgstr ""
+#~ "%s billentyűparancsa már használatban van, ezért az eredeti beállítás "
+#~ "marad érvényben."
+
+#~ msgid "Key Bindings"
+#~ msgstr "billentyű parancsok"
+
+#~ msgid "When exiting %s, also &quit Skype if running"
+#~ msgstr "ha kilép a %s, lépjen ki a skypeból is, ha fut"
+
+#~ msgid "About"
+#~ msgstr "névjegy"
+
+#~ msgid "Answer/Hold/Resume/Join current call"
+#~ msgstr ""
+#~ "A hívás: fogadása/tartása/folytatása/csatlakoztatása a már meglévő "
+#~ "híváshoz"
+
+#~ msgid "Check for updates"
+#~ msgstr "frissítések ellenőrzése"
+
+#~ msgid "Current user status or credit balance"
+#~ msgstr "jelenlegi állapot, vagy Skype egyenleg"
+
+#~ msgid "End call or silent microphone"
+#~ msgstr "hívás befejezése és a mikrofon elnémítása"
+
+#~ msgid "Exit program"
+#~ msgstr "a program bezárása"
+
+#~ msgid "Ignore Skype Events toggle"
+#~ msgstr "skype események ki és bekapcsolása"
+
+#~ msgid "Key Describer Toggle"
+#~ msgstr "billentyűparancs leíró"
+
+#~ msgid "Repeat chat messages"
+#~ msgstr "chat üzenet megismétlése"
+
+#~ msgid "Repeat last event"
+#~ msgstr "utolsó esemény megismétlése"
+
+#~ msgid "Report call duration"
+#~ msgstr "a hívás időtartamának bemondása"
+
+#~ msgid "Report file transfer status"
+#~ msgstr "A fájlátvitel állapotának bemondása"
+
+#~ msgid "Report or open current chat monitor"
+#~ msgstr "bemondása vagy megnyitása a figyelt chat-nek"
+
+#~ msgid "Say caller name"
+#~ msgstr "A hívó nevének bemondása"
+
+#~ msgid "Select or open chat monitor"
+#~ msgstr "chat figyelésének kiválasztása vagy megnyitása"
+
+#~ msgid "Skype version info"
+#~ msgstr "skype verzió információk"
+
+#~ msgid "SMS Send Wizard"
+#~ msgstr "sms küldő varázsló"
+
+#~ msgid "Stop speech"
+#~ msgstr "beszéd megállítása"
+
+#~ msgid "Next event"
+#~ msgstr "következő esemény"
+
+#~ msgid "Previous event"
+#~ msgstr "előző esemény"
+
+#~ msgid "%s; Description: %s"
+#~ msgstr "%s; leírás: %s"
+
+#~ msgid "%s"
+#~ msgstr "%s "
+
+#~ msgid "Please select at least one contact."
+#~ msgstr "jelöljön ki legalább egy ismerőst"
+
+#~ msgid "Settings"
+#~ msgstr "beállítások"
+
+#~ msgid "Ignore Skype events Off."
+#~ msgstr "skype események mellőzése kikapcsolva"
+
+#~ msgid "Settings Dialog"
+#~ msgstr "beállítások párbeszédpanel"
+
+#~ msgid "&About Skype Talking..."
+#~ msgstr "&szkájp tolking névjegye..."
+
+#~ msgid "About Skype Talking"
+#~ msgstr "szkájp tolking névjegye"
+
+#~ msgid "Skype: %s calling"
+#~ msgstr "szkájp: %s hív"

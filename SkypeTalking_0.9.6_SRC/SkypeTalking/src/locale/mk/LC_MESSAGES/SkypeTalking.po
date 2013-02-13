@@ -1,0 +1,790 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking v8.1\n"
+"POT-Creation-Date: 2010-04-29 18:07+Central European Daylight Time\n"
+"PO-Revision-Date: 2010-05-15 21:44+0100\n"
+"Last-Translator: Marijan Janev <janevm@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Macedonian\n"
+"X-Poedit-Country: MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF\n"
+
+#: .\source\communication\calls.py:12
+#: .\source\communication\calls.py:13
+msgid "Skype: %s ringing"
+msgstr "Скајп: %s Ѕвони"
+
+#: .\source\communication\calls.py:15
+#: .\source\communication\calls.py:17
+msgid "Skype: Call with %s finished, duration %s."
+msgstr "Скајп: Разговорот со %s заврши, времетраење %s"
+
+#: .\source\communication\calls.py:20
+#: .\source\communication\calls.py:21
+msgid "Skype: Calling %s, routing..."
+msgstr "Скајп: Ѕвони %s, насочување..."
+
+#: .\source\communication\calls.py:23
+#: .\source\communication\calls.py:24
+msgid "Skype: Sorry, call with %s failed"
+msgstr "Скајп: Простете, повикот кон %s се прекина!"
+
+#: .\source\communication\calls.py:27
+#: .\source\communication\calls.py:28
+msgid "Skype: Call with %s in progress"
+msgstr "Скајп: Разговорот со %s трае."
+
+#: .\source\communication\calls.py:30
+#: .\source\communication\calls.py:31
+msgid "Skype: Call with %s on hold"
+msgstr "Скајп: Разговорот со %s на чекање."
+
+#: .\source\communication\calls.py:33
+#: .\source\communication\calls.py:34
+msgid "Skype: Missed call from %s"
+msgstr "Скајп: Пропуштен повик од %s"
+
+#: .\source\communication\calls.py:37
+#: .\source\communication\calls.py:38
+msgid "Skype: Call refused"
+msgstr "Скајп: Одбиен повик"
+
+#: .\source\communication\calls.py:41
+#: .\source\communication\calls.py:42
+msgid "Skype: Call with %s, busy"
+msgstr "Скајп: Повик кон %s, зафатено"
+
+#: .\source\communication\calls.py:45
+#: .\source\communication\calls.py:46
+msgid "Skype: Call with %s, cancelled"
+msgstr "Скајп: Повик кон %s, прекинат"
+
+#: .\source\communication\calls.py:49
+#: .\source\communication\calls.py:50
+msgid "Skype: Call with %s on local hold"
+msgstr "Скајп: Повикот од %s на локално чекање"
+
+#: .\source\communication\calls.py:52
+#: .\source\communication\calls.py:53
+msgid "Skype: Call with %s on remote hold"
+msgstr "Скајп: Повикот кон %s на чекање од другата страна"
+
+#: .\source\communication\calls.py:55
+#: .\source\communication\calls.py:56
+msgid "Skype: Transferring call to %s"
+msgstr "Скајп: Префрлање на повикот кон %S"
+
+#: .\source\communication\calls.py:58
+#: .\source\communication\calls.py:59
+msgid "Skype: Call transferred to %s"
+msgstr "Скајп: Повикот е префрлен кон %s"
+
+#: .\source\communication\calls.py:65
+msgid "hour "
+msgstr "час"
+
+#: .\source\communication\calls.py:65
+msgid "hours "
+msgstr "часа"
+
+#: .\source\communication\calls.py:66
+msgid "minute "
+msgstr "минута"
+
+#: .\source\communication\calls.py:66
+msgid "minutes "
+msgstr "минути"
+
+#: .\source\communication\calls.py:66
+#: .\source\communication\calls.py:67
+msgid "and "
+msgstr "и"
+
+#: .\source\communication\calls.py:67
+msgid "second"
+msgstr "секунда"
+
+#: .\source\communication\calls.py:67
+msgid "seconds"
+msgstr "секунди"
+
+#: .\source\communication\files.py:12
+msgid "New file transfer %s; File %s."
+msgstr "Нов пренос на датотека %s; датотека %s."
+
+#: .\source\communication\files.py:15
+msgid "File transfer %s; File %s; Status Connecting."
+msgstr "Пренос на датотека %s; датотека %s; статус поврзување."
+
+#: .\source\communication\files.py:17
+msgid "File transfer %s; File %s; Status Transferring"
+msgstr "Пренос на датотека%s; датотека %s; статус префрлањето е во тек"
+
+#: .\source\communication\files.py:19
+msgid "File transfer %s; File %s; Status Transferring over relay"
+msgstr "Пренос на датотека %s; датотека %s; статус пренос преку посредник."
+
+#: .\source\communication\files.py:21
+msgid "File transfer %s; File %s; Status Waiting for accept."
+msgstr "Пренос на датотека %s; датотека %s; статус чекам на прифаќање."
+
+#: .\source\communication\files.py:23
+msgid "File transfer %s; File %s; Status Paused."
+msgstr "Пренос на датотека %s; датотека %s; статус паузирано."
+
+#: .\source\communication\files.py:26
+msgid "File transfer %s; File %s; Status Paused remotely."
+msgstr "Пренос на датотека %s; датотека %s; статус паузирано од другата страна."
+
+#: .\source\communication\files.py:29
+msgid "File transfer %s; File %s; Status Canceled."
+msgstr "Пренос на датотека %s; датотека %s; статус прекинато."
+
+#: .\source\communication\files.py:32
+msgid "File transfer %s; File %s; Status Completed."
+msgstr "Пренос на датотека %s; датотека %s; статус завршено."
+
+#: .\source\communication\files.py:35
+msgid "File transfer %s; File %s; Status Failed."
+msgstr "Пренос на датотека %s; датотека %s; статус неуспешно."
+
+#: .\source\communication\files.py:38
+msgid "Sender not authorized."
+msgstr "Испраќачот не е авторизиран."
+
+#: .\source\communication\files.py:40
+msgid "Remotely cancelled."
+msgstr "Прекинато од другата страна."
+
+#: .\source\communication\files.py:42
+msgid "Failed read."
+msgstr "Неуспешно читање."
+
+#: .\source\communication\files.py:44
+msgid "Failed remote read."
+msgstr "Не успешно читање од другата страна."
+
+#: .\source\communication\files.py:46
+msgid "Failed write."
+msgstr "Неуспешно напишано."
+
+#: .\source\communication\files.py:48
+msgid "Failed remote write."
+msgstr "Неуспешно напишано од другата страна."
+
+#: .\source\communication\files.py:50
+msgid "Remote does not support file transfer."
+msgstr "Другата страна не поддржува пренос на датотеки."
+
+#: .\source\communication\files.py:52
+msgid "Remote offline too long."
+msgstr "Другата страна е предолго исклучена."
+
+#: .\source\communication\main.py:18
+msgid "Skype client version %s"
+msgstr "Верзијата на скајп клиентот е %s."
+
+#: .\source\communication\main.py:21
+msgid "API wrapper version %s"
+msgstr "Верзијата на api обвивката е %s."
+
+#: .\source\communication\main.py:25
+#: .\source\communication\main.py:33
+#: .\source\communication\main.py:44
+msgid "Events are currently ignored."
+msgstr "Случувањата се игнорирани."
+
+#: .\source\communication\main.py:27
+msgid "No new events since you've launched %s."
+msgstr "Нема нови случувања откако го вклучивте %s."
+
+#: .\source\communication\main.py:35
+msgid "No new messages since you've launched %s."
+msgstr "Нема нова порака откако го вклучивте %s."
+
+#: .\source\communication\main.py:37
+#: .\source\communication\main.py:85
+#: .\source\communication\messages.py:21
+msgid "%s said: %s"
+msgstr "%s вели: %s"
+
+#: .\source\communication\main.py:46
+msgid "No active file transfers."
+msgstr "Нема активен пренос на датотеки."
+
+#: .\source\communication\main.py:49
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Префрлени: %.1f МБ, Брзина: %.1f кб/с"
+
+#: .\source\communication\main.py:52
+#: .\source\communication\main.py:135
+#: .\source\communication\main.py:176
+msgid "no active call"
+msgstr "Нема активен повик."
+
+#: .\source\communication\main.py:57
+msgid "%s may not be started because it may not be authorized from an unknown reason. Exiting."
+msgstr "%s Не може да стартува, бидејќи можеби не е авторизиран поради непознати причини. Излегувам."
+
+#: .\source\communication\main.py:60
+msgid "Authorizing..."
+msgstr "Авторизација..."
+
+#: .\source\communication\main.py:62
+msgid "Authorization refused. %s may not be started. Exiting."
+msgstr "Авторизацијата одбиена. %s Можеби не може да стартува. Излегувам."
+
+#: .\source\communication\main.py:67
+msgid "Error, API not available. %s may not be started. Exiting."
+msgstr "Грешка, api не е достапен. %s Можеби не може да стартува. Излегувам."
+
+#: .\source\communication\main.py:72
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s е подготвен. Тековниот логиран корисник е %s."
+
+#: .\source\communication\main.py:78
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Нема нова порака откако %s беше вклучен или се уште не е избран чат надгледувач."
+
+#: .\source\communication\main.py:81
+msgid "no message at this position. The first is at position %d"
+msgstr "Нема порака на оваа позиција. Првата е на позицијата %d."
+
+#: .\source\communication\main.py:93
+msgid "Message copied to clipboard."
+msgstr "Пораката е копирана во меморијата."
+
+#: .\source\communication\main.py:95
+msgid "copy failed"
+msgstr "Неуспешно копирање."
+
+#: .\source\communication\main.py:101
+msgid "opening URL"
+msgstr "Отворам URL."
+
+#: .\source\communication\main.py:104
+msgid "Failed to open this URL."
+msgstr "Неуспешно отворање на адресата"
+
+#: .\source\communication\main.py:106
+msgid "url not found"
+msgstr "Адресата не е пронајдена."
+
+#: .\source\communication\main.py:110
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Нема чат надзорник на оваа позиција, првиот е на позицијата %s."
+
+#: .\source\communication\main.py:114
+#: .\source\communication\main.py:116
+msgid "Monitoring chat with %s"
+msgstr "Надзирање на чатот со %s."
+
+#: .\source\communication\main.py:116
+#: .\source\interface\main.py:101
+msgid "and"
+msgstr "и"
+
+#: .\source\communication\main.py:120
+msgid "no active chats"
+msgstr "Нема активни чатови."
+
+#: .\source\communication\main.py:124
+msgid "Enter your new mood text:"
+msgstr "Внесете го текстот на новата порака за вашето расположение."
+
+#: .\source\communication\main.py:130
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s ја промени својата порака за расположение во: %s."
+
+#: .\source\communication\main.py:145
+msgid "Microphone unmuted"
+msgstr "Микрофонот е вклучен."
+
+#: .\source\communication\main.py:148
+msgid "Microphone muted"
+msgstr "Микрофонот е исклучен."
+
+#: .\source\communication\main.py:158
+msgid "call on hold "
+msgstr "Повик на чекање"
+
+#: .\source\communication\main.py:164
+msgid "call resumed"
+msgstr "Разговорот продолжен"
+
+#: .\source\communication\main.py:168
+msgid "%s has joined the current call."
+msgstr "%се вклучи во разговорот."
+
+#: .\source\communication\main.py:170
+msgid "only one active call"
+msgstr "Само еден активен разговор."
+
+#: .\source\communication\messages.py:11
+#: .\source\communication\messages.py:13
+msgid "%s says: %s"
+msgstr "%s вели: %s"
+
+#: .\source\communication\messages.py:15
+msgid "SMS message by %s: %s"
+msgstr "SMS Порака од %s: "
+
+#: .\source\communication\messages.py:17
+msgid "Sending..."
+msgstr "Испраќам..."
+
+#: .\source\communication\sms.py:10
+msgid "Composing"
+msgstr "Создавам"
+
+#: .\source\communication\sms.py:10
+msgid "Delivered"
+msgstr "Испратено"
+
+#: .\source\communication\sms.py:10
+msgid "SMS read"
+msgstr "Ја чита SMS пораката"
+
+#: .\source\communication\sms.py:10
+msgid "SMS received"
+msgstr "SMS пораката е примена."
+
+#: .\source\communication\sms.py:10
+msgid "Sending Failed"
+msgstr "Неуспешно испраќање."
+
+#: .\source\communication\sms.py:10
+msgid "Sending to server"
+msgstr "Праќам до серверот."
+
+#: .\source\communication\sms.py:10
+msgid "Sent to server"
+msgstr "Испратено до серверот."
+
+#: .\source\communication\sms.py:10
+msgid "Unable to deliver to some numbers."
+msgstr "Не можам да испратам до некои броеви."
+
+#: .\source\communication\sms.py:10
+#: .\source\interface\contactsManager.py:24
+#: .\source\interface\contactsManager.py:150
+msgid "Unknown"
+msgstr "Непознато"
+
+#: .\source\communication\sms.py:11
+#: .\source\communication\status.py:50
+msgid "%s"
+msgstr "%s"
+
+#: .\source\communication\sms.py:13
+msgid "You've payed %s"
+msgstr "Имате платено %S"
+
+#: .\source\communication\sms.py:14
+#: .\source\interface\main.py:142
+msgid "Your Skype Credit Balance is %s"
+msgstr "Состојбата на вашиот скајп кредит е %s"
+
+#: .\source\communication\sms.py:17
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Внесете го телефонскиот број или броеви одделени со точка-запирка:"
+
+#: .\source\communication\sms.py:17
+msgid "New SMS Wizard"
+msgstr "Нов SMS волшебник"
+
+#: .\source\communication\sms.py:25
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Нов SMS волшебник: од %s до %s"
+
+#: .\source\communication\sms.py:28
+msgid "Invalid number. Please check your input and try again."
+msgstr "Погрешен број. Ве молиме, проверете го внесеното и обидете се повторно."
+
+#: .\source\communication\status.py:15
+#: .\source\communication\status.py:16
+msgid "Skype: %s's status is unknown"
+msgstr "Скајп: статусот на %s е непознат."
+
+#: .\source\communication\status.py:18
+#: .\source\communication\status.py:19
+msgid "Skype: %s went Offline"
+msgstr "Скајп: %s се исклучи. "
+
+#: .\source\communication\status.py:21
+#: .\source\communication\status.py:22
+msgid "Skype: %s is Online"
+msgstr "Скајп: %s е на линија."
+
+#: .\source\communication\status.py:24
+#: .\source\communication\status.py:25
+msgid "Skype: %s is Away"
+msgstr "Скајп: %s е отсутен."
+
+#: .\source\communication\status.py:27
+#: .\source\communication\status.py:28
+msgid "Skype: %s is Not Available"
+msgstr "Скајп: %s не е достапен."
+
+#: .\source\communication\status.py:30
+#: .\source\communication\status.py:31
+msgid "Skype: %s is Do Not Disturb"
+msgstr "Скајп: %s не сака да му се пречи."
+
+#: .\source\communication\status.py:33
+#: .\source\communication\status.py:34
+msgid "Skype: %s went offline"
+msgstr "Скајп: %s се исклучи."
+
+#: .\source\communication\status.py:36
+#: .\source\communication\status.py:37
+msgid "Skype: %s is Skype Me"
+msgstr "Скајп: %s  е Skype me!"
+
+#: .\source\communication\status.py:39
+#: .\source\communication\status.py:40
+msgid "Skype: %s is Skype Out"
+msgstr "Скајп: %s е Skype out."
+
+#: .\source\communication\status.py:45
+msgid "Not Available"
+msgstr "Недостапен"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:24
+msgid "Away"
+msgstr "Отсутен"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:24
+msgid "Do not disturb"
+msgstr "Не пречи"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:24
+msgid "Invisible"
+msgstr "Невидлив"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:24
+msgid "Offline"
+msgstr "Исклучен"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:24
+msgid "Online"
+msgstr "Вклучен"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:24
+msgid "Skype Me"
+msgstr "Skype me"
+
+#: .\source\communication\status.py:47
+msgid "changing status to %s"
+msgstr "Промена на статусот во %s"
+
+#: .\source\interface\__init__.py:26
+msgid "Connecting to Skype..."
+msgstr "Поврзување со Скајп..."
+
+#: .\source\interface\contactsManager.py:22
+msgid "&Choose a contact:"
+msgstr "&Избери контакт:"
+
+#: .\source\interface\contactsManager.py:24
+msgid "Not available"
+msgstr "Недостапен"
+
+#: .\source\interface\contactsManager.py:24
+msgid "Skype Out"
+msgstr "Skype out"
+
+#: .\source\interface\contactsManager.py:25
+msgid "- Last seen %s"
+msgstr "- Последен пат виден %s"
+
+#: .\source\interface\contactsManager.py:27
+#: .\source\interface\contactsManager.py:55
+msgid "&Call"
+msgstr "&Повик"
+
+#: .\source\interface\contactsManager.py:29
+#: .\source\interface\contactsManager.py:56
+msgid "C&hat"
+msgstr "&Чат"
+
+#: .\source\interface\contactsManager.py:30
+msgid "View &Profile..."
+msgstr "Види го &Профилот"
+
+#: .\source\interface\contactsManager.py:51
+msgid "&Create Conference"
+msgstr "&Креирај конференција"
+
+#: .\source\interface\contactsManager.py:52
+msgid "Create multi c&hat"
+msgstr "Креирај повеќестран &Чат"
+
+#: .\source\interface\contactsManager.py:69
+#: .\source\interface\contactsManager.py:80
+msgid "Please select at least one contact."
+msgstr "Ве молиме, изберете барем еден контакт."
+
+#: .\source\interface\contactsManager.py:83
+msgid "Profile Viewer for %s (%s)"
+msgstr "Прегледувач на профилот за %s (%s)"
+
+#: .\source\interface\contactsManager.py:86
+msgid "Skype name:"
+msgstr "Корисничко име за Скајп:"
+
+#: .\source\interface\contactsManager.py:91
+msgid "Full name:"
+msgstr "Полно име:"
+
+#: .\source\interface\contactsManager.py:96
+msgid "Mood:"
+msgstr "Расположение:"
+
+#: .\source\interface\contactsManager.py:101
+msgid "Birth date:"
+msgstr "Роденден:"
+
+#: .\source\interface\contactsManager.py:106
+msgid "Gender:"
+msgstr "Пол:"
+
+#: .\source\interface\contactsManager.py:109
+msgid "Male"
+msgstr "Машки"
+
+#: .\source\interface\contactsManager.py:110
+msgid "Female"
+msgstr "Женски"
+
+#: .\source\interface\contactsManager.py:112
+msgid "Language:"
+msgstr "Јазик:"
+
+#: .\source\interface\contactsManager.py:117
+msgid "Location:"
+msgstr "Место:"
+
+#: .\source\interface\contactsManager.py:122
+msgid "Home phone:"
+msgstr "Домашен телефон:"
+
+#: .\source\interface\contactsManager.py:127
+msgid "Office phone:"
+msgstr "Телефон на работа:"
+
+#: .\source\interface\contactsManager.py:132
+msgid "Mobile phone:"
+msgstr "Мобилен телефон:"
+
+#: .\source\interface\contactsManager.py:137
+msgid "Home page:"
+msgstr "Вашата веб-страница:"
+
+#: .\source\interface\contactsManager.py:142
+msgid "About me:"
+msgstr "За мене:"
+
+#: .\source\interface\contactsManager.py:147
+msgid "Number of contacts:"
+msgstr "Број на контакти:"
+
+#: .\source\interface\main.py:89
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Нема текст за вашето расположение. Притиснете ја командава двапати за да внесете порака."
+
+#: .\source\interface\main.py:90
+msgid "The current mood text is: %s."
+msgstr "Тековниот текст за расположението е: %s"
+
+#: .\source\interface\main.py:94
+msgid "Current Online status is %s"
+msgstr "Тековниот статус е %s"
+
+#: .\source\interface\main.py:99
+#: .\source\interface\main.py:101
+msgid "monitor on chat with %s"
+msgstr "Надзор над чатот со %s"
+
+#: .\source\interface\main.py:103
+#: .\source\interface\main.py:137
+msgid "no active chat monitor"
+msgstr "Нема активен чат надзор"
+
+#: .\source\interface\miscFunctions.py:12
+msgid "Settings"
+msgstr "Поставки"
+
+#: .\source\interface\miscFunctions.py:16
+msgid "Contacts Manager"
+msgstr "Управувач со контактите"
+
+#: .\source\interface\miscFunctions.py:24
+msgid "Copyright %s SkypeTalking Team."
+msgstr "Авторските права за %s на Тимот на Skypetalking"
+
+#: .\source\interface\miscFunctions.py:34
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Дали сте сигурен дека сакате да излезете од %s? Тоа ќе го исклучи и Скајп, ако сте одбрале таква опција."
+
+#: .\source\interface\miscFunctions.py:34
+msgid "Confirm Exit"
+msgstr "Потврдете го излегувањето."
+
+#: .\source\interface\miscFunctions.py:45
+msgid "Goodbye!"
+msgstr "Довидување!"
+
+#: .\source\interface\miscFunctions.py:56
+msgid "Ignore Skype events On."
+msgstr "Вклучено игнорирањето на Скајп случувањата."
+
+#: .\source\interface\miscFunctions.py:59
+msgid "Ignore Skype events Off."
+msgstr "Исклучено игнорирањето на Скајп случувањата."
+
+#: .\source\interface\settings\main.py:15
+msgid "General"
+msgstr "Општо"
+
+#: .\source\interface\settings\main.py:17
+msgid "Output"
+msgstr "Излез"
+
+#: .\source\interface\settings\main.py:19
+msgid "Alerts"
+msgstr "Аларми"
+
+#: .\source\interface\settings\main.py:41
+msgid "Error in %s language file"
+msgstr "Грешка во јазичната датотека за %s"
+
+#: .\source\interface\settings\main.py:41
+msgid "Language Error"
+msgstr "Јазична грешка"
+
+#: .\source\interface\settings\main.py:64
+msgid "Settings saved."
+msgstr "Поставките се снимени."
+
+#: .\source\interface\settings\main.py:69
+msgid "Settings canceled."
+msgstr "Поставките се одбиени."
+
+#: .\source\interface\settings\tabs\alertsTab.py:10
+msgid "Chat message &received"
+msgstr "Чат пораката &примена"
+
+#: .\source\interface\settings\tabs\alertsTab.py:12
+msgid "Chat message &sent"
+msgstr "Чат пораката &испратена"
+
+#: .\source\interface\settings\tabs\alertsTab.py:14
+msgid "Online status &unknown"
+msgstr "&Непознат статус"
+
+#: .\source\interface\settings\tabs\alertsTab.py:16
+msgid "Online status O&ffline"
+msgstr "Статус &Исклучен"
+
+#: .\source\interface\settings\tabs\alertsTab.py:18
+msgid "Online status &Online"
+msgstr "Статус &Вклучен"
+
+#: .\source\interface\settings\tabs\alertsTab.py:20
+msgid "Online status &Away"
+msgstr "Статус &Отсутен"
+
+#: .\source\interface\settings\tabs\alertsTab.py:22
+msgid "Online status &Not Available"
+msgstr "Статус &Недостапен"
+
+#: .\source\interface\settings\tabs\alertsTab.py:24
+msgid "Online status &Do Not Disturb"
+msgstr "Статус &Не пречи!"
+
+#: .\source\interface\settings\tabs\alertsTab.py:26
+msgid "Online status &Invisible"
+msgstr "Статус &Невидлив"
+
+#: .\source\interface\settings\tabs\alertsTab.py:28
+msgid "Online status &SkypeOut"
+msgstr "Статус &Skype out"
+
+#: .\source\interface\settings\tabs\alertsTab.py:30
+msgid "Online status &Skype Me!"
+msgstr "Статус &Skype me!"
+
+#: .\source\interface\settings\tabs\generalTab.py:13
+msgid "&Language:"
+msgstr "&Јазик:"
+
+#: .\source\interface\settings\tabs\generalTab.py:23
+msgid "&Automatically start Skype if not running"
+msgstr "&Автоматски стартувај го Скајп ако не е вклучен"
+
+#: .\source\interface\settings\tabs\generalTab.py:25
+msgid "&Confirm when exiting %s"
+msgstr "&Потврди при излегувањето од %s"
+
+#: .\source\interface\settings\tabs\generalTab.py:27
+msgid "When exiting %s, also &quit Skype if running"
+msgstr "Кога излегуваш од %s, исклучи го и Скајп."
+
+#: .\source\interface\settings\tabs\outputTab.py:11
+msgid "Speech Output:"
+msgstr "Говорен излез:"
+
+#: .\source\interface\settings\tabs\outputTab.py:12
+msgid "Auto detect"
+msgstr "Автодетекција"
+
+#: .\source\interface\settings\tabs\outputTab.py:12
+msgid "SAPI5"
+msgstr "Сапи5"
+
+#: .\source\interface\settings\tabs\outputTab.py:16
+msgid "SAPI5 Speech Rate:"
+msgstr "Брзина на говорот на Сапи5:"
+
+#: .\source\interface\settings\tabs\outputTab.py:22
+msgid "SAPI5 Volume:"
+msgstr "Гласност на Сапи5:"
+
+#: .\source\interface\settings\tabs\outputTab.py:27
+msgid "Enable &braille output"
+msgstr "Овозможи и Браев излез"
+
+#: .\source\interface\smsDialog.py:13
+msgid "Message text:"
+msgstr "Текстот на пораката:"
+
+#: .\source\interface\smsDialog.py:19
+msgid "&Send"
+msgstr "&Испрати"
+
+#: .\source\interface\smsDialog.py:38
+msgid "SMS sending failed."
+msgstr "Испраќањето на SMS е неуспешно."
+
+#: .\source\interface\smsDialog.py:48
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMS %d, %d знаци остануваат. Сегашната цена е %s."
+
+#: .\source\interface\smsDialog.py:50
+msgid "Empty"
+msgstr "Празно"
+

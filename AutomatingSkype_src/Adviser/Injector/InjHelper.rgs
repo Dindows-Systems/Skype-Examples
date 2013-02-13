@@ -1,0 +1,27 @@
+HKCR
+{
+	Injector.InjHelper.1 = s 'InjHelper Class'
+	{
+		CLSID = s '{AB6DEF58-5546-4BB8-BB2F-6E30E021BD22}'
+	}
+	Injector.InjHelper = s 'InjHelper Class'
+	{
+		CLSID = s '{AB6DEF58-5546-4BB8-BB2F-6E30E021BD22}'
+		CurVer = s 'Injector.InjHelper.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {AB6DEF58-5546-4BB8-BB2F-6E30E021BD22} = s 'InjHelper Class'
+		{
+			ProgID = s 'Injector.InjHelper.1'
+			VersionIndependentProgID = s 'Injector.InjHelper'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{C5FE8F1F-BEE8-47EC-A8AF-3C875D24DB21}'
+		}
+	}
+}

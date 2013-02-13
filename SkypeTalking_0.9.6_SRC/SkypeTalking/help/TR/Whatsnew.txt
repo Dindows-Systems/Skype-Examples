@@ -1,0 +1,9 @@
+SkypeTalking’de Neler Yeni
+
+Version 0.8.1:
+yeni: Diller eklendi: Arapça, Fince ve Sýrpça.
+Yeni: Komut eklendi alt+Ctrl+Shift+n bu komut Aktif yada gelen çaðrýnýn kimle yada kim tarafýndan olduðunu söyler.
+Geliþtirildi: SkypeTalking kýsayol tuþlarýna bastýðýnýzda tuþlarýn adýný söyleme Jaws ve diðer ekran okuyucularýnda kapatýldý.
+Geliþtirildi: Kiþi listesinde Kiþilerin yüklenmesi büyük ihtimalle daha da hýzlandý.
+Hata Düzeltme: SkypeTalking Ayarlar Dialog’u Almanca dilinde açýlýþta artýk hata vermiyor.
+Güncellendi: Accessible Output library version 0.4.3’e güncellendi, Bu demek oluyor ki SkypeTalking Seçenekleri En yeni Jaws sürümü olan 11.0 ile sorunsuz çalýþabilecek.

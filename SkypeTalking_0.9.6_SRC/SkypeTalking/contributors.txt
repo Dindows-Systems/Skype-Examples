@@ -1,0 +1,37 @@
+Hrvoje Katić <hrvojekatic@gmail.com> - Project founder, lead developer, croatian localization
+Gianluca Casalino <gianluca@spazioausili.net> - Lead developer
+Andre Polykanine <andre@oire.org> - internationalization coordinator, russian and ukrainian localization and documentation
+Adi Kushnir <adikushnir@gmail.com> - Hebrew localization
+Ali Savas <ali-savas@gmx.de> - german localization
+Ângelo Abrantes <ampa4374@gmail.com> - Portuguese localization
+Áron Ócsvári <oaron1@gmail.com> - Hungarian localization and documentation
+Avi Asher <aviasher@gmail.com> - Hebrew localization
+Beqa Gozalishvili <vadik00777@mail.ru> - georgian localization
+Cornelius Young <appalgreen@gmail.com> - Malay localization
+Daniel K. Gartmann <dg@danielgartmann.dk> - Danish localization
+Dejan Gašić - <gasicd@gmail.com> - Serbian localization
+Diogo Costa <diogo@megatts.com> - european portuguese localization
+doctor ahmad abdel-thaher <aaser210@gmail.com> - Arabic (Egypt) localization and documentation
+Grigore Frisan <grigore.frisan@yahoo.ro> . Romanian localization
+Harison <gamer@istan.com> - chinese PinYin localization
+Ikramy Ahmed <ikramy.ahmed@gmail.com> - Arabic (Egypt) localization
+Jiri Holzinger <autoitarista@seznam.cz> - Czech localization
+Jorge Zarache <kingofmachines@hotmail.com> - Spanish localization and spanish documentation correction
+Jure Srebrović <jure.srebrovic@guest.arnes.si> - Slovenian localization
+Kostadin Kolev <kostadin.kolev1985@gmail.com> - bulgarian localization
+Lajos Bélteki <lali.belteki@gmail.com> - hungarian localization
+Luca Maianti <lucanight@moleman.como.it> - italian localization
+Marijan Janev <janevm@gmail.com> - Macedonian localization
+Mārtiņš Zvaigzne <rzvaigzne@gmail.com> - Latvian localization
+Maxim Varfolomeyev <maxvarf@gala.net> - Ukrainian localization
+Mitsugu SAKAMOTO <mitsugu@argv.org> - Japanese localization
+Oriol Gomez <uru@gmail.com> - spanish localization
+Paweł Masarczyk <pawelmasarczyk@gmail.com> - polish localization
+Rémy Ruiz <remyruiz@gmail.com> - French and spanish localization/documentation
+René Linke <rene.linke@blindzeln.de> - german documentation and localization
+Salih Kunduz <messengerpark@gmail.com> - Turkish localization
+Simone Dal Maso <simone.dalmaso@juvox.it> - italian documentation and localization
+Tai Khai Eong. <komuniti.oku@gmail.com> - Malay localization
+Tomokazu Yanagita <tomg@tomgnet.com> - Japanese localization
+Veli Laasala <v.laasala@gmail.com> - Finish localization and documentation
+Viktoras Kriukovas <vormex@gmail.com> - Lithuanian localization

@@ -1,0 +1,1757 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Skype Talking Version 0.82PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-02-19 17:55+Central European Standard Time\n"
+"PO-Revision-Date: 2011-04-15 14:51+0200\n"
+"Last-Translator: Adi Kushnir+Avi Asher <adikushnir@gmail.com>\n"
+"Language-Team: Adi Kushnir <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: Israel\n"
+
+#: SkypeTalking.pyw:70
+msgid "Application already running."
+msgstr "התוכנה כבר פעילה."
+
+#: SkypeTalking.pyw:74
+msgid "Connecting to Skype..."
+msgstr "מתחבר ל-Skype..."
+
+#: SkypeTalking.pyw:76
+msgid "Error"
+msgstr "שגיאה"
+
+#: SkypeTalking.pyw:76
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "שיחה מ-%s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "מתקשר ל-%s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "שיחת טלפון מ-%s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "שיחת טלפון ל-%s"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "שיחה עם %s הסתיימה. משך השיחה %s"
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "מתקשר ל%s, מתחבר..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "סליחה. השיחה עם %s נכשלה."
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "החלה שיחה עם %s"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "שיחה עם %s בהשהייה"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "שיחה שלא נענתה מ-%s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "השיחה נידחתה."
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "שיחה עם %s, מבצע פעולה"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "שיחה עם %s בוטלה."
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "שיחה עם %s בהשהייה מקומית"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "שיחה עם %s בהשהייה מרחוק"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "מעביר את השיחה ל-%s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "השיחה הועברה אל %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "סיבה לא ידועה"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "שגיאת Misc."
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "המשתמש אינו קיים."
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "המשתמש אינו מחובר."
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "לא נימצה שרת proxy"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "פגישה הסתיימה"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "אין קודק דרוש"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "שגיאה בקלט/פלט קול"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "שגיאה בהתקן מרוחק"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "הנך נחסמת על ידי הנמען"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "הנמען לא מופיע ברשימת אנשי הקשר שלך"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "אינך מאושר על ידי הנמען"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "שגיאה בהקלטת קול"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "שעה"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "שעות"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "דקה"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "דקות"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "ו-"
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "שנייה"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "שניות"
+
+#: communication\files.py:36
+msgid "Receiving file %s from %s. "
+msgstr "מקבל את הקובץ %s מ%s"
+
+#: communication\files.py:38
+msgid "Sending file %s to %s. "
+msgstr "שולח את הקובץ %s ל%s"
+
+#: communication\files.py:40
+msgid "File transfer %s, file %s. "
+msgstr "העברת קובץ %s, הקובץ המועבר %s"
+
+#: communication\files.py:42
+msgid "New file transfer: "
+msgstr "העברת קובץ חדשה"
+
+#: communication\files.py:44
+msgid "Connecting..."
+msgstr "מתחבר..."
+
+#: communication\files.py:46
+msgid "Transferring..."
+msgstr "מעביר..."
+
+#: communication\files.py:48
+msgid "Transferring over relay..."
+msgstr "מעביר באמצעות"
+
+#: communication\files.py:50
+msgid "Waiting for accept..."
+msgstr "ממתין לאישור..."
+
+#: communication\files.py:52
+msgid "Paused."
+msgstr "הושהתה"
+
+#: communication\files.py:54
+msgid "Paused remotely."
+msgstr "הושהתה מרחוק"
+
+#: communication\files.py:56
+msgid "Cancelled!"
+msgstr "בוטלה"
+
+#: communication\files.py:58
+msgid "Finished!"
+msgstr "הסתיימה!"
+
+#: communication\files.py:60
+msgid "File transfer failed."
+msgstr "העברת קובץ נכשלה."
+
+#: communication\files.py:62
+msgid "Sender not authorized."
+msgstr "השולח אינו מאושר."
+
+#: communication\files.py:64
+msgid "Remotely cancelled."
+msgstr "בוטלה מרחוק"
+
+#: communication\files.py:66
+msgid "Failed read."
+msgstr "Failed read."
+
+#: communication\files.py:68
+msgid "Failed remote read."
+msgstr "Failed remote read."
+
+#: communication\files.py:70
+msgid "Failed write."
+msgstr "Failed write."
+
+#: communication\files.py:72
+msgid "Failed remote write."
+msgstr "Failed remote write."
+
+#: communication\files.py:74
+msgid "Remote does not support file transfer."
+msgstr "עמדת המשתמש המרוחק אינה תומכת בהעברת קבצים"
+
+#: communication\files.py:76
+msgid "Remote offline too long."
+msgstr "המשתמש המרוחק לא מחובר יותר מידיי זמן"
+
+#: communication\files.py:81
+msgid "Size: %.1f Mb"
+msgstr "גודל: %.1 FMB"
+
+#: communication\files.py:86
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "הועברו: %.fmb, מהירות העברה: %.fkb בשנייה"
+
+#: communication\files.py:92
+msgid "Progress: %6.2f"
+msgstr "התקדמות: %6.2F: %6.2F"
+
+#: communication\files.py:102
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "זמן נותר: %d שעות, %d דקות ו %d שניות"
+
+#: communication\main.py:36
+msgid "Waiting for authorization..."
+msgstr "ממתין לאישור..."
+
+#: communication\main.py:38
+msgid "Authorization refused."
+msgstr "האישור נידחה."
+
+#: communication\main.py:43
+msgid "Error, API not available."
+msgstr "שגיאה, API לז זמין."
+
+#: communication\main.py:50
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "Localized  by Avi Asher and Adi Kushnir. %s מוכנ. המשתמש המחובר %s"
+
+#: communication\main.py:67
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+
+#: communication\main.py:74
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "שגיאה! החיבור לסקייף נכשל. הפעילו את התוכנה מחדש ונסו שנית. יוצא"
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "שולח..."
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "הודעה מ %s:%s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "הודעת SMS מ %s: %s"
+
+#: communication\messages.py:56
+msgid "at %s, %s said: %s"
+msgstr "ב %s, %s כתב: %s"
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr "%s ב %s, %s כותב: %s"
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr "ב %s, %s כותב: %s"
+
+#: communication\messages.py:63
+msgid "%s at %s, %s says: %s"
+msgstr "%s ב %s, %s כותב: %s"
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr "ב%s: %s"
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr "%s ב %s: %s"
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%s כתב: %s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%s כותב: %s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "ההודעה עדיין לא הגיע."
+
+#: communication\messages.py:84
+msgid "Message copied to clipboard."
+msgstr "ההודעה הועתקה לזיכרון הזמני"
+
+#: communication\messages.py:86
+msgid "copy failed"
+msgstr "העתקה נכשלה"
+
+#: communication\messages.py:95
+msgid "opening URL"
+msgstr "פותח כתובת אינטרנט"
+
+#: communication\messages.py:98
+msgid "Failed to open this URL."
+msgstr "שגיאה בפתיחת כתובת אינטרנט זו"
+
+#: communication\messages.py:100
+msgid "url not found"
+msgstr "הכתובת לא נימצאה"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "גרסת Skype %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "גרסת API wrapper %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "לא היו אירועים חדשים מעז שהפעלת את %s"
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "לא היתקבלו הודעות חדשות מאז שהפעלת את %s"
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "לא קיימות העברות קבצים"
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "לא קיימות העברות קבצים פעילות"
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s, קובץ %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "העברות קבצים פעילות"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "בחר קובץ שולח/מקבל"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "מצב הSkype Credit שלך הוא %s"
+
+#: communication\misc.py:93
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "אין סקירת צ'ט פעילה במקום זה. צפיית הצ'ט הראשונה נימצאת במקום מספר %s."
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "סוקר צ'ט עם %s"
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr "ו"
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "אין צ'טים פעילים"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "אין סקירת צ'ט פעילה"
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "סרוק את הצ'ט עם %s"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "לא התקבלו או נשלחו הודעות צ'ט חדשות מאז ש %s הופעל או שעדיין לא בחרת סקירת צ'ט"
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "אין הודעה במקום זה. ההודעה הראשונה נימצאת במקום מספר %d"
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "אין הודעת מצב מוגדרת. הקש פעמיים את צירוף מקשים זה כדי להגדיר."
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "הודעת המצב הנוכחית היא: %s"
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr " - שנה הודעת מצב"
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "הקלד את הודעת המצב החדשה שלך:"
+
+#: communication\misc.py:151
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s שינה/שינתה את הודעת המצב שלו/שלה ל: %s"
+
+#: communication\misc.py:167
+#: communication\misc.py:207
+msgid "no active call"
+msgstr "אין שיחה פעילה"
+
+#: communication\misc.py:170
+#: communication\misc.py:176
+#: communication\misc.py:182
+#: communication\misc.py:196
+msgid "Not on call."
+msgstr "לא בשיחה."
+
+#: communication\misc.py:174
+msgid "Microphone unmuted"
+msgstr "מיקרופון הופעל"
+
+#: communication\misc.py:180
+#: communication\misc.py:228
+msgid "Microphone muted"
+msgstr "מיקרופון הושתק"
+
+#: communication\misc.py:188
+msgid "call on hold "
+msgstr "השיחה בהשהייה"
+
+#: communication\misc.py:191
+msgid "call resumed"
+msgstr "השיחה התחדשה"
+
+#: communication\misc.py:193
+msgid "No incoming or active call."
+msgstr "אין שיחה שהתקבלה או שיחה פעילה."
+
+#: communication\misc.py:199
+msgid "%s has joined the current call."
+msgstr "%s הצטרף/הצטרפה לשיחה הנוכחית."
+
+#: communication\misc.py:201
+msgid "only one active call"
+msgstr "רק שיחה אחת פעילה"
+
+#: communication\misc.py:214
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: interface\contactsManager\__init__.py:56
+msgid "Not available"
+msgstr "לא זמין"
+
+#: communication\misc.py:218
+msgid "Audio In: %s"
+msgstr "קלט שמע: %s"
+
+#: communication\misc.py:219
+msgid "Audio Out: %s"
+msgstr "פלט שמע: %s"
+
+#: communication\misc.py:220
+msgid "Video In: %s"
+msgstr "קלט וידיאו: %s"
+
+#: communication\misc.py:221
+msgid "Ringing device: %s"
+msgstr "התקן הצלצול: %s"
+
+#: communication\misc.py:230
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "אין שיחות חדשות או פעילות. הקש פעמיים את צירוף מקשים זה על מנת ליצור שיחה חדשה."
+
+#: communication\misc.py:235
+msgid " - make call"
+msgstr " - צור שיחה"
+
+#: communication\misc.py:235
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "הקלד את שמות הסקייף עם פסיקים ביניהם:"
+
+#: communication\misc.py:255
+#: communication\misc.py:278
+#: communication\misc.py:289
+#: communication\misc.py:301
+msgid "There are no voicemails."
+msgstr "אין הודעות קוליות."
+
+#: communication\misc.py:263
+#: communication\misc.py:285
+msgid "Error, cannot open that voicemail."
+msgstr "שגיאה, אין אפשרות לפתוח את ההודעה הקולית."
+
+#: communication\misc.py:265
+msgid "No voicemail to play."
+msgstr "אין הודעה קולית להשמעה."
+
+#: communication\misc.py:270
+#: communication\misc.py:295
+msgid "Voicemail deleted."
+msgstr "ההודעה הקולית נמחקה."
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Error, voicemail cannot be deleted."
+msgstr "שגיאה, אין אפשרות למחוק את ההודעה הקולית."
+
+#: communication\misc.py:274
+msgid "No voicemail to delete."
+msgstr "אין הודעה קולית למחיקה."
+
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "אין הודעות קוליות במקום זה, ההודעה הקולית הראשונה נימצאת במקום מספר %s."
+
+#: communication\misc.py:306
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "הודעה קולית מ %s."
+
+#: communication\misc.py:308
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "הודעה קולית אל %s."
+
+#: communication\misc.py:310
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "פתיח קולי ברירת מחדל."
+
+#: communication\misc.py:312
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "פתיח קולי מותאם אישית."
+
+#: communication\misc.py:314
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "סוג הודעה קולית לא ידוע."
+
+#: communication\misc.py:316
+msgid "Not played."
+msgstr "לא הושמעה."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "יוצר"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "הגיע"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "הודעת SMS ניקראה"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "הודעת SMS התקבלה."
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "שגיאה בעת שליחה"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "שולח לשרת"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "נשלח לשרת"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "נמצאה שגיאה בשליחה לכמה מספרים"
+
+#: communication\sms.py:28
+#: interface\contactsManager\__init__.py:56
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "שילמת %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "הקלד מספר/מספרי טלפון עם הסימן נקודה פסיק ביניהם:"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "אשף SMS חדש"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "אשף SMS חדש: מ %s אל %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "מספר שגוי. בדוק את המספר ונסה שנית."
+
+#: communication\status.py:33
+#: interface\contactsManager\__init__.py:56
+msgid "Online"
+msgstr "מחובר"
+
+#: communication\status.py:34
+#: interface\contactsManager\__init__.py:56
+msgid "Away"
+msgstr "לא נמצא"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "לא זמין"
+
+#: communication\status.py:36
+#: interface\contactsManager\__init__.py:56
+msgid "Do not disturb"
+msgstr "נא לא להפריע"
+
+#: communication\status.py:37
+#: interface\contactsManager\__init__.py:56
+msgid "Invisible"
+msgstr "בילטי ניראה"
+
+#: communication\status.py:38
+#: interface\contactsManager\__init__.py:56
+msgid "Skype Me"
+msgstr "Skype Me"
+
+#: communication\status.py:39
+#: interface\contactsManager\__init__.py:56
+msgid "Offline"
+msgstr "מנותק"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "הסטטוס של %s לא ידוע"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s עבר/עברה למצב מנותק"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s עבר/עברה למצב מחובר"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s עבר/עברה למצב לא נמצא"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s עבר/עברה למצב לא זמין"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s עבר/עברה למצב נא לא להפריע"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s עבר/עברה למצב מנותק"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s עבר למצב Skype Me!"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s עבר למצב Skype Out"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "שנה סטטוס"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "בחר סטטוס"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "משנה את הסטטוס ל %s"
+
+#: communication\status.py:82
+msgid "Current online status is %s"
+msgstr "הסטטוס הנוכחי הוא %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "המשתמש %s %s מבקש אישור. טקסט ההודעה: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "הוספת לרשימת אנשי הקשר שלך את %s %s"
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "המשתמש %s %s חסום"
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s הסיר/הסירה את הודעת המצב שלו/שלה"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s שינה/שינתה את הודעת המצב שלו/שלה ל: %s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "סטטוס לא ידוע."
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "לא ירד"
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "מוריד..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "לא נשמעה, משך ההודעה %d שניות."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "מתחבר..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "מנגן..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "הושמעה, משך ההודעה %d שניות."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "הודעה קולית ריקה"
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "מקליט..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "הוקלטה."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "מעלה..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "הועלתה."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "מוחק..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "שגיאה בהודעה קולית"
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "אין שגיאות."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "שגיאה בפעולות חכמות."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "אין אפשרות להתחבר."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "אין פריבילגייות להודעות קוליות"
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "אין הודעה קולית כזוא"
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "אין אפשרות לקרוא קובץ."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "אין אפשרות ליצור קובץ."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "אין אפשרות להקליט הודעה קולית."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "אין אפשרות לנגן את ההודעה הקולית."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "התראת Skype"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s ב %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (רק עכשיו ב%s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "אין סוג אירועים כזה כרגע."
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "%d שניות קודם לכן"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "דקה קודם לכן"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "%d דקות קודם לכן"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "שעה קודם לכן"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "%d שעות קודם לכן"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "אתמול"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "%d ימים קודם לכן"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "%s שבועות קודם לכן"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "%d חודשים קודם לכן"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "%d שנים קודם לכן"
+
+#: hotkey.py:130
+#: interface\preferences\categories\hotKeys.py:57
+msgid "No description"
+msgstr "אין תיאור"
+
+#: interface\__init__.py:34
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "האם אתה בטוח שברצונך לצאת מ-%s? הפעולה תסגור גם את Skype אם בחרת באפשרות זו."
+
+#: interface\__init__.py:34
+msgid "Confirm Exit"
+msgstr "הזהרת יציאה"
+
+#: interface\__init__.py:58
+msgid "Goodbye!"
+msgstr "שלום ולהתראות!"
+
+#: interface\about.py:30
+#: interface\systemTray.py:78
+msgid "About %s"
+msgstr "אודות %s"
+
+#: interface\about.py:49
+msgid "Project &Web site"
+msgstr "&אתר הפרוייקט"
+
+#: interface\about.py:51
+msgid "&License online"
+msgstr "הסכם &רשיון באינטרנט"
+
+#: interface\about.py:53
+msgid "C&ontributors"
+msgstr "&מתנדבים"
+
+#: interface\about.py:55
+msgid "User &Guide"
+msgstr "מדריך למשתמש"
+
+#: interface\about.py:57
+#: interface\systemTray.py:58
+msgid "&What's New"
+msgstr "מה &חדש"
+
+#: interface\about.py:59
+#: interface\systemTray.py:74
+msgid "Check for &updates..."
+msgstr "בדוק &עדכונים..."
+
+#: interface\about.py:63
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+
+#: interface\contactsManager\__init__.py:43
+#: interface\preferences\main.py:53
+msgid "Contacts Manager"
+msgstr "מנהל אנשי הקשר"
+
+#: interface\contactsManager\__init__.py:56
+msgid "Skype Out"
+msgstr "Skype Out"
+
+#: interface\contactsManager\__init__.py:88
+#: interface\contactsManager\__init__.py:159
+msgid "Checked"
+msgstr "מסומן"
+
+#: interface\contactsManager\__init__.py:91
+msgid "Unchecked"
+msgstr "לא מסומן"
+
+#: interface\contactsManager\__init__.py:93
+msgid "&Create Conference"
+msgstr "&צור שיחת ועידה"
+
+#: interface\contactsManager\__init__.py:94
+msgid "Create multi c&hat"
+msgstr "צור צ'ט מרובה משתתפים"
+
+#: interface\contactsManager\__init__.py:97
+#: interface\contactsManager\__init__.py:145
+msgid "&Call"
+msgstr "&התקשר"
+
+#: interface\contactsManager\__init__.py:98
+#: interface\contactsManager\__init__.py:148
+msgid "C&hat"
+msgstr "צ'ט"
+
+#: interface\contactsManager\__init__.py:120
+msgid "&Contact List"
+msgstr "&רשימת אנשי קשר"
+
+#: interface\contactsManager\__init__.py:121
+msgid "Contact"
+msgstr "איש קשר"
+
+#: interface\contactsManager\__init__.py:122
+msgid "Skype Name"
+msgstr "שם Skype"
+
+#: interface\contactsManager\__init__.py:123
+msgid "Status"
+msgstr "סטטוס"
+
+#: interface\contactsManager\__init__.py:124
+msgid "Mood Text"
+msgstr "הודעת מצב"
+
+#: interface\contactsManager\__init__.py:125
+msgid "Last seen"
+msgstr "הופיע בפעם האחרונה"
+
+#: interface\contactsManager\__init__.py:132
+msgid "%s at %s"
+msgstr "%s ב%s"
+
+#: interface\contactsManager\__init__.py:150
+msgid "View &Profile..."
+msgstr "הצג &פרופיל..."
+
+#: interface\contactsManager\profileViewer.py:29
+msgid "Profile Viewer for %s (%s)"
+msgstr "מציג פרופיל עבור %s (%s)"
+
+#: interface\contactsManager\profileViewer.py:30
+msgid "Skype name:"
+msgstr "שם Skype"
+
+#: interface\contactsManager\profileViewer.py:32
+msgid "Full name:"
+msgstr "שם מלא"
+
+#: interface\contactsManager\profileViewer.py:34
+msgid "Mood:"
+msgstr "הודעת מצב"
+
+#: interface\contactsManager\profileViewer.py:36
+msgid "Birth date:"
+msgstr "תאריך לידה"
+
+#: interface\contactsManager\profileViewer.py:38
+msgid "Male"
+msgstr "זכר"
+
+#: interface\contactsManager\profileViewer.py:39
+msgid "Female"
+msgstr "נקבה"
+
+#: interface\contactsManager\profileViewer.py:40
+msgid "Gender:"
+msgstr "מין"
+
+#: interface\contactsManager\profileViewer.py:43
+msgid "Language:"
+msgstr "שפה"
+
+#: interface\contactsManager\profileViewer.py:46
+msgid "Location:"
+msgstr "מיקום"
+
+#: interface\contactsManager\profileViewer.py:48
+msgid "Home phone:"
+msgstr "מספר טלפון בבית"
+
+#: interface\contactsManager\profileViewer.py:50
+msgid "Office phone:"
+msgstr "מספר טלפון במשרד"
+
+#: interface\contactsManager\profileViewer.py:52
+msgid "Mobile phone:"
+msgstr "מספר טלפון נייד"
+
+#: interface\contactsManager\profileViewer.py:54
+msgid "Home page:"
+msgstr "דף ביית"
+
+#: interface\contactsManager\profileViewer.py:56
+msgid "About me:"
+msgstr "אודותי:"
+
+#: interface\contactsManager\profileViewer.py:59
+msgid "Number of contacts:"
+msgstr "מספר אנשי קשר:"
+
+#: interface\contactsManager\profileViewer.py:62
+msgid "This user is not authorized to contact me.\n"
+msgstr "מנוי זה אינו מורשה ליצור איתי קשר.\n"
+
+#: interface\contactsManager\profileViewer.py:64
+msgid "This user is blocked.\n"
+msgstr "מנוי זה חסום.\n"
+
+#: interface\contactsManager\profileViewer.py:66
+msgid "This user doesn't have a call equipment.\n"
+msgstr "למנוי זה אין ציוד לשיחה.\n"
+
+#: interface\contactsManager\profileViewer.py:68
+msgid "This user has call forwarding activated.\n"
+msgstr "משתמש זה הפעיל את הפונקצייה עקוב אחרי.\n"
+
+#: interface\contactsManager\profileViewer.py:70
+msgid "This user has a camera.\n"
+msgstr "למשתמש זה יש מצלמה.\n"
+
+#: interface\contactsManager\profileViewer.py:72
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "משתמש זה יכול לשלוח ולקבל הודעות קוליות.\n"
+
+#: interface\contactsManager\profileViewer.py:74
+msgid "Other information:"
+msgstr "מידע נוסף:"
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "מאפשר גישה לדו-שיח ההעדפות של SkypeTalking. שם ניתן להגדיר את תפקוד התוכנה."
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "פותח את מנהל אנשי הקשר"
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "מציג מידע בסיסי על Skype talking כמו גירסת התוכנה ועוד."
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "סגור את תוכנת Skype Talking."
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "משתיק את הדיבור עם הדיבור מכוון לSapi5"
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "פעיל"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "כבוי"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "התעלם מאירועי Skype %s"
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "משנה את ההגדרה עבור הקראת אירועי Skype. אם האפשרות פעילה, לא יוקראו אירועי Skype."
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "תיאור מקשים %s"
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "משנה את ההגדרה עבור תיאור מקשים. אם האפשרות פעילה, התוכנה תקריא כל פקודה כשתקישו את צירוף המקשים שלה"
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "שנה את הסטטוס עבור המשתמש הנוכי תוך כדי עבודה"
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "בודק האם קיימים עדכונים עבור תוכנת Skype Talking"
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "מקריא את הודעת המצב הנוכחית."
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "מקריא את הסטטוס הנוכחי של המשתמש.אם צירוף זה יוקש פעמים, התוכנה תקריא את מצב הSkype Credit של המשתמש."
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "מדווח על גירסת Skype המותקנת במחשב.אם צירוף זה יוקש פעמים, תושמע גירסת API rapper (מיועד בעיקר למפתחים)."
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "חוזר על האירוע האחרון שהתרחש בזמן פעילות התוכנה."
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "מקריא את משך השיחה הפעילה."
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "מקריא את מצב השיחה הפעילה. אם צירוף המקשים יוקש פעמים ייפתח חלון דו-שיח המאפשר לך לקרוא מאפייני שיחה."
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "מפעיל אשף לשליחת הודעות SMS באמצעות Skype Talking."
+
+#: interface\interfaceCommands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "גש לאירוע הבא ברשימת האירועים"
+
+#: interface\interfaceCommands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "גש לאירוע הקודם ברשימת האירועים."
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "שיחות"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "הודעות"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "העברות קבצים"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "פעולות המשתמש"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "הודעות קוליות"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "שינויי סטטוס"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "משנה את סוג האירוע ברשימת האירועים. לדוגמה: ניתן להגדיר את סוג האירועים לאירוע, לסטטוס ועוד."
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "בוחר סריקת צ'ט"
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "מקריא את סריקת הצ'ט הנוחכית"
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "מצב הודעות קוליות"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "מצב הודעות"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Toggles between Message mode or Voicemail mode."
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "מקריא את הודעת הצ'ט הניכנסת או היוצאת האחרונה. אם נקיש על צירוף זה פעמיים ייפתח חלון עם כל הודעות הצ'ט בשיחה."
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "עונה לשיחה או משנה את מצב השיחה בין מצב שיחה מושהת לבין מצב שיחה פעילה."
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "עונה לשיחה ומצרף אותה לשיחת ועידה (אם פעילה)."
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "מסיים את השיחה או מפסיק להקליט הודעה קולית."
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "מפעיל/מכבה את המיקרופון."
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "מדווח על התקני הקלט/פלט הנמצאים כעת בשימוש."
+
+#: interface\interfaceCommands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+
+#: interface\preferences\__init__.py:27
+msgid "%s - Preferences"
+msgstr "%s - העדפות"
+
+#: interface\preferences\categories\advanced.py:27
+msgid "Number of &connection retries before giving up:"
+msgstr "מספר נסיונות ההתחברות לפני כישלון:"
+
+#: interface\preferences\categories\advanced.py:31
+msgid "Start Skype &minimized"
+msgstr "הפעל את Skype במצב ממוזער"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "No &splash screen when starting Skype"
+msgstr "בעת הפעלת Skype, אל תציג את מסך ה&לוגו"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "המשתמש שינה את הודעת ה&מצב"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "הודעת צ'ט התקבלה"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "הודעת צ'ט נשלחה"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "הסטטוס הנוכחי לא ידוע"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "הסטטוס הנוכחי הוא מנותק"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "הסטטוס הנוכחי הוא מחובר"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "הסטטוס הנוכחי הוא לא נמצא"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "הסטטוס הנוכחי הוא לא זמין"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "הסטטוס הנוכחי הוא נא לא להפריע"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "הסטטוס הנוכחי הוא בילתי ניראה"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "הסטטוס הנוכחי הוא Skype Out"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "הסטטוס הנוכחי הוא Skype Me"
+
+#: interface\preferences\categories\contactsManager.py:27
+msgid "Show &offline contacts"
+msgstr "הצג אנשי קשר &לא מחוברים"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "שפה:"
+
+#: interface\preferences\categories\general.py:39
+msgid "Start %s with &Windows"
+msgstr "הפעל את %s בעת הפעלת &Windows"
+
+#: interface\preferences\categories\general.py:42
+msgid "Automatically &start Skype with %s"
+msgstr "הפעל את Skype אוטומטית עם %s"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &close Skype when %s exits"
+msgstr "סגור את Skype כאשר %s נסגר"
+
+#: interface\preferences\categories\general.py:44
+msgid "C&onfirm when exiting %s"
+msgstr "הזהר כאשר יו&צאים מ-%s"
+
+#: interface\preferences\categories\general.py:45
+msgid "Show %s icon on the &taskbar"
+msgstr "הצג את הסמל של %s ב&מגש המערכת"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "&Keystrokes"
+msgstr "צירופי &מקשים"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Function"
+msgstr "פעולה"
+
+#: interface\preferences\categories\hotKeys.py:48
+msgid "Keystroke"
+msgstr "צירוף מקשים"
+
+#: interface\preferences\categories\hotKeys.py:49
+msgid "Description"
+msgstr "תיאור"
+
+#: interface\preferences\categories\hotKeys.py:61
+msgid "&Change..."
+msgstr "&שנה..."
+
+#: interface\preferences\categories\hotKeys.py:69
+msgid "Change keystroke for %s"
+msgstr "שנה צירוף מקשים עבור %s"
+
+#: interface\preferences\categories\hotKeys.py:78
+msgid "&Key:"
+msgstr "&מקש נלווה:"
+
+#: interface\preferences\categories\hotKeys.py:80
+msgid "Modifiers"
+msgstr "מקשי פקודה"
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "%s keystroke already in use. Please try another one."
+msgstr "צירוף המקשים %s כבר בשימוש. נסה צירוף מקשים נוסף."
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "Change Keystroke Error"
+msgstr "שגיאה בשינוי צירוף מקשים"
+
+#: interface\preferences\categories\output.py:27
+msgid "Speech Output:"
+msgstr "פלט דיבור:"
+
+#: interface\preferences\categories\output.py:28
+msgid "Auto detect"
+msgstr "זהה אוטומטית"
+
+#: interface\preferences\categories\output.py:28
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "מהירות דיבור Sapi 5:"
+
+#: interface\preferences\categories\output.py:34
+msgid "SAPI5 Volume:"
+msgstr "עוצמת דיבור Sapi 5:"
+
+#: interface\preferences\categories\output.py:38
+msgid "Enable &braille output"
+msgstr "הפעל פלט &ברייל"
+
+#: interface\preferences\categories\updates.py:28
+msgid "&Automatically check for %s updates"
+msgstr "בדוק האם קיימים &עדכונים עבור %s באופן אוטומטי"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Download Type:"
+msgstr "סוג &ההורדה:"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Installer"
+msgstr "תוכנית התקנה"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Portable Archive"
+msgstr "ארכיון נייד"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "הקרא את &מועד ההודעה"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "הקרא את &שם המנוי בעת הקראת הודעה"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "לאחר ההתראה"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "לפני ההתראה"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "אף פעם"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "אמור את ההודעה \"התראת Skype\""
+
+#: interface\preferences\main.py:41
+msgid "General"
+msgstr "כללי"
+
+#: interface\preferences\main.py:43
+msgid "Output"
+msgstr "פלט"
+
+#: interface\preferences\main.py:45
+msgid "Alerts"
+msgstr "התראות"
+
+#: interface\preferences\main.py:47
+msgid "Verbosity"
+msgstr "רמת מלל"
+
+#: interface\preferences\main.py:49
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: interface\preferences\main.py:51
+msgid "Updates"
+msgstr "עדכונים"
+
+#: interface\preferences\main.py:55
+msgid "Hot keys"
+msgstr "צירופי מקשים"
+
+#: interface\preferences\main.py:87
+msgid "Settings saved."
+msgstr "ההגדרות נשמרו"
+
+#: interface\preferences\main.py:92
+msgid "Settings applied."
+msgstr "ההגדרות ניכנסו לתוקף"
+
+#: interface\preferences\main.py:95
+msgid "Settings canceled."
+msgstr "ההגדרות בוטלו"
+
+#: interface\preferences\main.py:106
+msgid "Error in %s language file"
+msgstr "שגיאה בקובץ השפה של %s"
+
+#: interface\preferences\main.py:106
+msgid "Language Error"
+msgstr "שגיאת שפה"
+
+#: interface\preferences\main.py:155
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "על מנת שהשפה החדשה תיכנס לתוקף, עליך להפעיל את %s מחדש. לחץ אישור לביצוע הפעולה כעת, או ביטול לביצוע הפעולה באופן ידני מאוחר יותר."
+
+#: interface\preferences\main.py:155
+msgid "Preferences"
+msgstr "העדפות"
+
+#: interface\smsDialog.py:31
+msgid "Message text:"
+msgstr "תוכן ההודעה:"
+
+#: interface\smsDialog.py:41
+msgid "&Send"
+msgstr "&שלח"
+
+#: interface\smsDialog.py:51
+msgid "SMS sending failed."
+msgstr "שליחת הודעת SMS נכשלה."
+
+#: interface\smsDialog.py:61
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "הודעת SMS, %d %d מספר אותיות שנותרו, המכיר: %s"
+
+#: interface\smsDialog.py:63
+msgid "Empty"
+msgstr "ריק"
+
+#: interface\systemTray.py:40
+msgid "&Contacts Manager..."
+msgstr "מנהל אנשי ה&קשר"
+
+#: interface\systemTray.py:40
+msgid "Open Contacts Manager"
+msgstr "פתח את מנהל אנשי הקשר"
+
+#: interface\systemTray.py:44
+msgid "&Send SMS Wizard..."
+msgstr "אשף שליחת &הודעות SMS..."
+
+#: interface\systemTray.py:44
+msgid "Start SMS Send Wizard"
+msgstr "הפעל את אשף שליחת הודעות SMS"
+
+#: interface\systemTray.py:48
+msgid "&Preferences..."
+msgstr "&העדפות..."
+
+#: interface\systemTray.py:48
+msgid "Open Preferences Dialog"
+msgstr "פתח את דו-שיח העדפות"
+
+#: interface\systemTray.py:51
+msgid "&Tools"
+msgstr "&כלים"
+
+#: interface\systemTray.py:54
+msgid "&User Guide"
+msgstr "&מדריך למשתמש"
+
+#: interface\systemTray.py:54
+msgid "Read User Guide"
+msgstr "קרא את המדריך למשתמש"
+
+#: interface\systemTray.py:58
+msgid "Read What's New"
+msgstr "קרא מה חדש"
+
+#: interface\systemTray.py:62
+msgid "&Contributors"
+msgstr "&מתנדבים"
+
+#: interface\systemTray.py:62
+msgid "View Contributors List"
+msgstr "הצג רשימת מתנדבים"
+
+#: interface\systemTray.py:66
+msgid "&License"
+msgstr "הסכם רשיון"
+
+#: interface\systemTray.py:66
+msgid "View the license"
+msgstr "הצג את הסכם הרשיון"
+
+#: interface\systemTray.py:70
+msgid "%s on the &Web"
+msgstr "%s ב&אינטרנט"
+
+#: interface\systemTray.py:70
+msgid "Launch project Web Site in default browser"
+msgstr "הפעל את אתר הפרוייקט בדפדפן ברירת המחדל"
+
+#: interface\systemTray.py:74
+msgid "Check for the latest application updates"
+msgstr "בדוק האם קיימים עדכוני תוכנה"
+
+#: interface\systemTray.py:78
+msgid "&About %s..."
+msgstr "&אודות %s..."
+
+#: interface\systemTray.py:81
+msgid "&Help"
+msgstr "ע&זרה"
+
+#: interface\systemTray.py:83
+msgid "E&xit"
+msgstr "י&ציאה"
+
+#: interface\systemTray.py:83
+msgid "Exit %s"
+msgstr "יציאה מ-%s"
+
+#: updater.py:75
+msgid "New version available"
+msgstr "קיימת גירסה חדשה"
+
+#: updater.py:75
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "הגירסה המותקנת: %s. הגירסה החדשה: %s. האם ברצונך להוריד את הגירסה החדשה של %s?"
+
+#: updater.py:83
+msgid "Update cancelled."
+msgstr "עדכון בוטל"
+
+#: updater.py:97
+msgid "Accessing download URL... Please wait..."
+msgstr "ניגש לשרת ההורדה... אנה המתן..."
+
+#: updater.py:111
+msgid "Downloading update... Please wait..."
+msgstr "מוריד עדכון... אנה המתן..."
+
+#: updater.py:121
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "העדכון מוכן להתקנה! לחץ על אישור על מנת לסגור את %s ולהתחיל את תהליך ההתקנה."
+
+#: updater.py:123
+msgid "Update ready! Choose Ok to continue."
+msgstr "העדכון מוכן! לחץ על אישור כדי להמשיך."
+
+#: updater.py:124
+msgid "Download completed"
+msgstr "ההורדה הסתיימה"
+
+#: updater.py:140
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "שגיאה בבדיקת עדכונים."
+
+#: updater.py:140
+#: updater.py:141
+#: updater.py:142
+#: updater.py:143
+msgid "Update error"
+msgstr "שגיאת עדכון"
+
+#: updater.py:141
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+
+#: updater.py:142
+msgid "Couldn't access download URL. Please try again later."
+msgstr "אין אפשרות לגשת להורדה. אנה נסה שוב מאוחר יותר."
+
+#: updater.py:143
+msgid "Download failed!"
+msgstr "ההורדה נכשלה!"
+
+#: updater.py:144
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "הגירסה הנוכחית של %s היא הגירסה העדכנית. אין צורך בעדכון. הגירסה הנוכחית היא %sהגירסה הזמינה להורדה היא %s"
+
+#: updater.py:153
+msgid "Checking for updates... Please wait..."
+msgstr "בודק עדכונים... אנה המתן..."

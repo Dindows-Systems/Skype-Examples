@@ -1,0 +1,339 @@
+LESEN PUBLIK UMUM GNU
+Sejarah 2, Jun 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ Setiap orang dibenarkan untuk menyalin dan mengedarkan salinan kata demi kata
+ dokumen lesen ini, tetapi mengubahnya tidak dibenarkan.
+
+Pembukaan
+
+ Lesen untuk kebanyakan perisian direka untuk memuat anda
+kebebasan untuk berkongsi dan mengubahnya. Sebaliknya, GNU General Public
+Lesen ini bertujuan untuk menjamin kebebasan anda untuk berfungsi dan mengubah percuma
+perisian - untuk memastikan perisian percuma untuk semua pengguna. Ini
+Lesen Awam Am berlaku untuk sebahagian besar perisian bebas
+Yayasan perisian dan program lain yang penulis komited untuk
+menggunakannya. (Beberapa perangkat lunak Free Software Foundation dilitupi
+GNU Lesser General Public License instead.) Anda boleh menerapkannya
+program-program anda juga.
+
+ Ketika kita berbicara tentang perangkat lunak bebas, kita mengacu pada kebebasan, bukan
+harga. Lisensi Publik Umum kami dirancang untuk memastikan bahawa anda
+memiliki kebebasan untuk mendistribusikan salinan dari perangkat lunak bebas (dan kos untuk
+perkhidmatan ini jika anda mahu), bahawa anda menerima source code atau boleh mendapatkannya
+jika anda mahukannya, bahawa anda boleh menukar perisian atau menggunakan potongan-potongan itu
+dalam program bebas yang baru, dan anda tahu bahawa anda boleh melakukan hal-hal ini.
+
+ Untuk melindungi hak-hak anda, kami perlu membuat sekatan yang melarang
+siapa pun untuk menafikan hak-hak ini atau meminta anda untuk menyerahkan hak.
+Sekatan ini menterjemah tanggung jawab tertentu bagi anda jika anda
+mengedarkan salinan perisian, atau jika anda memodifikasi itu.
+
+ Sebagai contoh, jika anda mengedarkan salinan program tersebut, apakah
+percuma atau pun dengan kos, anda harus memberi semua hak penerima yang
+Anda miliki. Anda perlu memastikan bahawa mereka juga, menerima atau boleh memperoleh
+kod sumber. Dan anda harus menunjukkan kepada mereka istilah-istilah ini sehingga mereka tahu mereka
+hak.
+
+ Kami melindungi hak-hak anda dengan dua langkah: (1) hak cipta perisian, dan
+(2) menawarkan lesen ini yang memberi Anda izin legal untuk menyalin,
+mengedar dan / atau mengubah suai perisian.
+
+ Juga, untuk setiap pengarang perlindungan dan kami, kami ingin memastikan
+bahawa setiap orang memahami bahawa tidak ada jaminan untuk bebas
+perisian. Jika peranti lunak tersebut dimodifikasi oleh orang lain dan meninggal, kita
+ingin para penerima untuk mengetahui bahawa apa yang mereka miliki tidak asli, jadi
+bahawa setiap masalah yang diperkenalkan oleh orang lain tidak akan merefleksikan asli
+penulis 'terkenal.
+
+ Akhirnya, program bebas apa pun terancam terus menerus oleh perisian
+paten. Kami ingin menghindari bahaya yang redistributor yang bebas
+Program ini akan secara individu memperolehi lesen paten, di membuat kesan
+program berpemilik. Untuk mencegah hal ini, kami telah menjelaskan bahawa setiap
+harus paten lesen untuk setiap orang bebas menggunakan atau tidak berlesen sama sekali.
+
+ Tepat syarat dan kondisi untuk menyalin, pengedaran dan
+pengubahsuaian ikuti.
+
+LESEN PUBLIK UMUM GNU
+ SYARAT DAN KETENTUAN UNTUK COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. Lesen ini berlaku pada program atau karya lain yang mengandungi
+pemberitahuan yang ditempatkan oleh pemegang hak cipta bahawa tersebut boleh diagihkan
+dibawah peruntukan daripada Lesen Awam Am ini. The "Program", di bawah ini,
+merujuk pada setiap program atau pekerjaan tersebut, dan "bekerja berdasarkan Program"
+bererti baik Program atau karya turunan apapun di bawah hukum hak cipta:
+artinya, sebuah karya yang mengandungi Program atau sebahagian darinya,
+baik verbatim atau dengan modifikasi dan / atau diterjemahkan ke dalam bahasa lain
+Bahasa. (Selanjutnya, penterjemahan termasuk tanpa sekatan dalam
+istilah "modifikasi".) Setiap pemegang lisensi disebut sebagai "Anda".
+
+Kegiatan selain menyalin, pengedaran dan pengubahsuaian yang tidak
+tercakup oleh Lisensi ini, mereka berada di luar jangkauannya. Tindakan
+menjalankan Program tidak dibatasi, dan output daripada Program
+tertutup hanya jika isinya merupakan sebuah karya yang berdasarkan
+Program (independen daripada yang telah dibuat dengan menjalankan Program).
+Adakah itu benar bergantung pada apa yang dilakukan Program.
+
+ 1. Anda boleh menyalin dan mendistribusikan salinan verbatim Program
+kod sumber saat anda menerima, melalui media apapun, dengan syarat bahawa anda
+mencolok dan tepat menerbitkan pada setiap salinan yang sesuai
+copyright notice and penafian jaminan; tetap utuh semua
+notis yang merujuk kepada Lesen ini dan kepada tidak adanya jaminan;
+dan memberikan penerima lain daripada Program salinan Lesen ini
+bersama dengan Program.
+
+Anda mungkin mengenakan bayaran untuk tindakan fizikal memindahkan salinan, dan
+Anda mungkin pada pilihan anda menawarkan perlindungan garansi dengan ganjaran kos.
+
+ 2. Anda boleh menukar menyalin atau salinan Program atau bahagian apa pun
+itu, sehingga membentuk sebuah karya berdasarkan Program, dan menyalin dan
+mengedar pengubahsuaian atau bekerja di bawah ketentuan dari Bagian 1
+di atas, dengan syarat bahawa anda juga memenuhi semua keadaan ini:
+
+ a) anda harus menyebabkan fail yang diubahsuai untuk membawa notis terkemuka
+ menyatakan bahawa anda menukar fail dan tarikh perubahan.
+
+ b) anda harus menyebabkan setiap pekerjaan yang anda mengedar atau menerbitkan, bahawa dalam
+ keseluruhan atau sebahagian mengandung atau berasal dari Program atau apapun
+ bahagian daripadanya, yang akan dilesenkan secara keseluruhan tanpa biaya kepada semua ketiga
+ pihak di bawah syarat Lesen ini.
+
+ c) Jika program yang diubahsuai biasanya reads arahan interaktif
+ ketika berjalan, anda harus menyebabkan itu, ketika mula berjalan seperti itu
+ interaktif digunakan dalam cara yang paling biasa, untuk mencetak atau memaparkan
+ pengumuman termasuk pemberitahuan hak cipta yang sesuai dan
+ perhatikan bahawa tidak ada garansi (atau yang lain, mengatakan bahawa anda menyediakan
+ jaminan) dan bahawa pengguna boleh mengedar semula program yang sedang
+ kondisi ini, dan memberitahu pengguna cara melihat salinan ini
+ Lesen. (Perkecualian: jika Program itu sendiri adalah interaktif tapi
+ biasanya tidak seperti itu mencetak pengumuman, pekerjaan anda berdasarkan
+ Program tidak diperlukan untuk mencetak pengumuman.)
+
+Keperluan ini berlaku untuk pekerjaan yang diubahsuai secara keseluruhan. Jika
+dikenalpasti bahagian daripada pekerjaan yang tidak berasal dari Program,
+dan boleh cukup dianggap independen dan berasingan bekerja di
+sendiri, maka Lisensi ini, dan istilah, tidak berlaku bagi
+bahagian ketika anda mengedar mereka sebagai karya yang berasingan. Tetapi ketika anda
+mengedarkan bagian yang sama sebagai sebahagian daripada keseluruhan yang merupakan kerja berdasarkan
+tentang Program, pengedaran turun harus berada pada syarat-syarat
+Lesen ini, yang perizinannya untuk lisensi yang lain diperluas kepada
+turun keseluruhan, dan dengan demikian masing-masing dan setiap bahagian terlepas dari siapa yang menulisnya.
+
+Jadi, itu bukan maksud daripada bahagian ini untuk menuntut hak atau kontes
+hak anda untuk bekerja menulis seluruhnya oleh Anda; agak, tujuannya adalah untuk
+melaksanakan hak untuk mengawal pengedaran terbitan atau
+karya kolektif berdasarkan Program.
+
+Sebagai tambahan, agregasi belaka tidak kerja lain berdasarkan Program
+dengan Program (atau dengan bekerja berdasarkan Program) pada kelantangan
+simpanan atau media pendistribusian tidak membawa karya lainnya di bawah
+lingkup Lisensi ini.
+
+ 3. Anda boleh menyalin dan mengedar Program (atau bekerja berdasarkan itu,
+dalam Bahagian 2) dalam object code atau bentuk eksekusi di bawah syarat-syarat
+Bahagian 1 dan 2 di atas dengan syarat bahawa anda juga melakukan salah satu dari berikut ini:
+
+ a) Menemani dengan lengkap boleh dibaca oleh mesin sesuai
+ kod sumber, yang harus didistribusikan di bawah ketentuan dari Bagian
+ 1 dan 2 di atas pada media lazim digunakan untuk pertukaran perangkat lunak; ataupun,
+
+ b) Menemani dengan penawaran tertulis, yang berlaku untuk setidaknya tiga
+ tahun, untuk memberi pihak ketiga, untuk biaya tidak lebih daripada
+ kos sumber melakukan pengedaran secara fizikal, lengkap
+ boleh dibaca oleh mesin salinan kod sumber yang sesuai, anda
+ didistribusikan di bawah ketentuan dari Bagian 1 dan 2 di atas pada medium
+ lazim digunakan untuk pertukaran perangkat lunak; ataupun,
+
+ c) Menemani dengan maklumat yang diterima sebagai tawaran
+ mengedar sesuai kod sumber. (Alternatif ini
+ diperbolehkan hanya untuk distribusi non-komersil dan hanya jika anda
+ menerima program dalam kod objek atau bentuk yang boleh dihukum dengan
+ tawaran, sesuai dengan Sub-bahagian b di atas.)
+
+Kod sumber untuk sebuah karya berarti bentuk pilihan pekerjaan untuk
+membuat pengubahsuaian untuk itu. Untuk pekerjaan yang boleh dihukum, sumber lengkap
+kod bererti semua source code untuk semua modul yang dikandungnya, ditambah
+takrifan antara muka dikongsikan gambar, ditambah script yang digunakan untuk
+mengendalikan kompilasi dan instalasi dari executable. Namun, sebagai
+pengecualian khusus, kod sumber diedarkan tidak perlu menyertakan
+sesuatu yang biasanya didistribusikan (dalam kedua sumber atau binari
+form) dengan komponen utama (kompilator, kernel, dan sebagainya) daripada
+sistem operasi yang menjalankan executable, kecuali bahawa komponen
+sendiri menyertai dieksekusi.
+
+Jika edaran yang boleh dihukum atau kod objek dicipta dengan menawarkan
+akses untuk menyalin dari tempat yang dilantik, kemudian menawarkan setara
+akses untuk menyalin source code dari tempat yang sama dihitung sebagai
+edaran dari source code, walaupun pihak ketiga tidak
+dipaksa untuk menyalin sumber bersama-sama dengan kod objek.
+
+ 4. Anda tidak boleh menyalin, mengubah suai, mensublisensikan, atau mengedar Program
+melainkan secara tegas diberikan di bawah Lesen ini. Setiap usaha
+sebaliknya untuk menyalin, memodifikasi, atau mengedar mensublisensikan Program
+void, dan akan secara automatik mengakhiri hak Anda berdasarkan Lisensi ini.
+Namun, pihak-pihak yang telah menerima salinan, atau hak daripada anda di bawah
+Lesen ini tidak akan mempunyai lesen mereka diakhiri begitu lama seperti itu
+pihak tetap dalam pematuhan penuh.
+
+ 5. Anda tidak diharuskan menerima Lisensi ini, kerana anda tidak
+menandatanganinya. Namun, tidak ada lagi yang memberi anda izin untuk memodifikasi atau
+mengedar program atau karya terbitan. Tindakan ini
+dilarang oleh hukum jika anda tidak menerima Lisensi ini. Oleh kerana itu,
+memodifikasi atau mendistribusikan Program (atau bekerja berdasarkan
+Program), anda menyatakan bahawa anda menerima Lesen ini untuk melakukannya, dan
+semua peruntukan dan keperluan untuk menyalin, mendistribusikan atau memodifikasi
+Program atau bekerja berdasarkan itu.
+
+ 6. Setiap kali anda mendistribusikan si Program (atau bekerja berdasarkan
+Program), penerima secara automatik menerima lesen daripada
+asli pemberi lesen untuk menyalin, mendistribusikan atau memodifikasi tunduk Program
+syarat dan ketentuan ini. Anda mungkin tidak memaksakan lebih jauh
+sekatan penerima pelaksanaan hak-hak yang diberikan di sini.
+Anda tidak bertanggungjawab untuk melaksanakan pematuhan oleh pihak ketiga untuk
+Lesen ini.
+
+ 7. Jika, sebagai akibat dari keputusan mahkamah atau tuduhan paten
+pelanggaran atau kerana alasan lain (tidak terhad pada isu paten),
+kondisi yang dikenakan pada anda (baik mengikut arahan mahkamah, kesepakatan atau
+lain) yang bertentangan dengan kondisi Lesen ini, mereka tidak
+alasan anda daripada syarat-syarat Lesen ini. Jika anda tidak boleh
+mengedar sehingga secara bersamaan untuk memenuhi kewajipan anda di bawah ini
+Lesen dan kewajipan terkait lainnya, maka sebagai konsekuensi anda
+tidak mengedar program sama sekali. Sebagai contoh, jika sebuah paten
+lesen tidak membenarkan redistribusi royalti daripada Program dengan
+semua orang yang menerima salinan langsung atau tidak langsung melalui anda, kemudian
+satu-satunya cara anda boleh memenuhi kedua itu dan Lesen ini adalah untuk
+menahan diri sepenuhnya daripada Program edaran.
+
+Jika ada bahagian daripada bahagian ini diadakan tidak sah atau tidak boleh dilaksanakan di bawah
+keadaan tertentu, keseimbangan dari bagian ini bertujuan untuk
+menerapkan dan bahagian secara keseluruhan dimaksudkan untuk diterapkan di lain
+keadaan.
+
+Bukan tujuan dari bahagian ini untuk mendorong anda untuk melanggar setiap
+paten atau hak harta lain untuk kontes tuntutan atau keabsahan daripada setiap
+tuntutan; bahagian ini mempunyai tujuan tunggal melindungi
+integriti dari sistem pendistribusian perangkat lunak bebas, yang
+diimplementasikan oleh praktek lisensi umum. Banyak orang telah membuat
+dermawan kontribusinya terhadap pelbagai perisian diedarkan
+melalui sistem yang pergantungan pada aplikasi konsisten daripada
+sistem; itu terserah kepada penulis / donor untuk memutuskan apakah dia bersedia
+untuk mengedar perisian melalui sistem lain dan pemegang lesen tidak boleh
+menjatuhkan pilihan itu.
+
+Bahagian ini bertujuan untuk membuat benar-benar jelas apa yang diyakini
+merupakan akibat dari sisa Lisensi ini.
+
+ 8. Jika distribusi dan / atau penggunaan Program dibatasi di
+negara-negara tertentu baik oleh paten atau hak cipta interface, yang
+pemegang hak cipta asli yang menempatkan Program di bawah Lesen ini
+boleh menambah eksplisit sekatan pengedaran geografi tidak termasuk
+negara-negara, sehingga distribusi dibenarkan hanya dalam atau di antara
+negara dengan demikian tidak dikecualikan. Dalam hal demikian, Lesen ini menggabungkan
+sekatan seolah-olah ditulis dalam tubuh Lisensi ini.
+
+ 9. Free Software Foundation dapat menerbitkan disemak dan / atau versi baru
+General Public License dari waktu ke waktu. Versi baru tersebut akan
+semangat serupa dengan versi sekarang, tetapi mungkin berbeza secara terperinci untuk
+mengatasi masalah-masalah baru atau masalah.
+
+Setiap versi diberikan nomor versi yang membezakan. Jika Program
+menetapkan nombor versi dari Lisensi ini yang berlaku untuk itu dan "setiap
+kemudian versi ", anda mempunyai pilihan untuk mengikuti syarat dan ketentuan
+salah satu daripada yang versi atau versi apapun yang diterbitkan oleh Free
+Software Foundation. Jika Program tidak menetapkan nombor versi
+Lesen ini, anda boleh memilih versi yang pernah diterbitkan oleh Free Software
+Foundation.
+
+ 10. Jika anda ingin memasukkan bahagian-bahagian dari Program ke bebas lain
+kondisi pengedaran program yang berbeza, menulis kepada pengarang
+untuk meminta izin. Untuk perisian yang merupakan hak cipta dari Free
+Software Foundation, tulis ke Free Software Foundation; kita kadang-kadang
+membuat pengecualian untuk ini. Keputusan kami akan dipandu oleh dua gol
+terpeliharanya status bebas dari semua turunan perangkat lunak bebas kami dan
+mempromosikan pertukaran dan penggunaan semula perisian secara umum.
+
+TIDAK ADA WARANTI
+
+ 11. KARENA PROGRAM ini berlesen FREE OF CHARGE, TIDAK ADA WARANTI
+UNTUK PROGRAM, SEJAUH YANG DIBENARKAN OLEH UNDANG-UNDANG YANG TERPAKAI. KECUALI KETIKA
+LAINNYA YANG TERMASUK DALAM TULISAN PEMEGANG HAK CIPTA DAN / ATAU PIHAK LAIN
+MENYEDIAKAN PROGRAM "SEBAGAIMANA ADANYA" TIADA WARANTI, BAIK NYATA
+ATAU TERSIRAT, TERMASUK, TANPA HAD, JAMINAN TERSIRAT
+Diperjualbelikan DAN KESESUAIAN UNTUK TUJUAN TERTENTU. SELURUH RISIKO SEBAGAI
+DENGAN KUALITAS DAN KINERJA ADALAH PROGRAM DENGAN ANDA. SHOULD THE
+MEMBUKTIKAN PROGRAM kurang upaya, ANDA MENANGGUNG SEMUA BIAYA PERLU PERKHIDMATAN,
+PERBAIKAN ATAU KOREKSI.
+
+ 12. DALAM APAPUN KECUALI DITENTUKAN LAIN OLEH PERATURAN HUKUM ATAU DISETUJUI DALAM TULISAN
+APAPUN AKAN COPYRIGHT HOLDER, ATAU PIHAK LAIN YANG MUNGKIN MODIFY DAN / ATAU
+Mendistribusi semula suatu program SEPERTI YANG DIIZINKAN DI ATAS, TIDAK BERTANGGUNGJAWAB KEPADA ANDA ATAS KEROSAKAN,
+TERMASUK UMUM, KHAS, SAMPINGAN ATAU KEROSAKAN TIMBUL DARIPADA
+DARI PENGGUNA ATAU KETIDAKBOLEHAN MENGGUNAKAN PROGRAM (TERMASUK TETAPI TIDAK TERHAD
+UNTUK DATA ATAU DATA MENJADI Rendered TEPAT ATAU KERUGIAN disokong oleh
+ANDA ATAU PIHAK KETIGA ATAU KEGAGALAN PROGRAM untuk beroperasi dengan APAPUN LAINNYA
+PROGRAM), WALAUPUN JIKA HOLDER TERSEBUT ATAU PIHAK LAIN TELAH DIBERITAHU TENTANG
+KEMUNGKINAN KEROSAKAN SEDEMIKIAN.
+
+END OF SYARAT DAN KETENTUAN
+
+Cara Mendaftar Syarat untuk Program Baru anda
+
+ Jika anda mengembangkan suatu program baru, dan anda ingin menjadi terbesar
+mungkin, gunakan kepada awam, cara terbaik untuk mencapai tujuan ini adalah untuk membuat
+perisian bebas yang setiap orang boleh mengedar dan menukar di bawah istilah-istilah ini.
+
+ Untuk melakukannya, lampirkan notis seterusnya ke program. Paling aman
+anda lampirkan ke awal setiap fail sumber untuk paling berkesan
+menyampaikan pengecualian jaminan; dan setiap gambar harus memiliki setidaknya
+dengan "hak cipta" garis dan sebuah pointer ke tempat notis lengkap dijumpai.
+
+ <one baris untuk memberikan nama dan program's ide singkat tentang apa does.>
+ Copyright (C) <year> <name daripada author>
+
+ Program ini adalah perisian bebas; anda boleh mengedar dan / atau memodifikasi
+ di bawah syarat Lesen Awam Umum GNU seperti yang diterbitkan oleh
+ Free Software Foundation; baik versi 2 daripada Lesen, atau
+ (pilihan anda) versi apapun.
+
+ Program ini diedarkan dengan harapan bahawa itu bermanfaat kepada,
+ tetapi TANPA ADANYA JAMINAN; bahkan tanpa jaminan yang termasuk dari
+ DAGANGAN atau kecocokan UNTUK TUJUAN TERTENTU. Lihat
+ GNU General Public License untuk butiran lanjut.
+
+ Anda seharusnya telah menerima salinan GNU General Public License bersama
+ dengan program ini, jika tidak, tulis ke Free Software Foundation, Inc,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+Juga menambah maklumat mengenai bagaimana menghubungi anda melalui surat elektronik dan kertas.
+
+Jika program interaktif, membuat output notis singkat seperti ini
+ketika mula di mod interaktif:
+
+ Gnomovision versi 69, Hak cipta (C) tahun nama pencipta
+ Gnomovision datang dengan TIDAK BERISI WARANTI; for details type `show w '.
+ Ini adalah perisian bebas, dan anda dipersilahkan untuk mengedar itu
+ keadaan tertentu; jenis `menunjukkan c 'untuk butiran.
+
+Perintah hipotetis `show w 'dan` menunjukkan c' harus menunjukkan yang sesuai
+bahagian daripada Lesen Awam Am. Tentu saja, perintah-perintah yang anda gunakan mungkin
+disebut sesuatu yang lain daripada menunjukkan `w 'dan` menunjukkan c'; mereka bahkan boleh
+mouse klik atau item menu - apa pun yang sesuai dengan program anda.
+
+Anda juga harus mendapatkan majikan anda (jika anda bekerja sebagai pengaturcara) atau anda
+sekolah, jika ada, untuk memeterai "penafian hak cipta" untuk program ini, jika
+diperlukan. Berikut adalah contoh; menukar nama:
+
+ Yoyodyne, License, dengan ini melepaskan semua hak cipta minat dalam program
+ `Gnomovision '(yang dibuat lewat di compiler) yang ditulis oleh James Hacker.
+
+ <signature daripada Ty Coon>, 1 April 1989
+ Ty Coon, Naib Presiden
+
+Lesen Awam Am ini tidak membenarkan memasukkan program anda ke
+program berpemilik. Jika program anda adalah library subrutin, anda mungkin
+mempertimbangkan lebih kepada untuk membenarkan aplikasi berpemilik menyambung dengan
+perpustakaan. Jika ini adalah apa yang ingin anda lakukan, menggunakan GNU Lesser General
+Public License daripada Lesen ini

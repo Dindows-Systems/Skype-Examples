@@ -1,0 +1,257 @@
+﻿Újdonságok a SkypeTalkingban
+Utoljára frissítve: %%mtime(%x)
+
+=0.9.3-as verzió=
+
+- A SkypeTalking mostantól működik akkor is, ha a felhasználónév tartalmaz ékezetes karaktereket.
+- A SkypeTalking újra felismeri a régebbi Jaws verziókat (pl. 8.0).
+-
+
+=0.9.2-es verzió=
+
+- Frissítve lett a szerb nyelvi fájl.
+- Javítva lett a Sapi5 és a képernyőolvasó automatikus felismerése, melyek a 0.9-es verzióban nem működtek.
+-
+
+=0.9.1-es verzió=
+
+- Elkészült egy jobb konfigurációs fájjl kezelő, így ha  nem töltődik be a módosított konfigurációs fájl, az alapértelmezett értékekkel indul el a program.
+- Frissítve lett az Accessible Output library. Eddig néhány Jaws verziót nem ismert fel a program, és olykor problémák adódtak a Sapi 5-ös hangokra való váltáskor is.
+- Frissítve lett az orosz súgó.
+-
+
+=0.9-es verzió=
+
+==újdonságok==[features]
+
+- Elkészült a SkypeTalking frissítéskezelője, mely automatikusan letölti a program legfrissebb verzióját mind a portable, mind a telepítős verzióban). A program indításakor és a ctrl+shift+alt+u billentyűparancs hatására keres az interneten, természetesen az automatikus frissítés ellenörzését kikapcsolhatja a beállítások párbeszédablakban.
+- A billentyűzet leíró hozzáadása (alt+shift+control+K), ha ezt a funkciót bekapcsolja, egy-egy SkypeTalking billentyűparancs lenyomásakor a hozzá tartozó leírás hangzik el. Más szavakkal, ez ugyanazt a funkciót látja el, mint a Jaws-ban vagy az NVDA-ban a billentyűzet súgó.
+- A billentyűparancsok kategória hozzáadása a beállításokhoz, ezáltal könnyebbé válik a parancsok áttekintése és módosítása. Nincs szükség a módosítások életbeléptetéséhez a program újraindításához és az ini fájl szerkesztéséhez.
+- Az előzmények listáját hozzáadták a programhoz. Így áttekintheti külön-külön az állapotváltozásokat, a hívás- és az üzenetlistákat, a fájlműveleteket, a felhasználók állapotváltozásait, és a hangüzenet eseményeit. Erről bővebb információt a súgóban talál.
+- A hangüzenetek kezelésének hozzáadása a programhoz. A funkció segítségével meghallgathatja, és törölheti a hangüzeneteket. Az alapértelmezett billentyűparancs az utolsó hangüzenet megtekintéséhez a control+alt+shift+w. Kétszeri megnyomásra lejátszódik, háromszori gyors megnyomásra törlődik.
+- Mostantól válthat a hangüzenet és az üzenet mód között. A hangüzenet módban az utolsó tíz hangüzenetet, az üzenet módban az utolsó tíz chatüzenetet tekintheti meg a control+alt+shift+0-9 számok segítségével. A két mód között a control+alt+shift+z billentyűparanccsal válthat.
+- Hívás állapotának bemondása: alapértelmezésben az alt+shift+kontroll+l
+billentyűvel. Bemondja, hogy a mikrofon el van-e némítva. Kétszeri megnyomásra megnyit egy párbeszédpanelt, lehetővé téve, hogy bárkit a skype neve beírásával felhívjunk. Konferenciabeszélgetéshez vesszővel vagy pontosvesszővel elválasztva írjunk be több skype nevet.
+- A Skype be- és kimeneti állapotának bemondása: alt+shift+kontroll+x. Felolvassa az éppen használt be-és kimeneti audio és video eszközöket a skype-ban.
+- Az aktív fájlátvitelek ellenőrzése, ha egyszerre több fájlátvitel is történik. Ehhez az alt+shift+kontroll+f billentyűt kell kétszer megnyomni. A felugró listából válasszuk ki a figyelendő fájlátvitelt, az enterrel bekapcsolhatjuk az ellenőrzést.
+- A Skype Talking bemondja, ha valaki fel akar bennünket venni a partnerlistájára, azonban a felvételt vagy elutasítást a skype felületén kell elvégeznünk. A felkérések elfogadása vagy elutasítása a Skype Talking
+egy későbbi verziójában lesz lehetséges.
+- Jelenti, ha valaki megváltoztatja a saját mottóját. A funkció a beállítások/riasztások kategóriában található, eredetileg nincs bekapcsolva.
+- A Skype talking a windows-zal is indítható. Ha be van kapcsolva, a Skype Talking elindul a windowsba való bejelentkezéskor. Ha úgy állítjuk be, a Skype-ot is elindítja. Megtalálható a beállítások/általános kategóriában.
+- Bőbeszédűségi beállítások a beállítások panelen: itt megadható, hogy a Skype Talking mennyi információt mondjon el. Felolvastatható az üzenetek írásának ideje, a partner neve az üzenettel együtt, sőt bemondatható az üzenet előtt vagy után a "Skype esemény" szöveg is.
+- A beállítások kategóriába egy új, haladó párbeszédpanel került, melyen beállítható, hogy hogyan induljon a Skype a Skype talking indításakor, illetve hányszor próbáljon a Skype Talking csatlakozni a Skype-hoz, ha a kapcsolódás meghiúsult.
+- A nem aktív kapcsolatok mutatása a partnerkezelőben. Ez eredetileg ki van kapcsolva, tehát a partnerkezelő csak azokat a kapcsolatokat mutatja, amelyek aktívak. Ez a beállítás a beállítások/partnerkezelő kategóriában található.
+- A partnerkezelőben a profilkezelő (adatlap-megjelenítő) tartalmaz egy speciális mezőt, amelyből felolvastatható, hogy a partner hívható-e, van-e webkamerája vagy hagyható-e neki hangposta-üzenet.
+- Újra van a Skype Talkingnak tálcaikonja. A beálítások/általános kategóriában a "Skype Talking ikonjának mutatása a tálcán" jelölőnégyzet kikapcsolásával az ikon elrejthető.
+- A tálcaikonon jobbgombbal kattintva az eszközök és a segítség menü ugrik fel. Az eszközök menüből a partnerkezelőhöz, az sms-varázslóhoz, a beállításokhoz, a segítség menüből a frissítések kereséséhez, az újdonságokhoz, a kézikönyvhöz és a névjegyhez férhetünk hozzá.
+- A névjegy párbeszédpanel teljesen új, és tartalmazza a következő választható gombokat: közreműködők, online licencszerződés, újdonságok, kézikönyv és frissítések keresése.
+- a fehérorosz, dán, héber, grúz és lett nyelv bekerült a programba.
+
+
+==Változások és fejlesztések==[improvements]
+
+- A fájlátvitel állapotának jobb bemondása: hallható a figyelt fájlátvitel százalékos előrehaladása és a hátralévő idő.
+- Az állapot megváltoztatása (alt+kontrol+shift+backspace) egyszerűbb lett. Válasszuk ki a listából nyíllal a kívánt állapotot és nyomjuk meg az entert.
+- A hívó bemondása parancs el lett távolítva. Helyette a hívás állapota parancs használható.
+- A beállítások párbeszédpanel újra lett tervezve modernizált formában. A füles panelek helyett egy fanézet van kategóriákkal. A kategóriák között a fel-le nyíllal lehet váltani a beállítási lehetőségekre pedig a tab és shift+tab billentyűkkel ugorhatunk.
+- A beállítások párbeszédpanelen az ok és a mégsem gombok mellett az alkalmaz gomb is megtalálható.
+- A beálítások párbeszédpanelen több beállítás felirata megváltozott. Rövidebbek, és remélhetőleg érthetőbbek lettek.
+- A Skype Talking naplóit és beállításait - a hordozható változat kivételével - a program felhasználónként külön tárolja a documents and settings\felhasználó\application data\skype talking\ mappában.
+- A Skype Talking újra a program files\skype talking mappába kerül telepítéskor.
+- A partnerkezelőt (vagy kapcsolatkezelőt) újratervezték, a partnerek listanézetben jelennek meg bejelölhető elemek formájában.
+- a partnerkezelőbe a program sokkal gyorsabban tölti be a partnereket, mint korábban.
+- Különféle fejlesztések történtek a Skype Talking indítási és kapcsolódási folyamatában.
+- A Skype Talking sikertelen kapcsolódás esetén ahelyett, hogy kilépne, a beálítások/haladó kategóriában megadott alkalommal újrapróbálja a kapcsolódást.
+- A skype talking most már kiírja a kapcsolódási vagy indításkori hibaüzenetet, nem pedig sípol a hiba megjelenésekor.
+- a skype talking újraindítás után helyesen felolvassa az utolsó hívás vagy fájlátvitel állapotát ahelyett, hogy azt mondaná, nincs aktív hívás vagy fájlátvitel folyamatban.
+- A Skype Talking több funkciónál gyorsabban reagál a billentyűparancsokra.
+
+
+==Hibajavítások==[bugfixes]
+
+- A skype talking lassan reagált egy hívás befejezése (alt+kontroll+shift+end) után.
+
+
+==Frissítések==[updates]
+
+- A Skype Talkingot mostantól Python 2.7 alatt fejlesztik és fordítják gépi kódra.
+- A kisegítő kimeneti dinamikus függvénykönyvtár a 0.6-os verziójúra lett frissítve. ezzel a verzióval a Skype talking továbbá támogatja a Dolphin termékeket (Hal, Lunar és Supernova  12 vagy újabb verzióit).
+
+
+=0.8.1-es verzió=
+
+==Újdonságok==[features]
+
+- Arab, Finn és Szerb nyelv hozzáadása
+- A ctrl+alt+shift+n billentyűparancs hozzáadása, mely lehetővé teszi a
+bejövő hívó, vagy épp az aktív hívó  nevének bemondását
+
+
+==Változások és fejlesztések==[improvements]
+
+- A skype talking billentyűparancsokata program nem echózza, ha a
+skype talkingot olyan képernyőolvasóval használják, amelyek alapértelmezés
+szerint kimondják a billentyűparancsokat, pl. jaws.
+- A SkypeTalking gyorsabban tölti be a partnereket az ismerős
+kezelőbe.
+
+
+==Hibajavítások==[bugfixes]
+
+- A beállítások párbeszédablak már nem fagy le a német nyelv
+használatakor.
+
+
+==frissítések==[updates]
+
+- Az Accessible Output library frissítve lett a 0.4.3-as verzióra,
+ami lehetővé teszi az együttműködést a legfrissebb Jaws verzióval.
+
+
+=0.8-as verzió=
+
+==Újdonságok==[features]
+
+- A chat ablakok figyelésének bevezetése. Egyszerre tíz ablakot figyelhet
+meg, amit a ctrl+alt+shift+funkció billentyűk (f1-f10) billentyűkkel állíthat
+be. Ha Kétszer gyorsan megnyomja, a fókusz az aktuális chatablakra kerül. Az
+utolsó tíz chat üzenetet a ctrl+alt+shift+0-9-es számokkal tudja elolvasni
+(a számbillentyűzeten). A ctrl+shift+alt+c-vel az éppen figyelt felhasználó
+nevét tudhatja meg.
+- a mottó meghallgatása és megváltoztatása. A ctrl+alt +shift+m
+billentyűparancs egyszeri lenyomására meghallgathatja, kétszeri gyors
+lenyomására megváltoztathatja azt.
+- ctrl+alt+shift+o billentyűparancs lenyomására megtudhatja az aktuális
+állapotát, kétszeri gyors lenyomásra pedig a Skype egyenlegét.
+- a ctrl+alt+shift+d parancs hatására megtudhatja a beszélgetés
+időtartamát.
+- Az ismerős kezelő hozzáadása a programhoz. Ezt a ctrl+alt+shift+f11
+billentyűparanccsal érheti el, ami a Skype partnerlistáját hivatott
+felváltani. Kétszer gyorsan megnyomva a Skype partnerlista kezelője jön elő.
+Ez egy többválasztós listamező, ahol a szóköz billentyű segítségével tud
+kijelölni felhasználókat. A nem elérhető felhasználókról megtudhatja, mikor
+voltak legutoljára elérhetők (ezt eddig pl. az NVDA képernyőolvasó nem
+olvasta). A tab és shift+tab billentyűkkel a különböző eseményeket
+indíthatja el (felhasználó felhívása, konferencia készítése, chat ablak
+megnyitása, profil megtekintése).
+- billentyűparancs hozzáadása a hívás válaszolásához
+(alt+ctrl+shift+home), hívás elutasításához/befejezéséhez
+(ctrl+alt+shift+end), hívás tartásához és folytatásához
+(ctrl+alt+shift+home),  hívás hozzákapcsolása a konferenciához (kétszer
+ctrl+alt+shift+home), és mikrofon elnémításához és feloldásához(kétszer
+gyorsan ctrl+alt+shift+end).
+- Sms küldésének és fogadásának támogatása:
+Az sms varázslót a ctrl+alt+shift+s billentyűkombinációval érheti el.
+Az első ablakban a telefonszámot kell megadnia. Ha hibásan adta meg,
+visszatér ugyanebbe a mezőbe. Ha minden rendben, a következő ablakban egy
+szövegmezőt fog kapni, ahova beírhatja az sms üzenetét. Az üzenet írása
+közben az f2 billentyűvel megnézheti, hogy még hány karaktere van hátra, ha
+eléri a 0-t, egy hang figyelmeszteti erre. Ha elegendő skype kreditje van,
+az ok gomb aktiválása után az üzenetet a Skype elküldi a megadott számra.
+- Egy új beállítás hozzáadása, mely lehetővé teszi, hogy a SkypeTalking
+bezárulásakor a Skype is bezáruljon. Ez alapértelmezetten be van kapcsolva.
+- Egy új jelölőnégyzet lett hozzáadva a beállításokhoz, amivel
+szabályozhatja, hogy a Skypetalking rákérdezzen-e a kilépésre, mielőtt
+bezárul. Ez alapértelmezetten be van kapcsolva.
+- Átírhatók a SkypeTalking billentyűparancsai a skypetalking.ini fájlban.
+A billentyűleütések hozzárendelésére szolgáló panel a következő
+verzióváltáskor várható. Ha a SkypeTalking.ini fájlban hibásan történt meg a
+hozzárendelés, a program az alapértelmezett billentyűparancsot használja, és
+figyelmezteti a felhasználót a hibáról. Bármely billentyűparancs módosítható
+a "shortcuts" szakaszban. Kérjük, körültekintően járjon el, és indítsa újra
+a SkipeTalkingot, ha a változtatások nem lépnek azonnal életbe.
+- francia és dán kezelőfelület.
+
+
+==Változások és fejlesztések==[improvements]
+
+- Az utolsó üzenet felolvasása alt+kontroll+shift+M-ről
+alt+kontroll+shift+R-re változott. Kétszer gyorsan megnyomva az ablakot és a
+fókuszt erre az üzenetre állítja.
+- A SkypeTalkingból való kilépés billentyűparancsa
+alt+shift+kontroll+f4-ről alt+shift+kontroll+q-ra változott.
+- A beállítások párbeszédpanel billentyűparancsa
+alt+kontroll+shift+s-ről alt+kontroll+shift+p-re változott.
+- Már nincs SkypeTalking ikon az értesítési területen. A jobbgombos
+menü helyett a hozzárendelt skypetalking billentyűparancsok használhatók.
+- Az ún. api wrapper verziót a program az alt+kontroll+shift+v
+kétszeri megnyomására mondja be, mivel a végfelhasználóknak erre az
+információra nincs szükségük.
+- A hívás időtartamát órában, percben, másodpercben mondja be a
+program.
+- A fájlátvitel sebessége és az adatátvitellel kapcsolatos
+információk hozzá lettek adva a fájlátvitel állapotának felolvasása
+parancshoz (kontroll+shift+alt+f).
+- A Skype Talking már nem futtatható több példányban egyszerre. Ha
+véletlenül már a memóriában lenne, ismételt futtatási kísérletkor sípol.
+- Ha a SkypeTalking betöltésekor kritikus hiba lép fel, egy
+hibajelző hang hallható a pc-hangszórón. Kérjük, értesítse a fejlesztőt a
+hibáról, amint lehetséges.
+
+
+==Hibajavítások==[bugfixes]
+
+- A beállítások párbeszédablak megnyitásakor a fókusz a nyelv kombinált listamezőre kerül.
+- A beállításokban a shift+tab használatakor nem ugrik át az Ok és Cancel gombokon.
+
+
+=0.7-es verzió=
+
+==Újdonságok==[features]
+
+- megnézheti az utolsó tíz üzenetet a ctrl+alt+shift+1-től 0-ig a számbillentyűzeten. Kétszer gyorsan megnyomva az üzenet a vágólapra kerül, háromszor gyorsan megnyomva ha található benne url, az megnyílik az  alapértelmezett böngészővel.
+- Megváltoztathatja állapotát a ctrl+alt+shift+backspace billentyűparanccsal.
+- Ki és bekapcsolhatja a Skype események bemondását a ctrl+alt+shift+i billentyűparanccsal.
+- Kezdetleges  támogatása a file fogadásának. Elolvashatja az utolsó fogadott fájl állapotát a ctrl+alt+shift+f billentyűparanccsal.
+- A Cseh, Török, Japán és Maláj nyelvek hozzáadása a programhoz
+
+
+==Változások és fejlesztések==[improvements]
+
+- Jobban kezeli a hívás állapotának bemondását.
+
+
+==Frissítések==[updates]
+
+- Az Accessible Library a legfrissebb verzió
+- Megváltozott a program főkönyvtára, átkerült a Windows partíció főkönyvtárába, a windows Vistában és 7-ben előjövő problémák elkerülése végett.
+
+
+=0.6.1-es verzió=
+
+- Bolgár, Kínai (mandarin), Német, Olasz, Lengyel, Magyar, Orosz, Ukrán és Portugál nyelvek hozzáadása a programhoz.
+Az utolsó esemény megismétlése (ctrl+alt+shift+e)
+
+
+=0.6-os verzió=
+
+- A beállítások párbeszédablak hozzáadása
+- Többnyelvűség támogatása
+- Billentyűparancsok hozzáadása
+- A SkypeTalking támogatja az ismeretlen, és Skype out állapotokat.
+- a be és kimenő üzenetek bemondásának be és kikapcsolása.
+- Fontos javítások
+
+
+=0.5.1-es verzió=
+
+- Jaws, Window Eyes, System Access képernyőolvasók, és a sapi5-ös hangok támogatása.
+- A skypetalking.ini konfigurációsfájl hozzáadása, ahol megváltoztathatja abeszéd és braille kimenetet, a sapi 5-ös hangok tempóját és magasságát, stb. Megjegyzés: Jelenleg még nincsen hozzá grafikus felület, így kézzel kell szerkesztenie az ini fájlt.
+- A SkypeTalking.log hozzáadása, mely a fontosabb információkat tartalmazza a fejlesztők számára. Ha egy hibajelentést ír, kérjük ezt a fájlt is csatolja hozzá!
+- "Automatikusan indítsd a Skypeot, ha nem fut" beállítás hozzáadása a programhoz.
+- A chat üzenetek olvasásának beállítása. Ajánlott kikapcsolni ezt a funkciót, ha a Jaws scripteket is használja a SkypeTalking programmal együtt. Ha ezt nem teszi meg, az üzeneteket kétszer fogja hallani.
+- A felhasználók állapot bemondásának ki-be kapcsolása. Alapértelmezetten az összes állapotváltozás be van kapcsolva.
+- A felhasználók állapotának jobb bemondása.
+- Átírták a névjegy ablakot. A verzió információ, a project weboldalának címe, és a szerzői jogi információk hozzáadása
+
+
+=0.5-ös verzió=
+
+- Első kiadás, kezdetleges funkciók hozzáadása
+- Bejelentkező üzenet bemondása az aktuális felhasználó nevével együtt.
+_ A Skype Apy állapotának bemondása
+- A felhasználók állapotának bemondása (elérhető, távol, stb)
+- A hívó nevének és állapotának bemondása a bejövő híváskor
+- A bejövő és kimenő üzenetek bemondása
+- Az NVDA (egy ingyenes és nyilt forráskódú képernyőolvasó) támogatása. Az üzeneteket az NVDA beszédként és braille formaként is meg tudja jeleníteni.
+- Rendszertálca ikon hozzáadása. Jobb egérgombbal előhozható a névjegy és a kilépés menüpont.

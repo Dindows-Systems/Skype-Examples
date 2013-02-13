@@ -1,0 +1,1767 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Skypetalking 0.9\n"
+"POT-Creation-Date: 2010-12-15 07:34+Central European Standard Time\n"
+"PO-Revision-Date: 2011-01-20 21:32+0100\n"
+"Last-Translator: Jiri Holzinger <autoitarista@seznam.cz>\n"
+"Language-Team: cs <autoitarista@seznam.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+#: SkypeTalking.pyw:52
+msgid "Application already running."
+msgstr "Program už je spuštěn"
+
+#: SkypeTalking.pyw:58
+msgid "Error writing config file. The application may not be started. Please contact development team for help."
+msgstr "Chyba při zápisu konfiguračního souboru prosím kontaktujte vývojáře."
+
+#: SkypeTalking.pyw:58
+#: SkypeTalking.pyw:63
+#: SkypeTalking.pyw:69
+#: extras.py:108
+msgid "Error"
+msgstr "Chyba"
+
+#: SkypeTalking.pyw:63
+msgid "Could not set application language. The application may not be started. Please contact development team for help."
+msgstr "Program nemohl nastavit jazyk. Prosím kontaktujte vývojáře"
+
+#: SkypeTalking.pyw:67
+msgid "Connecting to Skype..."
+msgstr "Připojuji se ke Skype..."
+
+#: SkypeTalking.pyw:69
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "selhal subsystém programu, prosím kontaktujte vývojáře"
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "hovor od%s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "Volám %s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "telefonní hovor od%s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "Telefonní hovor %s"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "Hovor s %s ukončen trvání %s"
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "Volám %s směruji"
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "Hovor s %s selhal"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "Hovor s %s můžete mluvit"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "Hovor s %s zamčen"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "chybný hovor od %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "Neúspěšný hovor"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "Hovor s %s zaneprázdněn"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "Hovor s %s zrušen"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "hovor s %s lokálně uzamčen"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "Hovor s %s vzdáleně uzamčen"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Přenáším hovor %s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "hovor přenesen %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Neznámý důvod"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Všeobecná chyba"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "Uživatel neexistuje"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "Uživatel je odhlášen"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Nenalezen žádný proxy"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Sekce ukončena"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Není žádný známý kodek"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Chyba zvukového vstupu nebo výstupu"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Chyba na vzdáleném zařízení"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "Jste blokován uživatelem"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "Ten uživatel není ve vašich kontaktech"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Nejste autorizován recipientem"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Chyba zvukového nahrávání"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "hodina"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "Hodin"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "minuta"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "minut "
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "a"
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "Vteřina"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "Vteřin"
+
+#: communication\files.py:35
+msgid "Receiving file %s from %s. "
+msgstr "Přímám soubor %s od %s "
+
+#: communication\files.py:37
+msgid "Sending file %s to %s. "
+msgstr "Posílám soubor %s %s"
+
+#: communication\files.py:39
+msgid "File transfer %s, file %s. "
+msgstr "Přenos souboru %s, soubor %s"
+
+#: communication\files.py:41
+msgid "New file transfer: "
+msgstr "Nový přenos souboru"
+
+#: communication\files.py:43
+msgid "Connecting..."
+msgstr "Připojuji..."
+
+#: communication\files.py:45
+msgid "Transferring..."
+msgstr "Přenášení..."
+
+#: communication\files.py:47
+msgid "Transferring over relay..."
+msgstr "Přenáším s přesměrováním..."
+
+#: communication\files.py:49
+msgid "Waiting for accept..."
+msgstr "Čekám na souhlas..."
+
+#: communication\files.py:51
+msgid "Paused."
+msgstr "Pozastaveno."
+
+#: communication\files.py:53
+msgid "Paused remotely."
+msgstr "Pozastaveno druhou stranou."
+
+#: communication\files.py:55
+msgid "Cancelled!"
+msgstr "Zrušeno."
+
+#: communication\files.py:57
+msgid "Finished!"
+msgstr "Hotovo!"
+
+#: communication\files.py:59
+msgid "File transfer failed."
+msgstr "Selhal přenos souboru"
+
+#: communication\files.py:61
+msgid "Sender not authorized."
+msgstr "Odesílatel není autorizován."
+
+#: communication\files.py:63
+msgid "Remotely cancelled."
+msgstr "Přerušeno vzdálenou stranou"
+
+#: communication\files.py:65
+msgid "Failed read."
+msgstr "Selhalo čtení"
+
+#: communication\files.py:67
+msgid "Failed remote read."
+msgstr "Selhalo čtení na vzdálené straně"
+
+#: communication\files.py:69
+msgid "Failed write."
+msgstr "Selhal zápis"
+
+#: communication\files.py:71
+msgid "Failed remote write."
+msgstr "Selhal zápis na vzdálené straně"
+
+#: communication\files.py:73
+msgid "Remote does not support file transfer."
+msgstr "Vzdálený nepodporuje přenos souboru"
+
+#: communication\files.py:75
+msgid "Remote offline too long."
+msgstr "Vzdálený je odhlášen příliš dlouho"
+
+#: communication\files.py:80
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Přeneseno: %.1f Mb, Rychlost: %.1f kb/s"
+
+#: communication\files.py:86
+msgid "Progress: %6.2f"
+msgstr "Průběh: %6.2f"
+
+#: communication\files.py:96
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "Zbývající čas %d hodin, %d minut a %d vteřin"
+
+#: communication\main.py:34
+msgid "Waiting for authorization..."
+msgstr "čekám na autorizaci.."
+
+#: communication\main.py:36
+msgid "Authorization refused."
+msgstr "Autorizace se nezdařila"
+
+#: communication\main.py:41
+msgid "Error, API not available."
+msgstr "Chyba, api je nedostupné"
+
+#: communication\main.py:45
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s je připraven. aktuálně přihlášený uživatel je %s"
+
+#: communication\main.py:62
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Chyba Skype příloha vypršela. Zkuste to za %d  %d za 5 vteřin."
+
+#: communication\main.py:69
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Chyba. zavírám program"
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "Posílám"
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "Zpráva od %s: %s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "SMS zpráva od %s: %s"
+
+#: communication\messages.py:56
+msgid "at %s, %s said: %s"
+msgstr "v %s, %s říkal: %s"
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr "%s v %s, %s říkal: %s"
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr "v %s, %s říká: %s"
+
+#: communication\messages.py:63
+msgid "%s at %s, %s says: %s"
+msgstr "%s v %s, %s říká: %s"
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr "v %s: %s"
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr "%s v %s: %s"
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%s psal %s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%s píše %s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "Zpráva ještě není doručena"
+
+#: communication\messages.py:86
+msgid "Message copied to clipboard."
+msgstr "Zpráva zkopírována do schránky"
+
+#: communication\messages.py:88
+msgid "copy failed"
+msgstr "Kopírování selhalo"
+
+#: communication\messages.py:97
+msgid "opening URL"
+msgstr "Otevírání této adresy"
+
+#: communication\messages.py:100
+msgid "Failed to open this URL."
+msgstr "chyba při otevírání této adresy"
+
+#: communication\messages.py:102
+msgid "url not found"
+msgstr "Adresa nenalezena"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "Skype client verze %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "API wrapper verze %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "Žádné nové události od té doby co běží %s"
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "Žádné nové zprávy co běží %s"
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Ještě nejsou žádné přenosy souborů"
+
+#: communication\misc.py:72
+msgid "No active file transfers."
+msgstr "Žádné aktivní přenosy souborů"
+
+#: communication\misc.py:75
+msgid "%s, file %s"
+msgstr "%s,soubor %s"
+
+#: communication\misc.py:76
+msgid "Active File Transfers"
+msgstr "Aktivní přenosy souboru"
+
+#: communication\misc.py:76
+msgid "Select file sender/receiver"
+msgstr "Vyberte příjemce nebo odesílatele souboru"
+
+#: communication\misc.py:91
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Váš skype kredit je %s"
+
+#: communication\misc.py:95
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Žádný monitorovaný chat na této pozici první je na pozici %s"
+
+#: communication\misc.py:99
+#: communication\misc.py:101
+msgid "Monitoring chat with %s"
+msgstr "Monitorování chatu %s"
+
+#: communication\misc.py:101
+#: communication\misc.py:118
+msgid "and"
+msgstr "a"
+
+#: communication\misc.py:105
+msgid "no active chats"
+msgstr "Žádné aktivní chaty"
+
+#: communication\misc.py:111
+#: communication\misc.py:120
+msgid "no active chat monitor"
+msgstr "Není aktivováno monitorování žádného chatu"
+
+#: communication\misc.py:116
+#: communication\misc.py:118
+msgid "monitor on chat with %s"
+msgstr "Je monitorován chat s %s"
+
+#: communication\misc.py:126
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Žádné nové zprávy nebo monitorované chaty co se %s spustil"
+
+#: communication\misc.py:129
+msgid "no message at this position. The first is at position %d"
+msgstr "Žádná zpráva na této pozici. první je na pozici %d"
+
+#: communication\misc.py:142
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Není nastaven žádný text zprávy o náladě. Stisknutím dvakrát lze nastavit text zprávy o náladě"
+
+#: communication\misc.py:143
+msgid "The current mood text is: %s."
+msgstr "Aktuální text zprávy o náladě je: %s"
+
+#: communication\misc.py:147
+msgid " - Change Mood Text"
+msgstr "Změnit text zprávy o náladě"
+
+#: communication\misc.py:147
+msgid "Enter your new mood text:"
+msgstr "Zadejte nový text zprávy o náladě"
+
+#: communication\misc.py:153
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s si změnil(a) text zprávy o náladě na %s"
+
+#: communication\misc.py:169
+#: communication\misc.py:209
+msgid "no active call"
+msgstr "Žádný aktivní hovor"
+
+#: communication\misc.py:172
+#: communication\misc.py:178
+#: communication\misc.py:184
+#: communication\misc.py:198
+msgid "Not on call."
+msgstr "Neběží hovor"
+
+#: communication\misc.py:176
+msgid "Microphone unmuted"
+msgstr "Mikrofon aktivován"
+
+#: communication\misc.py:182
+#: communication\misc.py:230
+msgid "Microphone muted"
+msgstr "Mikrofon ztlumen"
+
+#: communication\misc.py:190
+msgid "call on hold "
+msgstr "Zamčený hovor"
+
+#: communication\misc.py:193
+msgid "call resumed"
+msgstr "Hovor ukončen"
+
+#: communication\misc.py:195
+msgid "No incoming or active call."
+msgstr "Žádné příchozí ani aktivní hovory"
+
+#: communication\misc.py:201
+msgid "%s has joined the current call."
+msgstr "%s se připojil k aktuálnímu hovoru"
+
+#: communication\misc.py:203
+msgid "only one active call"
+msgstr "Jenom jeden aktivní hovor"
+
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: communication\misc.py:218
+#: communication\misc.py:219
+#: interface\contactsManager.py:53
+msgid "Not available"
+msgstr "Nedostupný"
+
+#: communication\misc.py:220
+msgid "Audio In: %s"
+msgstr "Audio vstup: %s"
+
+#: communication\misc.py:221
+msgid "Audio Out: %s"
+msgstr "Audio výstup: %s"
+
+#: communication\misc.py:222
+msgid "Video In: %s"
+msgstr "Video vstup: %s"
+
+#: communication\misc.py:223
+msgid "Ringing device: %s"
+msgstr "Zařízení pro vyzvánění: %s"
+
+#: communication\misc.py:232
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Nejsou zde žádné maily, pokud stisknete dvakrát, můžete volat"
+
+#: communication\misc.py:237
+msgid " - make call"
+msgstr "Zahájit hovor"
+
+#: communication\misc.py:237
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Zadejte skype jméno"
+
+#: communication\misc.py:257
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "There are no voicemails."
+msgstr "Nejsou žádné hlasové maily"
+
+#: communication\misc.py:265
+#: communication\misc.py:287
+msgid "Error, cannot open that voicemail."
+msgstr "Chyba, nemůžu otevřít  hlasový mail."
+
+#: communication\misc.py:267
+msgid "No voicemail to play."
+msgstr "Žádný hlasový mail k přehrání."
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Voicemail deleted."
+msgstr "Hlasový mail vymazán."
+
+#: communication\misc.py:274
+#: communication\misc.py:299
+msgid "Error, voicemail cannot be deleted."
+msgstr "Chyba, hlasový mail nelze vymazat"
+
+#: communication\misc.py:276
+msgid "No voicemail to delete."
+msgstr "Žádný hlasový mailke smazání"
+
+#: communication\misc.py:282
+#: communication\misc.py:293
+#: communication\misc.py:305
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "Žádný hlasový mail na této pozici. První je na pozici%s."
+
+#: communication\misc.py:308
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Hlasový mail od %s. "
+
+#: communication\misc.py:310
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Hlasový mail %s. "
+
+#: communication\misc.py:312
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Výchozí hlasový mail. "
+
+#: communication\misc.py:314
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Vlastní hlasový mailmail. "
+
+#: communication\misc.py:316
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Neznámý typ hlasového mailu"
+
+#: communication\misc.py:318
+msgid "Not played."
+msgstr "Nepřehráno."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Skládání"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Doručeno"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "SMS přečtena"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "SMS doručena"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "Posílání selhalo"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "Posílání na server"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "Posláno na server"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "Není možné doručit na nějaká čísla."
+
+#: communication\sms.py:28
+#: interface\contactsManager.py:53
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "Zaplatil jste %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Zadejte telefonní číslo nebo číslo oddělené středníkem:"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "Nový SMS průvodce"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Nový průvodce SMS: od %s komu %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Špatné číslo. prosím zkontrolujte zadané a zkuste znovu"
+
+#: communication\status.py:33
+#: interface\contactsManager.py:53
+msgid "Online"
+msgstr "Online"
+
+#: communication\status.py:34
+#: interface\contactsManager.py:53
+msgid "Away"
+msgstr "Pryč"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "Nedostupný"
+
+#: communication\status.py:36
+#: interface\contactsManager.py:53
+msgid "Do not disturb"
+msgstr "Nerušit"
+
+#: communication\status.py:37
+#: interface\contactsManager.py:53
+msgid "Invisible"
+msgstr "Neviditelný"
+
+#: communication\status.py:38
+#: interface\contactsManager.py:53
+msgid "Skype Me"
+msgstr "Skype Me"
+
+#: communication\status.py:39
+#: interface\contactsManager.py:53
+msgid "Offline"
+msgstr "Offline"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "%s's stav je neznámý"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s se odhlásil"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s se přihlásil"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s je Pryč"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s je nedostupný"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s  nerušit"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s se odhlásil"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s je Skype Me"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s je Skype Out"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "Změnit Stav"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Vybrat stav stav"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "Měním stav na %s"
+
+#: communication\status.py:85
+msgid "Current online status is %s"
+msgstr "Aktuální online stav je %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "Uživatel %s %s požaduje autorizaci. Uvítací text: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "Teď máte přidané nové jméno %s %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "Uživatel %s %s je blokován."
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s si odebral(a) text zprávy o náladě"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s si změnil text o náladě na %s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Stav neznámý."
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "Nestáhlo se."
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "Stahování..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Nepřehráno, délka %d vteřin."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Buferuji..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "Hraní..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "hráno, délka %d vteřin."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "Prázdný hlasový mail."
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Nahrávám."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Nahráno."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Posílám na server."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "Posláno na server."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Mazání..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Chyba hlasového mailu."
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Žádná chyba."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Všeobecná chyba."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Program se nemohl připojit."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Žádná práva na hlasový mail."
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Žádný takový hlasový mail."
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "Program nemohl přečíst soubor."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "Program nemohl zapsat soubor."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Program nemohl nahrát hlasový mail."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Program nemohl přehrát hlasový mail."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Skype upozornění"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s v %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (Právě teď %s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "Zatím není nová událost pro tento typ"
+
+#: extras.py:78
+msgid "%d seconds ago"
+msgstr "%d vteřin před tím"
+
+#: extras.py:80
+msgid "a minute ago"
+msgstr "minut před tím"
+
+#: extras.py:82
+msgid "%d minutes ago"
+msgstr "%d minut před tím"
+
+#: extras.py:84
+msgid "an hour ago"
+msgstr "jednu hodinu před tím"
+
+#: extras.py:86
+msgid "%d hours ago"
+msgstr "%d hodin před tím"
+
+#: extras.py:88
+msgid "yesterday"
+msgstr "Včera"
+
+#: extras.py:90
+msgid "%d days ago"
+msgstr "%d dní před tím"
+
+#: extras.py:92
+msgid "%d weeks ago"
+msgstr "%d týdnů před tím"
+
+#: extras.py:94
+msgid "%d months ago"
+msgstr "%d měsíců před tím"
+
+#: extras.py:95
+msgid "%d years ago"
+msgstr "%d let před tím"
+
+#: extras.py:108
+msgid "An error has occured while attempting to configure autostart."
+msgstr "Nastala chyba při konfiguraci automatického spouštění."
+
+#: extras.py:128
+msgid "Goodbye!"
+msgstr "Ahoj!"
+
+#: interface\__init__.py:31
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Opravdu chcete ukončit %s? Ukončí se i Skype, pokud je to nastavené"
+
+#: interface\__init__.py:31
+msgid "Confirm Exit"
+msgstr "Potvrdit ukončení"
+
+#: interface\about.py:30
+#: interface\systemTray.py:81
+msgid "About %s"
+msgstr "O programu %s"
+
+#: interface\about.py:43
+msgid "Project &Web site"
+msgstr "Webová stránka projektu"
+
+#: interface\about.py:44
+msgid "&License online"
+msgstr "&Licence online"
+
+#: interface\about.py:45
+msgid "C&ontributors"
+msgstr "&Přispěvatelé"
+
+#: interface\about.py:46
+msgid "User &Guide"
+msgstr "Uživatelská příručka"
+
+#: interface\about.py:47
+#: interface\systemTray.py:61
+msgid "&What's New"
+msgstr "&Co je nového"
+
+#: interface\about.py:48
+#: interface\systemTray.py:77
+msgid "Check for &updates..."
+msgstr "Zkontrolovat aktualizace..."
+
+#: interface\about.py:64
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This program je distributován pod licencí  GNU General Public License version 2.\n"
+"Pro více informací si přečtěte licenci, kterou by měl obsahovat tento program.\n"
+
+#: interface\contactsManager.py:40
+#: interface\preferences\main.py:48
+msgid "Contacts Manager"
+msgstr "Správce kontaktů"
+
+#: interface\contactsManager.py:53
+msgid "Skype Out"
+msgstr "Skype Out"
+
+#: interface\contactsManager.py:85
+#: interface\contactsManager.py:160
+msgid "Checked"
+msgstr "Zaškrtnuté"
+
+#: interface\contactsManager.py:88
+msgid "Unchecked"
+msgstr "Nezaškrtnuté"
+
+#: interface\contactsManager.py:90
+msgid "&Create Conference"
+msgstr "&vytvořit Konferenci"
+
+#: interface\contactsManager.py:91
+msgid "Create multi c&hat"
+msgstr "Vytvořit multi c&hat"
+
+#: interface\contactsManager.py:94
+#: interface\contactsManager.py:135
+msgid "&Call"
+msgstr "&hovor"
+
+#: interface\contactsManager.py:95
+#: interface\contactsManager.py:137
+msgid "C&hat"
+msgstr "&Chat"
+
+#: interface\contactsManager.py:115
+msgid "&Contact List"
+msgstr "&Kontakty"
+
+#: interface\contactsManager.py:117
+msgid "Contact"
+msgstr "Kontakt"
+
+#: interface\contactsManager.py:118
+msgid "Skype Name"
+msgstr "Skype jméno"
+
+#: interface\contactsManager.py:119
+msgid "Status"
+msgstr "Stav"
+
+#: interface\contactsManager.py:120
+msgid "Mood Text"
+msgstr "Text zprávy o náladě"
+
+#: interface\contactsManager.py:121
+msgid "Last seen"
+msgstr "Naposledy viděn"
+
+#: interface\contactsManager.py:128
+msgid "%s at %s"
+msgstr "%s u %s"
+
+#: interface\contactsManager.py:138
+msgid "View &Profile..."
+msgstr "Zobrazit profil..."
+
+#: interface\contactsManager.py:189
+msgid "Profile Viewer for %s (%s)"
+msgstr "Prohlížeč profilu %s (%s)"
+
+#: interface\contactsManager.py:193
+msgid "Skype name:"
+msgstr "Skype jméno:"
+
+#: interface\contactsManager.py:199
+msgid "Full name:"
+msgstr "Celé jméno:"
+
+#: interface\contactsManager.py:205
+msgid "Mood:"
+msgstr "Text zprávy o náladě:"
+
+#: interface\contactsManager.py:211
+msgid "Birth date:"
+msgstr "Datum narození:"
+
+#: interface\contactsManager.py:217
+msgid "Gender:"
+msgstr "Pohlaví:"
+
+#: interface\contactsManager.py:220
+msgid "Male"
+msgstr "Muž"
+
+#: interface\contactsManager.py:221
+msgid "Female"
+msgstr "Žena"
+
+#: interface\contactsManager.py:224
+msgid "Language:"
+msgstr "Jazyk:"
+
+#: interface\contactsManager.py:230
+msgid "Location:"
+msgstr "Umístění:"
+
+#: interface\contactsManager.py:236
+msgid "Home phone:"
+msgstr "Domácí telefon:"
+
+#: interface\contactsManager.py:242
+msgid "Office phone:"
+msgstr "Telefon do kanceláře:"
+
+#: interface\contactsManager.py:248
+msgid "Mobile phone:"
+msgstr "Mobilní telefon:"
+
+#: interface\contactsManager.py:254
+msgid "Home page:"
+msgstr "Domovská stránka:"
+
+#: interface\contactsManager.py:260
+msgid "About me:"
+msgstr "O programu:"
+
+#: interface\contactsManager.py:266
+msgid "Number of contacts:"
+msgstr "Počet kontaktů:"
+
+#: interface\contactsManager.py:273
+msgid "This user is not authorized to contact me.\n"
+msgstr "Tento uživatel není autorizován aby mě mohl kontaktovat.\n"
+
+#: interface\contactsManager.py:275
+msgid "This user is blocked.\n"
+msgstr "Tento uživatel je blokován.\n"
+
+#: interface\contactsManager.py:277
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Tento uživatel nemá příslušenství pro volání.\n"
+
+#: interface\contactsManager.py:279
+msgid "This user has call forwarding activated.\n"
+msgstr "This user has call forwarding activated.\n"
+
+#: interface\contactsManager.py:281
+msgid "This user has a camera.\n"
+msgstr "Tento uživatel má Webkameru.\n"
+
+#: interface\contactsManager.py:283
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Tento uživatel může posílat a příjmat hlasové maily.\n"
+
+#: interface\contactsManager.py:285
+msgid "Other information:"
+msgstr "Jiné informace:"
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Přistupuje k nastavení, kde se může měnit chování programu"
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Otevře správce kontaktů pro jednoduchou orientaci. pokud stisknuto dvakrát, otevřou se klasické kontakty ve Skype"
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Zobrazí základní informace o programu, domovská stránka, verzi atd."
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Ukončí program SkypeTalking"
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Ztiší hlas, pokud je nastavený na Sapi5"
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "Zapnuto"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "Vypnuto"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Ignorovat Skype události %s."
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Přepíná mezi zapínáním a vypínáním Skype událostí. pokud vypnuto, nejsou hlášeny žádné události"
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "Popis kláves %s."
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Přepíná mezi zapínáním popisu klávesových zkratek. Pokud zapnuto, program ohlásí příkaz ke klávesové zkratce"
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Změní Skype stav"
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "Kontroluje nebo aktualizuje nové verze programu Skypetalking"
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "Hlásí aktuální text o náladě. Pokud stisknuto dvakrát, můžete zadat text o náladě"
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Hlásí aktuální stav uživatelského stavu. Pokud stisknuto dvakrát, hlásí skype kredit"
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Hlásí aktuálně spuštěnou verzi Skype, pokud stisknuto dvakrát, hlásí verzi apivraperu (pro vývojáře)"
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Opakuje událost, která se stala za běhu Skypetalkingu"
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Hlásí přenos příchozího nebo odchozího souboru. Pokud stisknuto dvakrát, umožňuje vybrat monitorování jiného přenosu"
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Hlásí délku aktivního hovoru"
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Hlásí stav aktuálního hovoru. Pokud stisknuto dvakrát, otevře dialog pro zadání více uživatelských jmen oddělené středníkem"
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Spustí průvodce posláním SMS"
+
+#: interface\interfaceCommands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "Jít na další událost a interval v historii událostí"
+
+#: interface\interfaceCommands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "Jít na předchozí událost a interval v historii událostí"
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "Hovory"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "Zprávy"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "Přenosy souborů"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "Uživatelské akce"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "Hlasový mail"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "Změny stavu"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Vybere typ události a interval  pro chaty atd"
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Vybere chat k monitorování. Pokud stisknuto dvakrát, otevře okno aktuálně monitorovaného chatu"
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Hlásit aktuální monitorování chatu. Pokud stisknuto dvakrát, otevře okno s monitorovaným chatem"
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Zobrazí 10 posledních položek záleží na zvoleném módu. Stisknutím dvakrát nebo třikrát vykoná druhou nebo třetí akci pro položku (Pokud je to možné)."
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "mód hlasového mailu"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "Mód zpráv"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Přepíná mezi hlasovým modem, nebo modem pro zprávy"
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Opakuje příchozí nebo odchozí zprávy Pokud stisknuto dvakrát, otevře oknno s chatem a začne ho monitorovat"
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Odpoví na hovory, nebo přepne  aktuální hovory"
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Odpoví na hovor a připojí se k hovoru do konference"
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Ukončí hovor, nebo přestane nahrávat hlasový mail."
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Ztlumí nebo zesílí mikrofon záleží na aktuálním stavu"
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Hlásí aktuálně používaná vstupní/výstupní zařízení"
+
+#: interface\interfaceCommands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Hlásit stav hlasového mailu. Pokud stisknuto dvakrát, otevře se a přehraje hlasový mail Pokud stisknuto třikrát, vymaže se hlasový mail."
+
+#: interface\main.py:169
+#: interface\preferences\categories\hotKeys.py:55
+msgid "No description"
+msgstr "Žádný popis"
+
+#: interface\preferences\__init__.py:27
+msgid "Preferences"
+msgstr "Nastavení"
+
+#: interface\preferences\categories\advanced.py:28
+msgid "Number of &connection retries before giving up:"
+msgstr "Počet &připojení před vzdáním pokusu:"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "Start Skype &minimized"
+msgstr "Spustit Skype &minimalizovaný"
+
+#: interface\preferences\categories\advanced.py:33
+msgid "No &splash screen when starting Skype"
+msgstr "Žádná uvítací obrazovka při startu Skype"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "Uživatel si změnil text o náladě"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "Zpráva chatu doručena"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "Zpráva chatu poslána"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "Online stav &neznámý"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Online stav O&dhlášen"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Online stav &Přihlášen"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Online stav &Pryč"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Online stav &Nedostupný"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "Online stav &Nerušit"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Online stav &Neviditelný"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Online stav &SkypeOut"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Online stav &Skype Me!"
+
+#: interface\preferences\categories\contactsManager.py:28
+msgid "Show &offline contacts"
+msgstr "Zobrazit odhlášené kontakty"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&Jazyk:"
+
+#: interface\preferences\categories\general.py:40
+msgid "Start %s with &Windows"
+msgstr "Spouštět %s &po startu systému"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &start Skype with %s"
+msgstr "Automaticky spouštět Skype s programem %s"
+
+#: interface\preferences\categories\general.py:44
+msgid "Automatically &close Skype when %s exits"
+msgstr "Automaticky &Ukončit Skype když se %s ukončí"
+
+#: interface\preferences\categories\general.py:45
+msgid "C&onfirm when exiting %s"
+msgstr "P&otvrdit při ukončení %s"
+
+#: interface\preferences\categories\general.py:46
+msgid "Show %s icon on the &taskbar"
+msgstr "Zobrazit %s ikonu na &liště"
+
+#: interface\preferences\categories\hotKeys.py:43
+msgid "&Keystrokes"
+msgstr "&Klávesové zkratky"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "Function"
+msgstr "Funkce"
+
+#: interface\preferences\categories\hotKeys.py:46
+msgid "Keystroke"
+msgstr "Klávesová zkratka"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Description"
+msgstr "Popis"
+
+#: interface\preferences\categories\hotKeys.py:59
+msgid "&Change..."
+msgstr "&Změnit..."
+
+#: interface\preferences\categories\hotKeys.py:70
+msgid "Change keystroke for %s"
+msgstr "Změnit klávesovou zkratku pro %s"
+
+#: interface\preferences\categories\hotKeys.py:79
+msgid "Modifiers"
+msgstr "Modifikátory"
+
+#: interface\preferences\categories\hotKeys.py:86
+msgid "&Key:"
+msgstr "&Klávesa"
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "%s keystroke already in use. Please try another one."
+msgstr "%s klávesová zkratka již je používána, prosím zvolte jinou."
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "Change Keystroke Error"
+msgstr "Chyba změny klávesové zkratky"
+
+#: interface\preferences\categories\output.py:28
+msgid "Speech Output:"
+msgstr "Hlasový výstup:"
+
+#: interface\preferences\categories\output.py:29
+msgid "Auto detect"
+msgstr "Auto detekovat"
+
+#: interface\preferences\categories\output.py:29
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "Rychlost mluvení Sapi5:"
+
+#: interface\preferences\categories\output.py:33
+msgid "SAPI5 Volume:"
+msgstr "Hlasitost mluvení Sapi5:"
+
+#: interface\preferences\categories\output.py:36
+msgid "Enable &braille output"
+msgstr "Zapnout brailský výstup"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Automatically check for %s updates"
+msgstr "Automaticky kontrolovat aktualizace %s"
+
+#: interface\preferences\categories\updates.py:30
+msgid "&Download Type:"
+msgstr "Typ aktualizace"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Installer"
+msgstr "Instalátor"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Portable Archive"
+msgstr "Přenosná verze"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "Říkat čas ve &zprávě"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "Říkat jméno kontaktu &se zprávou"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "Po upozornění"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "Před upozorněním"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Nikdy"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Říkat \"Skype upozornění\""
+
+#: interface\preferences\main.py:36
+msgid "General"
+msgstr "Obecné"
+
+#: interface\preferences\main.py:38
+msgid "Output"
+msgstr "Výstup"
+
+#: interface\preferences\main.py:40
+msgid "Alerts"
+msgstr "Upozornění"
+
+#: interface\preferences\main.py:42
+msgid "Verbosity"
+msgstr "Výřečnost"
+
+#: interface\preferences\main.py:44
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: interface\preferences\main.py:46
+msgid "Updates"
+msgstr "Aktualizace"
+
+#: interface\preferences\main.py:50
+msgid "Hot keys"
+msgstr "Klávesové zkratky"
+
+#: interface\preferences\main.py:86
+msgid "Settings saved."
+msgstr "Nastavení uloženo."
+
+#: interface\preferences\main.py:89
+msgid "Settings applied."
+msgstr "Nastavení úspěšné"
+
+#: interface\preferences\main.py:92
+msgid "Settings canceled."
+msgstr "Nastavení zrušeno."
+
+#: interface\preferences\main.py:102
+msgid "Error in %s language file"
+msgstr "Chyba v %s jazykovém souboru"
+
+#: interface\preferences\main.py:102
+msgid "Language Error"
+msgstr "Chyba jazyka"
+
+#: interface\smsDialog.py:32
+msgid "Message text:"
+msgstr "Text zprávy:"
+
+#: interface\smsDialog.py:37
+msgid "&Send"
+msgstr "&Poslat"
+
+#: interface\smsDialog.py:56
+msgid "SMS sending failed."
+msgstr "Selhalo odesílání SMS"
+
+#: interface\smsDialog.py:66
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMS %d, %d znaků zbývá, Aktuální cena %s."
+
+#: interface\smsDialog.py:68
+msgid "Empty"
+msgstr "Prázdný"
+
+#: interface\systemTray.py:43
+msgid "&Contacts Manager..."
+msgstr "&Správce kontaktů"
+
+#: interface\systemTray.py:43
+msgid "Open Contacts Manager"
+msgstr "Otevřít správce kontaktů"
+
+#: interface\systemTray.py:47
+msgid "&Send SMS Wizard..."
+msgstr "&Průvodce posíláním SMS"
+
+#: interface\systemTray.py:47
+msgid "Start SMS Send Wizard"
+msgstr "Spustit průvodce SMS posílání"
+
+#: interface\systemTray.py:51
+msgid "&Preferences..."
+msgstr "&Nastavení"
+
+#: interface\systemTray.py:51
+msgid "Open Preferences Dialog"
+msgstr "Otevřít dialog s nastavením"
+
+#: interface\systemTray.py:54
+msgid "&Tools"
+msgstr "&Nástroje"
+
+#: interface\systemTray.py:57
+msgid "&User Guide"
+msgstr "&Uživatelská příručka"
+
+#: interface\systemTray.py:57
+msgid "Read User Guide"
+msgstr "Přečíst uživatelskou příručku"
+
+#: interface\systemTray.py:61
+msgid "Read What's New"
+msgstr "Přečíst co je nového"
+
+#: interface\systemTray.py:65
+msgid "&Contributors"
+msgstr "&Přispěvatelé"
+
+#: interface\systemTray.py:65
+msgid "View Contributors List"
+msgstr "Zobrazit list přispěvatelů"
+
+#: interface\systemTray.py:69
+msgid "&License"
+msgstr "&Licence"
+
+#: interface\systemTray.py:69
+msgid "View the license"
+msgstr "Zobrazit licenci"
+
+#: interface\systemTray.py:73
+msgid "%s on the &Web"
+msgstr "%s na internetu"
+
+#: interface\systemTray.py:73
+msgid "Launch project Web Site in default browser"
+msgstr "Spustit domovskou stránku projektu ve výchozím prohlížeči"
+
+#: interface\systemTray.py:77
+msgid "Check for the latest application updates"
+msgstr "Zkontrolovat poslední aktualizace programu"
+
+#: interface\systemTray.py:81
+msgid "&About %s..."
+msgstr "O programu %s..."
+
+#: interface\systemTray.py:84
+msgid "&Help"
+msgstr "Nápověda"
+
+#: interface\systemTray.py:86
+msgid "E&xit"
+msgstr "Konec"
+
+#: interface\systemTray.py:86
+msgid "Exit %s"
+msgstr "Ukončit %s"
+
+#: updater.py:67
+msgid "New version available"
+msgstr "Dostupná nová verze"
+
+#: updater.py:67
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Vaše verze: %s.  Poslední verze: %s. Přejete si stáhnout poslední verzi %s?"
+
+#: updater.py:75
+msgid "Update cancelled."
+msgstr "Aktualizace zrušena"
+
+#: updater.py:81
+msgid "Accessing download URL... Please wait..."
+msgstr "Přistupuji k adrese...Prosím čekejte..."
+
+#: updater.py:93
+msgid "Downloading update... Please wait..."
+msgstr "Stahování aktualizace...Prosím čekejte..."
+
+#: updater.py:105
+msgid "Update ready! Choose Ok to continue."
+msgstr "Aktualizace připravena. Stiskněte OK pro pokračování"
+
+#: updater.py:105
+#: updater.py:110
+msgid "Download completed"
+msgstr "Stahování dokončeno"
+
+#: updater.py:110
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Aktualizace je připravena k instalaci. Prosím zavřete %s a spusťte instalační program."
+
+#: updater.py:119
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Program nemůže zjistit číslo online verze, pravděpodobně nefunguje internetové připojení"
+
+#: updater.py:119
+#: updater.py:123
+#: updater.py:127
+#: updater.py:131
+msgid "Update error"
+msgstr "Chyba aktualizace"
+
+#: updater.py:123
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Nemohu najít online číslo verze. Zkuste aktualizaci později."
+
+#: updater.py:127
+msgid "Couldn't access download URL. Please try again later."
+msgstr "Nemohu přistoupit k adrese s aktualizací, prosím zkuste aktualizaci později."
+
+#: updater.py:131
+msgid "Download failed!"
+msgstr "Stahování selhalo!"
+
+#: updater.py:135
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Vaše verze %s není třeba aktualizovat. Aktuální verze: %s. Dostupná online verze: %s."
+
+#: updater.py:141
+msgid "Checking for updates... Please wait..."
+msgstr "Kontroluji aktualizace... Prosím čekejte..."
+

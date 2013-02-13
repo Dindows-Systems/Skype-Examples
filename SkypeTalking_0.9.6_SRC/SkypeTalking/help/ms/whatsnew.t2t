@@ -1,0 +1,404 @@
+Apa yang baru di SkypeTalking
+Terakhir Diperbarui: mtime%% (% x)
+
+= Versi 0.9 =
+
+Ciri-ciri Baru == == [ciri]
+
+- Penerapan SkypeTalking
+ ciri kemas kini
+, yang akan membolehkan anda untuk  
+memuat turun dan mengemas kini ke versi terkini SkypeTalking,  
+dengan menggunakan default Alt + Control + Shift + U ketukan kekunci. Anda  
+juga boleh menyediakan jenis kemas kini anda ingin mengambil (installer  
+atau self-extracting archive mudah alih), serta menghidupkan atau  
+mematikan pemeriksaan kemas kini secara automatik pada permulaan
+  
+SkypeTalking. Pilihan ini boleh dijumpai di bawah kategori Kemas kini
+  
+Preferences->.
+- Ditambah ciri baru SkypeTalking Kunci pendeskripsi, yang boleh  
+diaktifkan secara default dengan Alt + Control + Shift + K ketukan kekunci.  
+Ini hanya menggambarkan SkypeTalking penekanan butang ketika mereka  
+sedang ditekan, bukan menjalankan perintah yang berkaitan dengan  
+mereka. Dengan kata lain, dia bekerja seperti ciri Bantuan Keyboard di  
+JAWS, atau Help Input di NVDA pembaca skrin.
+- Ditambah kategori baru hotkeys ke keutamaan, yang akan membolehkan  
+anda untuk melihat dan menukar semua penekanan butang SkypeTalking  
+sesuai dengan keinginan anda. Tidak memerlukan restart, dan manual  
+Suami mengedit fail. Tidak lagi diperlukan.
+- Ditambah ciri baru untuk meninjau kembali peristiwa masa lalu yang  
+berlaku semasa sesi SkypeTalking. Anda boleh melihat antara peristiwa  
+menukar status, peristiwa panggilan, peristiwa mesej, pemindahan fail  
+peristiwa, peristiwa tindakan pengguna, dan acara Voicemail. default  
+penekanan butang untuk menerokai peristiwa sejarah buffer berdaftar  
+dalam SkypeTalking dokumentasi.
+- Ditambah sokongan mel suara asas. Anda boleh bermain dan memadam  
+mesej suara anda. The ketukan kekunci lalai untuk meninjau Voicemail terakhir  
+adalah Alt + Control + Shift + W. Jika anda menekan dua kali, sebuah  
+Mesej suara akan terbuka dan bermain. Jika anda menekan tiga kali,  
+Voicemail akan dihapuskan.
+- Sekarang anda boleh memilih antara dua mode ulasan untuk Alt +  
+Control + Shift + nombor 1 hingga 0, mod Voicemail atau Mesej mode.  
+Mereka boleh dihidupkan dengan menggunakan default Alt + Control +  
+Shift + Z ketukan kekunci. Jika dalam Mesej mod, Alt + Control + Shift +  
+nombor 1 hingga 0 akan membolehkan anda untuk meninjau 10 mesej terkini  
+berbual, seperti di versi sebelumnya. Jika dalam mod Voicemail, Alt +  
+Control + Shift + nombor 1 hingga 0 akan membolehkan anda untuk  
+meninjau, bermain, dan menghapuskan terkini 10 voicemail.
+- Ditambah Laporan perintah Status Call, Alt + Control + Shift + L  
+secara lalai. Ini juga akan mengatakan status bisu mikrofon anda. Jika  
+ditekan dua kali, akan membuka kotak dialog yang membolehkan anda untuk  
+memanggil seseorang dengan memasukkan nama pengguna Skype, atau membuat  
+panggilan persidangan dengan memasukkan beberapa nama Skype dipisahkan  
+dengan koma atau titik koma.
+- Ditambah arahan untuk pelaporan saat ini Skype input / status output,  
+Alt + Control + Shift + X secara lalai. Ini akan berbicara nama audio  
+input dan output / peranti video sedang digunakan oleh aplikasi client  
+anda Skype.
+- Ditambah kemampuan untuk memantau pemindahan fail yang aktif (jika  
+lebih dari satu yang aktif) dengan menekan default Alt + Control +  
+Shift + F ketukan kekunci dua kali. Anda kemudiannya boleh memilih salah satu  
+daripada pemindahan fail aktif dari Senarai Box, dan kemudian tekan  
+Enter untuk menetapkan monitor untuk itu.
+- SkypeTalking sekarang akan memberitahu anda apabila seseorang ingin  
+menambah anda ke nya / pendaftaran kenalan nya. Namun, anda masih harus  
+menerima atau menolak seseorang melalui antara muka Skype. Menerima  
+orang melalui SkypeTalking dirancang bagi versi masa depan.
+- Ditambah ciri-ciri amaran baru yang akan membolehkan anda untuk  
+secara automatik dengar ketika seseorang telah mengubah / nya teks  
+suasana hatinya. Menemukan ini di bawah Pilihan / Tanda kategori. Ini  
+ditandakan secara lalai.
+- Ditambah baru "Mula SkypeTalking dengan Windows" pilihan. Jika  
+dihidupkan, SkypeTalking akan bermula secara automatik apabila anda  
+log-on ke Windows. Hal ini kemudian akan juga mulai Skype jika  
+dikonfigurasikan untuk melakukannya. Cari ini berdasarkan keutamaan /  
+Umum kategori.
+- Ditambah kategori verbositas baru untuk keutamaan, yang membolehkan  
+anda untuk menetapkan berapa banyak maklumat yang akan dibaca oleh  
+SkypeTalking. Ini termasuk bercakap waktu mesej, bercakap nama kenalan  
+dengan mesej, atau mengatakan "siap sedia Skype" sebelum atau selepas  
+tanda Skype.
+- Ditambah kategori baru lanjut untuk keutamaan, yang digunakan untuk  
+menyediakan pilihan seperti bagaimana Skype akan bermula ketika  
+dilancarkan oleh SkypeTalking, atau berapa kali akan SkypeTalking  
+secara automatik cuba untuk disambungkan ke Skype jika Sambungan telah  
+gagal.
+- Ditambah pilihan untuk memaparkan kenalan offline dalam Contacts  
+Manager. Hal ini ditandakan secara lalai, yang bererti bahawa hanya  
+kenalan yang sedang online akan ditunjukkan. Hal ini boleh dijumpai di  
+bawah Preferences-> kategori Manager Hubungi.
+- Profil
+ Viewer dalam Kenalan Pengurus sekarang mengandungi bidang  
+tambahan, yang akan memberitahu anda jika kenalan yang dipilih  
+mempunyai peralatan panggilan, webcam, atau Voicemail dihidupkan.
+- Memasukkan semula Ikon SkypeTalking di taskbar. Anda boleh membuatnya  
+disembunyikan oleh tandakan kotak semak "Papar SkypeTalking ikon pada  
+taskbar" di bawah kategori Umum Preferences->.
+- The popup menu klik kanan untuk ikon taskbar SkypeTalking telah  
+diperluas dengan Tools dan Help menu. Menu Tools mengandungi cara  
+pintas untuk mengakses Hubungi Manager, SMS Wizard dan Pilihan,  
+sedangkan menu Bantuan mengandungi pilihan seperti semak untuk Kemas kini
+,  
+Baca Apa yang Baru, Panduan Pengguna dan About.
+- Dialog Tentang benar-benar baru, dan mengandungi butang tambahan  
+seperti Contributors, Lihat Lesen Online, Baca Apa yang Baru, Panduan  
+Pengguna dan Semak untuk kemas kini.
+- Ditambah Bahasa: Belarus, Denmark, Ibrani, georgian, Latvia dan  
+Slovenia.
+
+
+== == Perubahan dan Perbaikan [pembaikan]
+
+- Lebih baik berbicara tentang status pemindahan fail. Anda sekarang  
+boleh mendengar peratusan dan masa yang tertinggal dalam pemindahan fail  
+yang sedang dipantau.
+- Status Tukar perintah, Alt + Control + Shift + Backspace telah  
+dimudahkan. Sekarang anda hanya perlu memilih status baru dengan  
+kekunci anak panah dari dalam listbox dan kemudian tekan Enter untuk  
+beralih kepada status itu.
+- Removed Katakanlah perintah Nama pemanggil. Ini diganti dengan  
+perintah Status Call.
+- Tetapan kini berganti nama menjadi Pilihan.
+- Pilihan dialog telah dikerjakan semula dan dimodernisasi, sehingga  
+ada sekarang treeview dengan kategori bukan tab halaman. Anda boleh  
+menavigasi treeview dengan anak panah atas dan bawah, dan bergerak di  
+antara pilihan dalam kategori dengan Tab dan kekunci Shift + Tab.
+- Ditambah butang Apply untuk keutamaan di samping untuk OK dan Cancel.
+- Label Modifikasi untuk beberapa pilihan dalam keutamaan. Mereka  
+sekarang lebih pendek dan mudah-mudahan mereka suara yang lebih baik.
+- SkypeTalking tatacara dan log sekarang pengguna tertentu, kecuali  
+jika anda menjalankan versi mudah alih. Tetapan pengguna khusus akan  
+disimpan untuk dokumen-dokumen dan setting \ UserName \ Application  
+Data \ folder SkypeTalking.
+- Folder pemasangan SkypeTalking sekarang terletak di bawah Program  
+Files lagi.
+- Kenalan Pengurus desain telah dikerjakan semula, sehingga sekarang  
+menunjukkan senarai kenalan dalam kawalan paparan senarai dengan item  
+checkable.
+- Loading kenalan dalam Contacts Manager sekarang jauh lebih cepat.
+- Berbagai perbaikan SkypeTalking startup dan proses Sambungan.
+- SkypeTalking sekarang akan cuba Sambungan ke Skype dalam hal  
+kegagalan, bukan hanya keluar. Sejumlah retries Sambungan boleh  
+dikonfigurasikan dalam kategori Advanced Preferences->.
+- SkypeTalking sekarang akan memaparkan mesej mengenai inisialisasi  
+khusus / masalah startup, bukan hanya membuat bip kesalahan.
+- SkypeTalking sekarang akan terus menjejaki panggilan aktif terkini  
+dan / atau pemindahan fail selepas restart, daripada hanya mengatakan  
+bahawa tidak ada panggilan aktif atau transfer gambar dalam  
+penyelesaian.
+- SkypeTalking ketukan kekunci dengan lebih dari satu fungsi sekarang  
+bertindak balas lebih cepat.
+
+
+Bug Fixes == == [bug]
+
+- Reaksi lambat tetap untuk menamatkan panggilan dengan Alt + Control +  
+Shift + End ketukan kekunci.
+- Fixed bug dengan SkypeTalking tidak keluar dengan betul pada beberapa  
+sistem.
+
+
+== Kemas kini == [kemas kini]
+
+- SkypeTalking sekarang dikembangkan dan dikompilasi dengan Python 2.7.
+- Perpustakaan Output dicapai dikemaskini ke versi 0.6. Dengan versi  
+ini, SkypeTalking juga akan menyokong produk Dolphin (Hal, Lunar dan  
+versi Supernova 12 atau yang lebih baru).
+
+
+= Versi 0.8.1 =
+
+Ciri-ciri Baru == == [ciri]
+
+- Ditambah Bahasa: Arab, Finland dan Serbia.
+- Ditambah arahan Alt + Ctrl + Shift + N yang berbicara nama panggilan  
+rakan dari panggilan yang aktif atau masuk.
+
+
+== == Perubahan dan Perbaikan [pembaikan]
+
+- Mencegah menggemakan dari SkypeTalking penekanan butang ketika  
+SkypeTalking digunakan dengan pembaca skrin yang dikonfigurasikan untuk  
+echo kombinasi kekunci ditekan secara lalai seperti JAWS.
+- Loading kenalan dalam Contacts Manager mungkin mudah-mudahan sekarang  
+menjadi sedikit lebih cepat.
+
+
+Bug Fixes == == [bug]
+
+- Tetapan dialog tidak lagi gagal untuk memulakan dengan SkypeTalking  
+dalam bahasa Bahasa Jerman.
+
+
+== Kemas kini == [kemas kini]
+
+- Perpustakaan Output dicapai dikemaskini ke versi 0.4.3. Ini bermakna  
+bahawa SkypeTalking sekarang akan bekerja dengan baik dengan kemas kini  
+terbaru untuk JAWS 11.
+
+
+= Versi 0.8 =
+
+Ciri-ciri Baru == == [ciri]
+
+- Ditambah kemampuan untuk memantau bual aktif, dengan kata lain,  
+membuka tetingkap bual. Tekan butang Alt + Ctrl + Shift + Fungsi  
+kekunci F1 sehingga F10 untuk menetapkan monitor di salah satu daripada  
+10 bual terkini aktif (tekan dua kali untuk membawa fokus ke tetingkap  
+perbualan). Anda kemudiannya boleh menggunakan Alt + Ctrl + Shift +  
+Bilangan untuk membaca 10 mesej terakhir di saat dipantau chat. Menekan  
+Alt + Ctrl + Shift + C akan mengumumkan saat ini dipantau berbual, dan  
+menekan dua kali akan membawa fokus ke tetingkap perbualan.
+- Ditambah kemampuan untuk membaca dan / atau menukar teks mood Skype.  
+Menekan Alt + Ctrl + Shift + M akan berbicara teks mood anda saat ini,  
+dan menekan dua kali akan membuka kotak dialog yang membolehkan anda  
+menukar teks suasana hati anda.
+- Alt + Ctrl + Shift + perintah O laporan status pengguna dalam talian,  
+dan jika ditekan dua kali, akan melaporkan neraca bila pengguna pada  
+kredit Skype.
+- Ditambah perintah untuk bercakap lama panggilan saat ini, Alt + Ctrl  
++ Shift + D.
+- Ditambah Pengurus kenalan, dicapai dengan Alt + Ctrl + Shift + F11,  
+yang merupakan alternatif untuk senarai kenalan Skype. Ini akan  
+memaparkan kenalan anda dalam kotak senarai multi-pilih membolehkan  
+anda untuk memilih mereka dengan ruang dan melakukan tindakan atas  
+mereka seperti Call, Bual atau View Profile. Hal ini juga akan  
+memaparkan terkini berkunjung maklumat untuk kenalan offline, yang  
+tidak dapat dicapai dengan beberapa versi Skype dan beberapa pembaca  
+skrin seperti NVDA. Tindakan View Profile akan membuka paparan profil  
+yang akan membolehkan anda untuk meninjau butiran kenalan yang dipilih  
+dengan menggunakan Tab dan Shift + Tab dan kekunci anak panah.  
+Panggilan dan tindakan obrolan adalah self-describing. Menekan Alt +  
+Ctrl + Shift + F11 dua kali akan memfokuskan senarai Skype kenalan  
+asli. Jika beberapa kenalan yang dipilih, maka anda akan mempunyai  
+pilihan untuk mencipta sebuah persidangan atau multi-chat.
+- Ditambah arahan untuk menjawab dan menamatkan panggilan, Alt + Ctrl +  
+Shift + Home dan Alt + Ctrl + Shift + End (bukan pada papan nombor).  
+Menekan Alt + Ctrl + Shift + Home semasa panggilan akan bertukar-tukar  
+antara memegang dan meneruskan untuk panggilan saat ini. Menekan Alt +  
+Ctrl + Shift + Home dua kali dengan cepat akan menjawab dan bergabung  
+dengan panggilan masuk ke persidangan. Menekan Alt + Ctrl + Shift + End  
+dua kali dengan cepat akan beralih mematikan atau mengaktifkan suara  
+mikrofon.
+- Ditambah sokongan untuk menghantar SMS dengan SkypeTalking. Perintah  
+Alt + Ctrl + Shift + S sekarang akan membuka wizard SMS yang akan  
+membolehkan anda untuk menghantar SMS ke nombor telefon. Ada dua  
+dialog, satu untuk nombor telefon dan satu sama lain untuk mesej teks.  
+Saat memasukkan nombor, titik koma digunakan untuk memisahkan beberapa  
+nombor telefon dan juga termasuk kod negara anda. Jika semuanya sudah  
+benar, tekan Enter untuk melanjutkan. Selanjutnya, masukkan teks SMS,  
+kemudian tekan Enter atau tab untuk butang Hantar untuk menghantar  
+mesej, atau tekan kekunci Escape atau Batal untuk membatalkan  
+penghantaran. Semasa menulis mesej, anda boleh menekan F2 untuk  
+menyemak hitungan apabila anda SMS, berapa banyak aksara yang tersisa,  
+dan juga harga SMS saat ini. Suara Henti Kritis akan bermain dalam kes  
+ketika ada 0 watak tersisa dalam mesej teks.
+- Dimuat pilihan baru untuk tetapan dialog untuk secara automatik  
+berhenti Skype saat keluar dari SkypeTalking. Ini ditetapkan ke Aktif  
+secara lalai.
+- Dimuat pilihan baru untuk tetapan dialog, "Pasti ketika keluar  
+SkypeTalking". Ini dihidupkan secara default, jadi sekarang saat keluar  
+dari SkypeTalking, anda juga harus mengesahkan bahawa anda ingin  
+keluar. Jika dimatikan, SkypeTalking akan berperilaku seperti pada  
+versi sebelumnya, yang bererti bahawa itu akan keluar segera. Pilihan  
+ini telah ditambah untuk menghalang pengguna dari program keluar secara  
+tidak sengaja.
+- Ditambah kemampuan untuk menyesuaikan cara pintas keyboard  
+SkypeTalking, meskipun saat ini anda perlu menggunakan fail INI untuk  
+ini. Kunci Bindings tab dalam dialog Tetapan dijadualkan untuk keluaran  
+seterusnya. Jika tugas keyboard di SkypeTalking.INI tidak benar, dari  
+tugas lalai akan digunakan, tetapi user juga akan memberi amaran  
+tentang tugas tidak sah. Anda boleh mengubah semua tekanan butang di  
+bawah bahagian [pintas]. Sila gunakan ini dengan hati-hati, dan juga  
+restart SkypeTalking jika perubahan tidak mengambil mempengaruhi  
+segera.
+- Ditambah Bahasa: Denmark dan Perancis.
+
+
+== == Perubahan dan Perbaikan [pembaikan]
+
+- Membaca mesej chat perintah diubah buat kali terakhir dari Alt + Ctrl  
++ Shift + M untuk Alt + Ctrl + Shift + R. Juga saat ditekan dua kali,  
+akan memindahkan fokus dan monitor ke yang berbual.
+- Keluar SkypeTalking perintah berubah dari Alt + Ctrl + Shift + F4  
+untuk Alt + Ctrl + Shift + Q (untuk Quit).
+- Perintah Settings Dialog berubah dari Alt + Ctrl + Shift + S untuk  
+Alt + Ctrl + Shift + P (untuk Pilihan).
+- Dihapus ikon taskbar. Anda kini boleh menggunakan arahan SkypeTalking  
+dikaitkan bukan di dalam menu klik kanan.
+- Versi wrapper API kini diucapkan apabila menekan Alt + Ctrl + Shift +  
+V dua kali, kerana maklumat ini tidak bermanfaat bagi pengguna akhir.
+- Tempoh panggilan sekarang dilaporkan dalam jam, minit dan saat.
+- Ditambah kelajuan pemindahan fail dan data dipindahkan maklumat ke  
+Fail perintah Status Transfer (Alt + Ctrl + Shift + F).
+- SkypeTalking tidak akan lagi membenarkan beberapa contoh berjalan  
+pada masa yang sama, dan akan mengeluarkan semula suara Ding jika  
+pengguna cuba pelancaran contoh lain dari SkypeTalking secara tidak  
+sengaja saat itu di dalam memori.
+- Jika kesalahan kritikal berlaku apabila memuatkan SkypeTalking, nada  
+kesalahan akan dimainkan dari speaker PC anda. Sila memberitahu para  
+pemaju tentang hal ini secepat itu terjadi.
+
+
+Bug Fixes == == [bug]
+
+- SkypeTalking tidak akan lagi mengabaikan kenalan yang belum  
+menetapkan nama penuh mereka, dan itu akan berbicara mereka Id Skype  
+sebagai gantinya. Dengan demikian, anda tidak akan lagi mendengar  
+sesuatu seperti "Skype: sedang online".
+- Bila setting membuka dialog, fokusnya adalah sekarang benar  
+ditetapkan ke Bahasa Combo Box.
+- Dalam dialog tatacara, Ok dan butang Batal tidak lagi dilewati ketika  
+mengemudi dengan Shift + Tab.
+
+
+= Versi 0.7 =
+
+Ciri-ciri Baru == == [ciri]
+
+- Anda kini boleh melihat terkini 10 mesej chat dengan menggunakan Alt  
++ Ctrl + Shift +1 melalui 0. Jika ditekan dua kali dengan cepat,  
+SkypeTalking akan menyalin mesej kepada clipboard. Jika ditekan tiga  
+kali dengan cepat, SkypeTalking akan terbuka URL dalam mesej jika ada  
+satu.
+- Anda kini boleh menukar status anda on the fly dengan menggunakan Alt  
++ Ctrl + Shift + Backspace.
+- Toggle mengabaikan peristiwa Skype dengan menggunakan Alt + Ctrl +  
+Shift + I.
+- Dasar sokongan untuk pemindahan fail. Anda boleh membaca status  
+transfer fail yang terakhir dengan menggunakan Alt + Ctrl + Shift + F.
+- Ditambah Bahasa: Czech, Turki, Jepun dan Melayu.
+
+
+== == Perubahan dan Perbaikan [pembaikan]
+
+- Lebih baik pengendalian status panggilan.
+- Default Berubah memasang lokasi ke direktori root partisi Windows  
+anda untuk mengelakkan kegagalan pada Windows Vista dan Windows 7  
+mesin.
+
+
+== Kemas kini == [kemas kini]
+
+- Perpustakaan Output dicapai sekarang up-to-date.
+
+
+= Versi 0.6.1 =
+
+- Ditambah Bahasa: Bulgaria, China (mandarin), Jerman, Itali, Hungary,  
+Poland, Russia, Ukraine dan Portugis.
+- Ditambah ulangi perintah even terkini, ketukan kekunci Alt + Ctrl + Shift +  
+E.
+- Alt + Ctrl + Shift + Tab ketukan kekunci berubah ke Alt + Ctrl + Shift + M  
+untuk mengulangi yang terkini mesej chat.
+
+
+= Versi 0.6 =
+
+- Ditambah dialog tetapan.
+- Penerapan sokongan Multilanguage.
+- Ditambah shortcut keyboard.
+- SkypeTalking sekarang menyokong status yang tidak dikenali dan  
+SkypeOut.
+- Anda kini boleh bertukar-tukar pengumuman mesej masuk dan keluar  
+secara berasingan.
+- Berbagai perbaikan minor.
+
+
+= Versi 0.5.1 =
+
+- Ditambah sokongan untuk JAWS,-Window Mata dan Sistem masuk ke pembaca  
+skrin serta sokongan SAPI5 pidato.
+- Ditambah fail konfigurasi SkypeTalking.ini mana anda boleh menetapkan  
+parameter seperti pidato dan output braille, parameter suara SAPI5, dan  
+pilihan dikonfigurasikan lain SkypeTalking. Perhatikan bahawa saat ini  
+tidak ada dialog tatacara, sehingga pilihan harus dikonfigurasikan  
+secara manual dengan mengedit SkypeTalking.ini.
+- Ditambah SkypeTalking.log log fail yang mengandungi info penting  
+untuk pemaju. Sila sertakan fail log ketika melaporkan masalah!
+- Ditambah pilihan untuk automatik memulakan Skype jika tidak berjalan  
+pada saat pelancaran aplikasi SkypeTalking.
+- Dimuat pilihan untuk membaca mesej chat automatik. Disarankan untuk  
+mematikannya jika menggunakan SkypeTalking bersama-sama dengan script  
+JAWS untuk Skype untuk mengelakkan duplikasi berbicara tentang mesej.
+- Ditambah kemampuan untuk menghidupkan atau mematikan pengumuman  
+status pengguna individu. Semua status diumumkan secara lalai.
+- Lebih baik berbicara tentang status pengguna.
+- Sepenuhnya ditulis semula Tentang Dialog. Ditambah maklumat versi,  
+URL dan maklumat Hak Cipta.
+
+
+= Versi 0.5 =
+
+keluaran Pertama, menambah ciri-ciri asas:
+- Mengumumkan mesej pembuka dengan sedang log-in nama pengguna
+- Skype mengumumkan API melampirkan status
+- Mengumumkan status pengguna dan kenalan user status talian termasuk  
+talian, offline, jauh, N / A dll
+- Mengumumkan status panggilan dan nama pemanggil panggilan masuk
+- Mengumumkan masuk dan keluar mesej chat
+- Sokongan untuk NVDA (pembaca skrin bebas dan sumber terbuka) (Output  
+di kedua-dua bercakap dan braille)
+- Berjalan di system tray, menambah pilihan About dan Keluar ke menu  
+popup dengan klik kanan

@@ -1,0 +1,789 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking\n"
+"POT-Creation-Date: 2010-04-10 20:44+Central European Daylight Time\n"
+"PO-Revision-Date: 2010-04-25 19:42+0200\n"
+"Last-Translator: V. Laasala <v.laasala@gmail.com>\n"
+"Language-Team: Finnish <FI@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+
+#: .\source\communication\calls.py:12
+#: .\source\communication\calls.py:13
+msgid "Skype: %s ringing"
+msgstr "Skype: %s soittaa"
+
+#: .\source\communication\calls.py:15
+#: .\source\communication\calls.py:17
+msgid "Skype: Call with %s finished, duration %s."
+msgstr "Skype: Puhelu käyttäjälle %s lopetettu, kesto %s."
+
+#: .\source\communication\calls.py:19
+#: .\source\communication\calls.py:20
+msgid "Skype: Calling %s, routing..."
+msgstr "Skype: Soitetaan käyttäjälle %s, reititetään..."
+
+#: .\source\communication\calls.py:22
+#: .\source\communication\calls.py:23
+msgid "Skype: Sorry, call with %s failed"
+msgstr "Skype: Valitettavasti puhelun käyttäjälle %s epäonnistui"
+
+#: .\source\communication\calls.py:25
+#: .\source\communication\calls.py:26
+msgid "Skype: Call with %s in progress"
+msgstr "Skype: Puhelu käyttäjälle %s meneillään"
+
+#: .\source\communication\calls.py:28
+#: .\source\communication\calls.py:29
+msgid "Skype: Call with %s on hold"
+msgstr "Skype: Puhelu käyttäjälle %s on pidossa"
+
+#: .\source\communication\calls.py:31
+#: .\source\communication\calls.py:32
+msgid "Skype: Missed call from %s"
+msgstr "Skype: Vastaamatta jäänyt puhelu käyttäjältä %s"
+
+#: .\source\communication\calls.py:34
+#: .\source\communication\calls.py:35
+msgid "Skype: Call refused"
+msgstr "Skype: Puhelu hylätty"
+
+#: .\source\communication\calls.py:37
+#: .\source\communication\calls.py:38
+msgid "Skype: Call with %s, busy"
+msgstr "Skype: Puhelu käyttäjälle %s, varattu"
+
+#: .\source\communication\calls.py:40
+#: .\source\communication\calls.py:41
+msgid "Skype: Call with %s, cancelled"
+msgstr "Skype: Puhelu käyttäjälle %s, keskeytetty"
+
+#: .\source\communication\calls.py:43
+#: .\source\communication\calls.py:44
+msgid "Skype: Call with %s on local hold"
+msgstr "Skype: Puhelu käyttäjälle %s paikallisessa pidossa"
+
+#: .\source\communication\calls.py:46
+#: .\source\communication\calls.py:47
+msgid "Skype: Call with %s on remote hold"
+msgstr "Skype: Puhelu käyttäjälle %s etäpidossa"
+
+#: .\source\communication\calls.py:49
+#: .\source\communication\calls.py:50
+msgid "Skype: Transferring call to %s"
+msgstr "Skype: Siirretään puhelua käyttäjälle %s"
+
+#: .\source\communication\calls.py:52
+#: .\source\communication\calls.py:53
+msgid "Skype: Call transferred to %s"
+msgstr "Skype: Puhelu siirretty käyttäjälle %s"
+
+#: .\source\communication\calls.py:59
+msgid "hour "
+msgstr "tunti "
+
+#: .\source\communication\calls.py:59
+msgid "hours "
+msgstr "tuntia "
+
+#: .\source\communication\calls.py:60
+msgid "minute "
+msgstr "minuutti "
+
+#: .\source\communication\calls.py:60
+msgid "minutes "
+msgstr "minuuttia "
+
+#: .\source\communication\calls.py:60
+#: .\source\communication\calls.py:61
+msgid "and "
+msgstr "ja "
+
+#: .\source\communication\calls.py:61
+msgid "second"
+msgstr "sekunti"
+
+#: .\source\communication\calls.py:61
+msgid "seconds"
+msgstr "sekuntia"
+
+#: .\source\communication\files.py:12
+msgid "New file transfer %s; File %s."
+msgstr "Uusi tiedostonsiirto %s; Tiedosto %s."
+
+#: .\source\communication\files.py:15
+msgid "File transfer %s; File %s; Status Connecting."
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila Yhdistetään."
+
+#: .\source\communication\files.py:17
+msgid "File transfer %s; File %s; Status Transferring"
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila Siirretään"
+
+#: .\source\communication\files.py:19
+msgid "File transfer %s; File %s; Status Transferring over relay"
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila: siirretään edelleen"
+
+#: .\source\communication\files.py:21
+msgid "File transfer %s; File %s; Status Waiting for accept."
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila Odottaa hyväksyntää."
+
+#: .\source\communication\files.py:23
+msgid "File transfer %s; File %s; Status Paused."
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila Pysäytetty."
+
+#: .\source\communication\files.py:26
+msgid "File transfer %s; File %s; Status Paused remotely."
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila Pysäytetty etäkoneelta."
+
+#: .\source\communication\files.py:29
+msgid "File transfer %s; File %s; Status Canceled."
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila Peruttu."
+
+#: .\source\communication\files.py:32
+msgid "File transfer %s; File %s; Status Completed."
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila Valmis."
+
+#: .\source\communication\files.py:35
+msgid "File transfer %s; File %s; Status Failed."
+msgstr "Tiedostonsiirto %s; Tiedosto %s; Tila Epäonnistui."
+
+#: .\source\communication\files.py:38
+msgid "Sender not authorized."
+msgstr "Lähettäjää ei ole varmennettu."
+
+#: .\source\communication\files.py:40
+msgid "Remotely cancelled."
+msgstr "Peruttiin etäkoneelta."
+
+#: .\source\communication\files.py:42
+msgid "Failed read."
+msgstr "Lukeminen epäonnistui."
+
+#: .\source\communication\files.py:44
+msgid "Failed remote read."
+msgstr "Lukeminen epäonnistui etäkoneessa."
+
+#: .\source\communication\files.py:46
+msgid "Failed write."
+msgstr "Kirjoittaminen epäonnistui."
+
+#: .\source\communication\files.py:48
+msgid "Failed remote write."
+msgstr "Kirjoittaminen epäonnistui etäkoneessa."
+
+#: .\source\communication\files.py:50
+msgid "Remote does not support file transfer."
+msgstr "Etäkone ei tue tiedostonsiirtoa."
+
+#: .\source\communication\files.py:52
+msgid "Remote offline too long."
+msgstr "Etäkone offline-tilassa liian pitkään."
+
+#: .\source\communication\main.py:18
+msgid "Skype client version %s"
+msgstr "Skype-ohjelman versio %s"
+
+#: .\source\communication\main.py:21
+msgid "API wrapper version %s"
+msgstr "Sovellusliitännän versio %s"
+
+#: .\source\communication\main.py:25
+#: .\source\communication\main.py:33
+#: .\source\communication\main.py:44
+msgid "Events are currently ignored."
+msgstr "Tapahtumat ohitetaan tällä hetkellä"
+
+#: .\source\communication\main.py:27
+msgid "No new events since you've launched %s."
+msgstr "Ei uusia tapahtumia sovelluksen %s käynnistyksen jälkeen."
+
+#: .\source\communication\main.py:35
+msgid "No new messages since you've launched %s."
+msgstr "Ei uusia viestejä sovelluksen %s käynnistyksen jälkeen."
+
+#: .\source\communication\main.py:37
+#: .\source\communication\main.py:81
+#: .\source\communication\messages.py:21
+msgid "%s said: %s"
+msgstr "%s sanoi: %s"
+
+#: .\source\communication\main.py:46
+msgid "No active file transfers."
+msgstr "Ei tiedostonsiirtoja meneillään."
+
+#: .\source\communication\main.py:49
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Siirretty: %.1f Mt, Nopeus: %.1f kb/s"
+
+#: .\source\communication\main.py:53
+msgid "%s may not be started because it may not be authorized from an unknown reason. Exiting."
+msgstr "Sovellusta %s ei voida käynnistää, koska se ei saanut käyttölupaa tuntemattomasta syystä. Suljetaan."
+
+#: .\source\communication\main.py:56
+msgid "Authorizing..."
+msgstr "Tarkistetaan käyttölupaa..."
+
+#: .\source\communication\main.py:58
+msgid "Authorization refused. %s may not be started. Exiting."
+msgstr "Käyttölupa evättiin. Sovellusta %s ei voida käynnistää. Suljetaan."
+
+#: .\source\communication\main.py:63
+msgid "Error, API not available. %s may not be started. Exiting."
+msgstr "Virhe, sovellusliitäntä ei ole saatavilla. Sovellusta %s ei voida käynnistää. Suljetaan."
+
+#: .\source\communication\main.py:68
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s on valmiina. Tällä hetkellä kirjautunut käyttäjä on %s."
+
+#: .\source\communication\main.py:74
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Ei uusia viestejä sovelluksen %s käynnistyksen jälkeen tai chatintarkkailua ei ole vielä valittu."
+
+#: .\source\communication\main.py:77
+msgid "no message at this position. The first is at position %d"
+msgstr "Ei viestiä tässä kohdassa. Ensimmäinen on kohdassa %d"
+
+#: .\source\communication\main.py:89
+msgid "Message copied to clipboard."
+msgstr "Viesti kopioitiin leikepöydälle."
+
+#: .\source\communication\main.py:91
+msgid "copy failed"
+msgstr "Kopiointi epäonnistui"
+
+#: .\source\communication\main.py:97
+msgid "opening URL"
+msgstr "avataan web-osoitetta"
+
+#: .\source\communication\main.py:100
+msgid "Failed to open this URL."
+msgstr "Web-osoitteen avaaminen epäonnistui."
+
+#: .\source\communication\main.py:102
+msgid "url not found"
+msgstr "web-osoitetta ei löytynyt"
+
+#: .\source\communication\main.py:106
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Ei chatintarkkailua tässä kohdassa. Ensimmäinen on kohdassa %s."
+
+#: .\source\communication\main.py:110
+#: .\source\communication\main.py:112
+msgid "Monitoring chat with %s"
+msgstr "Tarkkaillaan chattia käyttäjältä %s"
+
+#: .\source\communication\main.py:112
+#: .\source\interface\main.py:99
+msgid "and"
+msgstr "ja"
+
+#: .\source\communication\main.py:116
+msgid "no active chats"
+msgstr "ei chatteja meneillään"
+
+#: .\source\communication\main.py:120
+msgid "Enter your new mood text:"
+msgstr "Kirjoita uusi tunnelmatekstisi:"
+
+#: .\source\communication\main.py:126
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s on vaihtanut tunnelmatekstikseen: %s"
+
+#: .\source\communication\main.py:131
+#: .\source\communication\main.py:172
+msgid "no active call"
+msgstr "ei puhelua meneillään"
+
+#: .\source\communication\main.py:141
+msgid "Microphone unmuted"
+msgstr "mikrofoni käytössä"
+
+#: .\source\communication\main.py:144
+msgid "Microphone muted"
+msgstr "mikrofoni mykistetty"
+
+#: .\source\communication\main.py:154
+msgid "call on hold "
+msgstr "Puhelu pidossa"
+
+#: .\source\communication\main.py:160
+msgid "call resumed"
+msgstr "Puhelu palautettu"
+
+#: .\source\communication\main.py:164
+msgid "%s has joined the current call."
+msgstr "%s on liittynyt meneillään olevaan puheluun."
+
+#: .\source\communication\main.py:166
+msgid "only one active call"
+msgstr "vain yksi puhelu meneillään"
+
+#: .\source\communication\messages.py:11
+#: .\source\communication\messages.py:13
+msgid "%s says: %s"
+msgstr "%s sanoo: %s"
+
+#: .\source\communication\messages.py:15
+msgid "SMS message by %s: %s"
+msgstr "SMS-viesti käyttäjältä %s: %s"
+
+#: .\source\communication\messages.py:17
+msgid "Sending..."
+msgstr "Lähetetään..."
+
+#: .\source\communication\sms.py:7
+msgid "Composing"
+msgstr "Luodaan"
+
+#: .\source\communication\sms.py:7
+msgid "Delivered"
+msgstr "Toimitettu"
+
+#: .\source\communication\sms.py:7
+msgid "SMS read"
+msgstr "SMS luettu"
+
+#: .\source\communication\sms.py:7
+msgid "SMS received"
+msgstr "SMS vastaanotettu"
+
+#: .\source\communication\sms.py:7
+msgid "Sending Failed"
+msgstr "Lähettäminen epäonnistui"
+
+#: .\source\communication\sms.py:7
+msgid "Sending to server"
+msgstr "Lähetetään palvelimelle"
+
+#: .\source\communication\sms.py:7
+msgid "Sent to server"
+msgstr "Lähetetty palvelimelle"
+
+#: .\source\communication\sms.py:7
+msgid "Unable to deliver to some numbers."
+msgstr "Toimitus joihinkin numeroihin epäonnistui."
+
+#: .\source\communication\sms.py:7
+#: .\source\interface\contactsManager.py:23
+#: .\source\interface\contactsManager.py:151
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: .\source\communication\sms.py:8
+#: .\source\communication\status.py:50
+msgid "%s"
+msgstr "%s"
+
+#: .\source\communication\sms.py:10
+msgid "You've payed %s"
+msgstr "Olet maksanut %s"
+
+#: .\source\communication\sms.py:11
+#: .\source\interface\main.py:139
+msgid "Your Skype Credit Balance is %s"
+msgstr "Skype-krediittisaldosi on %s"
+
+#: .\source\communication\status.py:15
+#: .\source\communication\status.py:16
+msgid "Skype: %s's status is unknown"
+msgstr "Skype: Käyttäjän %s tila on tuntematon"
+
+#: .\source\communication\status.py:18
+#: .\source\communication\status.py:19
+msgid "Skype: %s went Offline"
+msgstr "Skype: %s siirtyi Offline-tilaan"
+
+#: .\source\communication\status.py:21
+#: .\source\communication\status.py:22
+msgid "Skype: %s is Online"
+msgstr "Skype: %s on Online-tilassa"
+
+#: .\source\communication\status.py:24
+#: .\source\communication\status.py:25
+msgid "Skype: %s is Away"
+msgstr "Skype: %s on poissa"
+
+#: .\source\communication\status.py:27
+#: .\source\communication\status.py:28
+msgid "Skype: %s is Not Available"
+msgstr "Skype: %s ei ole tavoitettavissa"
+
+#: .\source\communication\status.py:30
+#: .\source\communication\status.py:31
+msgid "Skype: %s is Do Not Disturb"
+msgstr "Skype: %s on älä häiritse -tilassa"
+
+#: .\source\communication\status.py:33
+#: .\source\communication\status.py:34
+msgid "Skype: %s went offline"
+msgstr "Skype: %s siirtyi offline-tilaan"
+
+#: .\source\communication\status.py:36
+#: .\source\communication\status.py:37
+msgid "Skype: %s is Skype Me"
+msgstr "Skype: %s on Skype me -tilassa"
+
+#: .\source\communication\status.py:39
+#: .\source\communication\status.py:40
+msgid "Skype: %s is Skype Out"
+msgstr "Skype: %s on Skype Out -tilassa"
+
+#: .\source\communication\status.py:45
+msgid "Not Available"
+msgstr "Ei tavoitettavissa"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:23
+msgid "Away"
+msgstr "Poissa"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:23
+msgid "Do not disturb"
+msgstr "Älä häiritse"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:23
+msgid "Invisible"
+msgstr "Piilossa"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:23
+msgid "Offline"
+msgstr "Offline"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:23
+msgid "Online"
+msgstr "Online"
+
+#: .\source\communication\status.py:45
+#: .\source\interface\contactsManager.py:23
+msgid "Skype Me"
+msgstr "Skype Me"
+
+#: .\source\communication\status.py:47
+msgid "changing status to %s"
+msgstr "Vaihdetaan tilaksi %s"
+
+#: .\source\interface\__init__.py:26
+msgid "Connecting to Skype..."
+msgstr "Yhdistetään Skypeen..."
+
+#: .\source\interface\contactsManager.py:21
+msgid "&Choose a contact:"
+msgstr "&Valitse yhteystieto:"
+
+#: .\source\interface\contactsManager.py:23
+msgid "Not available"
+msgstr "Ei tavoitettavissa"
+
+#: .\source\interface\contactsManager.py:23
+msgid "Skype Out"
+msgstr "Skype Out"
+
+#: .\source\interface\contactsManager.py:24
+msgid "- Last seen %s"
+msgstr "- viimeksi havaittu %s"
+
+#: .\source\interface\contactsManager.py:28
+#: .\source\interface\contactsManager.py:56
+msgid "&Call"
+msgstr "&Soita"
+
+#: .\source\interface\contactsManager.py:30
+#: .\source\interface\contactsManager.py:57
+msgid "C&hat"
+msgstr "&Chattaa"
+
+#: .\source\interface\contactsManager.py:31
+msgid "View &Profile..."
+msgstr "Näytä &profiili..."
+
+#: .\source\interface\contactsManager.py:52
+msgid "&Create Conference"
+msgstr "Aloita &neuvottelu"
+
+#: .\source\interface\contactsManager.py:53
+msgid "Create multi c&hat"
+msgstr "Aloita &ryhmächatti"
+
+#: .\source\interface\contactsManager.py:70
+#: .\source\interface\contactsManager.py:81
+msgid "Please select at least one contact."
+msgstr "Valitse vähintään yksi yhteystieto."
+
+#: .\source\interface\contactsManager.py:84
+msgid "Profile Viewer for %s (%s)"
+msgstr "Profiilinkatselu - käyttäjä %s (%s)"
+
+#: .\source\interface\contactsManager.py:87
+msgid "Skype name:"
+msgstr "Skype-nimi:"
+
+#: .\source\interface\contactsManager.py:92
+msgid "Full name:"
+msgstr "Koko nimi:"
+
+#: .\source\interface\contactsManager.py:97
+msgid "Mood:"
+msgstr "Tunnelma:"
+
+#: .\source\interface\contactsManager.py:102
+msgid "Birth date:"
+msgstr "Syntymäpäivä:"
+
+#: .\source\interface\contactsManager.py:107
+msgid "Gender:"
+msgstr "Sukupuoli:"
+
+#: .\source\interface\contactsManager.py:110
+msgid "Male"
+msgstr "mies"
+
+#: .\source\interface\contactsManager.py:111
+msgid "Female"
+msgstr "nainen"
+
+#: .\source\interface\contactsManager.py:113
+msgid "Language:"
+msgstr "Kieli:"
+
+#: .\source\interface\contactsManager.py:118
+msgid "Location:"
+msgstr "Sijainti:"
+
+#: .\source\interface\contactsManager.py:123
+msgid "Home phone:"
+msgstr "Kotipuhelin:"
+
+#: .\source\interface\contactsManager.py:128
+msgid "Office phone:"
+msgstr "Työpuhelin:"
+
+#: .\source\interface\contactsManager.py:133
+msgid "Mobile phone:"
+msgstr "Matkapuhelin:"
+
+#: .\source\interface\contactsManager.py:138
+msgid "Home page:"
+msgstr "Kotisivu:"
+
+#: .\source\interface\contactsManager.py:143
+msgid "About me:"
+msgstr "Tietoa minusta:"
+
+#: .\source\interface\contactsManager.py:148
+msgid "Number of contacts:"
+msgstr "Yhteystietojen määrä:"
+
+#: .\source\interface\main.py:87
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Tunnelmatekstiä ei ole asetettu. Paina tätä komentoa kahdesti kirjoittaaksesi sellaisen."
+
+#: .\source\interface\main.py:88
+msgid "The current mood text is: %s."
+msgstr "Nykyinen tunnelmateksti on: %s."
+
+#: .\source\interface\main.py:92
+msgid "Current Online status is %s"
+msgstr "Nykyinen online-tila on %s"
+
+#: .\source\interface\main.py:97
+#: .\source\interface\main.py:99
+msgid "monitor on chat with %s"
+msgstr "Tarkkaile chattia käyttäjän %s kanssa"
+
+#: .\source\interface\main.py:101
+#: .\source\interface\main.py:134
+msgid "no active chat monitor"
+msgstr "Ei aktiivista chatintarkkailua"
+
+#: .\source\interface\miscFunctions.py:15
+msgid "Settings"
+msgstr "Asetukset"
+
+#: .\source\interface\miscFunctions.py:19
+msgid "Contacts Manager"
+msgstr "Yhteystietojenhallinta"
+
+#: .\source\interface\miscFunctions.py:27
+msgid "Copyright %s SkypeTalking Team."
+msgstr "Tekijänoikeus %s SkypeTalking-työryhmä."
+
+#: .\source\interface\miscFunctions.py:36
+msgid "Goodbye!"
+msgstr "Näkemiin!"
+
+#: .\source\interface\miscFunctions.py:46
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Haluatko varmasti sulkea ohjelman %s? Tämä sulkee myös Skypen, jos olet määrittänyt niin."
+
+#: .\source\interface\miscFunctions.py:46
+msgid "Confirm Exit"
+msgstr "Vahvista sulkeminen"
+
+#: .\source\interface\miscFunctions.py:57
+msgid "Ignore Skype events On."
+msgstr "Skype-tapahtumat ohitetaan"
+
+#: .\source\interface\miscFunctions.py:60
+msgid "Ignore Skype events Off."
+msgstr "Skype-tapahtumat ilmoitetaan"
+
+#: .\source\interface\miscFunctions.py:64
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Anna puhelinnumero tai -numerot puolipisteellä eroteltuina:"
+
+#: .\source\interface\miscFunctions.py:64
+msgid "New SMS Wizard"
+msgstr "Uuden SMS-viestin luonti"
+
+#: .\source\interface\miscFunctions.py:72
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Uuden SMS-viestin luonti: käyttäjältä %s käyttäjälle %s"
+
+#: .\source\interface\miscFunctions.py:75
+msgid "Invalid number. Please check your input and try again."
+msgstr "Virheellinen numero. Tarkista numero ja yritä uudelleen."
+
+#: .\source\interface\settings\alertsTab.py:9
+msgid "Chat message &received"
+msgstr "Chattiviesti &vastaanotettu"
+
+#: .\source\interface\settings\alertsTab.py:11
+msgid "Chat message &sent"
+msgstr "Chattiviesti &lähetetty"
+
+#: .\source\interface\settings\alertsTab.py:13
+msgid "Online status &unknown"
+msgstr "Online-tila &tuntematon"
+
+#: .\source\interface\settings\alertsTab.py:15
+msgid "Online status O&ffline"
+msgstr "Online-tila O&ffline"
+
+#: .\source\interface\settings\alertsTab.py:17
+msgid "Online status &Online"
+msgstr "Online-tila &Käytettävissä"
+
+#: .\source\interface\settings\alertsTab.py:19
+msgid "Online status &Away"
+msgstr "Online-tila &Poissa"
+
+#: .\source\interface\settings\alertsTab.py:21
+msgid "Online status &Not Available"
+msgstr "Online-tila &Ei tavoitettavissa"
+
+#: .\source\interface\settings\alertsTab.py:23
+msgid "Online status &Do Not Disturb"
+msgstr "Online-tila &Älä häiritse"
+
+#: .\source\interface\settings\alertsTab.py:25
+msgid "Online status &Invisible"
+msgstr "Online-tila &Piilossa"
+
+#: .\source\interface\settings\alertsTab.py:27
+msgid "Online status &SkypeOut"
+msgstr "Online-tila &SkypeOut"
+
+#: .\source\interface\settings\alertsTab.py:29
+msgid "Online status &Skype Me!"
+msgstr "Online-tila &Skype Me!"
+
+#: .\source\interface\settings\generalTab.py:12
+msgid "&Language:"
+msgstr "&Kieli:"
+
+#: .\source\interface\settings\generalTab.py:22
+msgid "&Automatically start Skype if not running"
+msgstr "Käynnistä Skype &automaattisesti, ellei käynnissä"
+
+#: .\source\interface\settings\generalTab.py:24
+msgid "&Confirm when exiting %s"
+msgstr "&Vahvista ohjelman %s sulkeminen"
+
+#: .\source\interface\settings\generalTab.py:26
+msgid "When exiting %s, also &quit Skype if running"
+msgstr "Kun %s suljetaan, &sulje myös Skype, jos käynnissä"
+
+#: .\source\interface\settings\main.py:19
+msgid "General"
+msgstr "Yleiset"
+
+#: .\source\interface\settings\main.py:20
+msgid "Output"
+msgstr "Tulostus"
+
+#: .\source\interface\settings\main.py:21
+msgid "Alerts"
+msgstr "Ilmoitukset"
+
+#: .\source\interface\settings\main.py:40
+msgid "Error in %s language file"
+msgstr "Virhe kielitiedostossa %s"
+
+#: .\source\interface\settings\main.py:40
+msgid "Language Error"
+msgstr "Kielivirhe"
+
+#: .\source\interface\settings\main.py:63
+msgid "Settings saved."
+msgstr "Asetukset tallennettiin."
+
+#: .\source\interface\settings\main.py:68
+msgid "Settings canceled."
+msgstr "Asetukset peruttiin."
+
+#: .\source\interface\settings\outputTab.py:10
+msgid "Speech Output:"
+msgstr "Puheentuotto:"
+
+#: .\source\interface\settings\outputTab.py:11
+msgid "Auto detect"
+msgstr "Autom. tunnistus"
+
+#: .\source\interface\settings\outputTab.py:11
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: .\source\interface\settings\outputTab.py:15
+msgid "SAPI5 Speech Rate:"
+msgstr "SAPI5-puhenopeus:"
+
+#: .\source\interface\settings\outputTab.py:21
+msgid "SAPI5 Volume:"
+msgstr "SAPI5-äänenvoimakkuus:"
+
+#: .\source\interface\settings\outputTab.py:26
+msgid "Enable &braille output"
+msgstr "Käytä &pistenäyttöä"
+
+#: .\source\interface\smsDialog.py:12
+msgid "Message text:"
+msgstr "Viestin teksti:"
+
+#: .\source\interface\smsDialog.py:17
+msgid "&Send"
+msgstr "&Lähetä"
+
+#: .\source\interface\smsDialog.py:36
+msgid "SMS sending failed."
+msgstr "SMS-lähetys epäonnistui."
+
+#: .\source\interface\smsDialog.py:46
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMS %d, %d merkkiä jäljellä, Tämänhetkinen hinta %s."
+
+#: .\source\interface\smsDialog.py:48
+msgid "Empty"
+msgstr "Tyhjä"
+

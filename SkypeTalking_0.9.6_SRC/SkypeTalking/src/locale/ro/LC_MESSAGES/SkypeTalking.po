@@ -1,0 +1,1761 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Skype Talking Version 0.9\n"
+"POT-Creation-Date: 2011-04-03 09:00+Central European Daylight Time\n"
+"PO-Revision-Date: 2011-04-07 20:30+0200\n"
+"Last-Translator: Grigore Frisan <grigore.frisan@yahoo.ro>\n"
+"Language-Team: Grigore Frişan <grigore.frisan@yahoo.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Bookmarks: 99,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: SkypeTalking.pyw:70
+msgid "Application already running."
+msgstr "Aplicaţia deja rulează"
+
+#: SkypeTalking.pyw:74
+msgid "Connecting to Skype..."
+msgstr "Conectare la Skype"
+
+#: SkypeTalking.pyw:76
+msgid "Error"
+msgstr "Eroare"
+
+#: SkypeTalking.pyw:76
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "A eşuat iniţializarea subsistemului de ieşire. Aplicaţia nu poate fi pornită. Pentru ajutor, contactaţi echipa dezvoltatorilor."
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "Apel de la %s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "Apelare %s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "Apel telefonic de la %s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "Apel telefonic către %s"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "Convorbirea cu %s s-a terminat, a durat %s."
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "Apelare %s, transfer..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "Ne pare rău, convorbirea cu %s a eşuat"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "Convorbire cu %s în desfăşurare"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "Convorbire în aşteptare cu %s"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "Apel pierdut de la %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "Apel respins"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "Convorbire cu %s, ocupat"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "Convorbire cu %s, cananulată"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "Convorbire cu %s în aşteptare locală"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "Convorbire cu %s în aşteptare la distanţă"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Transferarea apelului către %s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "Apel transferat către %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Motiv necunoscut"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Eroare"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "Utilizator inexistent"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "Acest utilizator este neconectat"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Nu s-a găsit nici un proxy"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Sesiune încheiată"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Nici un codec comun"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Eroare de sunet - intrare sau ieşire"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Eroarea dispozitivului de la distanţă"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "Sunteţi blocat de către destinatar"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "Destinatarul nu este în lista dvs de contacte"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Nu sunteţi autorizat de către destinatar"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Eroare de înregistrare a sunetului"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "Oră"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "Ore"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "Minut"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "Minute"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "şi"
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "secundă"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "secunde"
+
+#: communication\files.py:36
+msgid "Receiving file %s from %s. "
+msgstr "Recepţionarea fişierului %s de la %s. "
+
+#: communication\files.py:38
+msgid "Sending file %s to %s. "
+msgstr "Se trimite fişierul %s către %s. "
+
+#: communication\files.py:40
+msgid "File transfer %s, file %s. "
+msgstr "Transfer fişier %s, fişier %s. "
+
+#: communication\files.py:42
+msgid "New file transfer: "
+msgstr "Transfer fişier nou: "
+
+#: communication\files.py:44
+msgid "Connecting..."
+msgstr "Se conectează..."
+
+#: communication\files.py:46
+msgid "Transferring..."
+msgstr "Se transferă..."
+
+#: communication\files.py:48
+msgid "Transferring over relay..."
+msgstr "Se transferă..."
+
+#: communication\files.py:50
+msgid "Waiting for accept..."
+msgstr "Se aşteaptă acceptul..."
+
+#: communication\files.py:52
+msgid "Paused."
+msgstr "În pauză."
+
+#: communication\files.py:54
+msgid "Paused remotely."
+msgstr "Întrerupt de la distanţă."
+
+#: communication\files.py:56
+msgid "Cancelled!"
+msgstr "Anulat!"
+
+#: communication\files.py:58
+msgid "Finished!"
+msgstr "Încheiat!"
+
+#: communication\files.py:60
+msgid "File transfer failed."
+msgstr "Transferul fişierului a eşuat."
+
+#: communication\files.py:62
+msgid "Sender not authorized."
+msgstr "Expeditor neautorizat."
+
+#: communication\files.py:64
+msgid "Remotely cancelled."
+msgstr "Anulat de la distanţă."
+
+#: communication\files.py:66
+msgid "Failed read."
+msgstr "Citire eşuată."
+
+#: communication\files.py:68
+msgid "Failed remote read."
+msgstr "Citirea de la distanţă a eşuat."
+
+#: communication\files.py:70
+msgid "Failed write."
+msgstr "Scriere eşuată."
+
+#: communication\files.py:72
+msgid "Failed remote write."
+msgstr "Scrierea de la distanţă a eşuat."
+
+#: communication\files.py:74
+msgid "Remote does not support file transfer."
+msgstr "Dispozitivul de la distanţă nu suportă transferul de fişiere."
+
+#: communication\files.py:76
+msgid "Remote offline too long."
+msgstr "Dispozitivul de la distanţă a fost neconectat prea mult timp."
+
+#: communication\files.py:81
+msgid "Size: %.1f Mb"
+msgstr "Dimensiune: %.1f Mb"
+
+#: communication\files.py:86
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Transferat: %.1f Mb, Viteza: %.1f kb/s"
+
+#: communication\files.py:92
+msgid "Progress: %6.2f"
+msgstr "În desfăşurare: %6.2f"
+
+#: communication\files.py:102
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "Timp rămas: %d ore, %d minute and %d secunde"
+
+#: communication\main.py:36
+msgid "Waiting for authorization..."
+msgstr "Se aşteaptă autorizarea..."
+
+#: communication\main.py:38
+msgid "Authorization refused."
+msgstr "Autorizare refuzată."
+
+#: communication\main.py:43
+msgid "Error, API not available."
+msgstr "Eroare, API indisponibilă."
+
+#: communication\main.py:50
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s este pregătit. Utilizatorul autentificat este %s."
+
+#: communication\main.py:67
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Eroare! Conectarea cu Skype expirată. Reîncearcă %d din %d pentru 5 secunde."
+
+#: communication\main.py:74
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Eroare! Conectarea cu Skype expirată. Vă rog, reporniţi aplicaţia şi încercaţi din nou. Se închide."
+
+#: communication\messages.py:34
+msgid "Sending..."
+msgstr "Se trimite..."
+
+#: communication\messages.py:38
+#: communication\messages.py:42
+msgid "Instant message from %s: %s"
+msgstr "Mesaj instant de la %s: %s"
+
+#: communication\messages.py:44
+msgid "SMS message by %s: %s"
+msgstr "SMS  prin %s: %s"
+
+#: communication\messages.py:57
+msgid "at %s, %s said: %s"
+msgstr "la %s, %s a spus: %s"
+
+#: communication\messages.py:59
+msgid "%s at %s, %s said: %s"
+msgstr "%s la %s, %s a spus: %s"
+
+#: communication\messages.py:62
+msgid "at %s, %s says: %s"
+msgstr "la %s, %s spune: %s"
+
+#: communication\messages.py:64
+msgid "%s at %s, %s says: %s"
+msgstr "%s la %s, %s spune: %s"
+
+#: communication\messages.py:67
+msgid "at %s: %s"
+msgstr "la %s: %s"
+
+#: communication\messages.py:69
+msgid "%s at %s: %s"
+msgstr "%s la %s: %s"
+
+#: communication\messages.py:72
+msgid "%s said: %s"
+msgstr "%s a spus: %s"
+
+#: communication\messages.py:74
+msgid "%s says: %s"
+msgstr "%s spune: %s"
+
+#: communication\messages.py:78
+msgid "Message not delivered yet."
+msgstr "Mesaj neremis."
+
+#: communication\messages.py:85
+msgid "Message copied to clipboard."
+msgstr "Mesaj copiat în clipboard."
+
+#: communication\messages.py:87
+msgid "copy failed"
+msgstr "copiere eşuată"
+
+#: communication\messages.py:96
+msgid "opening URL"
+msgstr "se deschide URL"
+
+#: communication\messages.py:99
+msgid "Failed to open this URL."
+msgstr "Deschiderea acestui URL a eşuat."
+
+#: communication\messages.py:101
+msgid "url not found"
+msgstr "URL-ul nu a fost găsit"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "Versiunea Skype %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "Versiuna API %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "Nici un eveniment de la lansarea %s."
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "Nici un mesaj de la lansarea %s."
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Încă nu exista nici un fişier transferat."
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "Nu există nici un transfer de fişiere."
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s, fişier %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "Transferuri active de fişiere"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "Selectaţi  expeditorul sau destinatarul fişierului"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Creditul dvs Skype este %s"
+
+#: communication\misc.py:93
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Nu se monitorizează nici un schimb de mesaje la această poziţie, prima monitorizare este la poziţia %s."
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "Monitorizarea schimbului de mesaje cu %s"
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr "şi"
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "nici un schimb de mesaje activ"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "nici un schimb de mesaje monitorizat"
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "se monitorizează schimbul de mesaje cu %s"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Nici un mesaj nou de la încărcarea %s-ului sau nu a fost selectată monitorizarea nici unui schimb de mesaje."
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "Nici un mesaj la această poziţie. Primul mesaj este la poziţia%d"
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Nu aveti nici un text care să vă exprime starea de spirit. Apâsaţi această comandă, de două ori, pentru a scrie unul."
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "Textul care vă exprimă starea de spirit este: %s."
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr " - Schimbaţi textul care vă exprimă starea de spirit"
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "Introduceţi noul text care vă exprimă starea de spirit:"
+
+#: communication\misc.py:152
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s şi-a schimbat textul care îi exprimă starea de spirit în: %s"
+
+#: communication\misc.py:168
+#: communication\misc.py:208
+msgid "no active call"
+msgstr "nici o convorbire activă"
+
+#: communication\misc.py:171
+#: communication\misc.py:177
+#: communication\misc.py:183
+#: communication\misc.py:197
+msgid "Not on call."
+msgstr "Nu sunteţi în vreo convorbire."
+
+#: communication\misc.py:175
+msgid "Microphone unmuted"
+msgstr "Microfon reactivat"
+
+#: communication\misc.py:181
+#: communication\misc.py:229
+msgid "Microphone muted"
+msgstr "Microfon dezactivat"
+
+#: communication\misc.py:189
+msgid "call on hold "
+msgstr "Apel în aşteptare"
+
+#: communication\misc.py:192
+msgid "call resumed"
+msgstr "Convorbirea a fost reluată"
+
+#: communication\misc.py:194
+msgid "No incoming or active call."
+msgstr "Nici o convorbire în curs."
+
+#: communication\misc.py:200
+msgid "%s has joined the current call."
+msgstr "%s s-a alăturat convorbirii în curs."
+
+#: communication\misc.py:202
+msgid "only one active call"
+msgstr "o singură convorbire activă"
+
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: communication\misc.py:218
+#: interface\contactsManager\__init__.py:56
+msgid "Not available"
+msgstr "Indisponibil"
+
+#: communication\misc.py:219
+msgid "Audio In: %s"
+msgstr "Intrare audio: %s"
+
+#: communication\misc.py:220
+msgid "Audio Out: %s"
+msgstr "Ieşire audio: %s"
+
+#: communication\misc.py:221
+msgid "Video In: %s"
+msgstr "Intrare video: %s"
+
+#: communication\misc.py:222
+msgid "Ringing device: %s"
+msgstr "Dispozitivu de  alertare sonoră: %s"
+
+#: communication\misc.py:231
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Nu există nici o convorbire nouă sau în desfăşurare. Apăsaţi această comandă, de două ori, pentru a apela pe cineva."
+
+#: communication\misc.py:236
+msgid " - make call"
+msgstr " - efectuaţi un apel"
+
+#: communication\misc.py:236
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Introduceţi utilizatori de Skype sau nume separate prin virgulă:"
+
+#: communication\misc.py:256
+#: communication\misc.py:279
+#: communication\misc.py:290
+#: communication\misc.py:302
+msgid "There are no voicemails."
+msgstr "Nu există mesaje vocale."
+
+#: communication\misc.py:264
+#: communication\misc.py:286
+msgid "Error, cannot open that voicemail."
+msgstr "Eroare, acest mesaj vocal nu poate fi deschis."
+
+#: communication\misc.py:266
+msgid "No voicemail to play."
+msgstr "Nici un mesaj vocal pentru redare."
+
+#: communication\misc.py:271
+#: communication\misc.py:296
+msgid "Voicemail deleted."
+msgstr "Mesaj vocal şters."
+
+#: communication\misc.py:273
+#: communication\misc.py:298
+msgid "Error, voicemail cannot be deleted."
+msgstr "Eroare, mesajul vocal nu poate fi şters."
+
+#: communication\misc.py:275
+msgid "No voicemail to delete."
+msgstr "Nici un mesaj vocal pentru ştergere."
+
+#: communication\misc.py:281
+#: communication\misc.py:292
+#: communication\misc.py:304
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "Nici un mesaj vocal la această poziţie, primul este la poziţia%s."
+
+#: communication\misc.py:307
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Mesaj vocal de la %s. "
+
+#: communication\misc.py:309
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Mesaj vocal către %s "
+
+#: communication\misc.py:311
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Mesajul vocal de întâmpinare implicit. "
+
+#: communication\misc.py:313
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Particularizaţi mesajul vocal de întâmpinare. "
+
+#: communication\misc.py:315
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Mesaj vocal în format necunoscut. "
+
+#: communication\misc.py:317
+msgid "Not played."
+msgstr "Neredat."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Compunere"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Remis"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "SMS citit"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "SMS receptionat"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "Trimitere eşuată"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "Trimitere către server"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "Trimis către server"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "Remitere imposibilă către unele numere."
+
+#: communication\sms.py:28
+#: interface\contactsManager\__init__.py:56
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "Aţi plătit %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Introduceţi numere de telefon sau numere separate prin punct şi virgulă:"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "Expertul în trimiterea SMS-urilor"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Expertul în trimiterea SMS-urilor: de la %s către %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Număr invalid. Verificaţi tastarea şi încercaţi din nou."
+
+#: communication\status.py:33
+#: interface\contactsManager\__init__.py:56
+msgid "Online"
+msgstr "Conectat"
+
+#: communication\status.py:34
+#: interface\contactsManager\__init__.py:56
+msgid "Away"
+msgstr "Plecat"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "Indisponibil"
+
+#: communication\status.py:36
+#: interface\contactsManager\__init__.py:56
+msgid "Do not disturb"
+msgstr "Nu deranjaţi!"
+
+#: communication\status.py:37
+#: interface\contactsManager\__init__.py:56
+msgid "Invisible"
+msgstr "Invizibil"
+
+#: communication\status.py:38
+#: interface\contactsManager\__init__.py:56
+msgid "Skype Me"
+msgstr "Scrieţi-mi!"
+
+#: communication\status.py:39
+#: interface\contactsManager\__init__.py:56
+msgid "Offline"
+msgstr "Neconectat"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "Statutul lui %s este necunoscut"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s s-a deconectat"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s este conectat"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s este plecat"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s este indisponibil"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s nu vrea să fie deranjat"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s s-a deconectat"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s comunică doar în scris"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s este ieşit din Skype"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "Schimbaţi-vă statutul"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Selectaţi statutul"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "Schimbarea statutului în %s"
+
+#: communication\status.py:82
+msgid "Current online status is %s"
+msgstr "Statutul actual de conectare este %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "Utilizatorul %s %s solicită autorizarea. Textul de prezentare: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "Acum sunteţi prieten cu %s %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "Utilizatorul %s %s este blocat."
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s şi-a şters textul care îi exprima starea de spirit"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s şi-a schimbat textul care îi exprimă starea de spirit în%s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Statut necunoscut"
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "Nedescărcat."
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "Se descarcă..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Neredat, durata %d seconds."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Se preîncarcă..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "Se redă..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Redat, durata %d seconds."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "Mesaj vocal gol."
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Se înregistrează..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Înregistrat."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Se încarcă..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "Încărcat."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Se şterge..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Eroare în mesajul vocal."
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Nici o eroare."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Eroare oarecare."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Nu s-a putut conecta."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Nu aveţi privilegii pentru mesaje vocale."
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Nici un mesaj vocal de felul acesta."
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "Nu s-a putut citi un fişier."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "Nu s-a putut scrie un fişier."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Nu s-a putut înregistra mesajul vocal."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Nu s-a putut reda mesajul vocal."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Alertă Skype"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s la %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (tocmai acum la %s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "Nici un eveniment nou de felul acesta."
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "cu %d secunde în urmă"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "cu un minut în urmă"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "cu %d minute în urmă"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "cu o oră în urmă"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "cu %d ore în urmă"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "ieri"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "cu %d zile în urmă"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "cu %d săptămâni în urmă"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "cu %d luni în urmă"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "cu %d ani în urmă"
+
+#: hotkey.py:130
+#: interface\preferences\categories\hotKeys.py:57
+msgid "No description"
+msgstr "nici o descriere"
+
+#: interface\__init__.py:34
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Sunteţi sigur că doriţi să închideţi %s? Acesta va inchide şi Skype, dacă aţi configurat acest comportament."
+
+#: interface\__init__.py:34
+msgid "Confirm Exit"
+msgstr "Confirmaţi închiderea"
+
+#: interface\__init__.py:58
+msgid "Goodbye!"
+msgstr "La revedre!!!"
+
+#: interface\about.py:30
+#: interface\systemTray.py:79
+msgid "About %s"
+msgstr "Despre %s"
+
+#: interface\about.py:49
+msgid "Project &Web site"
+msgstr "Proiect &Web site"
+
+#: interface\about.py:51
+msgid "&License online"
+msgstr "&Licenţierea"
+
+#: interface\about.py:53
+msgid "C&ontributors"
+msgstr "Contribuţii"
+
+#: interface\about.py:55
+msgid "User &Guide"
+msgstr "Ghid de utilizare"
+
+#: interface\about.py:57
+#: interface\systemTray.py:59
+msgid "&What's New"
+msgstr "&Ce este nou"
+
+#: interface\about.py:59
+#: interface\systemTray.py:75
+msgid "Check for &updates..."
+msgstr "Reînoiri..."
+
+#: interface\about.py:63
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+
+#: interface\commands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Permite accesul la preferinţele Skype Talking-ului unde puteţi configura comportamentul aplicaţiei,  limba interfeţei şi opţunile pentru redarae vocală."
+
+#: interface\commands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Deschide lista de contacte pentru o vizualizare şi administrare prietenoasă. Dacă o apăsaţi, de două ori, va afişa lista de contacte Skype originală."
+
+#: interface\commands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Afişează informaţiile principale despre aplicaţia SkypeTalking, precum versiunea curentă, detaliile despre copyright şi site-ul programului."
+
+#: interface\commands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Părăseşte applicaţia SkypeTalking."
+
+#: interface\commands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Dezactivează SAPI5, dacă acesta este activ."
+
+#: interface\commands.py:59
+#: interface\commands.py:69
+msgid "on"
+msgstr "activ"
+
+#: interface\commands.py:62
+#: interface\commands.py:72
+msgid "off"
+msgstr "inactiv"
+
+#: interface\commands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Ignoră evenimentele Skype %s."
+
+#: interface\commands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Comută, între activ şi inactiv, ignorarea tuturor evenimentelor Skype."
+
+#: interface\commands.py:73
+msgid "Key describer %s."
+msgstr "Descrierea combinaţiilor de taste %s."
+
+#: interface\commands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Comută, între activ şi inactiv, descrierea combinaţiilor de taste."
+
+#: interface\commands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Schimbă rapid statutul utilizatorului curent."
+
+#: interface\commands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "Verifică pentru o versiune nouă a aplicaţiei SkypeTalking."
+
+#: interface\commands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "Raportează textul care exprimă starea de spirit a utilizatorului curent. Dacă o apăsaţi, de două ori, apelează funcţia de schimbare a acestui text."
+
+#: interface\commands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Raportează statutul utilizatorului curent. dacă o aăpăsaţi, de două ori, apelează funcţia care raportează creditul Skzpe al utilizatorului."
+
+#: interface\commands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Raportează versiunea de Skype. dacă o apăsaţi, de două ori, apelează funcţia care raporteaza versiunea API, informaţie utilă dezvoltatorilor."
+
+#: interface\commands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Repetă ultimul eveniment Skype produs în sesiunea curentă SkypeTalking session."
+
+#: interface\commands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Raportează statutul ultimului fişier transferat. Dacă o apăsaţi, de două ori, permite alegerea monitorizării unui fisier."
+
+#: interface\commands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Raportează durata convorbirii active în ore/minute/secunde."
+
+#: interface\commands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Raportează statutul unei convorbiri active. Dacă o apăsaţi, de două ori, va deschide un dialog care vă permite să apelaţi unul sau mai multi utilizatori, prin introducerea unuia sau a mai multor utilizatori separaţi prin virgulă."
+
+#: interface\commands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Lansează expertul în trimiterea SMS-urilor, prin intermediul SkypeTalking."
+
+#: interface\commands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "Merge la evenimentul următor din istoric."
+
+#: interface\commands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "Merge la evenimentul anterior din istoric."
+
+#: interface\commands.py:142
+msgid "calls"
+msgstr "Apeluri"
+
+#: interface\commands.py:145
+msgid "messages"
+msgstr "Mesaje"
+
+#: interface\commands.py:148
+msgid "file transfers"
+msgstr "Transferuri de fişiere"
+
+#: interface\commands.py:151
+msgid "user actions"
+msgstr "Acţiunile utilizatorului"
+
+#: interface\commands.py:154
+msgid "voicemail"
+msgstr "Mesaje vocale"
+
+#: interface\commands.py:157
+msgid "status changes"
+msgstr "Schimbari de statut"
+
+#: interface\commands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Selectează tipul de evenimente care să fie văzute în istoric,întreschimbările de statut, apeluri, mesaje, transferuri de fişiere sau acţiuni ale utilizatorului."
+
+#: interface\commands.py:165
+#: interface\commands.py:172
+#: interface\commands.py:179
+#: interface\commands.py:186
+#: interface\commands.py:193
+#: interface\commands.py:200
+#: interface\commands.py:207
+#: interface\commands.py:214
+#: interface\commands.py:221
+#: interface\commands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Selectează monitorizarea schimbului de mesaje. Dacă o apăsaţi, de două ori, deschide fereastra schimbului de mesaje monitorizat."
+
+#: interface\commands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Raportează schimbul de mesaje curent monitorizat. Dacă o apăsaţi, de două ori, deschide fereastra schimbului de mesaje curent monitorizat."
+
+#: interface\commands.py:253
+#: interface\commands.py:271
+#: interface\commands.py:289
+#: interface\commands.py:307
+#: interface\commands.py:325
+#: interface\commands.py:343
+#: interface\commands.py:361
+#: interface\commands.py:379
+#: interface\commands.py:397
+#: interface\commands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Revede unul din ultimele 10 articole - depinde de selecţia făcută în modul de revizualizare. Apăsaţi de două sau trei ori pentru a executa a doua sau a treia acţiune (dacă este disponibilă)"
+
+#: interface\commands.py:420
+msgid "Voicemail mode"
+msgstr "Modul mesaje vocale."
+
+#: interface\commands.py:423
+msgid "Message mode"
+msgstr "Modul mesaje."
+
+#: interface\commands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Comută între modul mesaje rapide şi modul mesaje vocale."
+
+#: interface\commands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Repetă ultimele mesaje rapide, recepţonate sau expediate. dacă o apăsaţi, de două ori, deschide fereastra mesajelor rapide asociată cu acel mesajşi îi potriveşte monitorizarea."
+
+#: interface\commands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Răspunde unui apel sau comută între a pune în aşteptare şi a relua convorbirea în curs."
+
+#: interface\commands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Răspunde unui apel şi îl alătură conferinţei (dacă există una)."
+
+#: interface\commands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Încheie o convorbire sau opreşte înregistrarea unui mesaj vocal."
+
+#: interface\commands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Activează sau dezactivează microfonul - depinde de situaţia curentă."
+
+#: interface\commands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Raportează dispozitivele de intrare şi ieşire curent folosite."
+
+#: interface\commands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Raportează statutul mesajului vocal selectat. Dacă o apăsaţi, de două ori, deschide şi redă mesajul vocal. Dacă o apăsaţi, de trei ori, şterge mesajul vocal."
+
+#: interface\contactsManager\__init__.py:43
+#: interface\preferences\__init__.py:57
+msgid "Contacts Manager"
+msgstr "Administratorul de contacte"
+
+#: interface\contactsManager\__init__.py:56
+msgid "Skype Out"
+msgstr "Skype Out"
+
+#: interface\contactsManager\__init__.py:88
+#: interface\contactsManager\__init__.py:164
+msgid "Checked"
+msgstr "Verificat"
+
+#: interface\contactsManager\__init__.py:91
+msgid "Unchecked"
+msgstr "Neverificat"
+
+#: interface\contactsManager\__init__.py:93
+msgid "&Create Conference"
+msgstr "&Creaţi conferinţă"
+
+#: interface\contactsManager\__init__.py:94
+msgid "Create multi c&hat"
+msgstr "Creaţi mesaje rapide multiple"
+
+#: interface\contactsManager\__init__.py:97
+#: interface\contactsManager\__init__.py:146
+msgid "&Call"
+msgstr "&Apelaţi"
+
+#: interface\contactsManager\__init__.py:98
+#: interface\contactsManager\__init__.py:149
+msgid "C&hat"
+msgstr "Mesaje rapide"
+
+#: interface\contactsManager\__init__.py:120
+msgid "&Contact List"
+msgstr "Lista de contacte"
+
+#: interface\contactsManager\__init__.py:121
+msgid "Contact"
+msgstr "Contact"
+
+#: interface\contactsManager\__init__.py:122
+msgid "Skype Name"
+msgstr "Utilizator Skype"
+
+#: interface\contactsManager\__init__.py:123
+msgid "Status"
+msgstr "Statut"
+
+#: interface\contactsManager\__init__.py:124
+msgid "Mood Text"
+msgstr "Textul care exprimă starea de spirit"
+
+#: interface\contactsManager\__init__.py:125
+msgid "Last seen"
+msgstr "Văzut, ultima oară"
+
+#: interface\contactsManager\__init__.py:133
+msgid "%s at %s"
+msgstr "%s la %s"
+
+#: interface\contactsManager\__init__.py:151
+msgid "View &Profile..."
+msgstr "Vizualizaţi profilul"
+
+#: interface\contactsManager\profileViewer.py:29
+msgid "Profile Viewer for %s (%s)"
+msgstr "Vizualizator de profil pentru %s (%s)"
+
+#: interface\contactsManager\profileViewer.py:30
+msgid "Skype name:"
+msgstr "Utilizator Skype:"
+
+#: interface\contactsManager\profileViewer.py:32
+msgid "Full name:"
+msgstr "Numele întreg:"
+
+#: interface\contactsManager\profileViewer.py:34
+msgid "Mood:"
+msgstr "Textul care exprimă starea de spirit:"
+
+#: interface\contactsManager\profileViewer.py:36
+msgid "Birth date:"
+msgstr "Zi de naştere:"
+
+#: interface\contactsManager\profileViewer.py:38
+msgid "Male"
+msgstr "Bărbat"
+
+#: interface\contactsManager\profileViewer.py:39
+msgid "Female"
+msgstr "Femee"
+
+#: interface\contactsManager\profileViewer.py:40
+msgid "Gender:"
+msgstr "Genul:"
+
+#: interface\contactsManager\profileViewer.py:43
+msgid "Language:"
+msgstr "Limba:"
+
+#: interface\contactsManager\profileViewer.py:46
+msgid "Location:"
+msgstr "Locaţia:"
+
+#: interface\contactsManager\profileViewer.py:48
+msgid "Home phone:"
+msgstr "Telefonul de acasă:"
+
+#: interface\contactsManager\profileViewer.py:50
+msgid "Office phone:"
+msgstr "Telefonul de la birou:"
+
+#: interface\contactsManager\profileViewer.py:52
+msgid "Mobile phone:"
+msgstr "Telefonul mobil:"
+
+#: interface\contactsManager\profileViewer.py:54
+msgid "Home page:"
+msgstr "Pagina de Internet:"
+
+#: interface\contactsManager\profileViewer.py:56
+msgid "About me:"
+msgstr "Despre mine:"
+
+#: interface\contactsManager\profileViewer.py:59
+msgid "Number of contacts:"
+msgstr "Numărul contactelor:"
+
+#: interface\contactsManager\profileViewer.py:62
+msgid "This user is not authorized to contact me.\n"
+msgstr "Acest utilizator nu este autorizat să mă contacteze.\n"
+
+#: interface\contactsManager\profileViewer.py:64
+msgid "This user is blocked.\n"
+msgstr "Acest utilizator este blocat.\n"
+
+#: interface\contactsManager\profileViewer.py:66
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Acest utilizator nu deţine echipament adecvat convorbirilor.\n"
+
+#: interface\contactsManager\profileViewer.py:68
+msgid "This user has call forwarding activated.\n"
+msgstr "Acest utilizator a activat redirecţionarea apelurilor.\n"
+
+#: interface\contactsManager\profileViewer.py:70
+msgid "This user has a camera.\n"
+msgstr "Acest utilizator deţine o cameră WEB.\n"
+
+#: interface\contactsManager\profileViewer.py:72
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Acest utilizator poate expedia şi recepţiona mesaje vocale.\n"
+
+#: interface\contactsManager\profileViewer.py:74
+msgid "Other information:"
+msgstr "Alte informaţii:"
+
+#: interface\preferences\__init__.py:35
+#: interface\preferences\__init__.py:118
+msgid "Preferences"
+msgstr "Preferinţe"
+
+#: interface\preferences\__init__.py:45
+msgid "General"
+msgstr "General"
+
+#: interface\preferences\__init__.py:47
+msgid "Output"
+msgstr "Ieşire"
+
+#: interface\preferences\__init__.py:49
+msgid "Alerts"
+msgstr "Alerte"
+
+#: interface\preferences\__init__.py:51
+msgid "Verbosity"
+msgstr "Verbalizare"
+
+#: interface\preferences\__init__.py:53
+msgid "Advanced"
+msgstr "Avansat"
+
+#: interface\preferences\__init__.py:55
+msgid "Updates"
+msgstr "Reînoiri"
+
+#: interface\preferences\__init__.py:59
+msgid "Hot keys"
+msgstr "Taste fierbinţi"
+
+#: interface\preferences\__init__.py:92
+msgid "Settings saved."
+msgstr "Preferinţe salvate."
+
+#: interface\preferences\__init__.py:97
+msgid "Settings applied."
+msgstr "Preferinţe aplicate."
+
+#: interface\preferences\__init__.py:100
+msgid "Settings canceled."
+msgstr "Preferinţe anulate."
+
+#: interface\preferences\__init__.py:111
+msgid "Error in %s language file"
+msgstr "Eroare în fişierul de limbă %s"
+
+#: interface\preferences\__init__.py:111
+msgid "Language Error"
+msgstr "Eroare de limbă"
+
+#: interface\preferences\__init__.py:118
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "Pentru ca fişierul de limbă să aibă efect deplin, se impune repornirea aplicaţiei %s. O.K. pentru a continua sau anulare pentru a anula repornirea."
+
+#: interface\preferences\categories\advanced.py:27
+msgid "Number of &connection retries before giving up:"
+msgstr "Numărul de încercări pentru conectare:"
+
+#: interface\preferences\categories\advanced.py:31
+msgid "Start Skype &minimized"
+msgstr "Porneşte Skype-ul minimizat"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "No &splash screen when starting Skype"
+msgstr "Fără ecran de întâmpinare când porneşte Skype"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "Acest utilizator şi-a schimbat textul care exprimă starea de spirit"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "Mesaje rapide &Recepţionate"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "Mesaje rapide &Expediate"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "Statut de conectare &Necunoscut"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Statut de conectare &Neconectat"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Statut de conectare &Conectat"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Statut de conectare &Plecat"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Statut de conectare &Indisponibil"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "Statut de conectare &Nu deranjaţi!"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Statut de conectare &Invizibil"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Statutul de conectare este &SkypeOut"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Statut de conectare &Scrieţi-mi!"
+
+#: interface\preferences\categories\contactsManager.py:27
+msgid "Show &offline contacts"
+msgstr "Arată &Contactele neconectate"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&Limba"
+
+#: interface\preferences\categories\general.py:39
+msgid "Start %s with &Windows"
+msgstr "Porneşte %s odată cu &Windows"
+
+#: interface\preferences\categories\general.py:42
+msgid "Automatically &start Skype with %s"
+msgstr "Porneşte Skype odată cu %s"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &close Skype when %s exits"
+msgstr "Închide Skype odată cu %s"
+
+#: interface\preferences\categories\general.py:44
+msgid "C&onfirm when exiting %s"
+msgstr "Confirmaţi ieşirea %s"
+
+#: interface\preferences\categories\general.py:45
+msgid "Show %s icon on the &taskbar"
+msgstr "Arată iconiţa %s în bara de sarcini"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "&Keystrokes"
+msgstr "Combinaţii de taste"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Function"
+msgstr "Funcţie"
+
+#: interface\preferences\categories\hotKeys.py:48
+msgid "Keystroke"
+msgstr "Combinaţie de taste"
+
+#: interface\preferences\categories\hotKeys.py:49
+msgid "Description"
+msgstr "Descriere"
+
+#: interface\preferences\categories\hotKeys.py:61
+msgid "&Change..."
+msgstr "Schimbaţi..."
+
+#: interface\preferences\categories\hotKeys.py:69
+msgid "Change keystroke for %s"
+msgstr "Schimbaţi combinaţia de taste pentru %s"
+
+#: interface\preferences\categories\hotKeys.py:78
+msgid "&Key:"
+msgstr "Tastă:"
+
+#: interface\preferences\categories\hotKeys.py:80
+msgid "Modifiers"
+msgstr "Modificatori"
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "%s keystroke already in use. Please try another one."
+msgstr "%s combinaţie de taste deja existentă. Vă rog, încercaţi o alta."
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "Change Keystroke Error"
+msgstr "Eroare la schimbarea combinaţiei de taste"
+
+#: interface\preferences\categories\output.py:27
+msgid "Speech Output:"
+msgstr "Ieşire pentru vorbire:"
+
+#: interface\preferences\categories\output.py:28
+msgid "Auto detect"
+msgstr "Autodetectare"
+
+#: interface\preferences\categories\output.py:28
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "Rata vorbirii pentru SAPI5:"
+
+#: interface\preferences\categories\output.py:34
+msgid "SAPI5 Volume:"
+msgstr "Volumul pentru SAPI5:"
+
+#: interface\preferences\categories\output.py:38
+msgid "Enable &braille output"
+msgstr "Activează ieşirea Braille"
+
+#: interface\preferences\categories\updates.py:28
+msgid "&Automatically check for %s updates"
+msgstr "Verifică automat pentru reînoirile %s"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Download Type:"
+msgstr "Tipul de descărcare"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Installer"
+msgstr "Versiune pentru instalare"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Portable Archive"
+msgstr "Versiune portabilă arhivată"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "Verbalizează mesajul şi timpul"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "Verbalizează utilizatorul Skype odată cu mesajul"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "După alertă"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "înainte de alertă"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Niciodată"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Spune \"Alertă Skype\""
+
+#: interface\smsDialog.py:31
+msgid "Message text:"
+msgstr "Textul mesajului:"
+
+#: interface\smsDialog.py:41
+msgid "&Send"
+msgstr "&Expediază"
+
+#: interface\smsDialog.py:51
+msgid "SMS sending failed."
+msgstr "Expedierea SMS-ului a eşuat"
+
+#: interface\smsDialog.py:61
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMS %d, %d caractere rămase, Preţul curent %s."
+
+#: interface\smsDialog.py:63
+msgid "Empty"
+msgstr "Gol"
+
+#: interface\systemTray.py:41
+msgid "&Contacts Manager..."
+msgstr "Administratorul de contacte"
+
+#: interface\systemTray.py:41
+msgid "Open Contacts Manager"
+msgstr "Deschideţi administratorul de contacte"
+
+#: interface\systemTray.py:45
+msgid "&Send SMS Wizard..."
+msgstr "Expediaţi un SMS prin expertul SkypeTalking..."
+
+#: interface\systemTray.py:45
+msgid "Start SMS Send Wizard"
+msgstr "Porniţi expertul de expediere al SMS-urilor"
+
+#: interface\systemTray.py:49
+msgid "&Preferences..."
+msgstr "Preferinţe..."
+
+#: interface\systemTray.py:49
+msgid "Open Preferences Dialog"
+msgstr "Deschideţi dialogul preferinţelor"
+
+#: interface\systemTray.py:52
+msgid "&Tools"
+msgstr "Instrumente"
+
+#: interface\systemTray.py:55
+msgid "&User Guide"
+msgstr "Ghid de utilizare"
+
+#: interface\systemTray.py:55
+msgid "Read User Guide"
+msgstr "Citiţi ghidul de utilizare"
+
+#: interface\systemTray.py:59
+msgid "Read What's New"
+msgstr "Citiţi ce este nou"
+
+#: interface\systemTray.py:63
+msgid "&Contributors"
+msgstr "Contribuţii"
+
+#: interface\systemTray.py:63
+msgid "View Contributors List"
+msgstr "Vizualizaţi lista celor care au contribuit"
+
+#: interface\systemTray.py:67
+msgid "&License"
+msgstr "Licenţă"
+
+#: interface\systemTray.py:67
+msgid "View the license"
+msgstr "Vizualizaţi licenţa"
+
+#: interface\systemTray.py:71
+msgid "%s on the &Web"
+msgstr "%s pe WEB"
+
+#: interface\systemTray.py:71
+msgid "Launch project Web Site in default browser"
+msgstr "Lansaţi pagina proiectului"
+
+#: interface\systemTray.py:75
+msgid "Check for the latest application updates"
+msgstr "Verificaţi ultimele reînoiri ale aplicaţiei"
+
+#: interface\systemTray.py:79
+msgid "&About %s..."
+msgstr "Despre %s..."
+
+#: interface\systemTray.py:82
+msgid "&Help"
+msgstr "Ajutor"
+
+#: interface\systemTray.py:84
+msgid "E&xit"
+msgstr "Ieşire"
+
+#: interface\systemTray.py:84
+msgid "Exit %s"
+msgstr "Ieşire %s"
+
+#: updater.py:75
+msgid "New version available"
+msgstr "O nouă versiune este disponibilă"
+
+#: updater.py:75
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Versiunea dvs: %s. Ultima versiune: %s. Doriţi să descărcaţi ultima versiune a %s?"
+
+#: updater.py:83
+msgid "Update cancelled."
+msgstr "Reînoire anulată"
+
+#: updater.py:97
+msgid "Accessing download URL... Please wait..."
+msgstr "Accesează URL-ul descărcării... Vă rog, aşteptaţi..."
+
+#: updater.py:111
+msgid "Downloading update... Please wait..."
+msgstr "Reînoirea se descarcă... Vă rog, aşteptaţi..."
+
+#: updater.py:121
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Reînoirea este pregătită pentru a fi instalată! Alegeţi O.K. pentru a ieşi %s şi lansaţi programul de instalare."
+
+#: updater.py:123
+msgid "Update ready! Choose Ok to continue."
+msgstr "Reînoirea este pregătită! Alegeţi O.K. pentru a continua."
+
+#: updater.py:124
+msgid "Download completed"
+msgstr "Descărcare completă"
+
+#: updater.py:140
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Numărul versiunii nu poate fi obţinut, probabil s-a întrerupt conexiunea. Verificaţi-vă conexiunea sau încercaţi mai târziu."
+
+#: updater.py:140
+#: updater.py:141
+#: updater.py:142
+#: updater.py:143
+msgid "Update error"
+msgstr "Eroare de reînoire"
+
+#: updater.py:141
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Numărul versiunii curente nu poate fi obţinut. Pagina poate fi, temporar, indisponibilă sau continutul ei poate fi modificat. Vă rog, încercaţi, mai târziu."
+
+#: updater.py:142
+msgid "Couldn't access download URL. Please try again later."
+msgstr "URL-ul descărcării nu poate fi accesat. Vă rog, âncercaţi, mai târziu."
+
+#: updater.py:143
+msgid "Download failed!"
+msgstr "Descărcare eşuată"
+
+#: updater.py:144
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Versiunea dvs de %s este cea mai nouă. Reînoirea nu este necesară. Versiunea dvs: %s. Versiunea de pe pagină: %s."
+
+#: updater.py:153
+msgid "Checking for updates... Please wait..."
+msgstr "Verificare pentru actualizări... Vă rog, aşteptaţi..."
+

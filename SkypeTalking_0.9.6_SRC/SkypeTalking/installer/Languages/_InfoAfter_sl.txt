@@ -1,0 +1,19 @@
+Pomembne opombe, pozorno preberite!
+
+Pozorno preberite pomembne opombe z uporabo standardnih ukazov za branje besedil.
+
+Ko prviè zaženete SkypeTalking, se bo *MORAL* avtorizirati, da bo lahko zaèel komunicirat s Skype aplikacijo, v nasprotnem primeru SkypeTalking ne bo mogel zaèeti uspešno z delovanjem!
+Èe želite dovoliti SkypeTalkingu uporabo Skype-a, storite sledeèe:
+1. Dovolite, da se SkypeTalking zažene takoj po zakljuèku namestitve. Vsekakor lahko tudi roèno zaženete SkypeTalking preko namizja s klikom na ikono SkypeTalking ali pa preko start menija iz skupine Programi - >SkypeTalking.
+2. Takrat bi morali zaslišati sporoèilo "Povezujem se s Skype aplikacijo", a takoj za tem sporoèilo "Èakam na potrditev".
+3. Za tem bi morali biti s strani Skype aplikacije vprašani ali želite avtorizirati aplikacijo da se poveže na Skype. Takrat izberite gumb "Allow" (dovoli). Takoj po izboru opcije "Allow" bi morali zaslišati sporoèilo "SkypeTalking je pripravljen".
+Èe niste po aktiviranju SkypeTalking programa s strani Skype-a bili niè vprašani , storite sledeèe, èe želite roèno avtorizirati SkypeTalking:
+1. Odprite Skype.
+2. Pojdite na seznam menijev s tipko Alt, nato s pušèico desno izberite Tools (Orodja), pritisnite pušèico gor nekajkrat da oznaèite Možnosti (Options) in za tem pritisnite enter.
+3. Ponavljajte pritisk pušèice dol, dokler ne sreèate kategorije Advanced (Napredno).
+4. Ponavljajte pritisk kombinacije Shift+Tab tako dolgo, dokler se vam ne pokaže možnost v obliki povezave "Manage other program's access to Skype" (Dovoli drugim programom dostop do Skype-a). Pritisnite preslednico ali enter, èe želite aktivirati to povezavo.
+5. S pušèicami dol ali gor najdite možnost SkypeTalking v seznamu (obièajno bi to morala biti prva možnost), pritisnite Tab dokler se vam ne pojavi gumb "Change" (Spremeni), ter pritisnite preslednico ali enter za aktiviranje le tega.
+7. Pritisnite Tab. Takrat bi morali slišati, da ste v seznamu z radio gumbi (Radio button) pozicionirani na gumbu "Do not allow this program access to Skype" (Ne dovoli temu programu, da uporablja Skype). Pritisnite pušèico gor, dokler ne zaslišite "Allow this program access to Skype" (Dovoli temu programu da uporablja Skype) in za tem pritisnite Enter za potrditev.
+8. SkypeTalking bi za tem moral sporoèiti, da je pripravljen za uporabo.
+
+Za vse ostale informacije preglejte navodila za uporabo z izbiro  možnosti "Preberite navodila za uporabo" v zakljuènem pogovornem oknu te namestitve.

@@ -1,0 +1,1777 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking 0.9\n"
+"POT-Creation-Date: 2011-02-15 11:55+ora solare Europa occidentale\n"
+"PO-Revision-Date: 2011-02-15 12:00+0100\n"
+"Last-Translator: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
+"Language-Team: SpazioAusili <simone.dalmaso@juvox.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: it\n"
+"X-Poedit-Country: it\n"
+
+#: SkypeTalking.pyw:53
+msgid "Error writing config file. The application may not be started. Please contact development team for help."
+msgstr "Errore nella scrittura del file di configurazione. L'applicazione può non essere stata avviata. In caso di problemi contattare il team di sviluppo."
+
+#: SkypeTalking.pyw:53
+#: SkypeTalking.pyw:64
+#: SkypeTalking.pyw:74
+#: interface\__init__.py:41
+msgid "Error"
+msgstr "Errore"
+
+#: SkypeTalking.pyw:64
+msgid "Could not set application language. The application may not be started. Please contact development team for help."
+msgstr "Impossibile impostare la lingua del programma. L'applicazione può non essere stata avviata. In caso di problemi contattare il team di sviluppo."
+
+#: SkypeTalking.pyw:68
+msgid "Application already running."
+msgstr "Il programma è già in esecuzione"
+
+#: SkypeTalking.pyw:72
+msgid "Connecting to Skype..."
+msgstr "Connessione a Skype in corso..."
+
+#: SkypeTalking.pyw:74
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "Inizializzazione Output Subsystem fallita. L'applicazione può non essere stata avviata. In caso di problemi contattare il team di sviluppo."
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "Chiamata da %s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "sto chiamando %s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "Chiamata Telefonica proveniente da %s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "Chiamata Telefonica con %s"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "Chiamata con %s terminata, durata %s"
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "Chiamata con %s, inoltro in corso..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "spiacente, chiamata con %s fallita."
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "Chiamata con %s in corso"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "Chiamata con %s in attesa"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "Chiamata persa da %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "chiamata rifiutata."
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "Chiamata con %s, occupato"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "Chiamata con %s, annullata"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "Chiamata con %s messa in attesa da locale"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "Chiamata con %s messa in attesa da remoto"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Trasferimento di chiamata su %s in corso"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "Chiamata trasferita su %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Motivo sconosciuto"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Errore "
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "L'utente non esiste"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "L'utente non è in linea"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Nessun Proxy trovato"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Sessione terminata"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Nessun Codec comune"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Errore sound Input/Output"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Errore nel dispositivo remoto"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "Sei bloccato dal ricevente"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "La persona ricevente non è nella tua lista contatti"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Non sei autorizzato dalla persona ricevente"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Errore nella registrazione"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "ora "
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "ore "
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "minuto "
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "minuti "
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "e "
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "secondo"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "secondi"
+
+#: communication\files.py:36
+msgid "Receiving file %s from %s. "
+msgstr "Ricezione in corso del file %s inviato da %s."
+
+#: communication\files.py:38
+msgid "Sending file %s to %s. "
+msgstr "Invio del file %s a %s"
+
+#: communication\files.py:40
+msgid "File transfer %s, file %s. "
+msgstr "Trasferimento file %s, file %s. "
+
+#: communication\files.py:42
+msgid "New file transfer: "
+msgstr "Nuovo trasferimento file: "
+
+#: communication\files.py:44
+msgid "Connecting..."
+msgstr "In Connessione..."
+
+#: communication\files.py:46
+msgid "Transferring..."
+msgstr "Trasferimento in corso..."
+
+#: communication\files.py:48
+msgid "Transferring over relay..."
+msgstr "Inizializzazione Trasferimento..."
+
+#: communication\files.py:50
+msgid "Waiting for accept..."
+msgstr "In attesa che il file venga accettato..."
+
+#: communication\files.py:52
+msgid "Paused."
+msgstr "In Pausa"
+
+#: communication\files.py:54
+msgid "Paused remotely."
+msgstr "Messo in Pausa da remoto"
+
+#: communication\files.py:56
+msgid "Cancelled!"
+msgstr "Annullato!"
+
+#: communication\files.py:58
+msgid "Finished!"
+msgstr "Terminato!"
+
+#: communication\files.py:60
+msgid "File transfer failed."
+msgstr "Trasferimento File Fallito."
+
+#: communication\files.py:62
+msgid "Sender not authorized."
+msgstr "Mittente non autorizzato"
+
+#: communication\files.py:64
+msgid "Remotely cancelled."
+msgstr "Operazione annullata da remoto"
+
+#: communication\files.py:66
+msgid "Failed read."
+msgstr "Lettura Fallita"
+
+#: communication\files.py:68
+msgid "Failed remote read."
+msgstr "Lettura da remoto fallita"
+
+#: communication\files.py:70
+msgid "Failed write."
+msgstr "Scrittura fallita"
+
+#: communication\files.py:72
+msgid "Failed remote write."
+msgstr "Scrittura fallita in remoto"
+
+#: communication\files.py:74
+msgid "Remote does not support file transfer."
+msgstr "L'utente remoto non supporta il trasferimento file"
+
+#: communication\files.py:76
+msgid "Remote offline too long."
+msgstr "Utente remoto non in linea troppo a lungo"
+
+#: communication\files.py:81
+msgid "Size: %.1f Mb"
+msgstr "Dimensione: %.1f Mb"
+
+#: communication\files.py:86
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Trasferiti: %.1f Mb, Velocità: %.1f kb/s"
+
+#: communication\files.py:92
+msgid "Progress: %6.2f"
+msgstr "Stato di avanzamento: %6.2f"
+
+#: communication\files.py:102
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "Tempo rimanente: %d ore, %d minuti e %d secondi"
+
+#: communication\main.py:36
+msgid "Waiting for authorization..."
+msgstr "In attesa di autorizzazione"
+
+#: communication\main.py:38
+msgid "Authorization refused."
+msgstr "Autorizzazione rifiutata"
+
+#: communication\main.py:43
+msgid "Error, API not available."
+msgstr "Errore. Api non disponibili"
+
+#: communication\main.py:50
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s e' pronto l'utente connesso e' %s"
+
+#: communication\main.py:67
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Errore! Skype attach timeout. Riprovo %d di  %d per 5 secondi."
+
+#: communication\main.py:74
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Errore! Skype Attach Timeout. Per favore riavviare l'applicazione e riprovare. "
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "Invio..."
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "Messaggio da %s: %s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "Messaggio Sms da  %s: %s"
+
+#: communication\messages.py:56
+msgid "at %s, %s said: %s"
+msgstr "alle %s, %s ha scritto: %s"
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr "%s alle %s, %s ha scritto: %s"
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr "Alle %s, %s scrive: %s"
+
+#: communication\messages.py:63
+msgid "%s at %s, %s says: %s"
+msgstr "%s alle %s, %s scrive: %s"
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr "alle %s: %s"
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr "%s alle %s: %s"
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%s ha scritto: %s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%s scrive: %s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "Messaggio non ancora consegnato"
+
+#: communication\messages.py:84
+msgid "Message copied to clipboard."
+msgstr "Messaggio copiato negli appunti"
+
+#: communication\messages.py:86
+msgid "copy failed"
+msgstr "Copia fallita"
+
+#: communication\messages.py:95
+msgid "opening URL"
+msgstr "Apertura indirizzo in corso"
+
+#: communication\messages.py:98
+msgid "Failed to open this URL."
+msgstr "Errore nell'apertura dell'indirizzo"
+
+#: communication\messages.py:100
+msgid "url not found"
+msgstr "Indirizzo non trovato"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "Client skype versione %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "Api Wrapper versione %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "Non ci sono nuovi Eventi da quando è stato attivato %s"
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "Nessun nuovo messaggio da quando hai attivato %s"
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Nessun Trasferimento File Attivo"
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "Nessun Trasferimento File Attivo"
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s, file %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "Trasferimenti Files Attivi"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "selezionare il trasferimento file desiderato"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Il tuo credito Skype ammonta a %s"
+
+#: communication\misc.py:93
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Nessuna chat monitorata in questa posizione, la prima è alla posizione %s"
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "monitoraggio spostato sulla chat con %s"
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr "e"
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "Nessuna finestra di chat aperta o da monitorare"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "Nessuna chat monitorata"
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "Monitoraggio chat con %s"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Non ci sono nuovi messaggi da quando %s è stato attivato o nessuna chat monitorata è stata selezionata"
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "Nessun messaggio in questa posizione. Il primo è alla posizione %d"
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Nessun messaggio d'umore impostato. Premere questo comando due volte per impostarne uno"
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "Il messaggio d'umore corrente è: %s"
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr "Modifica il Messaggio d'umore"
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "Inserisci il tuo nuovo messaggio d'umore"
+
+#: communication\misc.py:151
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s ha modificato  il proprio messaggio d'umore in: %s"
+
+#: communication\misc.py:167
+#: communication\misc.py:207
+msgid "no active call"
+msgstr "Nessuna chiamata attiva"
+
+#: communication\misc.py:170
+#: communication\misc.py:176
+#: communication\misc.py:182
+#: communication\misc.py:196
+msgid "Not on call."
+msgstr "Non in chiamata"
+
+#: communication\misc.py:174
+msgid "Microphone unmuted"
+msgstr "Silenzio microfono disattivato"
+
+#: communication\misc.py:180
+#: communication\misc.py:228
+msgid "Microphone muted"
+msgstr "Microfono silenziato"
+
+#: communication\misc.py:188
+msgid "call on hold "
+msgstr "Chiamata in attesa"
+
+#: communication\misc.py:191
+msgid "call resumed"
+msgstr "Chiamata Ripresa"
+
+#: communication\misc.py:193
+msgid "No incoming or active call."
+msgstr "Nessuna chiamata in arrivo o attiva"
+
+#: communication\misc.py:199
+msgid "%s has joined the current call."
+msgstr "%s si è unito alla chiamata corrente"
+
+#: communication\misc.py:201
+msgid "only one active call"
+msgstr "Solo una chiamata attiva"
+
+#: communication\misc.py:214
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: interface\contactsManager\__init__.py:56
+msgid "Not available"
+msgstr "Non disponibile"
+
+#: communication\misc.py:218
+msgid "Audio In: %s"
+msgstr "Audio in Ingresso: %s"
+
+#: communication\misc.py:219
+msgid "Audio Out: %s"
+msgstr "Audio in uscita: %s"
+
+#: communication\misc.py:220
+msgid "Video In: %s"
+msgstr "Video in ingresso: %s"
+
+#: communication\misc.py:221
+msgid "Ringing device: %s"
+msgstr "Dispositivo suoneria: %s"
+
+#: communication\misc.py:230
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Non vi sono chiamate attive. Premere questo comando due volte per chiamare qualcuno."
+
+#: communication\misc.py:235
+msgid " - make call"
+msgstr "Effettua Chiamata"
+
+#: communication\misc.py:235
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Inserire il nome skype, oppure un numero telefonico, o più nomi/numeri separati da virgole"
+
+#: communication\misc.py:255
+#: communication\misc.py:278
+#: communication\misc.py:289
+#: communication\misc.py:301
+msgid "There are no voicemails."
+msgstr "Non ci sono messaggi."
+
+#: communication\misc.py:263
+#: communication\misc.py:285
+msgid "Error, cannot open that voicemail."
+msgstr "Errore, non posso aprire quella voicemail"
+
+#: communication\misc.py:265
+msgid "No voicemail to play."
+msgstr "Nessun messaggio da riprodurre"
+
+#: communication\misc.py:270
+#: communication\misc.py:295
+msgid "Voicemail deleted."
+msgstr "Voicemail cancellata."
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Error, voicemail cannot be deleted."
+msgstr "Errore, La VoiceMail non può essere cancellata"
+
+#: communication\misc.py:274
+msgid "No voicemail to delete."
+msgstr "Nessuna VoiceMail da cancellare."
+
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "Nessun messaggio vocale in questa posizione, il primo è alla posizione %s"
+
+#: communication\misc.py:306
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Messaggio vocale da %s."
+
+#: communication\misc.py:308
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Messaggio vocale a %s."
+
+#: communication\misc.py:310
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Messaggio predefinito di benvenuto ."
+
+#: communication\misc.py:312
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Messaggio personalizzato di benvenuto."
+
+#: communication\misc.py:314
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Tipo sconosciuto di VoiceMail"
+
+#: communication\misc.py:316
+msgid "Not played."
+msgstr "Non ascoltato."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Composizione in corso"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Consegnato"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "Sms letto"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "Sms Ricevuto"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "Invio fallito"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "Invio al server"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "Spedito al server"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "Impossibile consegnare ad alcuni numeri"
+
+#: communication\sms.py:28
+#: interface\contactsManager\__init__.py:56
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "Hai speso %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Inserire il numero telefonico (separare piu' destinatari con un punto e virgola):"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "Nuovo Sms procedura guidata"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Nuovo Sms procedura guidata: da %s a %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Numero non valido. Per favore controllare i valori immessi e riprovare"
+
+#: communication\status.py:33
+#: interface\contactsManager\__init__.py:56
+msgid "Online"
+msgstr "In linea"
+
+#: communication\status.py:34
+#: interface\contactsManager\__init__.py:56
+msgid "Away"
+msgstr "Assente"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "Non disponibile"
+
+#: communication\status.py:36
+#: interface\contactsManager\__init__.py:56
+msgid "Do not disturb"
+msgstr "Occupato"
+
+#: communication\status.py:37
+#: interface\contactsManager\__init__.py:56
+msgid "Invisible"
+msgstr "Invisibile"
+
+#: communication\status.py:38
+#: interface\contactsManager\__init__.py:56
+msgid "Skype Me"
+msgstr "Skype Me"
+
+#: communication\status.py:39
+#: interface\contactsManager\__init__.py:56
+msgid "Offline"
+msgstr "Non in linea"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "lo stato di %s e' sconosciuto"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s non e' piu' in linea"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s e' in linea"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s e' assente"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s non e' disponibile"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s e' occupato"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s non e' piu' in linea"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s e' skype me"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s e' skype out"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "Cambia Stato"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Seleziona il tuo stato"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "Modifico lo Stato su %s"
+
+#: communication\status.py:82
+msgid "Current online status is %s"
+msgstr "Il tuo stato attuale è impostato su %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "L'utente %s %s richiede autorizzazione. Testo introduttivo: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "Ora sei diventato amico di %s %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "L'utente %s %s è bloccato"
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s ha rimosso il proprio messaggio d'umore."
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s ha modificato  il proprio messaggio d'umore in: %s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Stato sconosciuto."
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "Non scaricato"
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "Scaricamento in corso..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Non ascoltato, durata %d secondi."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Buffering..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "In riproduzione..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Ascoltato, durata %d secondi."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "VoiceMail vuota"
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "In registrazione..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Registrato."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Caricamento in corso..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "Caricato."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Cancellazzione in corso..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Errore Voicemail."
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Nessun errore."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Errore."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Impossibile connettersi."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Nessun privilegio Voicemail"
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Nessuna Voicemail"
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "Impossibile leggere un file."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "Impossibile scrivere un file."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Impossibile registrare voicemail."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Impossibile riprodurre voicemail."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Avviso Skype"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s alle %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (ora a %s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "Non esiste alcuna informazione memorizzata per questo tipo di evento."
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "%d secondi fa"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "un minuto fa"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "%d minuti fa"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "un'ora fa"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "%d ore fa"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "Ieri"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "%d giorni fa"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "%d settimane fa"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "%d mesi fa"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "%d anni fa"
+
+#: hotkey.py:130
+#: interface\preferences\categories\hotKeys.py:57
+msgid "No description"
+msgstr "Nessuna Descrizione"
+
+#: interface\__init__.py:41
+msgid "An error has occured while attempting to configure autostart."
+msgstr "E' avvenuto un errore nell'impostare l'avvio automatico"
+
+#: interface\__init__.py:63
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Sei sicuro di voler uscire da %s? Questa procedura provocherà la chiusura di Skype nel caso si sia configurato il programma in tal senso"
+
+#: interface\__init__.py:63
+msgid "Confirm Exit"
+msgstr "Conferma l'uscita"
+
+#: interface\__init__.py:86
+msgid "Goodbye!"
+msgstr "Arrivederci"
+
+#: interface\about.py:30
+#: interface\systemTray.py:78
+msgid "About %s"
+msgstr "Informazioni su %s"
+
+#: interface\about.py:49
+msgid "Project &Web site"
+msgstr "Sito &Web del Progetto"
+
+#: interface\about.py:51
+msgid "&License online"
+msgstr "&Licenza Online"
+
+#: interface\about.py:53
+msgid "C&ontributors"
+msgstr "c&ollaboratori"
+
+#: interface\about.py:55
+msgid "User &Guide"
+msgstr "&Manuale Utente"
+
+#: interface\about.py:57
+#: interface\systemTray.py:58
+msgid "&What's New"
+msgstr "&Novità"
+
+#: interface\about.py:59
+#: interface\systemTray.py:74
+msgid "Check for &updates..."
+msgstr "Controlla &Aggiornamenti..."
+
+#: interface\about.py:63
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / Collaboratori SkypeTalking \n"
+"URL del Progetto: %s\n"
+"Questo programma è distribuito nei termini della Licenza GNU General Public License Versione 2.\n"
+" Per ulteriori informazioni, cliccare il bottone Visualizza Licenza Online oppure leggere il file license.txt incluso con questo software.\n"
+
+#: interface\contactsManager\__init__.py:43
+#: interface\preferences\main.py:52
+msgid "Contacts Manager"
+msgstr "Gestione Contatti"
+
+#: interface\contactsManager\__init__.py:56
+msgid "Skype Out"
+msgstr "Skype Out"
+
+#: interface\contactsManager\__init__.py:88
+#: interface\contactsManager\__init__.py:159
+msgid "Checked"
+msgstr "Attivato"
+
+#: interface\contactsManager\__init__.py:91
+msgid "Unchecked"
+msgstr "Non Attivato"
+
+#: interface\contactsManager\__init__.py:93
+msgid "&Create Conference"
+msgstr "&Crea Conferenza"
+
+#: interface\contactsManager\__init__.py:94
+msgid "Create multi c&hat"
+msgstr "Crea multi c&hat"
+
+#: interface\contactsManager\__init__.py:97
+#: interface\contactsManager\__init__.py:145
+msgid "&Call"
+msgstr "&Chiama"
+
+#: interface\contactsManager\__init__.py:98
+#: interface\contactsManager\__init__.py:148
+msgid "C&hat"
+msgstr "C&hat"
+
+#: interface\contactsManager\__init__.py:120
+msgid "&Contact List"
+msgstr "Lista &contatti"
+
+#: interface\contactsManager\__init__.py:121
+msgid "Contact"
+msgstr "Contatto"
+
+#: interface\contactsManager\__init__.py:122
+msgid "Skype Name"
+msgstr "Nome Skype: "
+
+#: interface\contactsManager\__init__.py:123
+msgid "Status"
+msgstr "Stato"
+
+#: interface\contactsManager\__init__.py:124
+msgid "Mood Text"
+msgstr "Messaggio d'umore"
+
+#: interface\contactsManager\__init__.py:125
+msgid "Last seen"
+msgstr "Visto l'ultima volta"
+
+#: interface\contactsManager\__init__.py:132
+msgid "%s at %s"
+msgstr "%s alle %s"
+
+#: interface\contactsManager\__init__.py:150
+msgid "View &Profile..."
+msgstr "Visualizza &profilo"
+
+#: interface\contactsManager\profileViewer.py:29
+msgid "Profile Viewer for %s (%s)"
+msgstr "Visualizzazione profilo di  %s (%s)"
+
+#: interface\contactsManager\profileViewer.py:30
+msgid "Skype name:"
+msgstr "Nome Skype: "
+
+#: interface\contactsManager\profileViewer.py:32
+msgid "Full name:"
+msgstr "Nome e Cognome"
+
+#: interface\contactsManager\profileViewer.py:34
+msgid "Mood:"
+msgstr "Umore:"
+
+#: interface\contactsManager\profileViewer.py:36
+msgid "Birth date:"
+msgstr "Data di Nascita:"
+
+#: interface\contactsManager\profileViewer.py:38
+msgid "Male"
+msgstr "Maschio"
+
+#: interface\contactsManager\profileViewer.py:39
+msgid "Female"
+msgstr "Femmina"
+
+#: interface\contactsManager\profileViewer.py:40
+msgid "Gender:"
+msgstr "Sesso:"
+
+#: interface\contactsManager\profileViewer.py:43
+msgid "Language:"
+msgstr "Lingua"
+
+#: interface\contactsManager\profileViewer.py:46
+msgid "Location:"
+msgstr "Luogo:"
+
+#: interface\contactsManager\profileViewer.py:48
+msgid "Home phone:"
+msgstr "Telefono di casa:"
+
+#: interface\contactsManager\profileViewer.py:50
+msgid "Office phone:"
+msgstr "Telefono ufficio:"
+
+#: interface\contactsManager\profileViewer.py:52
+msgid "Mobile phone:"
+msgstr "Cellulare:"
+
+#: interface\contactsManager\profileViewer.py:54
+msgid "Home page:"
+msgstr "Home page:"
+
+#: interface\contactsManager\profileViewer.py:56
+msgid "About me:"
+msgstr "Informazioni su di me:"
+
+#: interface\contactsManager\profileViewer.py:59
+msgid "Number of contacts:"
+msgstr "Numero di contatti:"
+
+#: interface\contactsManager\profileViewer.py:62
+msgid "This user is not authorized to contact me.\n"
+msgstr "Questo utente non è autorizzato a contattarmi.\n"
+
+#: interface\contactsManager\profileViewer.py:64
+msgid "This user is blocked.\n"
+msgstr "Questo utente risulta bloccato.\n"
+
+#: interface\contactsManager\profileViewer.py:66
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Questo utente non può effettuare/ricevere chiamate.\n"
+
+#: interface\contactsManager\profileViewer.py:68
+msgid "This user has call forwarding activated.\n"
+msgstr "Questo utente ha il trasferimento di chiamata inserito.\n"
+
+#: interface\contactsManager\profileViewer.py:70
+msgid "This user has a camera.\n"
+msgstr "Questo utente possiede una webcam.\n"
+
+#: interface\contactsManager\profileViewer.py:72
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Questo utente può inviare e ricevere messaggi voicemail.\n"
+
+#: interface\contactsManager\profileViewer.py:74
+msgid "Other information:"
+msgstr "Altre informazioni:"
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Permette di accedere alla finestra di dialogo Preferenze, all'interno della quale sarà possibile modificare il comportamento di Skypetalking, cambiare la lingua del programma o la sintesi Vocale."
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Apre \"Gestione Contatti\", per visualizzare e gestire al meglio quest'ultimi. Se premuto due volte, aprirà la gestione contatti classica di Skype."
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Visualizza alcune informazioni di base sul programma Skypetalking, come il numero di versione, Copyright e il sito web del progetto"
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Chiude il programma SkypeTalking"
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Silenzia la sintesi Vocale se quella predefinita è Sapi5"
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "Attivo"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "Disattivo"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Ignora Eventi Skype %s"
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Attiva o disattiva la funzione Ignora Eventi Skype. Se attivata, Skypetalking non annuncerà né registrerà alcun evento skype."
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "Aiuto comandi tastiera %s"
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Attiva o disattiva l'aiuto tastiera. Quando è attivato, verrà descritta la funzione del comando associato alla combinazione di tasti appena premuta"
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Commuta al volo il proprio stato su Skype"
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "Controlla se esistono nuove versioni o aggiornamenti per SkypeTalking"
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "annuncia il proprio messaggio d'umore, ammesso che ve ne sia uno impostato.  Se premuto due volte, aprirà una finestra di dialogo permettendo l'immissione di un nuovo messaggio d'umore. Digitare quindi il testo desiderato e premere invio per confermare."
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Annuncia lo stato dell'utente. Se premuto due volte, verrà richiamata una funzione che informerà l'utente circa il proprio credito Skype."
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "permette di conoscere la versione di Skype installata sul computer dell'utente. Se premuto due volte, annuncerà la versione delle Skype Api Wrapper (utile principalmente per gli sviluppatori)."
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Ripete l'ultimo evento Skype accaduto durante la sessione di Skypetalking"
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Annuncia lo stato dell'ultimo trasferimento file. Se premuto due volte, permette di selezionare un trasferimento file attivo da controllare."
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Annuncia la durata di una chiamata attiva in ore/minuti/secondi."
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Annuncia lo stato della chiamata attiva. Se premuto due volte, verrà aperta una finestra di dialogo che permetterà di chiamare qualcuno inserendo il nome skype di un contatto, oppure è possibile inserire più nomi separati da virgole, così facendo si attiverà una conferenza."
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Avvia una procedura guidata per l'invio in maniera semplice di Sms tramite Skypetalking."
+
+#: interface\interfaceCommands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "Va all'evento successivo nella cronologia."
+
+#: interface\interfaceCommands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "Va all'evento precedente nella cronologia."
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "Chiamate"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "Messaggi"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "Trasferimenti files"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "Azioni utente"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "voicemail"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "Cambiamenti di stato"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Seleziona il tipo di evento da visualizzare nella cronologia eventi tra cambiamenti di stato, chiamate, messaggi, trasferimenti file o azioni utente."
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Seleziona Chat monitorate. Se premuto due volte, apre la finestra di chat corrispondente a quella monitorata."
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Annuncia la chat attualmente monitorata. Se premuto due volte, apre la finestra relativa a quella chat."
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Annuncia uno dei 10 elementi a seconda del metodo di controllo selezionato. Premendolo due o tre volte compie l'azione assegnata."
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "Modalità VoiceMail"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "Modalità messaggi chat"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Commuta tra la modalità messaggi chat e voicemail"
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Ripete l'ultimo messaggio di chat ricevuto o inviato. Se premuto due volte, apre la finestra di chat corrispondente e imposta il monitoraggio su quella chat."
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Risponde alla chiamata, o commuta tra il mettere in attesa e il riprendere le chiamate attive"
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Risponde ad una chiamata e la unisce ad una conferenza, se possibile."
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Termina la chiamata o la registrazione di un messaggio voicemail"
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Silenzia o desilenzia il microfono a seconda dello stato attuale"
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Annuncia l'elenco dei dispositivi audio utilizzati"
+
+#: interface\interfaceCommands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Annuncia lo stato dell'ultimo messaggio vocale Voicemail. Se premuto due volte, apre e riproduce la VoiceMail. Se premuto tre volte, cancella la voicemail."
+
+#: interface\preferences\__init__.py:27
+msgid "%s - Preferences"
+msgstr "%s - Preferenze"
+
+#: interface\preferences\categories\advanced.py:27
+msgid "Number of &connection retries before giving up:"
+msgstr "Numero di tentativi di &connessione prima di abbandonare l'operazione"
+
+#: interface\preferences\categories\advanced.py:31
+msgid "Start Skype &minimized"
+msgstr "Avvia Skype ridotto ad icona"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "No &splash screen when starting Skype"
+msgstr "Nessuna &schermata di benvenuto all'avvio di Skype"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "L'utente ha modifica&to il proprio messaggio d'umore"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "Messaggi di chat &ricevuti"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "Messaggi di chat &inviati"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "Stato &sconosciuto"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Stato &non in linea"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Stato &in linea"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Stato &Assente"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Stato &non disponibile"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "Stato &occupato"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Stato &invisibile"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Stato &skypeout"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Stato &skype me"
+
+#: interface\preferences\categories\contactsManager.py:27
+msgid "Show &offline contacts"
+msgstr "Mostra contatti n&on in linea"
+
+#: interface\preferences\categories\general.py:30
+msgid "&Language:"
+msgstr "&Lingua"
+
+#: interface\preferences\categories\general.py:38
+msgid "Start %s with &Windows"
+msgstr "Lancia %s all'avvio di &Windows"
+
+#: interface\preferences\categories\general.py:41
+msgid "Automatically &start Skype with %s"
+msgstr "Avvia automaticamente &Skype con %s"
+
+#: interface\preferences\categories\general.py:42
+msgid "Automatically &close Skype when %s exits"
+msgstr "&Chiudi Skype automaticamente all'uscita da %s"
+
+#: interface\preferences\categories\general.py:43
+msgid "C&onfirm when exiting %s"
+msgstr "&Conferma quando si esce da %s"
+
+#: interface\preferences\categories\general.py:44
+msgid "Show %s icon on the &taskbar"
+msgstr "Visualizza l'icona di %s nella barra delle applicazioni"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "&Keystrokes"
+msgstr "Tasti Rapidi"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Function"
+msgstr "Funzione"
+
+#: interface\preferences\categories\hotKeys.py:48
+msgid "Keystroke"
+msgstr "Tasto Rapido"
+
+#: interface\preferences\categories\hotKeys.py:49
+msgid "Description"
+msgstr "Descrizione"
+
+#: interface\preferences\categories\hotKeys.py:61
+msgid "&Change..."
+msgstr "&Cambia..."
+
+#: interface\preferences\categories\hotKeys.py:69
+msgid "Change keystroke for %s"
+msgstr "Modifica il Tasto Caldo per %s"
+
+#: interface\preferences\categories\hotKeys.py:78
+msgid "&Key:"
+msgstr "&Tasto"
+
+#: interface\preferences\categories\hotKeys.py:80
+msgid "Modifiers"
+msgstr "Modifiers"
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "%s keystroke already in use. Please try another one."
+msgstr "Il tasto caldo %s è già in uso. Per favore provane un altro"
+
+#: interface\preferences\categories\hotKeys.py:113
+msgid "Change Keystroke Error"
+msgstr "Errore nella modifica del tasto caldo"
+
+#: interface\preferences\categories\output.py:27
+msgid "Speech Output:"
+msgstr "Sintesi Vocale"
+
+#: interface\preferences\categories\output.py:28
+msgid "Auto detect"
+msgstr "Seleziona automaticamente"
+
+#: interface\preferences\categories\output.py:28
+msgid "SAPI5"
+msgstr "Sapi 5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "Velocita' Sapi 5"
+
+#: interface\preferences\categories\output.py:34
+msgid "SAPI5 Volume:"
+msgstr "Volume Sapi 5"
+
+#: interface\preferences\categories\output.py:38
+msgid "Enable &braille output"
+msgstr "Abilita il &braille"
+
+#: interface\preferences\categories\updates.py:28
+msgid "&Automatically check for %s updates"
+msgstr "Controllo automatico aggiornamenti %s"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Download Type:"
+msgstr "Tipo di Download:"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Installer"
+msgstr "Installer"
+
+#: interface\preferences\categories\updates.py:30
+msgid "Portable Archive"
+msgstr "Archivio Portable"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "Annuncia l'ora del messaggio"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "Annuncia il nome del contatto con il messaggio"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "Dopo l'avviso"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "Prima l'avviso"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Mai"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Annuncia \" messaggio\" avviso Skype"
+
+#: interface\preferences\main.py:40
+msgid "General"
+msgstr "Generale"
+
+#: interface\preferences\main.py:42
+msgid "Output"
+msgstr "Output"
+
+#: interface\preferences\main.py:44
+msgid "Alerts"
+msgstr "Avvisi"
+
+#: interface\preferences\main.py:46
+msgid "Verbosity"
+msgstr "Prolissità"
+
+#: interface\preferences\main.py:48
+msgid "Advanced"
+msgstr "Avanzate"
+
+#: interface\preferences\main.py:50
+msgid "Updates"
+msgstr "Aggiornamenti"
+
+#: interface\preferences\main.py:54
+msgid "Hot keys"
+msgstr "Tasti Caldi"
+
+#: interface\preferences\main.py:85
+msgid "Settings saved."
+msgstr "Impostazioni salvate"
+
+#: interface\preferences\main.py:90
+msgid "Settings applied."
+msgstr "Impostazioni Applicate"
+
+#: interface\preferences\main.py:93
+msgid "Settings canceled."
+msgstr "Impostazioni annullate"
+
+#: interface\preferences\main.py:104
+msgid "Error in %s language file"
+msgstr "Errore nel file di lingua %s"
+
+#: interface\preferences\main.py:104
+msgid "Language Error"
+msgstr "Errore nella lingua"
+
+#: interface\preferences\main.py:156
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "Affinche' i cambiamenti della lingua abbiano effetto, e' necessario riavviare %s. Premere Ok per riavviare il programma, Cancel per effettuare l'operazione manualmente."
+
+#: interface\preferences\main.py:156
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: interface\smsDialog.py:31
+msgid "Message text:"
+msgstr "Testo del Messaggio:"
+
+#: interface\smsDialog.py:41
+msgid "&Send"
+msgstr "&Spedisci"
+
+#: interface\smsDialog.py:51
+msgid "SMS sending failed."
+msgstr "Invio Sms fallito"
+
+#: interface\smsDialog.py:61
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "Sms %d, %d caratteri rimasti, Prezzo corrente %s."
+
+#: interface\smsDialog.py:63
+msgid "Empty"
+msgstr "vuoto"
+
+#: interface\systemTray.py:40
+msgid "&Contacts Manager..."
+msgstr "Gestione Contatti"
+
+#: interface\systemTray.py:40
+msgid "Open Contacts Manager"
+msgstr "Apre Gestione Contatti"
+
+#: interface\systemTray.py:44
+msgid "&Send SMS Wizard..."
+msgstr "Procedura Guidata Invio &Sms"
+
+#: interface\systemTray.py:44
+msgid "Start SMS Send Wizard"
+msgstr "Avvio procedura guidata Invio Sms"
+
+#: interface\systemTray.py:48
+msgid "&Preferences..."
+msgstr "&Preferenze..."
+
+#: interface\systemTray.py:48
+msgid "Open Preferences Dialog"
+msgstr "Apre la finestra Preferenze"
+
+#: interface\systemTray.py:51
+msgid "&Tools"
+msgstr "S&trumenti"
+
+#: interface\systemTray.py:54
+msgid "&User Guide"
+msgstr "Manuale &utente"
+
+#: interface\systemTray.py:54
+msgid "Read User Guide"
+msgstr "Leggi il Manuale Utente"
+
+#: interface\systemTray.py:58
+msgid "Read What's New"
+msgstr "Leggi le Novità"
+
+#: interface\systemTray.py:62
+msgid "&Contributors"
+msgstr "&Collaboratori"
+
+#: interface\systemTray.py:62
+msgid "View Contributors List"
+msgstr "Visualizza l'elenco dei Collaboratori"
+
+#: interface\systemTray.py:66
+msgid "&License"
+msgstr "&Licenza"
+
+#: interface\systemTray.py:66
+msgid "View the license"
+msgstr "Visualizza la Licenza"
+
+#: interface\systemTray.py:70
+msgid "%s on the &Web"
+msgstr "%s nel &Web"
+
+#: interface\systemTray.py:70
+msgid "Launch project Web Site in default browser"
+msgstr "Visualizza il sito web del progetto nel browser"
+
+#: interface\systemTray.py:74
+msgid "Check for the latest application updates"
+msgstr "Controlla se esistono aggiornamenti per l'applicazione"
+
+#: interface\systemTray.py:78
+msgid "&About %s..."
+msgstr "&Informazioni su %s"
+
+#: interface\systemTray.py:81
+msgid "&Help"
+msgstr "&Aiuto"
+
+#: interface\systemTray.py:83
+msgid "E&xit"
+msgstr "E&sci"
+
+#: interface\systemTray.py:83
+msgid "Exit %s"
+msgstr "Uscita da %s"
+
+#: updater.py:75
+msgid "New version available"
+msgstr "Nuova Versione Disponibile"
+
+#: updater.py:75
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Propria Versione: %s. Versione Ultima: %s. Si desidera scaricare l'ultima versione di %s?"
+
+#: updater.py:83
+msgid "Update cancelled."
+msgstr "Aggiornamento annullato."
+
+#: updater.py:97
+msgid "Accessing download URL... Please wait..."
+msgstr "Preparazione Download in corso... Attendere prego..."
+
+#: updater.py:111
+msgid "Downloading update... Please wait..."
+msgstr "Scaricamento  nuovi aggiornamenti... Attendere prego..."
+
+#: updater.py:121
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Aggiornamenti pronti per essere installati! Scegliere Ok per chiudere %s e lanciare il programma di installazione."
+
+#: updater.py:123
+msgid "Update ready! Choose Ok to continue."
+msgstr "Aggiornamenti individuati! Premere Ok per continuare."
+
+#: updater.py:124
+msgid "Download completed"
+msgstr "Download Completato"
+
+#: updater.py:137
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Impossibile ottenere il numero di versione dal server, causa probabile perdita della connessione. Si prega di controllare la propria connessione e riprovare."
+
+#: updater.py:137
+#: updater.py:138
+#: updater.py:139
+#: updater.py:140
+msgid "Update error"
+msgstr "Errore durante l'aggiornamento."
+
+#: updater.py:138
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Impossibile recuperare il numero di versione da remoto. Probabilmente il sito web è stato modificato o è temporaneamente non disponibile. Si prega di riprovare più tardi."
+
+#: updater.py:139
+msgid "Couldn't access download URL. Please try again later."
+msgstr "Impossibile scaricare il programma. Si prega di riprovare più tardi."
+
+#: updater.py:140
+msgid "Download failed!"
+msgstr "Download Fallito!"
+
+#: updater.py:141
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "La propria Versione di %s corrisponde a quella presente sul server. . L'aggiornamento non è necessario. Versione Attuale: %s. Versione Online: %s."
+
+#: updater.py:150
+msgid "Checking for updates... Please wait..."
+msgstr "Controllo disponibilità nuovi aggiornamenti... Attendere prego..."
+

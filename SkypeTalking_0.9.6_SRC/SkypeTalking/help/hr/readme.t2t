@@ -1,0 +1,339 @@
+SkypeTalking
+Inačica 0.9
+Autorska prava (c)2010-2011 Hrvoje Katic/SkypeTalking Doprinositelji
+Zadnja obnova: %%mtime(%x)
+
+=Uvod=[introduction]
+
+==Što je to SkypeTalking?==[WhatIsSkypeTalking]
+
+SkypeTalking je softverski alat koji čini Skype, poznat servis za Internet telefoniju, više pristupačnijim za slijepe korisnike. Da bi to postigao, SkypeTalking koristi Skype-ov API Wrapper uz govorni i brajični izlaz vašeg čitača zaslona za prikupljanje informacija od Skype programa te slanje istih Vašem čitaču ekrana. SkypeTalking će najaviti većinu upozorenja koja dolaze od Skype programa, uključujući promjene statusa korisnika, dolazne i odlazne poruke u čavrljanju, statuse poziva i mnogo više! Ukratko, SkypeTalking će omogućiti Skype programu da vam propriča!
+SkypeTalking je prvenstveno bio razvijen za NVDA, besplatan čitač ekrana otvorenog koda, kako bi mu omogućio više pristupa Skype aplikaciji. Bez obzira na to, SkypeTalking također podržava JAWS, Window-Eyes, System Access, Dolphin proizvode Hal/Supernova i SAPI5 govor, iako kod SAPI5 govora nije moguća brajična podrška.
+SkypeTalking podržava mnoge strane jezike diljem svijeta, omogućujući vam tako da ga koristite na vašem materinjem jeziku. Trenutno podržani jezici pored hrvatskog i američkog engleskog su: arapski, belaruski, bugarski, češki, danski, njemački, španjolski, finski, francuski, hebrejski, mađarski, talijanski, japanski, gruzijski, latvijski, litvanski, makedonski, malajski, poljski, portugalski, ruski, slovenski, srpski, turski, ukrainski i kineski. Ukoliko želite učiniti SkypeTalking dostupnim na vašem jeziku, pročitajte detalje o kontaktu na kraju ovih uputa kako biste me mogli kontaktirati za pomoć.
+
+==Sistemski zahtjevi==[SystemRequirements]
+
+Da biste uspješno koristili SkypeTalking, treba vam sljedeće:
+- Windows XP, Vista ili 7
+- Neki od podržanih čitača ekrana: Trenutno podržani čitači ekrana su NVDA 2010.1 ili noviji, JAWS (bilo koja inačica), Window-Eyes (bilo koja inačica), System Access (bilo koja inačica) uključujući System Access to Go, te Dolphin proizvodi (inačica 12 ili novija)
+- Ukoliko ne posjedujete jedan od podržanih čitača ekrana, koristit će se SAPI5 govor kao alternativa. U tom slućaju, morat ćete imati neki od SAPI5 kompatibilnih glasova (Windows sustavi dolaze sa najmanje jednim SAPI5 glasom, a od SAPI5 kompatibilnih glasova za naše govorno područje na raspolaganju su vam Rosasoft WinTalker Voice, Alphanum AnReader, ESpeak i sl.)
+- i naravno, Skype klijentska aplikacija (3.x, 4.x, 5.x ili novija) - moguće je da će raditi i sa Skype inačicama 2.x i možda sa 1.x, iako to nije potvrđeno i testirano.
+-
+
+=Kako početi=[GettingStarted]
+
+==Instalacija i prvo pokretanje==[InstallationAndFirstRun]
+
+Da biste instalirali SkypeTalking, pokrenite SkypeTalking_X.X_setup.exe (gdje X predstavlja broj trenutne inačice) i slijedite upute. Instalacijski program će stvoriti ikonu na radnoj površini, programsku grupu u start izborniku, te instalacijsku mapu koja se nalazi na lokaciji x:\Program Files\SkypeTalking gdje x predstavlja slovo vašeg sistemskog diska.
+Da biste uklonili SkypeTalking, možete to učiniti na način da otvorite programsku grupu SkypeTalking u start izborniku te odaberete stavku Ukloni SkypeTalking.
+Da biste pokrenuli SkypeTalking, kliknite SkypeTalking ikonu na vašoj radnoj površini, ili stavku SkypeTalking u start izborniku u grupi Programi\SkypeTalking.
+Kada pokrenete SkypeTalking po prvi put, program vjerojatno neće biti autoriziran za komuniciranje sa Skype aplikacijom. Iz sigurnosnih razloga, Skype ne dopušta komunikaciju dodatnim pluginovima i ekstra dodacima bez dozvole korisnika. Ovo je napravljeno iz razloga kako bi se spriječilo viruse i trojanjske konje da uništavaju Skype. Obično će Skype izbaciti dijaloški okvir s pitanjem da li želite dopustiti aplikaciji da ga koristi, a u tom slućaju potrebno vam je samo pritisnuti tipku Tab dok se ne fokusirate na gumb Dozvoli (Allow) ili ga kliknuti kako biste dopustili SkypeTalking aplikaciji povezivanje na Skype. Međutim, ukoliko se to ne dogodi, učinite sljedeće kako biste dozvolili SkypeTalking aplikaciji pristup Skype programu:
++ Pokrenite SkypeTalking preko radne površine ili putem start izbornika iz grupe Programi->SkypeTalking. Tada biste trebali začuti "Povezivanje sa Skype aplikacijom".
++ Otvorite Skype.
++ Pođite na traku s izbornicima, odaberite alate (tools), a zatim pritisnite strelicu gore do mogućnosti (options) i pritisnite Enter.
++ Ponavljajte strelicu dolje dok ne dođete do kategorije Advanced.
++ Ponavljajte pritisak kombinacije Shift+Tab dok se ne nađete na linku "Postavi drugim programima pristup Skype-u" ("Manage other program's access to Skype"). Pritisnite razmaknicu za aktiviranje ovog linka.
++ Pronađite SkypeTalking u popisu (obično bi to trebala biti prva stavka), pritisnite tab dok ne dođete na gumb Promijeni (change), a zatim pritisnite razmaknicu kako biste ga aktivirali.
++ Pritisnite Tab. Trebali biste začuti da ste pozicionirani na radio gumb kontroli "ne dozvoli ovom programu pristup Skype-u" ("Do not allow this program access to Skype"). Pritisnite strelicu gore dok ne začujete "dozvoli ovom programu pristup Skype-u" ("Allow this program access to Skype"), a zatim pritisnite Enter.
++ To je to! Upravo ste dopustili SkypeTalking-u da koristi Skype! SkypeTalking bi sada trebao izgovoriti svoju poruku dobrodošlice. Sada možete zatvoriti opcije višestrukim pritiskom tipke Escape. Spremanje opcija čak nije niti potrebno.
++
+
+Napomena: ove korake ćete morati ponavljati svaki put kada reinstalirate SkypeTalking, ali ne brinite, jer ćete morati to učiniti samo jednom po SkypeTalking instalaciji. Ovo ćete također morati napraviti u slućaju kada mijenjate lokaciju programa SkypeTalking.exe.
+
+Jednom kad je pokrenut, SkypeTalking će raditi u pozadini i čitati upozorenja sve do onog trenutka dok ga ne zatvorite. Prema početnim postavkama, također ćete vidjeti ikonu SkypeTalking na platformi sustava Windows (system tray), međutim, možete onemogućiti prikaz ikone u SkypeTalking postavkama pod kategorijom Općenito.
+
+==SkypeTalking Nadogradnje==[SkypeTalkingUpdates]
+
+Manje nadogradnje za SkypeTalking pojavljuju se češće s ciljem da održavaju SkypeTalking na čim stabilnijoj razini. Počevši od SkypeTalking inačice 0.9, automatski možete provjeriti i preuzeti posljednju nadogradnju bez potrebe za posjećivanjem web stranice projekta. SkypeTalking će prema početnim postavkama automatski provjeriti ima li novih nadogradnji na web stranici projekta te vas upozoriti ukoliko ima nešto novo. Tada možete otkazati proces nadogradnje, ili pustiti SkypeTalking da preuzme nadogradnju za vas. Proces preuzimanja nadogradnje je prilično brz, a o uspješnom preuzimanju bit ćete informirani odmah po njegovu završetku. Automatsku provjeru nadogradnji moguće je onemogućiti putem SkypeTalking postavki u kategoriji Nadogradnje.
+Da biste ručno provjerili ima li nadogradnji, pritisnite zadani SkypeTalking tipkovni prečac Alt+Control+Shift+U, ili kliknite desnim klikom SkypeTalking ikonu na traci zadataka, a zatim pronađite podizbornik Pomoć, pa opciju Provjera nadogradnji.
+
+=Naredbe=[CommandInterface]
+
+SkypeTalking sadrži različite naredbe povezane s tipkovnim prečacima koje možete rabiti za kontrolu ponašanja SkypeTalking programa te za ponavljanje ili izgovor neke određene informacije. Svi tipkovni prečaci koje SkypeTalking sadrži su u kombinaciji s tipkama Alt, Control i Shift (Alt+Control+Shift+Nešto). Stoga možemo reći za tipke Alt+Control+Shift da imaju ulogu SkypeTalking modifikatora. Kako biste zadali naredbu, držite pritisnute tipke Alt+Control+Shift (SkypeTalking Modifikator), i držeći ih pritisnute dodajte neku drugu tipku.
+Napomena: Sve tipkovne prečace koje SkypeTalking sadrži možete mijenjati po želji putem SkypeTalking postavki u kategoriji Tipkovni Prečaci.
+Sljedeća poglavlja opisuju sve SkypeTalking naredbe uz objašnjenje kako ih koristiti.
+
+==Pregled Skype čavrljanja i glasovne pošte==[ReviewingSkypeChatMessagesAndVoicemails]
+
+===Mod poruka i glasovne pošte (Alt+Control+Shift+Z)===[MessageVoicemailMode]
+
+Da biste naizmjence uključili pregledavanje zadnjih 10 poruka u čavrljanju ili zadnjih 10 poruka glasovne pošte prilikom uporabe naredbi Alt+Control+Shift+1 do 0, koristite prečac Alt+Control+Shift+Z prema početnoj postavi. SkypeTalking bi tada trebao reći "Poruke" ili "Glasovna Pošta". Početni mod je mod poruka.
+
+===Izgovori zadnjih 10 dolaznih ili odlaznih poruka u čavrljanju ili glasovnoj pošti (Alt+Control+Shift+Brojevi od 1 do 0)===[LastTen]
+
+U modu poruka, koristeći prečace Alt+Control+Shift+Brojevi od 1 do 0 na alfanumeričkom dijelu tipkovnice, možete čitati posljednje dolazne i odlazne poruke u čavrljanju (od 1 do 10) koje ste poslali i primili za vrijeme rada SkypeTalking programa. Ukoliko se pritisne dvaput, poruka koja je povezana s tim brojem kopirat će se u međuspremnik (clipboard). Ukoliko se pritisne triput, otvorit će se URL adresa u vašem glavnom web pretražniku (u slućaju kada poruka sadrži neku URL adresu). Napomena: SkypeTalking prihvaća samo jednu URL adresu u pojedinoj poruci.
+U modu glasovne pošte, prečaci Alt+Control+Shift+Brojevi od 1 do 0 koriste se za pregled zadnjih 10 poslanih i primljenih poruka u glasovnoj pošti. Ukoliko se pritisne dvaput, SkypeTalking će otvoriti i reproducirati glasovnu poruku. Ukoliko se pritisne triput, SkypeTalking će obrisati glasovnu poruku, stoga budite oprezni pri uporabi ove mogućnosti.
+
+===Nadgledanje aktivnih čavrljanja (Alt+Control+Shift+Funkcijske tipke od F1 do F10)===[MonitoringActiveChats]
+
+Ova mogućnost dopušta praćenje aktivnih čavrljanja, to jest otvorenih chat prozora. Ovo je korisno kada želite pregledavati samo posljednjih 10 poruka koje su povezane sa istom konverzacijom, a ne sva čavrljanja skupa. Koristite prečace Alt+Control+Shift+Funkcijske tipke od F1 do F10 da biste pratili jednu od prvih 10 aktivnih konverzacija (ili ih pritisnite dvaput kako biste fokusirali prozor s odabranom konverzacijom), a nakon toga možete rabiti prečace Alt+Control+Shift+Brojevi za čitanje posljednjih 10 poruka u čavrljanju koje trenutno pratite. Pritiskom tipkovnog prečaca Alt+Control+Shift+C izgovorit će se naziv trenutno praćenog čavrljanja, a ukoliko se pritisne dvaput otvorit će se prozor te konverzacije.
+Napomena: Da bi ova mogućnost mogla funkcionirati, morate prijeći u Compact View (kompaktni prikaz) ukoliko koristite Skype 4.X, 5.X ili noviji.
+
+===Ponovi posljednju poruku u čavrljanju (Alt+Control+Shift+R)===[RepeatLastChatMessage]
+
+Ova naredba ponavlja posljednju dolaznu ili odlaznu poruku u čavrljanju. Ukoliko se pritisne dvaput, otvorit će se Skype prozor konverzacije s kojom je ta poruka povezana, a isto tako će se postaviti i nadgledanje te konverzacije.
+
+===Pregled posljednje glasovne pošte (Alt+Control+Shift+W)===[ReviewLastVoicemail]
+
+Rabite prečac Alt+Control+Shift+W prema početnoj vrijednosti kako biste pogledali zadnju poslanu ili primljenu glasovnu poštu. Ukoliko se pritisne dvaput, glasovna poruka će se otvoriti i reproducirati. Ukoliko se pritisne triput, glasovna poruka će se izbrisati, stoga budite oprezni pri uporabi ove mogućnosti.
+
+==Pregled Skype događaja==[ReviewingSkypeEvents]
+
+===Ponovi posljednji događaj (Alt+Control+Shift+E)===[RepeatLastEvent]
+
+Ova naredba ponavlja zadnji Skype događaj uključujući poruke u čavrljanju. Događaji koje možete ponavljati pomoću ove naredbe uključuju promjene statusa, posljednja poruka u čavrljanju te statusi poziva.
+
+===Ignoriranje Skype događaja (uključuje se naizmjence) (Alt+Control+Shift+I)===[IgnoreSkypeEvents]
+
+Ova naredba će naizmjence uključiti ili isključiti ignoriranje svih Skype događaja. Ukoliko je uključeno, SkypeTalking će jednostavno ignorirati događaje i neće ih više izgovarati niti bilježiti.
+
+===Povijest događaja===[TheEventsHistory]
+
+Sve protekle događaje za vrijeme rada SkypeTalking programa uključujući vrijeme kada su se isti dogodili možete pregledati rabeći sljedeće tipkovne naredbe prema zadanom:
+- Alt+Control+Shift+Točka - Idi na sljedeći događaj u međuspremniku za povijest događaja
+- Alt+Control+Shift+Zarez - Idi na prethodni događaj u međuspremniku za povijest događaja
+- Alt+Control+Shift+Crtica - Naizmjence uključi pregled događaja vezanih uz promjene statusa, pozive, poruke, datotečne prijenose, korisničke akcije ili glasovnu poštu.
+-
+
+==Promjena vlastitog Skype statusa tokom rada (Alt+Control+Shift+Backspace)==[ChangeStatus]
+
+Rabite ovu naredbu kako biste promijenili svoj status tokom rada. Nakon unosa naredbe, odaberite novi status iz popisa rabeći strelice, a potom pritisnite Enter za prihvaćanje promjene. Ovo možete učiniti gdje god da se nalazite, bez potrebe da prvo fokusirate Skype.
+
+==Izgovori status poziva i mikrofona (Alt+Control+Shift+L)==[CallStatus]
+
+Ova naredba će izgovoriti status aktivnog Skype poziva. Također će izvijestiti da li je mikrofon mutiran (ukoliko je to slućaj). Ukoliko se pritisne dvaput, otvorit će se dijalog u kojemu možete nekoga pozvati unosom Skype imena osobe koju želite zvati. Također možete napraviti konferencijski poziv unosom višestrukih Skype imena odvojenih zarezima. Primjerice: mirko2010,marica.maric,slavko_poljak. Stavljanje zareza iza zadnjeg imena nije potrebno.
+
+==Izgovori trajanje poziva (Alt+Control+Shift+D)==[SayCallDuration]
+
+Ova naredba radi za vrijeme Skype poziva i služi za najavu trajanja trenutnog poziva u formatu sati/minute/sekunde.
+
+==Najava statusa datotečnog prijenosa (Alt+Control+Shift+F)==[FileTransferStatus]
+
+Ova naredba će izgovoriti status zadnjeg dolaznog ili odlaznog datotečnog prijenosa. Ukoliko je trenutni datotečni prijenos u tijeku, također ćete saznati brzinu trenutnog prijenosa u megabajtima po sekundi te broj trenutno prenesenih megabajta, kao i postotak i preostalo vrijeme. Ukoliko je aktivno više od jednog datotečnog prijenosa, moći ćete odabrati datotečni prijenos koji želite nadgledati pritiskom tipkovne naredbe Alt+Control+Shift+F dvaput te odabirom primatelja/pošiljaoca datoteke iz popisa. Pritisnite Enter za prihvaćanje promjena.
+
+==Izgovor vlastitog statusa na Skype mreži ili iznosa na Skype kreditu (Alt+Control+Shift+O)==[CurrentStatus]
+
+Ova naredba će izgovoriti vaš trenutni status na Skype mreži ukoliko se pritisne jednom, a ukoliko se pritisne dvaput izgovorit će trenutni iznos na vašem Skype kreditu.
+
+==Izgovor ili promjena vašeg Skype teksta raspoloženja (Alt+Control+Shift+M)==[ReportOrChangeMoodText]
+
+Ova naredba će izgovoriti vaš Skype tekst raspoloženja (Mood Text) ukoliko je postavljen. Ukoliko ovu naredbu pritisnete dvaput, otvorit će se dijaloški okvir koji vam omogućuje upis novog teksta raspoloženja. Tada možete upisati novi tekst, a po završetku unosa dovoljno je samo pritisnuti Enter. Vaš tekst raspoložena će tada biti promijenjen.
+
+==Ostale naredbe==[OtherCommands]
+
+===Dijalog O SkypeTalking programu (Alt+Control+Shift+A)===[AboutSkypeTalking]
+
+Ovaj dijalog prikazuje trenutnu SkypeTalking inačicu, informacije o autorskim pravima, web stranici i sl. Isti možete zatvoriti pritiskom tipke Enter. Ovdje ćete također vidjeti dodatne opcije, kao što je opcija za posjet web stranice projekta, pregled online licence, pregled liste doprinositelja, pregled priručnika ili "Što je Novo" dokumenta.
+
+===Izgovori Skype inačicu (Alt+Control+Shift+V)===[ReportSkypeVersion]
+
+Ova naredba izgovara trenutnu inačicu Skype klijentske aplikacije koja se trenutno izvršava na računalu korisnika. Ukoliko se pritisne dvaput, izgovorit će se inačica API Wrapper-a, što je prvenstveno korisna informacija za programere.
+
+===Zaustavljanje SAPI5 govora (Alt+Control+Shift+Razmaknica)===[StopSpeech]
+
+Ova naredba će zaustaviti govor u slućaju kada se SkypeTalking koristi sa SAPI5 govorom. Ukoliko koristite SkypeTalking sa vašim čitačem ekrana, govor možete zaustaviti kao i obično pomoću tipke Control.
+
+===Ugasi SkypeTalking (Alt+Control+Shift+Q)===[QuitSkypeTalking]
+
+Ova naredba uklanja SkypeTalking iz memorije. Prema početnoj postavi, od vas će se tražiti potvrda. Ukoliko odgovorite sa Da, SkypeTalking će se ugasiti, a svaki zadnji događaj ili poruke u čavrljanju će se zaboraviti, budući da ih SkypeTalking drži u RAM memoriji vašeg računala i stoga su isti uklonjeni iz memorije jednom kad se SkypeTalking ugasi.
+
+===Tipkovni opisnik (Alt+Control+Shift+K)===[KeyDescriber]
+
+SkypeTalkingov tipkovni opisnik je najbolji način za učenje SkypeTalkingovih tipkovnih prečaca. U ovom modu, kada pritisnete bilo koje tipkovne prečace koji su povezani sa SkypeTalkingovim naredbama, SkypeTalking će opisati što koji određeni tipkovni prečac radi. Ovo radi na način poput tipkovnog pomočnika u čitačima ekrana JAWS, Window-Eyes i NVDA. Tipkovni opisnik se može naizmjence uključiti ili isključiti pomoču tipkovnog prečaca Alt+Control+Shift+K prema početnoj vrijednosti.
+
+=SkypeTalking Postavke=[preferences]
+
+Dijalog sa SkypeTalking postavkama može se pozvati pomoću tipkovnog prečaca Alt+Control+Shift+P prema početnoj vrijednosti. Isti se također može aktivirati na način da kliknete desnim klikom miša ikonu SkypeTalking na sistemskoj platformi, a zatim odaberete stavku Alati pa potom Postavke. Ovaj dijalog se može koristiti za promjenu načina ponašanja SkypeTalking programa, a isto tako i za promjenu vašeg početnog jezika i govornog izlaza. Ovdje također možete mijenjati tipkovne prečace za SkypeTalking.
+Dijaloški okvir s postavkama sadrži više kategorija u prikazu stabla, između kojih se možete premiještati koristeći strelice na tipkovnici, isto kako to činite u dijalogu za Skype opcije. Gumb U Redu ili tipka Enter će spremiti promjene koje su bile izvršene unutar svih kategorija u postavkama, a gumb Primjeni će spremiti promjene bez zatvaranja dijaloškog okvira. Da biste otkazali promjene, pritisnite tipku Escape ili odaberite gumb Odustani. Pročitajte daljnja poglavlja kako biste se bolje upoznali sa svakom od kategorija u postavkama.
+
+==Kategorija Općenito==[general]
+
+Kategorija Općenito koristi se za odabir vašeg podrazumjevanog SkypeTalking jezika, te za postavljanje načina pokretanja i gašenja SkypeTalking programa. Ova kategorija sadrži sljedeće opcije.
+
+===Jezik===[language]
+
+Combo Box kontrola za jezik prikazuje sve trenutno podržane jezike u SkypeTalking programu. Ovdje možete odabrati vaš podrazumjevani jezik, a isti će se primjeniti odmah nakon spremanja postavki, no da bi se promjene u potpunosti primijenile, bit će potrebno ponovno pokretanje SkypeTalking programa. SkypeTalking će to učiniti za vas automatski, ukoliko odgovorite sa U Redu na pitanje o ponovnom pokretanju. Prema početnoj vrijednosti, SkypeTalking koristi jezik vašeg operativnog sustava.
+
+===Pokreni SkypeTalking zajedno sa Windows sustavom===[StartSkypeTalkingWithWindows]
+
+Ova opcija, ukoliko je uključena, konfigurirat će SkypeTalking da se automatski pokrene nakon što se prijavite u Windows sustav. Ova opcija je isključena prema početnoj vrijednosti.
+
+===Automatski pokreni Skype sa SkypeTalkingom===[AutoStartSkype]
+
+Ova opcija, kada je uključena, omogućit će SkypeTalkingu da automatski pokrene Skype za vas ukoliko ste zaboravili pokrenuti Skype prije SkypeTalkinga. Ovo je također korisna opcija ako želite pokrenuti Skype i odmah imati govorni pristup Skype aplikaciji. Ova opcija je uključena prema zadanoj vrijednosti, što znači da će SkypeTalking pokrenuti Skype ukoliko detektira da Skype još nije bio učitan.
+
+===Automatski zatvori Skype prilikom izlaza iz SkypeTalkinga===[AutoCloseSkype]
+
+Ova opcija, kada je uključena, će također ugasiti Skype za vas u trenutku kada napustite SkypeTalking. Međutim, ako želite nastaviti koristiti Skype i nakon što je SkypeTalking ugašen, sigurno ćete htjeti isključiti ovu opciju, i ista je prema početnoj vrijednosti isključena.
+
+===Potvrda izlaza iz SkypeTalking programa===[ConfirmExit]
+
+Ova opcija je uključena prema početnoj vrijednosti. Ukoliko je isključite, SkypeTalking će se ugasiti odmah nakon što zadate naredbu za izlaz iz programa, a poruka za potvrdu se tada preskače.
+
+===Pokaži SkypeTalking ikonu na traci zadataka===[SkypeTalkingTaskbarIcon]
+
+Ova opcija je prema početnoj vrijednosti uključena, a ista zahtjeva ponovno pokretanje kako bi se primijenila. Isključite ju ukoliko ne želite vidjeti SkypeTalking ikonu na sistemskoj platformi.
+
+==Kategorija za govorni izlaz==[output]
+
+Ova kategorija sadrži postavke vezane uz govorni i brajični izlaz. Ovdje se mogu namjestiti sljedeće opcije.
+
+===Govorni izlaz===[SpeechOutput]
+
+combo box kontrola za govorni izlaz omogućuje vam namiještanje željenog govornog izlaza. Ako se ovo postavi na "automatski detektiraj", program će automatski detektirati i koristiti vaš trenutno pokrenut čitač ekrana ili SAPI5 ukoliko vaš čitač ekrana nije pokrenut ili je nepoznat SkypeTalkingu. Ako se ovo postavi na SAPI5, program će automatski koristiti SAPI5 govor, a vaš čitač ekrana će se ignorirati.
+
+===Kontrole SAPI5 govora===[SpeechControls]
+
+Sljedeće tri kontrole prikazuju se kao edit spin boxovi pomoću kojih možete kontrolirati glasnoću i brzinu vaše SAPI5 sinteze u slućaju kada se SAPI5 koristi. Možete koristiti strelice na tipkovnici ili upisati željeni broj za prilagodbu vrijednosti.
+
+===Omogući izlaz na brajici===[EnableBrailleOutput]
+
+Ovaj odabirni okvir omogućuje vam da odlučite želite li vidjeti SkypeTalking informacije na vašem brajičnom redku. Ova opcija ne radi kada je odabran SAPI5 govor.
+
+==Kategorija za upozorenja==[alerts]
+
+Ova kategorija vam omogućuje da naizmjence uključite ili isključite najavu različitih Skype upozorenja koja SkypeTalking trenutno podržava. Sve što ovdje isključite bit će ignorirano od strane SkypeTalkinga. Moguće je naizmjenično uključivanje najava dolaznih poruka u čavrljanju, odlaznih poruka u čavrljanju, statusa mreže itd., kao i automatsku najavu promjena Skype tekstova raspoloženja.
+
+==Kategorija za opširnost govora==[verbosity]
+
+Ova kategorija sadrži postavke s kojima ćemo odrediti koliko će informacija biti izgovoreno od strane SkypeTalking programa, te koje posebne poruke će biti odnosno neće biti najavljene od strane SkypeTalking programa.
+
+===Pokaži vrijeme poruke===[ShowMessageTime]
+
+Prema početnoj vrijednosti, ova opcija je uključena, što znači da će SkypeTalking izgovarati vrijeme kada je poruka bila poslana/primljena. Vrijeme poruke se prikazuje u obliku prikladnom za korisnika. Primjer: "prije minutu vremena u 10:56, Ivan je rekao: Kako si?". Onemogućite ovu opciju kako biste isključili najave vremena.
+
+===Izgovori ime kontakta uz poruku===[SpeakContactNameWithMessage]
+
+Ukoliko je ova opcija isključena, SkypeTalking neće izgovarati ime osobe koja šalje ili prima poruku. Prema početnoj vrijednosti, ova opcija je uključena.
+
+===Izgovor poruke "Skype Upozorenje"===[SkypeAlertMessage]
+
+Ova opcija prikazuje se kao grupa radio gumba, a kontrolira na kakav način će nas SkypeTalking upozoriti o novim događajima. Radio gumb "prije upozorenja" će namjestiti da SkypeTalking izgovori poruku "Skype upozorenje" prije no što izgovori tekst događaja. Radio gumb "poslje upozorenja" će namjestiti da SkypeTalking izgovori tekst događaja koji će uslijediti porukom "Skype upozorenje". Radio gumb "nikad" će namjestiti da SkypeTalking izgovori samo tekst događaja bez poruke "Skype upozorenje". Prema početnoj vrijednosti, odabran radio gumb je "prije upozorenja".
+
+==Kategorija Napredno==[advanced]
+
+Ova kategorija sadrži neke napredne postavke koje služe za kontroliranje kako će SkypeTalking upravljati Skype klijentskom aplikacijom i Skype vezom. Ovdje se mogu namjestiti sljedeće opcije.
+
+===Broj pokušaja za ponovno povezivanje prije nego što se odustane===[ConnectionRetries]
+
+Ova opcija kontrolira koliko će se puta SkypeTalking pokušati ponovo povezati na Skype u slućaju kada povezivanje ne uspije. Početna vrijednost je 5 puta.
+
+===Pokreni Skype minimiziran===[StartSkypeMinimized]
+
+Ova opcija je prema početnoj vrijednosti uključena, što znači da se glavni prozor Skype aplikacije neće prikazati u slućaju ako je Skype bio pokrenut od strane SkypeTalkinga.
+
+===Bez splash ekrana prilikom pokretanja Skype aplikacije===[NoSplashScreen]
+
+Ova opcija je prema početnoj vrijednosti uključena, što znači da će Skypeov splash ekran biti sakriven u slućaju ako je Skype bio pokrenut od strane SkypeTalkinga.
+
+==Kategorija za nadogradnje==[updates]
+
+Ova kategorija sadrži postavke za konfiguraciju sustava za nadogradnju SkypeTalkinga. Ovdje se mogu namjestiti sljedeće opcije.
+
+===Automatski provjeri ima li novih nadogradnji za SkypeTalking===[AutoCheckForUpdates]
+
+Prema početnoj vrijednosti, ova opcija je uključena, što znači da će SkypeTalking automatski provjeravati jesu li nove nadogradnje na raspolaganju pri svakom svom pokretanju. Isključite ovu opciju kako biste onemogućili automatsku provjeru nadogradnji.
+
+===Vrsta preuzimanja===[DownloadType]
+
+Ova opcija konfigurira koja će vrsta SkypeTalking nadogradnje biti preuzeta sa web stranice. Prikazuje se kao Combo Box kontrola sa dvije opcije, instalacijski program i prijenosna arhiva. Prema početnoj vrijednosti, namještena je opcija za instalacijski program.
+
+==Kategorija za upravitelj kontaktima==[ContactsManagerCategory]
+
+Ova kategorija sadrži postavke za konfiguriranje ugrađenog SkypeTalking upravitelja kontaktima. Ovdje postoji jedna opcija za prikazivanje kontakata koji trenutno nisu na mreži, a prema početnoj vrijednosti je isključena. Kada je uključena, također će se prikazati kontakti čiji je status trenutno Offline odnosno izvan mreže.
+
+==Kategorija za tipkovne prečace==[hotkeys]
+
+Ova kategorija vam omogućuje da prilagodite SkypeTalking tipkovne prečace po želji. Slijedi kako ovo koristiti.
+
+===Popis tipkovnih prečaca===[KeystrokesList]
+
+Popis tipkovnih prečaca prikazuje u List View kontroli popis funkcija i njihovih definiranih SkypeTalking prečaca koje možete prilagoditi svojim potrebama i željama. Ovdje možete vidjeti naziv funkcije, trenutno definirani tipkovni prečac za tu funkciju, te opis funkcije. Rabite gornju i donju strelicu da biste označili funkciju čiji tipkovni prečac želite promijeniti.
+
+===Promjena tipkovnog prečaca===[ChangingKeystroke]
+
+Pritiskom na gumb Promijeni otvorit će se dijaloški okvir koji će vam omogućiti prilagodbu trenutno odabranog tipkovnog prečaca. Ovdje se nalaze 4 Check Box kontrole za modifikatore (Alt, Win, Control i Shift), te edit polje u koje je potrebno upisati naziv tipke koja će se koristiti uz odabrane modifikatore. Primjerice, ako želite koristiti kombinaciju Control+Shift+H kao vaš novi tipkovni prečac (Control i Shift kao modifikatore i H kao tipku), potrebno je odabrati opcije za modifikatore Control i Shift, dok Alt i Win opcije moraju biti isključene, a zatim je potrebno upisati slovo H u edit polje za tipku. Vaše promjene će se uvažiti nakon odabira gumba U Redu. Ukoliko je tipkovni prečac već u uporabi, javit će se pogreška, a tada ćete trebati pokušati s nekom drugom kombinacijom. Također je važno upisati valjani naziv za tipku, jer u suprotnom vaš novi tipkovni prečac neće funkcionirati.
+
+=Upravitelj kontaktima=[TheContactsManager]
+
+Upravitelj Kontaktima u SkypeTalking-u omogućuje Vam pregled Vaših Skype kontakata te upravljanje istima na jednostavan i pristupačniji način. Možete mu pristupiti pomoću tipkovnog prečaca Alt+Ctrl+Shift+F11. Ukoliko pritisnete ovu naredbu dvaput, SkypeTalking će fokusirati prozor originalne Skype kontakt liste.
+
+==Navigacija u Upravitelju Kontaktima==[NavigatingContactsManager]
+
+SkypeTalking-ov Upravitelj Kontaktima prikazuje Vaše kontakte u multi-odabirnoj List View kontroli, omogućujući Vam tako da odaberete jednog ili više kontakata na kojima možete izvršiti neku akciju. Za pomicanje po kontaktima koristite strelice na tipkovnici, a za naizmjenično uključivanje ili isključivanje odabira na trenutno fokusiranom kontaktu koristite razmaknicu. Upravitelj Kontaktima će također prikazati dodatne stupce u List View kontroli, kao što su trenutni status vaših kontakata, tekst raspoloženja, te datum i vrijeme kad je kontakt zadnji put viđen za kontakte koji su isključeni s mreže.
+
+==Odabir akcije za odabranog kontakta==[ChoosingAnAction]
+
+Koje će se akcije pokazati u Upravitelju Kontaktima ovisi o broju odabranih kontakata.
+Ukoliko nijedan kontakt nije odabran, SkypeTalking će izgovoriti poruku upozorenja.
+Ukoliko je samo jedan kontakt odabran, moguće su sljedeće akcije:
++ Gumb Zovi - Uspostavlja Skype poziv prema odabranom kontaktu - ovo je početni gumb, tako da će isti biti aktiviran ukoliko se pritisne Enter dok smo fokusirani na kontakt listi
++ Gumb Čavrljanje - otvara prozor za čavrljanje sa odabranim kontaktom
++ Pregled profila - Otvara Preglednik Profila Upravitelja Kontakta
++
+
+Ukoliko su odabrana 2 ili više kontakata, moguće su sljedeće akcije:
++ Stvori Konferenciju Gumb - Stvara konferencijski poziv sa svim odabranim kontaktima - ovo je početni gumb, tako da će isti biti aktiviran ukoliko se pritisne Enter dok smo fokusirani na kontakt listi
++ Stvori Višestruko Čavrljanje Gumb - Otvara prozor čavrljanja te stvara višestruko čavrljanje sa svim odabranim kontaktima
++
+
+Koristite tipke Tab i Shift+Tab za premiještanje između akcija i kontakt liste. Pritisnite Escape ili aktivirajte gumb "Zatvori" u bilo kojem trenutku kako biste zatvorili Upravitelj Kontaktima.
+
+==Preglednik Profila==[ProfileViewer]
+
+Preglednik Profila je dio Upravitelja Kontaktima koji će se otvoriti kada aktivirate gumb "Pregledaj Profil" za pojedinog kontakta. Preglednik Profila prikazuje detalje profila kontakta u pristupačnom okviru jednostavnom za uporabu. Koristite Tab i Shift+Tab za premiještanje sa detalja na detalj, a zatim možete koristiti strelice te sve standardne naredbe za odabir teksta za kopiranje nekog željenog detalja ukoliko želite. Za zatvaranje Preglednika Profila, aktivirajte gumb "Zatvori" ili pritisnite Escape kako biste se vratili natrag na Upravitelj Kontaktima.
+
+=Slanje i primanje SMS poruka pomoću SkypeTalkinga=[SMS]
+
+SkypeTalking Vam omogućuje slanje SMS poruka na jednostavan način pomoću svog ugrađenog SMS čarobnjaka.
+
+==SMS čarobnjak==[SMSWizard]
+
+SMS čarobnjaku možete pristupiti pomoću naredbe Alt+Ctrl+Shift+S. Također ga možete otvoriti na način da kliknete desnim klikom ikonu SkypeTalking na sistemskoj platformi, pa zatim iz izbornika Alati odaberete stavku SMS Čarobnjak.
+U trenutku kad se isti otvori, bit ćete upitani za unos telefonskog broja. Tu ćete morati unijeti ispravan telefonski broj, uključujući pozivni broj zemlje. Primjerice: +385991234567. Ukoliko je broj neispravan, bit ćete vraćeni natrag na polje za unos telefonskog broja kako biste isti pokušali unijeti ponovo. Pritisnite Enter za nastavak, ili pritisnite Escape kako biste odustali.
+Ukoliko je telefonski broj bio ispravan, čarobnjak se nastavlja i tada ćete biti pozicionirani na područje za uređivanje gdje trebate sastaviti Vašu SMS poruku. Dok se nalazite u ovom dijaloškom okviru, možete pritisnuti funkcijsku tipku F2 u bilo kojem trenutku kako biste dobili trenutni status Vaše SMS poruke koju trenutno sastavljate. Ton upozorenja će se začuti u slućaju ako broj preostalih znakova u SMS poruci dostigne nulu.
+Jednom kad ste sastavili Vašu SMS poruku, možete pritisnuti Enter ili tipkom Tab produžiti do gumba "Pošalji" da biste istu poslali, ili gumba "Odustani" da biste otkazali njeno slanje. Ukoliko je aktiviran gumb "Pošalji" i iznos na Vašem kreditu je zadovoljavajuč, Vaša SMS poruka će biti poslana.
+
+=Završne informacije i detalji za kontakt=[FinalInfo]
+
+==Kako dobiti izvorni kod==[ObtainingSourceCode]
+
+SkypeTalking je besplatan softver otvorenog koda (open source), napisan u [Python programskom jeziku http://www.python.org]. Pojam open source znači da je izvorni kod softvera dostupan svakome tko ga želi upotrijebiti ili prilagoditi svojim potrebama. SkypeTalking koristi GNU General Public Licencu inačica 2.0. Puni tekst licence možete pročitati u datoteci license.txt koja se isporučuje zajedno sa binarnim i otvorenim distribucijama SkypeTalking programa.
+Ukoliko ste programer i želite dati doprinos izvornom kodu, ili možda pokrenuti SkypeTalking direktno iz izvornog koda, posjetite Mercurial kod repozitorij SkypeTalking programa smješten na [Bitbucket resursu https://bitbucket.org/HKatic/skypetalking].
+
+==Doprinos prijevodu==[ContributingTranslation]
+
+Ukoliko ste prevodilac i želite lokalizirati SkypeTalking te njegovu dokumentaciju na Vaš materinji jezik, možete me kontaktirati putem e-maila kako biste dobili zadnju aktualnu datoteku za prijevod plus upute, te mi mogli natrag poslati svoje prijevode. Također, ukoliko imate znanja oko korištenja Mercurial repozitorija, bit će mi zadovoljstvo dati Vam prava pristupa za ažuriranje prijevoda s vremena na vrijeme.
+
+==SkypeTalking Mailing Lista==[MailingList]
+
+Možete se pridružiti SkypeTalking mailing listi postavljenoj na Google Grupama koristeći sljedeću adresu: [skypetalking+subscribe@googlegroups.com skypetalking+subscribe@googlegroups.com]. Za slanje e-mail poruke na mailing listu, koristite adresu [skypetalking@googlegroups.com skypetalking@googlegroups.com]. Napominjem da je ovo lista na kojoj se komunicira samo na engleskom jeziku. Ovo je najbolji resurs za dobivanje tehničke podrške i različitih trikova vezanih uz SkypeTalking. Sva pitanja su dobro došla, od onih početničkih do onih vezanih uz razvoj programa.
+
+==Zahvale==[credits]
+
+Sljedeći ljudi su na neki način dali svoj doprinos razvoju SkypeTalking programa:
+- Hrvoje Katić, osnivač i glavna osoba koja stoji iza SkypeTalking projekta.
+- Gianluca Casalino, koji je razvio različite napredne mogućnosti SkypeTalking programa, te je dao svoj doprinos ulagajući podosta rada u SkypeTalking programski kod. Zahvaljujući njegovom posvećenom radu i pomoći, SkypeTalking je sada još puno bolji nego prije!
+- René Linke, koji također daje svoj doprinos SkypeTalking programu na neki način stvarajući različite patch-eve i davajući inicijalne ideje.
+- Razni sjajni ljudi koji su omogućili SkypeTalking dostupnim na njihovom materinjem jeziku, te tako SkypeTalking sada govori više od 15 jezika!
+- I naravno, svi korisnici širom svijeta koji svakodnevno koriste SkypeTalking te promoviraju isti kako bi još više ljudi znalo za ovaj proizvod!
+-
+
+Velika hvala svima vama!
+
+==Detalji o kontaktu==[ContactDetails]
+
+Web stranica SkypeTalking projekta za preuzimanja, ažuriranja i ostalo: [skypetalking.googlecode.com http://skypetalking.googlecode.com]
+
+Moja E-Mail adresa za pitanja, prijedloge, podršku te objavu prijevoda: [hrvojekatic@gmail.com hrvojekatic@gmail.com]
+
+Možete me pratiti na Twitteru koristeći ID: [@hkatic http://www.twitter.com/hkatic]. Za novosti vezane uz SkypeTalking te informacije o ažuriranju koda u Mercurial repozitoriju, pratite [@SkypeTalking http://www.twitter.com/SkypeTalking] na Twitteru.
+
+Moj Facebook profil: [www.facebook.com/jukebox2009 http://www.facebook.com/jukebox2009]
+
+Moj Klango ID na klango.net mreži: DJ_Jukebox
+
+Moja MSN adresa: [hrkatic@hotmail.com hrkatic@hotmail.com]
+
+Moj Skype ID: skypetalkingproject
+

@@ -1,0 +1,1774 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking 0.9\n"
+"POT-Creation-Date: 2011-01-05 08:14+Êàâêàçñêîå âðåìÿ (çèìà)\n"
+"PO-Revision-Date: 2011-01-05 18:51+0200\n"
+"Last-Translator: Salih Kunduz <messengerpark@gmail.com>\n"
+"Language-Team: Turkish <messengerpark@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Country: TURKEY\n"
+
+#: SkypeTalking.pyw:60
+msgid "Error writing config file. The application may not be started. Please contact development team for help."
+msgstr "Ayar dosyasını yazarken hata oluştu. Uygulama başlatılamıyor. Lütfen geliştirici takımıyla irtibata geçin."
+
+#: SkypeTalking.pyw:60
+#: SkypeTalking.pyw:71
+#: SkypeTalking.pyw:81
+#: interface\__init__.py:41
+msgid "Error"
+msgstr "Hata"
+
+#: SkypeTalking.pyw:71
+msgid "Could not set application language. The application may not be started. Please contact development team for help."
+msgstr "Uygulama dili ayarlanamadı. Uygulama başlatılamıyor. Lütfen geliştiricilerle irtibata geçin."
+
+#: SkypeTalking.pyw:75
+msgid "Application already running."
+msgstr "Uygulama zaten çalışıyor"
+
+#: SkypeTalking.pyw:79
+msgid "Connecting to Skype..."
+msgstr "Skype'a Bağlanıyor..."
+
+#: SkypeTalking.pyw:81
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "Failed to initialize output subsystem. The application Uygulama başlatılamıyor.  Yardım almak için lütfen geliştiricilerle irtibata geçin."
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "%s adlı kişiden gelen çağrı"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "%s adlı kişi aranıyor"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "%s adlı kişiden bir telefon araması"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "%s adlı kişiye bir telefon araması"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "%s adlı kişiyle olan çağrı bitti, Toplam arama süresi %s."
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "%s ile olan çağrı bağlanıyor..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "Üzgünüz, %s ile olan çağrı başarısız oldu"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "%s adlı kişiyle olan çağrı bağlanıyor"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "%s adlı kişiyle olan çağrı beklemede"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "%s adlı kişiden bir cevapsız arama"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "Çağrı reddedildi"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "%s adlı kişiyle olan çağrı meşgul"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "%s ile olan çağrı iptal edildi"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "%s ile olan çağrı yerel beklemede"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "Call with %s on remote hold"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Çağrınız %s adlı kişiye transfer ediliyor"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "Çağrınız %s adlı kişiye transfer edildi"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Sebep bilinmiyor"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Misc error"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "Kullanıcı mevcut değil"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "Kullanıcı Çevrimdışı"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Proxy bulunamadı"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Konferans sonlandırıldı"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "No common codec"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Ses giriş/çıkışı hatası"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Remote device error"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "Alıcı tarafından engellendiniz"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "Alıcı kişi listenizde değil"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Alıcının kişi listesine eklenme izniniz yok"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Ses kayıt hatası"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "Saat"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "Saat"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "Dakika"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "Dakika"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "Ve"
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "Saniye"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "Saniye"
+
+#: communication\files.py:35
+msgid "Receiving file %s from %s. "
+msgstr "Dosya alınıyor %s %s adlı kişiden"
+
+#: communication\files.py:37
+msgid "Sending file %s to %s. "
+msgstr "Dosya gönderiliyor %s %s adlı kişiye"
+
+#: communication\files.py:39
+msgid "File transfer %s, file %s. "
+msgstr "Dosya Aktarımı %s, Dosya %s."
+
+#: communication\files.py:41
+msgid "New file transfer: "
+msgstr "Yeni dosya aktarımı:"
+
+#: communication\files.py:43
+msgid "Connecting..."
+msgstr "Bağlanıyor..."
+
+#: communication\files.py:45
+msgid "Transferring..."
+msgstr "Aktarılıyor..."
+
+#: communication\files.py:47
+msgid "Transferring over relay..."
+msgstr "Transferiniz aktarılıyor..."
+
+#: communication\files.py:49
+msgid "Waiting for accept..."
+msgstr "Kabul için bekliyor..."
+
+#: communication\files.py:51
+msgid "Paused."
+msgstr "Durduruldu."
+
+#: communication\files.py:53
+msgid "Paused remotely."
+msgstr "Paused remotely."
+
+#: communication\files.py:55
+msgid "Cancelled!"
+msgstr "İptal edildi!"
+
+#: communication\files.py:57
+msgid "Finished!"
+msgstr "Bitti!"
+
+#: communication\files.py:59
+msgid "File transfer failed."
+msgstr "Dosya aktarımı başarısız oldu"
+
+#: communication\files.py:61
+msgid "Sender not authorized."
+msgstr "Kullanıcı izin vermiyor."
+
+#: communication\files.py:63
+msgid "Remotely cancelled."
+msgstr "Remotely cancelled."
+
+#: communication\files.py:65
+msgid "Failed read."
+msgstr "Okuma başarısız oldu"
+
+#: communication\files.py:67
+msgid "Failed remote read."
+msgstr "Failed remote read."
+
+#: communication\files.py:69
+msgid "Failed write."
+msgstr "Yazma başarısız oldu"
+
+#: communication\files.py:71
+msgid "Failed remote write."
+msgstr "Failed remote write."
+
+#: communication\files.py:73
+msgid "Remote does not support file transfer."
+msgstr "Karşı taraf dosya aktarımını desteklemiyor."
+
+#: communication\files.py:75
+msgid "Remote offline too long."
+msgstr "Karşı taraf uzun zamandır çevrimdışı"
+
+#: communication\files.py:80
+msgid "Size: %.1f Mb"
+msgstr "Boyut: %.1f Mb"
+
+#: communication\files.py:85
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Aktarılan miktar: %.1f Mb, Aktarım Hızı: %.1f kb/s"
+
+#: communication\files.py:91
+msgid "Progress: %6.2f"
+msgstr "İlerleme: %6.2f"
+
+#: communication\files.py:101
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "Kalan Süre: %d Saat, %d Dakika Ve %d Saniye"
+
+#: communication\main.py:35
+msgid "Waiting for authorization..."
+msgstr "İzin için bekleniyor."
+
+#: communication\main.py:37
+msgid "Authorization refused."
+msgstr "İzin Reddedildi."
+
+#: communication\main.py:42
+msgid "Error, API not available."
+msgstr "Hata, API uygun değil."
+
+#: communication\main.py:49
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s Kullanıma hazır. Şuanda oturumu açık olan kullanıcı %s."
+
+#: communication\main.py:66
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+
+#: communication\main.py:73
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "Gönderiliyor..."
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "%s adlı kişiden bir yazılı mesaj: %s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "%s  adlı kişiden bir Kısa Mesaj: %s"
+
+#: communication\messages.py:56
+msgid "at %s, %s said: %s"
+msgstr "%s, %s Diyor: %s"
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr "%s, %s, %s Diyor: %s"
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr "%s, %s Diyor: %s"
+
+#: communication\messages.py:63
+msgid "%s at %s, %s says: %s"
+msgstr "%s, %s, %s Diyor: %s"
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr "%s: %s"
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr "%s %s: %s"
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%s Diyor: %s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%s Diyor: %s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "Mesajınız henüz teslim edilmedi."
+
+#: communication\messages.py:84
+msgid "Message copied to clipboard."
+msgstr "Mesaj panoya kopyalandı."
+
+#: communication\messages.py:86
+msgid "copy failed"
+msgstr "kopyalama başarısız oldu"
+
+#: communication\messages.py:95
+msgid "opening URL"
+msgstr "Web adresi açılıyor."
+
+#: communication\messages.py:98
+msgid "Failed to open this URL."
+msgstr "Web adresini açarken hata oluştu."
+
+#: communication\messages.py:100
+msgid "url not found"
+msgstr "Web adresi bulunamadı"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "Skype Uygulama versiyonu %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "API wrapper versiyonu %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "%s'i Başlattığınızdan beri henüz yeni olay yok"
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "%s'i başlattığınızdan beri hiç yeni mesaj yok."
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Henüz herhangi bir dosya aktarımı yok."
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "Aktif bir dosya aktarımı yok."
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s, Dosya %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "Aktif dosya aktarımları"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "Dosyayı seçin Alıcı/gönderici"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "şuanki Skype Krediniz %s"
+
+#: communication\misc.py:93
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Bu konumda bir yazılı mesaj penceresi yok, ilk yazılı mesaj penceresi %s konumunda."
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "%s ile olan mesajlaşma penceresi açılıyor"
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr "Son"
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "Aktif mesajlaşma penceresi yok"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "Aktif yazılı mesaj penceresi yok."
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "%s ile olan mesajlaşma penceresi açık"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "%s açıldığından beri hiçbir yazılı mesaj yok yada hiçbir yazılı mesaj penceresi açılmadı"
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "Bu konumda hiçbir yazılı mesaj yok, ilk mesaj %s konumunda."
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Herhangi bir ifade mesajı yazmadınız, yazmak için bu komuta iki kez basınız."
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "şuanki ifade mesajınız: %s"
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr " - ifade mesajını değiştir"
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "Yeni ifade mesajınızı girin:"
+
+#: communication\misc.py:151
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s ifade mesajını %s yazarak değiştirdi"
+
+#: communication\misc.py:167
+#: communication\misc.py:207
+msgid "no active call"
+msgstr "Aktif çağrı yok"
+
+#: communication\misc.py:170
+#: communication\misc.py:176
+#: communication\misc.py:182
+#: communication\misc.py:196
+msgid "Not on call."
+msgstr "herhangi bir aramada değilsiniz."
+
+#: communication\misc.py:174
+msgid "Microphone unmuted"
+msgstr "Mikrofon sesi açıldı"
+
+#: communication\misc.py:180
+#: communication\misc.py:228
+msgid "Microphone muted"
+msgstr "Mikrofon susturuldu"
+
+#: communication\misc.py:188
+msgid "call on hold "
+msgstr "Çağrı beklemede"
+
+#: communication\misc.py:191
+msgid "call resumed"
+msgstr "Çağrı devam ediyor"
+
+#: communication\misc.py:193
+msgid "No incoming or active call."
+msgstr "Herhangi bir aktif yada gelen arama yok"
+
+#: communication\misc.py:199
+msgid "%s has joined the current call."
+msgstr "%s şuanki aramaya katıldı"
+
+#: communication\misc.py:201
+msgid "only one active call"
+msgstr "Sadece bir aktif çağrı"
+
+#: communication\misc.py:214
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: interface\contactsManager.py:53
+msgid "Not available"
+msgstr "Uygun değil"
+
+#: communication\misc.py:218
+msgid "Audio In: %s"
+msgstr "Audio In: %s"
+
+#: communication\misc.py:219
+msgid "Audio Out: %s"
+msgstr "Audio Out: %s"
+
+#: communication\misc.py:220
+msgid "Video In: %s"
+msgstr "Video In: %s"
+
+#: communication\misc.py:221
+msgid "Ringing device: %s"
+msgstr "Ses Çalma aygıtı: %s"
+
+#: communication\misc.py:230
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Şuan herhangi bir çağrı veya aranan bir kişi yok. Bir kişiyi aramak için bu komuta iki kez basın"
+
+#: communication\misc.py:235
+msgid " - make call"
+msgstr " - Çağrı yap"
+
+#: communication\misc.py:235
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Virgüllerle ayırarak kişilerin adlarını yada Skype adlarını girin"
+
+#: communication\misc.py:255
+#: communication\misc.py:278
+#: communication\misc.py:289
+#: communication\misc.py:301
+msgid "There are no voicemails."
+msgstr "Herhangi bir sesli mesaj yok"
+
+#: communication\misc.py:263
+#: communication\misc.py:285
+msgid "Error, cannot open that voicemail."
+msgstr "Hata, seçtiğiniz sesli mesaj açılamadı."
+
+#: communication\misc.py:265
+msgid "No voicemail to play."
+msgstr "Oynatılacak herhangi bir sesli mesaj yok"
+
+#: communication\misc.py:270
+#: communication\misc.py:295
+msgid "Voicemail deleted."
+msgstr "Sesli mesaj silindi"
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Error, voicemail cannot be deleted."
+msgstr "Hata, Sesli mesaj silinemiyor."
+
+#: communication\misc.py:274
+msgid "No voicemail to delete."
+msgstr "Silinecek bir sesli mesaj yok."
+
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "Bu konumda herhangi bir sesli mesaj yok, ilk sesli mesaj %s konumundadır."
+
+#: communication\misc.py:306
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "%s adlı kişiden bir sesli mesaj"
+
+#: communication\misc.py:308
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "%s adlı kişiye sesli mesaj"
+
+#: communication\misc.py:310
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Varsayılan karşılama mesajı."
+
+#: communication\misc.py:312
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Özel karşılama mesajı."
+
+#: communication\misc.py:314
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Bilinmeyen bir sesli mesaj türü."
+
+#: communication\misc.py:316
+msgid "Not played."
+msgstr "Oynatılmadı"
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Oluşturuluyor"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Teslim edildi"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "Kısa mesaj okundu"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "Kısa mesaj Alındı"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "Gönderim başarısız oldu"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "Sunucuya gönderiliyor"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "Sunucuya gönderildi"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "Bazı numaralara teslim etme işlemi başarısız oldu"
+
+#: communication\sms.py:28
+#: interface\contactsManager.py:53
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "%s kadar kredi ödediniz"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "noktalı virgüllerle ayırarak numaraları girin"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "Yeni SMS sihirbazı"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Yeni SMS sihirbazı: %s'den %s adlı kişiye"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Geçersiz numara. lütfen girişinizi kontrol edip tekrar deneyin."
+
+#: communication\status.py:33
+#: interface\contactsManager.py:53
+msgid "Online"
+msgstr "Çevrimiçi"
+
+#: communication\status.py:34
+#: interface\contactsManager.py:53
+msgid "Away"
+msgstr "Uzakta"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "Müsait değil"
+
+#: communication\status.py:36
+#: interface\contactsManager.py:53
+msgid "Do not disturb"
+msgstr "Rahatsız etmeyin"
+
+#: communication\status.py:37
+#: interface\contactsManager.py:53
+msgid "Invisible"
+msgstr "Görünmez"
+
+#: communication\status.py:38
+#: interface\contactsManager.py:53
+msgid "Skype Me"
+msgstr "Skype Me!"
+
+#: communication\status.py:39
+#: interface\contactsManager.py:53
+msgid "Offline"
+msgstr "Çevrimdışı"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "%s adlı kişinin durumu bilinmiyor"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s çevrimdışı oldu"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s çevrimiçi"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s Uzakta"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s müsait değil"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s rahatsız Etmeyin durumuna geçti"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s çevrimdışı oldu"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s Skype me!"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s Skype Out"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "Durum değiştir"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Durum seçin"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "Durumunuz %s'ye değiştiriliyor"
+
+#: communication\status.py:82
+msgid "Current online status is %s"
+msgstr "şuanki çevrimiçi durumunuz %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "%s %s Adlı kullanıcı kişi Ayrıntılarınızı istiyor. Yazdığı tanıtım Mesajı: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr " %s ile artık arkadaşsınız %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr " %s %s Adlı kullanıcı engellendi"
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s ifade mesajını Kaldırdı"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s ifade mesajını %s yazarak değiştirdi"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Durum bilinmiyor"
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "indirilmedi"
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "İndiriliyor..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Oynatılmadı, Süre %d Saniye."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Buffering..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "oynatılıyor..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Oynatıldı Süre %d Saniye."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "Blank Sesli mesaj."
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Kaydediliyor..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Kaydedildi"
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Yükleniyor..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "Yüklendi"
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Siliniyor..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Sesli mesaj hatası"
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Hata Yok"
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Tanımlanamayan hata."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Bağlanamadı"
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "No voicemail privilege."
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Böyle bir sesli mesaj yok"
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "Bir dosya okunamadı"
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "Bir dosya yazılamadı"
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Sesli mesaj Kaydedilemedi"
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Sesli Mesaj oynatılamadı"
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Skype:"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s at %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (Az Önce at %s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "bu olay türü için henüz yeni bir olay yok"
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "%d Saniye önce"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "Bir dakika önce"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "%d dakika önce"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "Bir saat önce"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "%d saat önce"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "Dün"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "%d gün önce"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "%d hafta önce"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "%d ay önce"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "%d yıl önce"
+
+#: interface\__init__.py:41
+msgid "An error has occured while attempting to configure autostart."
+msgstr "Otomatik başlatma ayarlanırken bir hata oluştu"
+
+#: interface\__init__.py:63
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "%s'den çıkmak istediğinize emin misiniz? eğer bir ayar yaptıysanız Aynı zamanda Skype da kapanacak."
+
+#: interface\__init__.py:63
+msgid "Confirm Exit"
+msgstr "Çıkışı Doğrula"
+
+#: interface\__init__.py:81
+msgid "Goodbye!"
+msgstr "Hoşçakalın!"
+
+#: interface\about.py:29
+#: interface\systemTray.py:78
+msgid "About %s"
+msgstr "%s hakkında"
+
+#: interface\about.py:42
+msgid "Project &Web site"
+msgstr "Proje ve Website"
+
+#: interface\about.py:43
+msgid "&License online"
+msgstr "&çevrimiçi lisans"
+
+#: interface\about.py:44
+msgid "C&ontributors"
+msgstr "K&atkıda bulunanlar"
+
+#: interface\about.py:45
+msgid "User &Guide"
+msgstr "Kullanıcı &Rehberi"
+
+#: interface\about.py:46
+#: interface\systemTray.py:58
+msgid "&What's New"
+msgstr "&Yeni neler var?"
+
+#: interface\about.py:47
+#: interface\systemTray.py:74
+msgid "Check for &updates..."
+msgstr "Güncellemeleri &kontrol et"
+
+#: interface\about.py:67
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+
+#: interface\contactsManager.py:40
+#: interface\preferences\main.py:50
+msgid "Contacts Manager"
+msgstr "Kişi listesi yöneticisi"
+
+#: interface\contactsManager.py:53
+msgid "Skype Out"
+msgstr "Skype Out"
+
+#: interface\contactsManager.py:85
+#: interface\contactsManager.py:160
+msgid "Checked"
+msgstr "İşaretli"
+
+#: interface\contactsManager.py:88
+msgid "Unchecked"
+msgstr "İşaretli değil"
+
+#: interface\contactsManager.py:90
+msgid "&Create Conference"
+msgstr "&Konferans oluştur"
+
+#: interface\contactsManager.py:91
+msgid "Create multi c&hat"
+msgstr "Grup Yazılı&mesajı başlat"
+
+#: interface\contactsManager.py:94
+#: interface\contactsManager.py:135
+msgid "&Call"
+msgstr "&Çağrı Yap"
+
+#: interface\contactsManager.py:95
+#: interface\contactsManager.py:137
+msgid "C&hat"
+msgstr "Y&azılı mesaj"
+
+#: interface\contactsManager.py:115
+msgid "&Contact List"
+msgstr "&kişi listesi"
+
+#: interface\contactsManager.py:117
+msgid "Contact"
+msgstr "Kişi"
+
+#: interface\contactsManager.py:118
+msgid "Skype Name"
+msgstr "Skype Adı"
+
+#: interface\contactsManager.py:119
+msgid "Status"
+msgstr "Durum"
+
+#: interface\contactsManager.py:120
+msgid "Mood Text"
+msgstr "İfade Mesajı"
+
+#: interface\contactsManager.py:121
+msgid "Last seen"
+msgstr "Son görüldüğü Tarih"
+
+#: interface\contactsManager.py:128
+msgid "%s at %s"
+msgstr "%s at %s"
+
+#: interface\contactsManager.py:138
+msgid "View &Profile..."
+msgstr "Profilini &Gör"
+
+#: interface\contactsManager.py:189
+msgid "Profile Viewer for %s (%s)"
+msgstr "%s için Profil görüntüleyicisi %s"
+
+#: interface\contactsManager.py:193
+msgid "Skype name:"
+msgstr "Skype Adı:"
+
+#: interface\contactsManager.py:199
+msgid "Full name:"
+msgstr "Tam adı:"
+
+#: interface\contactsManager.py:205
+msgid "Mood:"
+msgstr "İfade mesajı:"
+
+#: interface\contactsManager.py:211
+msgid "Birth date:"
+msgstr "Doğum Tarihi:"
+
+#: interface\contactsManager.py:217
+msgid "Gender:"
+msgstr "Cinsiyet:"
+
+#: interface\contactsManager.py:220
+msgid "Male"
+msgstr "Erkek"
+
+#: interface\contactsManager.py:221
+msgid "Female"
+msgstr "Kadın"
+
+#: interface\contactsManager.py:224
+msgid "Language:"
+msgstr "Dil:"
+
+#: interface\contactsManager.py:230
+msgid "Location:"
+msgstr "Konum:"
+
+#: interface\contactsManager.py:236
+msgid "Home phone:"
+msgstr "Ev telefonu:"
+
+#: interface\contactsManager.py:242
+msgid "Office phone:"
+msgstr "İş Telefonu:"
+
+#: interface\contactsManager.py:248
+msgid "Mobile phone:"
+msgstr "Cep Telefonu"
+
+#: interface\contactsManager.py:254
+msgid "Home page:"
+msgstr "Web Sayfası:"
+
+#: interface\contactsManager.py:260
+msgid "About me:"
+msgstr "Hakkımda:"
+
+#: interface\contactsManager.py:266
+msgid "Number of contacts:"
+msgstr "Listesindeki kişi Sayısı:"
+
+#: interface\contactsManager.py:273
+msgid "This user is not authorized to contact me.\n"
+msgstr "Henüz benimle iletişim kurma izni yok.\n"
+
+#: interface\contactsManager.py:275
+msgid "This user is blocked.\n"
+msgstr "Bu kullanıcı engellendi.\n"
+
+#: interface\contactsManager.py:277
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Bu kullanıcıda çağrı yapmak için gerekli donanım yok.\n"
+
+#: interface\contactsManager.py:279
+msgid "This user has call forwarding activated.\n"
+msgstr "Bu kullanıcının aktif bir çağrı yönlendirmesi var.\n"
+
+#: interface\contactsManager.py:281
+msgid "This user has a camera.\n"
+msgstr "Bu kullanıcının Web Kamerası var.\n"
+
+#: interface\contactsManager.py:283
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Bu kullanıcı Sesli Mesaj gönderebilir ve alabilir.\n"
+
+#: interface\contactsManager.py:285
+msgid "Other information:"
+msgstr "diğer bilgiler:"
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Program davranışlarını ayarlayabileceğiniz, SkypeTalking'in dilini, ses çıkış ayarlarını belirleyebileceğiniz SkypeTalking seçeneklerine ulaşmanızı Sağlar."
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Skype Kişilerinizi yönetebileceğiniz Kişi listesi yöneticisini açar, eğer bu komuta iki kez basarsanız Orijinal Skype penceresinde kişileriniz gösterilir."
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "SkypeTalking Uygulaması hakkında bazı temel bilgiler gösterir, Örneğin Geçerli sürüm, Telif hakkı detayları ve program websitesi."
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Skype Talking Uygulamasından Çıkar."
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Eğer ses çıkışınız SAPI5'e ayarlıysa Konuşmayı susturur."
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "Açık"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "Kapalı"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Skype olaylarını yoksay %s."
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Skype olaylarının yoksayılmasıyla ilgili ayarları açar. Eğer açıksa, SkypeTalking Skype olaylarını anons etmez ve kaydetmez."
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "Tuş tanıtıcı %s."
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Tuş tanıtıcının açılıp kapanmasıyla ilgili ayarları açar. Açık olduğunda, SkypeTalking için tasarlanmış kısayol tuşlarının ne işe yaradığını gösterir."
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "O anda oturumu açık olan kullanıcının durumunu Skype penceresini açmadan değiştirir."
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "SkypeTalking uygulamasının yeni sürüm güncellemelerini kontrol eder."
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "Geçerli ifade mesajınızı rapor eder, Eğer komuta iki kez basarsanız Yeni bir ifade mesajı yazabileeceğiniz vir dialog açar."
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "O anda oturumu açık olan kullanıcının çevrimiçi durumunu rapor eder, aynı komuta iki kez basıldığında yine geçerli oturum kullanıcısının Skype Kredi bakiyesini anons eder."
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Kullandığınız Skype sürümünü anons eder. iki kezbasıldığında ise, geliştiricilere fayda sağlayacak olan API vrapper versiyonunu belirtir."
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "SkypeTalking oturumu sırasında olmuş olan en son olayı Tekrarlar."
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Son gönderilen yada alınan dosya aktarımını rapor eder. iki kez basıldığında ise, Eğer diğer aktif dosya aktarımlarınız varsa içlerinden birini seçip odaklanmanızı sağlar."
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Saat/dakika/saniye birimlerini kullanarak aktif çağrınızın süresini rapor eder."
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Aktif çağrınızın durumunu rapor eder. İki kez bastığınızda ise, Skype Adını girerek, yada virgüllerle ayırarak birden çok Skype Adı girerek arama yapmanızı sağlar. Eğer virgüllerle ayırarak birden çok Skype Adı girdiyseniz Bir konferans araması başlar."
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "SkypeTalking arayüzünü Kullanarak gayet kolay yoldan Kısa Mesaj göndermenizi sağlayacak Kısa Mesaj Sihirbazını açar."
+
+#: interface\interfaceCommands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "Olay geçmişi bölmesinde sonraki olaya gider."
+
+#: interface\interfaceCommands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "Olay geçmişi bölmesinde önceki olaya gider."
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "Aramalar"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "Mesajlar"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "Dosya Aktarımları"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "Kullanıcı Eylemleri"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "Sesli Mesaj"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "Durum değişiklikleri"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Durum değişiklikleri, Aramalar, Mesajlar, Dosya aktarımları ve Kullanıcı eylemleri gibi olaylar arasından Olay geçmişi bölmesinde görüntülenecek olay türünü seçer."
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Konuşma penceresini seçer. İki kez basıldığında ise, Konumunu seçtiğiniz yazılı mesaj penceresini açar."
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Geçerli yazılı mesaj penceresini anons eder. İki kez basıldığında ise, Skype Arayüzünde En son mesajlaştığınız kişinin yazılı mesaj penceresini açar."
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Görüntüleme moduna bağlı olarak Son 10 olayı görüntüler. Eğer mümkünse ikikez yada üçkez basarak ikinci yada üçüncü görüntüleme modunda aynı eylemi yapar."
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "Sesli Mesaj Modu"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "Mesaj Modu"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Mesaj ve Sesli mesaj modları arasında geçiş yapmanızı sağlar."
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Son gelen yada giden yazılı mesajı Tekrarlar. iki kez basıldığında, o mesaja odaklanmış bir biçimde Skype Yazılı mesaj penceresini açar."
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Çağrıyı Yanıtlamanızı sağlar, yada Aktif olan çağrı için Beklet/Devam ettir eylemlerini uygular."
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Çağrıyı yanıtlar Ve eğer bir konferanstaysanız Sizi arayan kişiyi otomatik olarak konferans grubuna alır."
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Çağrıyı bitirir yada Sesli Mesaj kaydını durdurur."
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Mikrofonun durumuna bağlı olarak sesi açar yada sessiz konuma getirir."
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Geçerli olan ses giriş/çıkış aygıtlarını rapor eder."
+
+#: interface\interfaceCommands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Sesli mesajın son durumunu rapor eder. eğer iki kez basılırsa, Sesli Mesajı açar ve otomatik olarak oynatır. üç kez basılırsa Sesli Mesajı siler."
+
+#: interface\main.py:173
+#: interface\preferences\categories\hotKeys.py:55
+msgid "No description"
+msgstr "Tanım yok"
+
+#: interface\preferences\__init__.py:27
+#: interface\preferences\main.py:160
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: interface\preferences\categories\advanced.py:28
+msgid "Number of &connection retries before giving up:"
+msgstr "Çıkmadan önce &Denenecek bağlantı sayısı:"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "Start Skype &minimized"
+msgstr "Skype'ı Görev çubuğuna &küçülterek başlat"
+
+#: interface\preferences\categories\advanced.py:33
+msgid "No &splash screen when starting Skype"
+msgstr "Skype'ı başlatırken ekran &Sıçraması yapma"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "Kullanıcı ifade &Mesajını değiştirdi"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "Yazılı mesaj &alındı"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "Yazılı mesaj &gönderildi"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "Çevrimiçi Durum &bilinmiyor"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Çevrimiçi Durum Ç&evrimdışı"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Çevrimiçi Durum &çevrimiçi"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Çevrimiçi Durum &Uzakta"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Çevrimiçi Durum &Müsait değil"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "Çevrimiçi Durum &Rahatsız Etmeyin"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Çevrimiçi Durum &Görünmez"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Çevrimiçi Durum Skype &Out"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Çevrimiçi Durum &SkypeMe"
+
+#: interface\preferences\categories\contactsManager.py:28
+msgid "Show &offline contacts"
+msgstr "Çevrimdışı kişileri &göster"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&Dil"
+
+#: interface\preferences\categories\general.py:40
+msgid "Start %s with &Windows"
+msgstr "%s'i &Sistem başlangıcında Başlat"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &start Skype with %s"
+msgstr "Skype'ı %s açıldığında Otomatik &başlat"
+
+#: interface\preferences\categories\general.py:44
+msgid "Automatically &close Skype when %s exits"
+msgstr "%s kapandığında Skype'ı Otomatik olarak &kapat"
+
+#: interface\preferences\categories\general.py:45
+msgid "C&onfirm when exiting %s"
+msgstr "%s'den Çıkarken &sor"
+
+#: interface\preferences\categories\general.py:46
+msgid "Show %s icon on the &taskbar"
+msgstr "%s ikonunu sistem çubuğunda &göster"
+
+#: interface\preferences\categories\hotKeys.py:43
+msgid "&Keystrokes"
+msgstr "&Kısayollar"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "Function"
+msgstr "Fonksiyon"
+
+#: interface\preferences\categories\hotKeys.py:46
+msgid "Keystroke"
+msgstr "Kısayol"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Description"
+msgstr "Tanım"
+
+#: interface\preferences\categories\hotKeys.py:59
+msgid "&Change..."
+msgstr "&Değiştir..."
+
+#: interface\preferences\categories\hotKeys.py:70
+msgid "Change keystroke for %s"
+msgstr "%s kısayolunu değiştir"
+
+#: interface\preferences\categories\hotKeys.py:79
+msgid "Modifiers"
+msgstr "Değiştirilecek Tuş"
+
+#: interface\preferences\categories\hotKeys.py:86
+msgid "&Key:"
+msgstr "&Tuş"
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "%s keystroke already in use. Please try another one."
+msgstr "%s kısayolu zaten kullanılıyor, lütfen başka bir tuş kombinasyonu deneyin."
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "Change Keystroke Error"
+msgstr "Kısayol tuşu değiştirirken Hata"
+
+#: interface\preferences\categories\output.py:28
+msgid "Speech Output:"
+msgstr "Konuşma Ses Çıkışı"
+
+#: interface\preferences\categories\output.py:29
+msgid "Auto detect"
+msgstr "Otomatik Algıla"
+
+#: interface\preferences\categories\output.py:29
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "SAPI5 Konuşma hızı:"
+
+#: interface\preferences\categories\output.py:33
+msgid "SAPI5 Volume:"
+msgstr "SAPI5 Ses düzeyi:"
+
+#: interface\preferences\categories\output.py:36
+msgid "Enable &braille output"
+msgstr "Braille &çıkışını aç"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Automatically check for %s updates"
+msgstr "%s güncellemelerini otomatik olarak &kontrol et"
+
+#: interface\preferences\categories\updates.py:30
+msgid "&Download Type:"
+msgstr "&indirme tipi:"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Installer"
+msgstr "Kurulum paketi"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Portable Archive"
+msgstr "Taşınabilir arşiv"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "Mesaj alınma zamanını &konuş"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "Mesajla beraber kişi adını &konuş"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "Uyarıdan sonra"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "Uyarıdan Önce"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Asla"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Skype Uyarısı mesajını söyle"
+
+#: interface\preferences\main.py:38
+msgid "General"
+msgstr "Genel"
+
+#: interface\preferences\main.py:40
+msgid "Output"
+msgstr "Çıktı"
+
+#: interface\preferences\main.py:42
+msgid "Alerts"
+msgstr "Uyarılar"
+
+#: interface\preferences\main.py:44
+msgid "Verbosity"
+msgstr "Çeşitli"
+
+#: interface\preferences\main.py:46
+msgid "Advanced"
+msgstr "gelişmiş"
+
+#: interface\preferences\main.py:48
+msgid "Updates"
+msgstr "Güncellemeler"
+
+#: interface\preferences\main.py:52
+msgid "Hot keys"
+msgstr "Kısayollar"
+
+#: interface\preferences\main.py:89
+msgid "Settings saved."
+msgstr "Ayarlar Kaydedildi"
+
+#: interface\preferences\main.py:94
+msgid "Settings applied."
+msgstr "Ayarlar Uygulandı"
+
+#: interface\preferences\main.py:97
+msgid "Settings canceled."
+msgstr "Ayarlar iptal Edildi."
+
+#: interface\preferences\main.py:108
+msgid "Error in %s language file"
+msgstr "%s dil dosyasında hata"
+
+#: interface\preferences\main.py:108
+msgid "Language Error"
+msgstr "Dil Hatası"
+
+#: interface\preferences\main.py:160
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "Seçtiğiniz dilin tam anlamıyla kullanılabilmesi için %s'i yeniden başlatmalısınız. Yeniden Başlatmak için Tamam'ı, daha sonra yeniden başlatmak için İptal butonunu kullanın."
+
+#: interface\smsDialog.py:32
+msgid "Message text:"
+msgstr "Mesaj Metni"
+
+#: interface\smsDialog.py:37
+msgid "&Send"
+msgstr "&Gönder"
+
+#: interface\smsDialog.py:55
+msgid "SMS sending failed."
+msgstr "Kısa Mesaj gönderimi başarısız"
+
+#: interface\smsDialog.py:65
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "Kısa Mesaj %d, %d harf kaldı , Şuanki Fiyat %s."
+
+#: interface\smsDialog.py:67
+msgid "Empty"
+msgstr "Boş"
+
+#: interface\systemTray.py:40
+msgid "&Contacts Manager..."
+msgstr "&kişi listesi yöneticisi..."
+
+#: interface\systemTray.py:40
+msgid "Open Contacts Manager"
+msgstr "Kişi listesi Yöneticisini Aç"
+
+#: interface\systemTray.py:44
+msgid "&Send SMS Wizard..."
+msgstr "&Kısa Mesaj gönderim sihirbazı..."
+
+#: interface\systemTray.py:44
+msgid "Start SMS Send Wizard"
+msgstr "Kısa mesaj Gönderim sihirbazını başlat"
+
+#: interface\systemTray.py:48
+msgid "&Preferences..."
+msgstr "&Tercihler..."
+
+#: interface\systemTray.py:48
+msgid "Open Preferences Dialog"
+msgstr "Tercihler dialogunu Aç"
+
+#: interface\systemTray.py:51
+msgid "&Tools"
+msgstr "&Araçlar"
+
+#: interface\systemTray.py:54
+msgid "&User Guide"
+msgstr "&kullanıcı Rehberi"
+
+#: interface\systemTray.py:54
+msgid "Read User Guide"
+msgstr "Kullanıcı rehberini Oku"
+
+#: interface\systemTray.py:58
+msgid "Read What's New"
+msgstr "Neler yeni Oku"
+
+#: interface\systemTray.py:62
+msgid "&Contributors"
+msgstr "Katkıda &bulunanlar"
+
+#: interface\systemTray.py:62
+msgid "View Contributors List"
+msgstr "Katkıda bulunanlar listesini Görüntüle"
+
+#: interface\systemTray.py:66
+msgid "&License"
+msgstr "&lisans"
+
+#: interface\systemTray.py:66
+msgid "View the license"
+msgstr "Lisansı Gör"
+
+#: interface\systemTray.py:70
+msgid "%s on the &Web"
+msgstr "&Web'de %s"
+
+#: interface\systemTray.py:70
+msgid "Launch project Web Site in default browser"
+msgstr "Varsayılan tarayıcıda proje websitesine git"
+
+#: interface\systemTray.py:74
+msgid "Check for the latest application updates"
+msgstr "En son uygulama güncellemelerini kontrol et"
+
+#: interface\systemTray.py:78
+msgid "&About %s..."
+msgstr "%s &hakkında..."
+
+#: interface\systemTray.py:81
+msgid "&Help"
+msgstr "&Yardım"
+
+#: interface\systemTray.py:83
+msgid "E&xit"
+msgstr "Çı&kış"
+
+#: interface\systemTray.py:83
+msgid "Exit %s"
+msgstr "%s'den Çık"
+
+#: updater.py:68
+msgid "New version available"
+msgstr "Yeni sürüm Mevcut"
+
+#: updater.py:68
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Kullandığınız sürüm: %s. En son sürüm: %s. %s'in en yeni versiyonunu indirmek ister misiniz?"
+
+#: updater.py:76
+msgid "Update cancelled."
+msgstr "Güncelleme iptal edildi"
+
+#: updater.py:84
+msgid "Accessing download URL... Please wait..."
+msgstr "İndirme linkine ulaşılıyor... Lütfen bekleyin..."
+
+#: updater.py:96
+msgid "Downloading update... Please wait..."
+msgstr "Güncelleme İndiriliyor... Lütfen bekleyin..."
+
+#: updater.py:108
+msgid "Update ready! Choose Ok to continue."
+msgstr "Güncelleme hazır! Devam etmek için Tamam'a Basın."
+
+#: updater.py:108
+#: updater.py:116
+msgid "Download completed"
+msgstr "İndirme Tamamlandı"
+
+#: updater.py:116
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Güncelleme kurulum için hazır. %s'den çıkmak ve güncel programı kurmak için Tamam'a Basın."
+
+#: updater.py:128
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Çevrimiçi sürüm numarasını kontrol ederken hata oluştu, Muhtemelen internet bağlantınızda bir sorun olmuş olabilir. Lütfen bağlantınızı kontrol edin veya daha sonra tekrar deneyin."
+
+#: updater.py:128
+#: updater.py:134
+#: updater.py:140
+#: updater.py:146
+msgid "Update error"
+msgstr "Güncelleme Hatası"
+
+#: updater.py:134
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Çevrimiçi sürüm numarası aranırken hata oluştu, Muhtemelen websitesi sorunlar yaşıyor yada güncelleniyor olabilir. Lütfen daha sonra tekrar deneyin."
+
+#: updater.py:140
+msgid "Couldn't access download URL. Please try again later."
+msgstr "İndirme linkine erişilemedi, Lütfen daha sonra Tekrar deneyin."
+
+#: updater.py:146
+msgid "Download failed!"
+msgstr "İndirme başarısız oldu."
+
+#: updater.py:152
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Şuanki %s sürümünüz zaten en güncel sürüm. Güncelleme yapmanıza gerek yok. Şuanki versiyon: %s. Çevrimiçi versiyon: %s."
+
+#: updater.py:160
+msgid "Checking for updates... Please wait..."
+msgstr "Güncellemeler kontrol ediliyor... Lütfen Bekleyin..."
+

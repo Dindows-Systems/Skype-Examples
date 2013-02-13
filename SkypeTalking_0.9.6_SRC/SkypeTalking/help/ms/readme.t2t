@@ -1,0 +1,336 @@
+SkypeTalking
+Versi 0.9
+Copyright (c) 2010 Hrvoje Katic / SkypeTalking Contributors
+Terakhir Diperbarui: mtime%% (% x)
+
+= Pengenalan = [Pengenalan]
+
+== Apa itu SkypeTalking? == [WhatIsSkypeTalking]
+
+SkypeTalking adalah utiliti yang membuat Skype, sebuah program internet yang popular teleponi lebih user buta dicapai dan ramah. Skype menggunakan wrapper API dan pidato pembaca skrin anda dan output braille untuk mendapatkan maklumat dari Skype dan menghantar maklumat tersebut untuk pembaca skrin anda. SkypeTalking akan mengumumkan paling alert Skype, termasuk perubahan status pengguna, masuk dan keluar mesej chat, status panggilan, dan banyak lagi! Ringkasnya, SkypeTalking hanya akan membuat Skype berbicara dengan anda!
+SkypeTalking terutama dibangunkan untuk NVDA, seorang pembaca skrin sumber bebas dan terbuka, untuk membolehkan akses NVDA lebih ke aplikasi Skype. Namun, hal itu juga akan menyokong JAWS,-Window Mata, Sistem Akses, Dolphin Hal / Supernova dan pidato SAPI5, meskipun dengan SAPI5 anda tidak akan mempunyai sokongan Braille.
+SkypeTalking menyokong banyak bahasa di seluruh dunia, membolehkan anda untuk menggunakannya ke dalam bahasa asli anda. Saat ini disokong bahasa selain Bahasa Inggeris adalah: Croatia, Arab, Belarus, Bulgaria, Czech, Denmark, Jerman, Sepanyol, Selesai, Perancis, Ibrani, Hungary, Itali, Jepun, Georgia, Latvia, Macedonia, Melayu, Poland, Portugis, Rusia, Serbia, Turki, Ukraine dan Cina. Jika anda ingin membuat SkypeTalking sedia ke dalam bahasa anda, lihat butiran kenalan yang pada akhir dokumentasi ini dalam rangka untuk menghubungi saya untuk mendapatkan bantuan.
+
+Keperluan sistem == == [SystemRequirements]
+
+Untuk menggunakan SkypeTalking dengan berjaya, anda memerlukan berikut ini:
+- Windows XP, Vista atau 7
+- Pembaca skrin yang disokong: Saat ini pembaca skrin yang disokong adalah NVDA 2010.1 atau lanjut, JAWS (versi apapun), Window-Eyes (versi apapun), Sistem Access (versi apapun) termasuk Sistem Akses To Go, dan produk Dolphin (versi 12 atau yang lebih baru )
+- Jika anda tidak menggunakan salah satu pembaca skrin disokong, pidato SAPI5 akan digunakan sebagai gantinya. Dalam kes tersebut, anda harus memiliki suara SAPI5 apapun yang serasi (sistem Windows datang dengan sekurang-kurangnya satu suara SAPI5)
+- Dan tentu saja, Skype aplikasi client (3.x, 4.x, 5.x atau lebih baru) - mungkin akan bekerja dengan Skype 2.x dan mungkin dengan 1.x, walaupun tidak diuji.
+
+
+= Bermula = [Bermula]
+
+== Instalasi dan pertama kali menjalankan == [InstallationAndFirstRun]
+
+Untuk memasang SkypeTalking, melancarkan SkypeTalking_X.X_setup.exe (di mana X adalah nombor versi saat ini) dan ikuti petunjuk. Pemasangan akan membuat ikon desktop, sebuah kumpulan program di start menu, dan folder pemasangan dijumpai di bawah x: \ Program Files \ SkypeTalking mana x adalah sistem huruf drive anda.
+Untuk uninstall SkypeTalking, anda boleh melakukannya dengan membuka kumpulan program SkypeTalking di menu start dan pilih Uninstall SkypeTalking.
+Untuk menjalankan SkypeTalking, klik ikon SkypeTalking baik dari desktop anda atau SkypeTalking entri dalam menu mulai di bawah program \ SkypeTalking.
+Ketika anda menjalankan SkypeTalking untuk pertama kalinya, maka akan mungkin tidak sah untuk berkomunikasi dengan aplikasi Skype. Untuk alasan keselamatan, Skype tidak membenarkan pihak-3 plugin dan tambahan untuk berkomunikasi dengan tanpa izin pengguna. Hal ini untuk mencegah virus dan trojan dari Skype merosakkan. Biasanya Skype akan muncul dialog yang meminta anda untuk membolehkan aplikasi untuk menggunakannya, dalam hal ini anda perlu tab dan mengaktifkan Izinkan Button atau klik untuk membolehkan SkypeTalking boleh disambungkan ke Skype. Namun, jika itu tidak berlaku, untuk membolehkan akses SkypeTalking untuk Skype, lakukan hal berikut:
+1. Pelancaran SkypeTalking, baik dari desktop atau dari dalam menu mulai di bawah Programs> SkypeTalking. Anda di sini harus "Sambung kepada Skype".
+2. Buka Skype.
+3. Buka menu bar, pilih tools, dan kemudian anak panah atas untuk pilihan dan tekan Enter.
+4. Panah bawah kategori Advanced.
+5. Tekan Shift + Tab berkali-kali sehingga anda mendarat di "Urus mengakses program lain untuk Skype" link. Tekan Spasi untuk mengaktifkannya.
+6. Cari SkypeTalking dalam senarai (itu harus biasanya item pertama), butang tab untuk Laman, dan tekan Spacebar untuk mengaktifkannya.
+7. Tekan Tab. Anda harus mendengar bahawa anda ditempatkan pada Radio Button yang mengatakan "Jangan biarkan ini akses program untuk Skype". Panah atas sehingga anda mendengar "Benarkan akses ini program untuk Skype", lalu tekan Enter.
+8. Voila! Anda hanya dibenarkan SkypeTalking untuk menggunakan Skype! SkypeTalking sekarang harus berbicara mesej pembuka itu. Anda kini boleh menekan Escape beberapa kali untuk keluar pilihan. Anda bahkan tidak perlu untuk menyelamatkan mereka.
+Nota, anda harus mengulangi langkah ini setiap kali apabila anda memasang semula SkypeTalking, tapi jangan bimbang, anda harus melakukan ini hanya sekali pada SkypeTalking pemasangan. Anda juga harus melakukan hal ini jika perubahan lokasi SkypeTalking.exe.
+
+Setelah dilancarkan, SkypeTalking akan berjalan di latar belakang dan membaca amaran keras sehingga anda menutupnya. Anda juga akan melihat ikon dari SkypeTalking di Windows System Tray secara lalai, tetapi anda boleh mematikan ikon di bawah SkypeTalking keutamaan-> kategori Umum.
+
+== Update SkypeTalking == [SkypeTalkingUpdates]
+
+update kecil SkypeTalking yang dikeluarkan secara teratur untuk menjaga SkypeTalking stabil seperti mungkin. Mulai dari SkypeTalking versi 0.9, anda boleh secara automatik menyemak dan men-download update terbaru tanpa mengunjungi laman projek web. akan SkypeTalking secara lalai secara automatik menyemak kemas kini baru di laman web projek dan memberikan peringatan jika ada sesuatu yang baru. Anda boleh maka baik membatalkan kemas kini, atau membiarkan SkypeTalking men-turun kemas untuk anda. Proses download bekerja di latar belakang dan cukup cepat. Anda akan diberitahu mengenai update download selesai segera setelah download selesai. Pemeriksaan update automatik dapat dimatikan melalui SkypeTalking keutamaan di bawah bahagian Update.
+Untuk menyemak kemas kini secara manual, baik default tekan SkypeTalking keystroke Alt + Control + Shift + U atau klik kanan ikon taskbar SkypeTalking dan kemudian menemukan-Bantuan> Periksa pilihan menu update.
+
+= The antara muka perintah = [CommandInterface]
+
+SkypeTalking mempunyai pelbagai perintah yang berkaitan dengan cara pintas keyboard yang dapat anda gunakan untuk mengawal perilaku SkypeTalking dan mendapatkan maklumat tertentu berulang atau diucapkan. cara pintas keyboard Semua SkypeTalking adalah dalam kombinasi dengan Alt, butang Control dan Shift (Alt + Control + Shift + Sesuatu). Dengan demikian kita dapat mengatakan bahawa Alt + Control + Shift butang bertindak sebagai pengubah SkypeTalking. Jadi untuk mengeluarkan arahan, anda tahan Alt + Control + Shift (SkypeTalking Modifier), dan tekan mana-mana kekunci lain sementara menekannya.
+Nota: Anda boleh mengubah semua shortcut keyboard SkypeTalking sesuai dengan keinginan anda dengan membuka fail SkypeTalking.ini terletak di SkypeTalking direktori, namun ini direkomendasikan hanya untuk pengguna tingkat lanjut sekarang.
+Bahagian berikut menjelaskan semua perintah SkypeTalking dan bagaimana menggunakannya.
+
+== Meninjau Skype mesej chat dan mel suara == [ReviewingSkypeChatMessagesAndVoicemails]
+
+Mesej === mod / Voicemail (Alt + Control + Shift + Z )===[ MessageVoicemailMode]
+
+Untuk bertukar-tukar di antara meninjau terkini 10 mesej chat atau terkini 10 mesej suara apabila menggunakan Alt + Control + Shift +1 melalui 0, gunakan default keystroke Alt + Control + Shift + Z. SkypeTalking seharusnya mengatakan "Mesej" atau "Mesej suara". Mod lalai adalah Mesej.
+
+=== Bicara terkini 10 masuk / keluar mesej chat atau mesej suara (Alt + Control + Shift + Nombor 1 hingga 0 )===[ LastTen]
+
+Dalam Mesej mode, dengan menggunakan Alt + Control + Shift + Nombor 1 hingga 0 pada keypad abjad angka, anda boleh membaca terakhir yang masuk dan keluar mesej chat (1 hingga 10) yang anda terima atau dihantar semasa sesi SkypeTalking. Jika ditekan dua kali, akan menyalin mesej yang berkaitan dengan nombor ke clipboard. Jika tiga kali ditekan, akan membuka URL di web browser default (jika mesej mengandungi alamat URL). Nota, SkypeTalking menerima hanya satu alamat URL dalam mesej.
+Dalam mod Voicemail, anda menggunakan Alt + Control + Shift + nombor 1 hingga 0 untuk meninjau terkini 10 dihantar / diterima voicemail. Jika ditekan dua kali, SkypeTalking akan terbuka dan memainkan Voicemail. Jika tiga kali ditekan, SkypeTalking akan memadam Mesej suara, jadi berhati-hatilah apabila menggunakan ciri ini.
+
+=== Monitoring aktif chatting (Alt + Control + Shift + Fungsi Kekunci F1 sampai F10 )===[ MonitoringActiveChats]
+
+Ciri ini membolehkan anda untuk memantau bual aktif, dengan kata lain, membuka tetingkap bual. Ini berguna jika anda ingin meninjau hanya berlangsung 10 mesej chat yang berkaitan dengan chat tertentu, dan tidak semua obrolan bersama-sama. Gunakan Alt + Control + Shift + Fungsi kekunci F1 sehingga F10 untuk menetapkan monitor ke satu hingga 10 bual aktif (atau tekan dua kali untuk membawa fokus ke tetingkap chat), dan kemudian anda boleh menggunakan Alt + Control + Shift + Bilangan untuk membaca mesej dalam 10 terakhir saat ini dipantau chat. Menekan Alt + Control + Shift + C akan mengumumkan saat ini dipantau berbual, dan menekan dua kali akan membawa fokus ke tetingkap perbualan.
+Nota, untuk ciri ini berfungsi dengan baik, anda harus berada dalam pandangan kompak jika menggunakan Skype 4.x, 5.x atau yang lebih baru.
+
+=== Ulang terkini mesej chat (Alt + Control + Shift + R )===[ RepeatLastChatMessage]
+
+Perintah ini mengulangi mesej yang masuk atau keluar berbual terkini. Jika ditekan dua kali, Ini akan membuka tetingkap chat Skype berkaitan dengan mesej itu, dan juga akan menetapkan chat monitor untuk itu.
+
+Review === Voicemail terkini (Alt + Control + Shift + W )===[] ReviewLastVoicemail
+
+Anda menggunakan Alt + Control + Shift + W secara lalai untuk meninjau terkini yang dihantar atau diterima Voicemail. Jika ditekan dua kali, maka Mesej suara akan terbuka dan bermain. Jika menekan tiga kali, yang Voicemail akan dihapuskan, jadi berhati-hatilah apabila menggunakan ciri ini.
+
+== Meninjau Skype peristiwa == [ReviewingSkypeEvents]
+
+=== Ulang acara terakhir (Alt + Control + Shift + E )===[ RepeatLastEvent]
+
+Perintah ini mengulangi even terkini Skype termasuk mesej chat. Peristiwa-peristiwa yang dapat diulang dengan menggunakan arahan ini termasuk perubahan status, yang terkini mesej chat dan status panggilan.
+
+=== Abaikan Skype peristiwa beralih (Alt + Control + Shift + I )===[ IgnoreSkypeEvents]
+
+Arahan ini akan mengaktifkan mengabaikan semua peristiwa Skype. Jika dihidupkan, SkypeTalking hanya akan mengabaikan peristiwa-peristiwa dan tidak akan berbicara atau merakam mereka.
+
+=== === Peristiwa Sejarah [TheEventsHistory]
+
+Anda boleh meninjau semua peristiwa masa lalu yang happend semasa sesi SkypeTalking termasuk waktu mereka dengan menggunakan arahan default keyboard berikut:
+- Alt + Control + Shift + Tempoh - pergi ke acara seterusnya dalam sejarah buffer acara
+- Alt + Control + Shift + Comma - pergi ke acara sebelumnya dalam sejarah buffer acara
+- Alt + Control + Shift + Slash - Beralih antara meninjau peristiwa menukar status, peristiwa panggilan, peristiwa mesej, peristiwa pemindahan fail, peristiwa tindakan pengguna, atau peristiwa mel suara.
+
+
+== Tukar status Skype pada [ChangeStatus] terbang (Alt + Control + Shift + Backspace) ==
+
+Gunakan arahan ini untuk menukar status Skype on the fly. Setelah mengeluarkan perintah, hanya memilih status baru dari senarai dengan butang panah dan kemudian tekan Enter untuk menerima perubahan. Anda boleh melakukannya di mana-mana anda berada, tanpa membawa Skype untuk fokus pertama.
+
+== Katakanlah panggilan dan status Mike (Alt + Control + Shift + L) == [CallStatus]
+
+Perintah ini akan berbicara status panggilan Skype aktif. Ini juga akan melaporkan jika mikrofon tidak bersuara (dalam kes ketika itu). Jika ditekan dua kali, kotak dialog akan terbuka membolehkan anda untuk memanggil seseorang dengan memasukkan nama Skype dari orang yang ingin anda panggil. Anda juga boleh membuat panggilan persidangan, dengan memasukkan beberapa nama Skype dipisahkan dengan koma. Sebagai contoh: john2010, little.marry, perfect_paul. Anda tidak perlu meletakkan koma selepas nama Skype terkini.
+
+== Katakanlah tempoh panggilan (Alt + Control + Shift + D) == [SayCallDuration]
+
+Perintah ini bekerja semasa panggilan Skype, dan akan melaporkan tempoh panggilan semasa dalam jam / minit / saat.
+
+== Laporkan fail transfer status (Alt + Control + Shift + F) == [FileTransferStatus]
+
+Perintah ini akan berbicara status pemindahan fail terakhir masuk atau keluar. Jika pemindahan fail saat ini sedang berlangsung, anda juga akan mendengar kelajuan pemindahan saat ini dalam megabyte per saat, dan jumlah megabyte saat ini sedang dipindahkan, serta peratusan dan masa yang tersisa. Jika lebih daripada satu pemindahan fail aktif, anda boleh memilih pemindahan fail yang ingin anda monitor dengan menekan Alt + Control + Shift perintah F + dua kali, dan kemudian memilih penghantar / penerima fail dari senarai. Tekan Enter untuk menerima perubahan.
+
+== Laporan status saat ini dalam talian atau baki kredit (Alt + Control + Shift + O) == [CurrentStatus]
+
+Perintah ini ketika ditekan sekali akan mengatakan status online anda, dan jika ditekan dua kali akan mengatakan baki anda saat ini dalam kredit Skype anda.
+
+== Laporan atau menukar Skype Mood Mesej (Alt + Control + Shift + M) == [ReportOrChangeMoodText]
+
+Perintah ini akan berbicara apabila anda Skype Mesej Mood jika ada ditetapkan. Jika anda menekan ini dua kali, maka akan membuka kotak dialog yang membolehkan anda untuk memasukkan Mesej Mood baru. Anda kemudian boleh memasukkan teks baru, dan kemudian anda boleh menekan Enter ketika selesai. Mesej Mood anda kemudian akan berubah.
+
+Perintah lain == == [OtherCommands]
+
+=== The Alt Dialog (Tentang SkypeTalking + Control + Shift + A )===[ AboutSkypeTalking]
+
+Dialog ini menunjukkan versi saat ini SkypeTalking, maklumat hak cipta, dll laman web maklumat anda boleh menutupnya dengan menekan enter. Ada juga beberapa pilihan tambahan di sini, seperti pilihan untuk melawat laman projek web, melihat talian lesen, paparan senarai penyumbang, sila lihat manual atau What's New dokumen.
+
+=== Laporan Skype versi (Alt + Control + Shift + V )===[ ReportSkypeVersion]
+
+Perintah ini berbicara saat ini menjalankan versi aplikasi pelanggan Skype dipasang pada komputer pengguna. Jika ditekan dua kali, itu akan bercakap versi wrapper API Skype (terutama kepada anda pemaju).
+
+=== SAPI5 Stop Pidato (Alt + Control + Shift + Spacebar )===[] StopSpeech
+
+Perintah ini akan berhenti bercakap apabila SkypeTalking digunakan dengan pidato SAPI5. Jika anda menggunakan SkypeTalking dengan pembaca skrin, anda boleh berhenti bercakap seperti biasa dengan menekan butang Control.
+
+=== Keluar SkypeTalking (Alt + Control + Shift + Q )===[ QuitSkypeTalking]
+
+Perintah bongkar ini SkypeTalking dari memori. Secara lalai, anda akan diminta untuk pengesahan. Jika anda menjawab Ya, SkypeTalking akan dibongkar, dan setiap acara terkini, pemindahan fail saat ini dan mesej chat akan dilupakan kerana SkypeTalking membuat mereka tetap dalam ingatan komputer anda dan sehingga mereka dikeluarkan dari memori selepas SkypeTalking diturunkan. Jika anda menjawab Tidak, SkypeTalking akan terus bekerja di dalamnya sesi saat ini.
+
+=== Kunci pendeskripsi (Alt + Control + Shift + K )===[] KeyDescriber
+
+Kunci SkypeTalking pendeskripsi adalah cara terbaik untuk belajar SkypeTalking keystrokes. Dalam mod ini, bila anda menekan salah butang yang berkaitan dengan perintah SkypeTalking, SkypeTalking akan menggambarkan apa yang ada keystroke tertentu tidak. Ia bekerja seperti mode Bantuan Keyboard di JAWS,-Window Mata dan NVDA. Anda boleh bertukar-tukar kunci pendeskripsi dengan Alt + Control + Shift + K secara lalai.
+
+= Pilihan SkypeTalking = [keutamaan]
+
+SkypeTalking keutamaan dialog dapat dipanggil dengan menekan Alt + Control + Shift + P secara lalai. Anda juga boleh mengaktifkannya dengan klik kanan ikon SkypeTalking pada system tray, dan kemudian memilih Preferences Tools->. Hal ini boleh digunakan untuk mengubah perilaku SkypeTalking, dan juga lalai bahasa anda dan keluaran suara. Anda juga boleh memetakan semula keystrokes anda SkypeTalking dari sini.
+Dialog keutamaan mempunyai beberapa kategori treeview bahawa anda boleh bertukar-tukar ke dengan menggunakan kekunci anak panah, seperti yang anda lakukan pada dialog Pilihan Skype. Kekunci OK atau Enter akan menyimpan perubahan yang dilakukan di semua kategori keutamaan, sedangkan butang Apply akan menyimpan tetapan tanpa menutup kotak dialog. Untuk membatalkan perubahan, tekan Escape atau Batal Kekunci. Lihat bahagian bawah untuk menjadi akrab dengan keutamaan masing-masing kategori.
+
+== Kategori Umum == [umum]
+
+Kategori Umum keutamaan digunakan untuk memilih bahasa pilihan anda SkypeTalking, dan juga untuk menyediakan berapa SkypeTalking akan mula dan berhenti. Kategori ini mengandungi pilihan-pilihan berikut.
+
+=== Bahasa === [Bahasa]
+
+Bahasa Combo Box memaparkan semua bahasa yang tersedia yang saat ini disokong oleh SkypeTalking. Di sini anda boleh memilih bahasa pilihan anda, dan akan segera dilaksanakan selepas menyimpan tetapan. Secara lalai, SkypeTalking menggunakan bahasa yang digunakan oleh sistem operasi anda. Nota, untuk keterangan kunci untuk memaparkan dalam bahasa baru, anda perlu berhenti dan restart SkypeTalking.
+
+=== Mula SkypeTalking dengan Windows [StartSkypeTalkingWithWindows] ===
+
+Pilihan ini apabila diperiksa akan menyediakan SkypeTalking untuk memulakan secara automatik akan setelah anda log-on ke Windows. Ini ditandakan secara lalai.
+
+=== Automatik mula Skype dengan SkypeTalking [AutoStartSkype] ===
+
+Pilihan ini apabila diperiksa akan membolehkan SkypeTalking untuk secara automatik memulakan Skype untuk anda jika anda lupa untuk memulakan Skype sebelum menjalankan SkypeTalking. Hal ini juga berguna jika anda ingin menjalankan Skype dan mempunyai akses pidato segera ke Skype. Pilihan ini diperiksa secara lalai, yang bererti bahawa SkypeTalking akan memuatkan Skype jika mengesan bahawa Skype belum dijalankan.
+
+=== Secara automatik menutup Skype saat keluar SkypeTalking === [AutoCloseSkype]
+
+Pilihan ini, ketika diperiksa, juga akan membongkar Skype untuk anda di saat ketika anda berhenti SkypeTalking. Namun, jika anda ingin terus menggunakan Skype selepas SkypeTalking diturunkan, anda mungkin akan ingin hapus tanda pilihan ini, dan itu ditandakan secara lalai.
+
+=== Sahkan ketika keluar SkypeTalking === [ConfirmExit]
+
+Pilihan ini diperiksa secara lalai. Jika anda hapus tanda, SkypeTalking akan segera dibongkar segera setelah anda menjalankan perintah Keluar dan mesej pengesahan akan dilewati.
+
+=== SkypeTalking Papar ikon pada taskbar === [SkypeTalkingTaskbarIcon]
+
+Pilihan ini memerlukan restart untuk memuat mempengaruhi, dan itu diperiksa secara lalai. Padam tanda ini jika anda tidak mahu melihat ikon SkypeTalking pada kawasan pemberitahuan.
+
+Output == Kategori == [output]
+
+Kategori Output mempunyai keutamaan yang berkaitan dengan pidato dan output braille. Di sini anda boleh menetapkan pilihan yang berikut.
+
+Pidato Output === === [SpeechOutput]
+
+Pidato Output kotak kombo membolehkan anda untuk menetapkan keluaran suara pilihan anda. Jika anda menetapkan ke Auto Detect, maka secara automatik akan mengesan dan menggunakan screen reader berjalan anda, atau SAPI5 jika pembaca skrin anda tidak berjalan atau tidak diketahui SkypeTalking. Jika ditetapkan ke SAPI5, secara automatik akan menggunakan pidato SAPI5 dan akan mengabaikan pembaca skrin anda.
+
+=== === Kawalan SAPI5Speech [SpeechControls]
+
+The 3 seterusnya kawalan adalah mengedit spin kotak dengan mana anda boleh mengawal kelantangan dan tahap pidato synthesizer SAPI5 anda dalam kes ketika SAPI5 digunakan. Anda boleh menggunakan butang anak panah untuk menyesuaikan nilai-nilai atau taip nombor yang diingini.
+
+Output === === Aktifkan Braille [EnableBrailleOutput]
+
+kotak semak ini membolehkan anda untuk memutuskan sama ada anda ingin melihat SkypeTalking output pada skrin Braille anda. Pilihan ini tidak berfungsi dengan SAPI5.
+
+== Kategori Alarm == [alert]
+
+Kategori ini membolehkan anda untuk beralih dan mematikan pelbagai pengumuman tanda Skype saat ini disokong oleh SkypeTalking. Apapun ditandakan di sini akan diabaikan oleh SkypeTalking. Anda boleh mengaktifkan pengumuman berbual masuk, chatting keluar, online dll status serta pengumuman automatik menukar mesej Skype mood.
+
+== Kategori == verbositas [verbositas]
+
+Kategori ini mengandungi keutamaan untuk menyediakan berapa banyak maklumat yang akan diberikan oleh SkypeTalking dan apa mesej SkypeTalking khusus akan atau tidak akan diumumkan. Di sini anda boleh menetapkan pilihan yang berikut.
+
+Papar mesej masa === === [ShowMessageTime]
+
+Pilihan ini diperiksa secara lalai, yang bererti bahawa SkypeTalking akan mengatakan saat ketika mesej dihantar / diterima. Waktu mesej dipaparkan dalam format yang user-friendly. Sebagai contoh: "minit yang lalu pada 10:56, Yohanes berkata: Bagaimana kabarmu hari ini?". Buang tanda centang pilihan ini untuk mematikan pengumuman masa.
+
+=== Bicara contact nama dengan mesej === [SpeakContactNameWithMessage]
+
+Jika opsyen ini tidak ditandakan, SkypeTalking tidak akan mengatakan nama seseorang siapa yang menghantar atau menerima mesej. Ini diperiksa secara lalai.
+
+=== Katakanlah "Skype Alert" mesej === [SkypeAlertMessage]
+
+Pilihan ini adalah sekumpulan butang radio. Hal ini mengawal bagaimana SkypeTalking akan mengingatkan anda tentang event baru. The "Sebelum tanda" butang radio akan ditetapkan SkypeTalking untuk mengatakan "Skype Alert" mesej sebelum bercakap teks acara. The "Setelah amaran" butang radio akan ditetapkan SkypeTalking untuk bercakap teks acara diikuti dengan mesej "Alert Skype". The "Jangan" butang radio akan ditetapkan SkypeTalking mengatakan hanya teks acara tanpa pesan "Alert Skype". Secara lalai, "Sebelum tanda" butang radio dipilih.
+
+== Kategori == Advanced [lanjut]
+
+Kategori ini mengandungi beberapa pilihan lanjutan yang mengawal bagaimana menangani pelanggan SkypeTalking Skype dan sambungan Skype. Di sini anda boleh menetapkan pilihan yang berikut.
+
+=== Jumlah retries Sambungan sebelum menyerah === [ConnectionRetries]
+
+Pilihan ini mengendalikan berapa kali akan SkypeTalking cuba untuk disambungkan ke Skype jika berlaku kegagalan. Ini ditetapkan ke 5 secara lalai.
+
+=== Mula Skype diminimalkan === [StartSkypeMinimized]
+
+Pilihan ini diperiksa secara lalai, yang bererti bahawa tetingkap Skype utama tidak akan ditunjukkan ketika aplikasi Skype adalah bermula oleh SkypeTalking.
+
+=== Tidak ada splash screen ketika memulakan Skype === [NoSplashScreen]
+
+Pilihan ini diperiksa secara lalai. Ini akan menyembunyikan splash screen Skype ketika aplikasi Skype adalah bermula oleh SkypeTalking.
+
+== Kategori Kemas == [update]
+
+Kategori ini mengandungi keutamaan untuk menyediakan SkypeTalking Updater. Di sini anda boleh menetapkan pilihan yang berikut.
+
+=== Secara automatik menyemak update SkypeTalking === [AutoCheckForUpdates]
+
+Pilihan ini diperiksa secara lalai, yang bererti bahawa SkypeTalking secara automatik akan menyemak update baru pada setiap startup. Buang tanda centang pilihan ini tu mematikan pemeriksaan update automatik.
+
+Jenis Download === === [DownloadType]
+
+Pilihan ini menyediakan jenis SkypeTalking update akan di-download dari laman web. Ini adalah Combo Box dengan dua pilihan, installer dan rekod mudah alih. Pilihan installer ditetapkan secara lalai.
+
+== The Hubungi kategori Manager == [ContactsManagerCategory]
+
+Kategori ini mengandungi keutamaan untuk menyediakan SkypeTalking built-in Kenalan Manager. Ia mempunyai pilihan untuk memaparkan kenalan offline, yang ditandakan secara lalai. Ketika diperiksa, Pengurus Kenalan juga akan memaparkan kenalan status yang saat ini sedang offline.
+
+== Kategori hotkeys == [hotkey]
+
+Kategori ini membolehkan anda untuk menyesuaikan SkypeTalking penekanan butang sesuai dengan keinginan anda. Ini adalah cara menggunakannya.
+
+Keystrokes === === Senarai [KeystrokesList]
+
+The ListView keystrokes memaparkan senarai fungsi dan penekanan butang pasti mereka SkypeTalking yang boleh anda sesuaikan. Di sini anda boleh melihat nama fungsi, saat ini ditakrifkan keystroke untuk fungsi itu, dan keterangan fungsi. Gunakan butang Atas dan Bawah anak panah untuk menyerlahkan fungsi yang anda ingin menukar keystroke tersebut.
+
+Tukar keystroke === === [ChangingKeystroke]
+
+Kekunci Laman akan membuka kotak dialog yang akan membolehkan anda untuk menyesuaikan keystroke yang sedang diserlahkan. Ada 4 modifier Check box (Alt, Win, Control dan Shift), dan mengedit medan di mana anda perlu menaip nama kunci yang akan digunakan bersama-sama dengan pengubah dipilih. Contohnya, jika anda ingin menggunakan Control + Shift + H sebagai keystroke baru anda (Control dan Shift sebagai pengubah dan H sebagai kunci), anda perlu menyemak box Semak pengubah Control dan Shift sementara Alt dan Win Semak harus tempat ditandakan, dan anda harus menaip huruf h menjadi mengedit medan untuk kunci tersebut. Laman anda akan diterima apabila anda menekan butang OK. Jika keystroke sudah digunakan, anda akan mendapat mesej ralat, dan kemudian anda harus mencuba kombinasi lain. Ini juga penting untuk memasukkan nama kunci yang sah, dinyatakan keystroke baru anda tidak akan berfungsi.
+
+= Pengurus Kenalan = [TheContactsManager]
+
+Pengurus Kenalan SkypeTalking membolehkan anda untuk melihat dan menetapkan kenalan Skype pada cara yang mudah dan lebih mudah dicapai. Anda boleh mengaksesnya dengan menekan Alt + Control + Shift + F11 pintas keyboard. Jika anda menekan perintah ini dua kali, SkypeTalking akan fokus tetingkap senarai kenalan Skype asli.
+
+Navigasi == Kenalan == Manager [NavigatingContactsManager]
+
+The SkypeTalking's Kenalan Manager akan memaparkan kenalan anda dalam ListView dengan kemampuan multi-seleksi, membolehkan anda untuk memilih satu atau lebih kenalan untuk melakukan beberapa tindakan di. Anda menggunakan Atas dan Bawah butang anak panah untuk navigasi kenalan anda, dan anda menggunakan ruang untuk bertukar-tukar contact saat ini terfokus antara dipilih dan tidak dipilih. Manager Hubungi juga akan memaparkan ListView medan tambahan dengan status kenalan, teks mood, dan terlihat tarikh terkini dan masa untuk kenalan offline.
+
+== Memilih tindakan untuk kenalan yang dipilih == [ChoosingAnAction]
+
+Tindakan apa yang akan ditunjukkan di dalam Kenalan Manager bergantung pada bilangan kenalan yang dipilih.
+Jika hanya satu kenalan yang dipilih, tindakan-tindakan berikut yang tersedia:
+1. Call Button - Tempat Panggilan Skype ke kenalan yang dipilih - Ini adalah butang lalai, sehingga menekan Enter jika difokuskan dalam senarai kenalan akan mengaktifkannya
+2. Kekunci chat - Membuka tetingkap perbualan dengan kenalan yang dipilih
+3. Lihat Profail - Buka Viewer Profail Manager Hubungi
+
+Jika dua atau lebih kenalan yang dipilih, tindakan-tindakan berikut yang tersedia:
+1. Persidangan Buat Butang - Membuat panggilan persidangan dengan semua kenalan yang dipilih - Ini adalah butang lalai, sehingga menekan Enter jika difokuskan dalam senarai kenalan akan mengaktifkannya
+2. Buat Butang Multichat - Openes tetingkap perbualan dan mencipta multichat dengan semua kenalan yang dipilih
+
+Anda boleh menggunakan Tab dan kekunci Shift + Tab untuk mengemudi antara tindakan dan senarai kenalan. Tekan Alt + F4 atau mengaktifkan Butang Tutup bila-bila masa untuk menutup Hubungi Manager.
+
+== The Viewer Profail == [ProfileViewer]
+
+The Viewer Profail merupakan sebahagian dari Kenalan Manager yang akan terbuka apabila anda mengaktifkan butang View Profile for kenalan individu. Ini menunjukkan butiran profil kenalan yang dipilih dalam sebuah dicapai dan mudah untuk menggunakan kotak dialog. Anda menggunakan Tab dan Shift + Tab untuk berpindah dari detail ke detail, dan kemudian anda boleh menggunakan butang anak panah, dan semua pilihan teks standard arahan untuk menyalin setiap detail tertentu jika anda inginkan. Untuk menutup Profile Viewer, mengaktifkan Butang Close atau tekan Escape untuk kembali ke Manager Hubungi.
+
+= Menghantar dan menerima SMS Mesej dengan SkypeTalking [SMS] =
+
+SkypeTalking membolehkan anda untuk menghantar dan menerima SMS Mesej pada cara yang mudah dengan itu built-in wizard SMS.
+
+Wizard SMS == == [SMSWizard]
+
+Anda boleh mengakses SMS Wizard dengan menekan Alt + Control + Shift + S.
+Setelah terbuka, anda akan diminta untuk memasukkan nombor telefon. Anda perlu memasukkan nombor telefon yang sah di sini, termasuk kod negara. Sebagai contoh: 11234567. Jika nombor tidak sah, anda akan dikembalikan semula ke field nombor telefon untuk cuba memasuki kembali lagi. Tekan Enter untuk melanjutkan, atau tekan Escape untuk membatalkan.
+Jika nombor telefon yang sah, wizard akan berterusan dan anda akan ditempatkan ke edit kawasan di mana anda harus menulis Anda mesej SMS. Sedangkan di kotak dialog ini, anda boleh menekan kekunci fungsi F2 bila-bila masa untuk mendapat status mesej SMS anda saat ini sedang disusun. Sebuah bip amaran akan terdengar dalam kes ketika bilangan aksara yang tinggal dalam mesej mencapai 0.
+Selepas anda terdiri anda mesej SMS, anda boleh menekan Enter atau Tab untuk Kirim Kekunci untuk menghantar atau Kekunci Batal untuk membatalkan penghantaran. Jika Kekunci Kirim dihidupkan, dan baki kredit anda yang baik, SMS anda akan dihantar.
+
+= Maklumat Final dan butiran kenalan = [FinalInfo]
+
+== Mendapatkan kod sumber == [ObtainingSourceCode]
+
+SkypeTalking adalah perisian bebas dan sumber terbuka, ditulis dalam [Bahasa pengaturcaraan Python http://www.python.org]. Open source bererti bahawa perisian kod sumber sedia untuk siapa saja yang menginginkannya. SkypeTalking menggunakan GNU General Public License versi 2.0. Anda boleh membaca lesen penuh dalam fail license.txt yang dibekalkan dengan SkypeTalking.
+Jika anda seorang programmer, atau ingin memberikan sumbangan kod sumber atau mungkin akan dijalankan SkypeTalking langsung dari sumbernya, anda boleh melawat sebuah repositori SVN SkypeTalking ditemui di halaman http://skypetalking.googlecode.com projek. Di sana anda juga boleh men-download versi terbaru.
+
+Menyumbang terjemahan == == [ContributingTranslation]
+
+Jika anda seorang penterjemah dan ingin melokalisasi SkypeTalking dan itu dokumentasi ke dalam bahasa anda sendiri, anda boleh menghubungi saya melalui e-mel untuk mendapatkan sangat fail bahasa terbaru plus penggunaan sehingga anda boleh menghantar aku kembali terjemahan anda. Juga jika anda mempunyai pengetahuan tentang subversi menggunakan repositori, saya akan senang untuk memberikan hak akses untuk mengemaskini terjemahan dari masa ke masa.
+
+== The Mailing List SkypeTalking == [MailingList]
+
+Anda boleh menyertai SkypeTalking milis-host di Google Groups dengan menggunakan alamat berikut: [skypetalking + subscribe@googlegroups.com skypetalking + subscribe@googlegroups.com]. Untuk menghantar e-mel kepada mailing list, gunakan [skypetalking@googlegroups.com skypetalking@googlegroups.com] alamat. Nota bahawa ini adalah senarai yang berbahasa Inggeris sahaja. Ini adalah sumber terbaik untuk mendapatkan sokongan teknikal dan berbagai tips dan trik tentang SkypeTalking. Di sini anda juga akan mendapatkan maklumat harian mengenai apa yang terjadi dengan SkypeTalking pembangunan di repositori itu. Semua pertanyaan dipersilahkan, dari pemula sampai soalan pemaju.
+
+Kredit == == [kredit]
+
+Orang-orang berikut telah memberikan sumbangan terhadap pembangunan SkypeTalking pada beberapa cara:
+- Hrvoje Katiæ, yang merupakan pengasas projek dan seorang lelaki utama di balik SkypeTalking.
+- Gianluca Casalino, yang telah membangunkan pelbagai ciri canggih SkypeTalking, dan telah memberikan banyak pekerjaan SkypeTalking kod. Berkat karyanya yang berdedikasi dan bantuan, SkypeTalking bahkan jauh lebih baik dari sebelumnya!
+- René Linke, yang juga memberikan sumbangan untuk SkypeTalking pada beberapa cara dengan membuat patch dan memberikan idea awal.
+- Orang-orang keren yang membuat SkypeTalking Berbagai terdapat dalam bahasa mereka sendiri, jadi SkypeTalking sekarang berbicara lebih dari 20 bahasa!
+- Dan tentu saja, semua pengguna di seluruh dunia yang menggunakan SkypeTalking pada pangkalan harian dan mempromosikan sehingga lebih banyak orang akan tahu untuk produk ini!
+
+
+Sebuah besar terima kasih kepada semua dari anda!
+
+== Butiran kenalan saya == [ContactDetails]
+
+SkypeTalking projek website untuk download, update dan hal-hal lain: [skypetalking.googlecode.com http://skypetalking.googlecode.com]
+
+My E-Mail untuk pertanyaan, saran, sokongan dan terjemahan posting: [hrvojekatic@gmail.com hrvojekatic@gmail.com]
+
+Anda boleh mengikuti saya di Twitter di: [@ http://www.twitter.com/hkatic hkatic]
+
+My Facebook Laman: [www.facebook.com/jukebox2009 http://www.facebook.com/jukebox2009]
+
+Saya Klango Id pada klango.net: DJ_Jukebox
+
+My MSN alamat: [hrkatic@hotmail.com hrkatic@hotmail.com]
+
+My Skype Id: hrvojekatic
+Listen
+Read phonetically
+Dictionary - View detailed dictionaryGoogle Translate for my:SearchesVideosEmailPhoneChatBusinessAbout Google TranslateTurn off instant translationPrivacyHelp

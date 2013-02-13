@@ -1,0 +1,1796 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking\n"
+"POT-Creation-Date: 2011-01-01 20:57+Malay Peninsula Standard Time\n"
+"PO-Revision-Date: 2011-01-01 21:04+0800\n"
+"Last-Translator: Tai <komuniti.oku@gmail.com>\n"
+"Language-Team: Tai <komuniti.oku@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Malay\n"
+"X-Poedit-Country: Malaysia\n"
+
+#: SkypeTalking.pyw:60
+msgid "Error writing config file. The application may not be started. Please contact development team for help."
+msgstr "Ralat dalam menulis fail konfigurasi. Aplikasi ini tidak boleh bermula. Sila hubungi pasukan bantuan pembangunan."
+
+#: SkypeTalking.pyw:60
+#: SkypeTalking.pyw:71
+#: SkypeTalking.pyw:81
+#: interface\__init__.py:41
+msgid "Error"
+msgstr "Ralat"
+
+#: SkypeTalking.pyw:71
+msgid "Could not set application language. The application may not be started. Please contact development team for help."
+msgstr "Tidak dapat menetapkan bahasa aplikasi. Aplikasi ini tidak boleh bermula. Sila hubungi pasukan bantuan pembangunan."
+
+#: SkypeTalking.pyw:75
+msgid "Application already running."
+msgstr "Aplikasi sudah berjalan."
+
+#: SkypeTalking.pyw:79
+msgid "Connecting to Skype..."
+msgstr "menyambung ke Skype..."
+
+#: SkypeTalking.pyw:81
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "Gagal untuk menginisialisasi subsistem output. Aplikasi ini tidak boleh bermula. Sila hubungi pasukan bantuan pembangunan."
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "Panggilan dari %s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "Memanggil %s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "Panggilan telefon dari %s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "Panggilan telefon kepada %s"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "Panggilan dengan %s tamat, jangka masa %s ."
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "memanggil %s, disambungkan..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "Maaf, panggilan dengan %s gagal"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "Panggilan dengan %s sedang berlangsung"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "Panggilan dengan %s ditahan"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "Panggilan tidak dijawab dari %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "Panggilan ditolak"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "Panggilan dengan %s, sibuk"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "Panggilan dengan %s, dibatalkan"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "Panggilan dengan %s ditangguhkan"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "Panggilan dengan %s ditangguhkan secara remote"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Memindahkan panggilan kepada %s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "Panggilan dipindahkan kepada %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Alasan yang tidak diketahui"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Misc kesalahan"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "Pengguna tidak wujud"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "Pengguna di luar talian"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Tidak ada Proxy dijumpai"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Sesi diakhiri"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Tiada codec umum"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "suara ralat input / output "
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Remote kesalahan peranti"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "Anda disekat oleh penerima"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "Penerima tidak ada dalam senarai kenalan anda"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Anda tidak diautorisasi oleh penerima"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Ralat rakaman suara"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "jam"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "jam"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "minit"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "minit"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr " dan "
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "saat"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "saat"
+
+#: communication\files.py:35
+msgid "Receiving file %s from %s. "
+msgstr "menerima fail %s daripada %s. "
+
+#: communication\files.py:37
+msgid "Sending file %s to %s. "
+msgstr "memindahkan fail %s kepada %s. "
+
+#: communication\files.py:39
+msgid "File transfer %s, file %s. "
+msgstr "Pemindahan fail %s; Fail %s."
+
+#: communication\files.py:41
+msgid "New file transfer: "
+msgstr "Pemindahan fail baru: "
+
+#: communication\files.py:43
+msgid "Connecting..."
+msgstr "menyambung..."
+
+#: communication\files.py:45
+msgid "Transferring..."
+msgstr "Memindahkan..."
+
+#: communication\files.py:47
+msgid "Transferring over relay..."
+msgstr "Pemindahan tertunda..."
+
+#: communication\files.py:49
+msgid "Waiting for accept..."
+msgstr "Menunggu untuk diambil..."
+
+#: communication\files.py:51
+msgid "Paused."
+msgstr "Diberhentikan sementara."
+
+#: communication\files.py:53
+msgid "Paused remotely."
+msgstr "Dihentikan sementara secara remote."
+
+#: communication\files.py:55
+msgid "Cancelled!"
+msgstr "Batal!"
+
+#: communication\files.py:57
+#, fuzzy
+msgid "Finished!"
+msgstr "Waktu berakhir"
+
+#: communication\files.py:59
+msgid "File transfer failed."
+msgstr "Pemidahan fail telah gagal."
+
+#: communication\files.py:61
+msgid "Sender not authorized."
+msgstr "Pengirim tidak mengautorisasi."
+
+#: communication\files.py:63
+msgid "Remotely cancelled."
+msgstr "Dibatalkan secara remote."
+
+#: communication\files.py:65
+msgid "Failed read."
+msgstr "Gagal dibaca."
+
+#: communication\files.py:67
+msgid "Failed remote read."
+msgstr "Gagal dibaca secara remote."
+
+#: communication\files.py:69
+msgid "Failed write."
+msgstr "Gagal menyalin."
+
+#: communication\files.py:71
+msgid "Failed remote write."
+msgstr "Gagal menyalin secara remote."
+
+#: communication\files.py:73
+msgid "Remote does not support file transfer."
+msgstr "Remote tidak menyokong pemindahan fail."
+
+#: communication\files.py:75
+msgid "Remote offline too long."
+msgstr "Remote keluar talian terlalu lama."
+
+#: communication\files.py:80
+msgid "Size: %.1f Mb"
+msgstr "Saiz: %.1f Mb"
+
+#: communication\files.py:85
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Pemindahan: %.1f Mb, Kelajuan: %.1f kb/s"
+
+#: communication\files.py:91
+msgid "Progress: %6.2f"
+msgstr "Kemajuan: %6.2f"
+
+#: communication\files.py:101
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "Masa yang tinggal: %d jam, %d minit and %d saat"
+
+#: communication\main.py:35
+msgid "Waiting for authorization..."
+msgstr "Menunggu untuk diautorisasi..."
+
+#: communication\main.py:37
+msgid "Authorization refused."
+msgstr "Kebenaran menolak."
+
+#: communication\main.py:42
+msgid "Error, API not available."
+msgstr "Ralat, API tidak tersedia."
+
+#: communication\main.py:49
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s sudah bersedia. Pengguna log masuk saat ini ialah %s."
+
+#: communication\main.py:66
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Ralat! Skype melampirkan masa tamat. Mencuba semula %d sebanyak %d untuk 5 seconds."
+
+#: communication\main.py:73
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Ralat! Skype melampirkan masa tamat. Sila mula semula aplikasi dan cuba lagi. Keluar."
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "menghantar..."
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "Mesej segera dari %s: %s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "Mesej SMS dari %s: %s"
+
+#: communication\messages.py:56
+#, fuzzy
+msgid "at %s, %s said: %s"
+msgstr "%s pada %s, %s berkata: %s"
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr "%s pada %s, %s berkata: %s"
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr "pada %s, %s berkata: %s"
+
+#: communication\messages.py:63
+#, fuzzy
+msgid "%s at %s, %s says: %s"
+msgstr "%s pada %s, %s berkata: %s"
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr "pada %s: %s"
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr "%s pada %s: %s"
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%s berkata: %s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%s berkata: %s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "Mesej tidak dapat dihantar."
+
+#: communication\messages.py:84
+msgid "Message copied to clipboard."
+msgstr "Mesej disalin ke papan keratan."
+
+#: communication\messages.py:86
+msgid "copy failed"
+msgstr "gagal menyalin"
+
+#: communication\messages.py:95
+msgid "opening URL"
+msgstr "membuka URL"
+
+#: communication\messages.py:98
+msgid "Failed to open this URL."
+msgstr "Gagal membuka URL ini."
+
+#: communication\messages.py:100
+msgid "url not found"
+msgstr "URL tidak dijumpai"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "Klien Skype versi %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "API wrapper versi %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "Tiada peristiwa baru sejak anda melancarkan %s."
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "Tiada mesej baru sejak anda melancarkan %s."
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Tiada pemindahan fail lagi."
+
+#: communication\misc.py:73
+msgid "No active file transfers."
+msgstr "Tiada pemindahan fail yang aktif."
+
+#: communication\misc.py:76
+msgid "%s, file %s"
+msgstr "%s, fail %s"
+
+#: communication\misc.py:77
+msgid "Active File Transfers"
+msgstr "Pemindahan fail aktif"
+
+#: communication\misc.py:77
+msgid "Select file sender/receiver"
+msgstr "Pilih fail penghantar / penerima"
+
+#: communication\misc.py:89
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Baki Kredit Skype anda ialah %s"
+
+#: communication\misc.py:93
+#, fuzzy
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Tiada perbualan dipantau pada kedudukan ini, yang pertama adalah pada kedudukan %s"
+
+#: communication\misc.py:97
+#: communication\misc.py:99
+msgid "Monitoring chat with %s"
+msgstr "Memantau perbualan dengan %s"
+
+#: communication\misc.py:99
+#: communication\misc.py:116
+msgid "and"
+msgstr " dan "
+
+#: communication\misc.py:103
+msgid "no active chats"
+msgstr "tiada perbualan aktif"
+
+#: communication\misc.py:109
+#: communication\misc.py:118
+msgid "no active chat monitor"
+msgstr "tiada perbualan aktif dipantau"
+
+#: communication\misc.py:114
+#: communication\misc.py:116
+msgid "monitor on chat with %s"
+msgstr "Memantau perbualan dengan %s"
+
+#: communication\misc.py:124
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Tiada mesej baru sejak %s dilancarkan atau tiada pemantauan perbualan dipilih."
+
+#: communication\misc.py:127
+msgid "no message at this position. The first is at position %d"
+msgstr "Tiada mesej pada kedudukan ini. Yang pertama ialah pada kedudukan%d"
+
+#: communication\misc.py:140
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Tiada teks mood ditetapkan. Tekan arahan ini dua kali untuk menetapkan satu."
+
+#: communication\misc.py:141
+msgid "The current mood text is: %s."
+msgstr "Teks mood saat ini ialah: %s."
+
+#: communication\misc.py:145
+msgid " - Change Mood Text"
+msgstr " - Tukar Mood teks"
+
+#: communication\misc.py:145
+msgid "Enter your new mood text:"
+msgstr "Masukkan teks mood anda yang baru:"
+
+#: communication\misc.py:151
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s telah mengubah teks moodnya kepada: %s"
+
+#: communication\misc.py:167
+#: communication\misc.py:207
+msgid "no active call"
+msgstr "Tiada panggilan aktif"
+
+#: communication\misc.py:170
+#: communication\misc.py:176
+#: communication\misc.py:182
+#: communication\misc.py:196
+msgid "Not on call."
+msgstr "Panggilan tidak dihidupkan."
+
+#: communication\misc.py:174
+msgid "Microphone unmuted"
+msgstr "Mikrofon dihidupkan"
+
+#: communication\misc.py:180
+#: communication\misc.py:228
+msgid "Microphone muted"
+msgstr "Mikrofon diredam"
+
+#: communication\misc.py:188
+msgid "call on hold "
+msgstr "panggilan ditunda "
+
+#: communication\misc.py:191
+msgid "call resumed"
+msgstr "meneruskan panggilan"
+
+#: communication\misc.py:193
+msgid "No incoming or active call."
+msgstr "Tiada panggilan masuk atau panggilan aktif."
+
+#: communication\misc.py:199
+#, fuzzy
+msgid "%s has joined the current call."
+msgstr "%s telah menyertai panggilan semasa"
+
+#: communication\misc.py:201
+msgid "only one active call"
+msgstr "hanya satu panggilan aktif"
+
+#: communication\misc.py:214
+#: communication\misc.py:215
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: interface\contactsManager.py:53
+msgid "Not available"
+msgstr "Tidak bersedia"
+
+#: communication\misc.py:218
+msgid "Audio In: %s"
+msgstr "Dalam Audio: %s"
+
+#: communication\misc.py:219
+msgid "Audio Out: %s"
+msgstr "Suara Keluar: %s"
+
+#: communication\misc.py:220
+msgid "Video In: %s"
+msgstr "Dalam Video: %s"
+
+#: communication\misc.py:221
+msgid "Ringing device: %s"
+msgstr "Peranti dering: %s"
+
+#: communication\misc.py:230
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Tidak ada panggilan baru atau panggilan. Tekan perintah ini dua kali untuk memanggil seseorang."
+
+#: communication\misc.py:235
+msgid " - make call"
+msgstr " - membuat panggilan"
+
+#: communication\misc.py:235
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Masukkan skype ID  atau nama yang dipisahkan oleh titik koma:"
+
+#: communication\misc.py:255
+#: communication\misc.py:278
+#: communication\misc.py:289
+#: communication\misc.py:301
+msgid "There are no voicemails."
+msgstr "Tiada pesanan suara."
+
+#: communication\misc.py:263
+#: communication\misc.py:285
+msgid "Error, cannot open that voicemail."
+msgstr "Ralat, pesanan suara itu tidak boleh dibuka."
+
+#: communication\misc.py:265
+msgid "No voicemail to play."
+msgstr "Tiada pesanan bersuara untuk dimainkan."
+
+#: communication\misc.py:270
+#: communication\misc.py:295
+msgid "Voicemail deleted."
+msgstr "Pesanan suara dipadam."
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Error, voicemail cannot be deleted."
+msgstr "Ralat, pesanan suara tidak boleh dipadam."
+
+#: communication\misc.py:274
+msgid "No voicemail to delete."
+msgstr "Tiada pesanan suara untuk dipadam."
+
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "Tiada pesanan suara untuk posisi ini, yang pertama adalah kedudukan %s."
+
+#: communication\misc.py:306
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Pesanan suara dari %s. "
+
+#: communication\misc.py:308
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Pesanan suara kepada %s. "
+
+#: communication\misc.py:310
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Ucapan pesanan bersuara yang asal. "
+
+#: communication\misc.py:312
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Ucapan pesanan bersuara pilihan. "
+
+#: communication\misc.py:314
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Jenis ucapan pesanan bersuara yang tidak diketahui. "
+
+#: communication\misc.py:316
+msgid "Not played."
+msgstr "Tidak dimainkan."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Sedang mengarang"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Disampaikan"
+
+#: communication\sms.py:28
+#, fuzzy
+msgid "SMS read"
+msgstr "sms dibaca"
+
+#: communication\sms.py:28
+#, fuzzy
+msgid "SMS received"
+msgstr "sms diterima"
+
+#: communication\sms.py:28
+#, fuzzy
+msgid "Sending Failed"
+msgstr "Gagal menghantar"
+
+#: communication\sms.py:28
+#, fuzzy
+msgid "Sending to server"
+msgstr "penghantaran ke pelayan"
+
+#: communication\sms.py:28
+#, fuzzy
+msgid "Sent to server"
+msgstr "dihantar ke pelayan"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "tidak dapat menghantar ke sesetengah nombor"
+
+#: communication\sms.py:28
+#: interface\contactsManager.py:53
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: communication\sms.py:31
+#, fuzzy
+msgid "You've paid %s"
+msgstr "Anda telah membayar %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Masukkan Nombor Telefon atau nombor yang dipisahkan oleh titik koma:"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "Bahagian SMS"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Bahagian SMS Baru: daripada %s kepada %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Nombor tidak sah. Sila semak masukkan anda dan cuba lagi."
+
+#: communication\status.py:33
+#: interface\contactsManager.py:53
+msgid "Online"
+msgstr "Masuk Talian"
+
+#: communication\status.py:34
+#: interface\contactsManager.py:53
+msgid "Away"
+msgstr "Pergi"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "Tidak bersedia"
+
+#: communication\status.py:36
+#: interface\contactsManager.py:53
+msgid "Do not disturb"
+msgstr "Jangan mengganggu"
+
+#: communication\status.py:37
+#: interface\contactsManager.py:53
+msgid "Invisible"
+msgstr "Tiada"
+
+#: communication\status.py:38
+#: interface\contactsManager.py:53
+msgid "Skype Me"
+msgstr "Skype Saya"
+
+#: communication\status.py:39
+#: interface\contactsManager.py:53
+msgid "Offline"
+msgstr "Keluar talian"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "status %s tidak diketahui"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s keluar talian"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s Masuk talian"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s Pergi"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s tiada"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s jangan mengganggu"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s keluar talian"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s Skype Saya"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s Skype Keluar"
+
+#: communication\status.py:64
+#, fuzzy
+msgid "Change Status"
+msgstr "Tukar status saat ini"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Pilih status"
+
+#: communication\status.py:74
+#, fuzzy
+msgid "Changing status to %s"
+msgstr "Mengubah status kepada %s"
+
+#: communication\status.py:82
+#, fuzzy
+msgid "Current online status is %s"
+msgstr "Status atas talian saat ini ialah %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "Pengguna %s %s meminta autorisasi. Intro text: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "Anda sekarang adalah sahabat %s %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "Pengguna %s %s telah disekat."
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s Mood teks cik/encik telah dibuang"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s telah menukar mood teks saudara/saudari kepada %s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Status tidak diketahui."
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "Tidak dimuat turun."
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "memuat turun..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Tidak dimainkan, durasi %d saat."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Buffering..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "Mainkan..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Mainkan, durasi %d saat."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "pesanan bersuara kosong."
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Merakam..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Rakam."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "muat naik..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "Muat naik."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Memadam..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Ralat pesanan suara."
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Tiada ralat."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Miscellaneous kesalahan."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Tidak dapat disambungkan."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Tiada kategori pesanan bersuara."
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Tiada pesanan bersuara seperti ini.."
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "Tidak dapat membaca fail ini."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "Tidak dapat menulis fail ini."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Tidak dapat merakam pesanan bersuara."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Tidak dapat memainkan pesanan bersuara."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Skype memaklumkan"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s pada %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (sebentar tadi pada %s)"
+
+#: events.py:157
+#, fuzzy
+msgid "No new events yet for this event type."
+msgstr "Tiada peristiwa terbaru setakat ini."
+
+#: extras.py:67
+msgid "%d seconds ago"
+msgstr "%d saat yang lalu"
+
+#: extras.py:69
+msgid "a minute ago"
+msgstr "beberapa minit yang lalu"
+
+#: extras.py:71
+msgid "%d minutes ago"
+msgstr "%d minit yang lalu"
+
+#: extras.py:73
+msgid "an hour ago"
+msgstr "beberapa jam yang lalu"
+
+#: extras.py:75
+msgid "%d hours ago"
+msgstr "%d jam yang lalu"
+
+#: extras.py:77
+msgid "yesterday"
+msgstr "semalam"
+
+#: extras.py:79
+msgid "%d days ago"
+msgstr "%d hari yang lalu"
+
+#: extras.py:81
+msgid "%d weeks ago"
+msgstr "%d minggu yang lalu"
+
+#: extras.py:83
+msgid "%d months ago"
+msgstr "%d bulan yang lalu"
+
+#: extras.py:84
+msgid "%d years ago"
+msgstr "%d tahun yang lalu"
+
+#: interface\__init__.py:41
+msgid "An error has occured while attempting to configure autostart."
+msgstr "Sebuah kesalahan telah terjadi ketika cuba untuk menyediakan autostart."
+
+#: interface\__init__.py:63
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Adakah anda pasti bahawa anda ingin keluar dari %s? Ini juga akan menutup Skype jika anda telah mengkonfigurasikan perilaku tersebut."
+
+#: interface\__init__.py:63
+msgid "Confirm Exit"
+msgstr "Pengesahan Keluar"
+
+#: interface\__init__.py:81
+msgid "Goodbye!"
+msgstr "Selamat tinggal!"
+
+#: interface\about.py:29
+#: interface\systemTray.py:78
+msgid "About %s"
+msgstr "Mengenai%s"
+
+#: interface\about.py:42
+msgid "Project &Web site"
+msgstr "Projek & Tapak Web"
+
+#: interface\about.py:43
+msgid "&License online"
+msgstr "&Lesen talian"
+
+#: interface\about.py:44
+msgid "C&ontributors"
+msgstr "C&ontributors"
+
+#: interface\about.py:45
+msgid "User &Guide"
+msgstr "Panduan &Pengguna"
+
+#: interface\about.py:46
+#: interface\systemTray.py:58
+msgid "&What's New"
+msgstr "&Apa yang terbaru"
+
+#: interface\about.py:47
+#: interface\systemTray.py:74
+msgid "Check for &updates..."
+msgstr "menyemak untuk kemaskini..."
+
+#: interface\about.py:67
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Hakcipta %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"Perisian ini diedarkan di bawah syarat-syarat versi GNU General Public License 2.\n"
+"Untuk maklumat lebih lanjut, sila klik Lihat Lesen Online Kekunci atau melihat fail license.txt yang dibekalkan dengan perisian ini.\n"
+
+#: interface\contactsManager.py:40
+#: interface\preferences\main.py:50
+msgid "Contacts Manager"
+msgstr "Pengurus kenalan"
+
+#: interface\contactsManager.py:53
+msgid "Skype Out"
+msgstr "Skype Keluar"
+
+#: interface\contactsManager.py:85
+#: interface\contactsManager.py:160
+msgid "Checked"
+msgstr "Periksa"
+
+#: interface\contactsManager.py:88
+#, fuzzy
+msgid "Unchecked"
+msgstr "Tidak terpilih"
+
+#: interface\contactsManager.py:90
+msgid "&Create Conference"
+msgstr "&Buat Persidangan"
+
+#: interface\contactsManager.py:91
+msgid "Create multi c&hat"
+msgstr "Buat multi &bual"
+
+#: interface\contactsManager.py:94
+#: interface\contactsManager.py:135
+msgid "&Call"
+msgstr "&Panggilan"
+
+#: interface\contactsManager.py:95
+#: interface\contactsManager.py:137
+msgid "C&hat"
+msgstr "P&erbualan"
+
+#: interface\contactsManager.py:115
+msgid "&Contact List"
+msgstr "&Senarai kenalan"
+
+#: interface\contactsManager.py:117
+msgid "Contact"
+msgstr "Senarai kenalan"
+
+#: interface\contactsManager.py:118
+msgid "Skype Name"
+msgstr "Nama Skype"
+
+#: interface\contactsManager.py:119
+msgid "Status"
+msgstr "Status"
+
+#: interface\contactsManager.py:120
+msgid "Mood Text"
+msgstr "Mood Teks"
+
+#: interface\contactsManager.py:121
+msgid "Last seen"
+msgstr "Kali terakhir dilihat"
+
+#: interface\contactsManager.py:128
+msgid "%s at %s"
+msgstr "%s pada %s"
+
+#: interface\contactsManager.py:138
+msgid "View &Profile..."
+msgstr "Lihat &Profil..."
+
+#: interface\contactsManager.py:189
+msgid "Profile Viewer for %s (%s)"
+msgstr "Profil Viewer untuk %s (%s)"
+
+#: interface\contactsManager.py:193
+msgid "Skype name:"
+msgstr "Nama Skype:"
+
+#: interface\contactsManager.py:199
+msgid "Full name:"
+msgstr "Nama penuh:"
+
+#: interface\contactsManager.py:205
+msgid "Mood:"
+msgstr "Mood:"
+
+#: interface\contactsManager.py:211
+msgid "Birth date:"
+msgstr "Tarikh lahir:"
+
+#: interface\contactsManager.py:217
+msgid "Gender:"
+msgstr "Jantina:"
+
+#: interface\contactsManager.py:220
+msgid "Male"
+msgstr "Lelaki"
+
+#: interface\contactsManager.py:221
+msgid "Female"
+msgstr "Perempuan"
+
+#: interface\contactsManager.py:224
+msgid "Language:"
+msgstr "Bahasa:"
+
+#: interface\contactsManager.py:230
+msgid "Location:"
+msgstr "Lokasi:"
+
+#: interface\contactsManager.py:236
+msgid "Home phone:"
+msgstr "Telefon rumah:"
+
+#: interface\contactsManager.py:242
+msgid "Office phone:"
+msgstr "Telefon pejabat:"
+
+#: interface\contactsManager.py:248
+msgid "Mobile phone:"
+msgstr "Telefon mudah alih:"
+
+#: interface\contactsManager.py:254
+msgid "Home page:"
+msgstr "Lanam web:"
+
+#: interface\contactsManager.py:260
+msgid "About me:"
+msgstr "Mengenai saya:"
+
+#: interface\contactsManager.py:266
+msgid "Number of contacts:"
+msgstr "Jumlah kenalan:"
+
+#: interface\contactsManager.py:273
+msgid "This user is not authorized to contact me.\n"
+msgstr "pengguna ini tidak dibenarkan untuk menghubungi saya.\n"
+
+#: interface\contactsManager.py:275
+msgid "This user is blocked.\n"
+msgstr "Pengguna ini telah disekat.\n"
+
+#: interface\contactsManager.py:277
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Pengguna ini tidak mempunyai peralatan panggilan.\n"
+
+#: interface\contactsManager.py:279
+msgid "This user has call forwarding activated.\n"
+msgstr "Pengguna ini mempunyai panggilan alihan yang sedang aktif.\n"
+
+#: interface\contactsManager.py:281
+msgid "This user has a camera.\n"
+msgstr "Pengguna ini mempunyai kamera.\n"
+
+#: interface\contactsManager.py:283
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Pengguna ini boleh menghantar dan menerima mail bersuara.\n"
+
+#: interface\contactsManager.py:285
+msgid "Other information:"
+msgstr "Maklumat lain:"
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Membolehkan akses kepada Pilihan SkypeTalking Dialog di mana anda boleh mengkonfigurasi perilaku aplikasi, atau menukar bahasa anda SkypeTalking dan keluaran "
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Membuka Hubungi Manager untuk melihat dan menetapkan kenalan Skype anda pada cara yang mudah. Jika menekan dua kali, senarai kenalan Skype asli akan dipaparkan."
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Menampilkan beberapa maklumat asas tentang SkypeTalking aplikasi, seperti versi sekarang, butiran program hak cipta dan laman web."
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Memberhentikan aplikasi SkypeTalking."
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Diamkan suara jika keluaran suara anda ditetapkan ke SAPI5."
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "buka"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "tutup"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Abaikan peristiwa skype %s."
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Menampilkan mengabaikan semua peristiwa Skype. Jika diaktifkan, SkypeTalking akan mengabaikan semua peristiwa Skype dan tidak akan menampilkan atau merakamkannya."
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "Kunci pendeskripsi %s."
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Memaparkan atau mematikan pendeskripsi kunci. Ketika dihidupkan, ia akan menjelaskan sebuah arahan yang berkaitan dengan SkypeTalking keystroke apabila ditekan."
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Mengubah status Skype talian bagi pengguna saat ini on the fly."
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "Periksa untuk versi terbaru atau kemaskini perisian SkypeTalking."
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "melaporkan Mood Mesej pengguna yang terkini. Jika ditekan dua kali, arahan telah diberi untuk mengubah Mood Mesej anda."
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Laporan status pengguna dalam talian. Jika ditekan dua kali, panggilan fungsi untuk melaporkan baki Skype kredit bagi pengguna saat ini."
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Laporan versi saat ini menjalankan Skype. Jika ditekan dua kali, panggilan fungsi untuk melaporkan versi API Wrapper, yang terutama kepada anda pengembang."
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Skype mengulangi acara terkini yang terjadi semasa sesi SkypeTalking."
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Laporan status pemindahan fail terakhir masuk atau keluar. Jika ditekan dua kali, membolehkan anda untuk memilih salah satu pemindahan fail aktif untuk dipantau."
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Laporan tempoh panggilan aktif dalam jam / minit / saat."
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Melaporkan status panggilan yang aktif. Jika ditekan dua kali, ia akan membuka kekotak dialog untuk membolehkan anda memanggil seseorang dengan memasukkan nama pengguna skype tersebut, atau lebih daripada seorang pengguna diikuti dengan tanda koma untuk membuat persidangan."
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Melancarkan wizard untuk menghantar mesej SMS dengan cara yang mudah melalui SkypeTalking"
+
+#: interface\interfaceCommands.py:133
+#, fuzzy
+msgid "Go to next event in the events history buffer."
+msgstr "Pergi ke acara seterusnya dalam sejarah peristiwa."
+
+#: interface\interfaceCommands.py:137
+#, fuzzy
+msgid "Go to previous event in the events history buffer."
+msgstr "Pergi ke acara sebelumnya dalam sejarah peristiwa."
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "panggilan"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "mesej"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "pemindahan fail"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "tindakan pengguna"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "pesanan bersuara"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "status diubah"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Memilih jenis acara untuk melihat dalam peristiwa sejarah penyangga antara perubahan status, panggilan, mesej, pemindahan fail, atau tindakan pengguna."
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Memilih bual monitor. Jika ditekan dua kali, akan membuka tetingkap chat perbualan saat ini yang sedang dipantau."
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Melaporkan perbualan yang sedang dipantau. Jika ditekan dua kali, membuka tetingkap perbualan Skype untuk berbual saat ini sedang dipantau."
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Review salah satu daripada 10 item terkini bergantung pada mod ulasan yang dipilih. Tekan dua kali atau tiga kali untuk menjalankan 2 atau 3 tindakan untuk item tersebut (jika mungkin)."
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "Mod pesanan suara"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "Mod mesej"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Beralih antara mod mod mesej atau pesanan suara."
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Mengulangi yang terakhir masuk atau keluar mesej chat. Jika ditekan dua kali, membuka tetingkap bual Skype berkaitan dengan mesej itu dan set monitor bual"
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Menjawab panggilan, atau matikan antara terus dan meneruskan untuk panggilan dalam kemajuan."
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Menjawab panggilan dan menyertai persidangan (jika dalam sidang talian)."
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Tamatkan panggilan atau hentikan rakaman pesanan suara."
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Menghidup atau mematikan mikrofon mengikut situasi semasa."
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Laporan saat ini digunakan peranti input / output."
+
+#: interface\interfaceCommands.py:460
+#, fuzzy
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Laporan status mesej suara terkini. Jika ditekan dua kali, membuka dan memainkan mel suara."
+
+#: interface\main.py:173
+#: interface\preferences\categories\hotKeys.py:55
+msgid "No description"
+msgstr "Tiada diskripsi"
+
+#: interface\preferences\__init__.py:27
+#: interface\preferences\main.py:160
+msgid "Preferences"
+msgstr "Preferences"
+
+#: interface\preferences\categories\advanced.py:28
+msgid "Number of &connection retries before giving up:"
+msgstr "Jumlah &mencuba Sambungan sebelum menyerah:"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "Start Skype &minimized"
+msgstr "Mulakan Skype &diminimumkan"
+
+#: interface\preferences\categories\advanced.py:33
+msgid "No &splash screen when starting Skype"
+msgstr "Tidak &splash screen ketika memulakan Skype"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "Pengguna telah menukar mood teks saudara/saudari Mood &Teks"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "Mesej perbualan dit&erima"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "Mesej perbualan &hantar"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "Status tidak &diketahui"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Status &Keluar talian"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Status &Masuk talian"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Status &Tiada di hadapan komputer"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Status Tak &bersedia"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "Status &Jangan mengganggu"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Status &Kelihatan seperti di luar talian"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Status &Skype Keluar"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Status &Skype Saya"
+
+#: interface\preferences\categories\contactsManager.py:28
+msgid "Show &offline contacts"
+msgstr "Menampilkan &pengguna luar talian"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&Bahasa:"
+
+#: interface\preferences\categories\general.py:40
+msgid "Start %s with &Windows"
+msgstr "Dimulakan %s bersama &Windows"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &start Skype with %s"
+msgstr "automaticaly &jalankan Skype dengan %s"
+
+#: interface\preferences\categories\general.py:44
+msgid "Automatically &close Skype when %s exits"
+msgstr "Automatically &hentikan Skype apabila %s keluar"
+
+#: interface\preferences\categories\general.py:45
+msgid "C&onfirm when exiting %s"
+msgstr "P&engesahan apabila keluar %s"
+
+#: interface\preferences\categories\general.py:46
+msgid "Show %s icon on the &taskbar"
+msgstr "Tunjuk %s ikon di &taskbar"
+
+#: interface\preferences\categories\hotKeys.py:43
+msgid "&Keystrokes"
+msgstr "&Keystrokes"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "Function"
+msgstr "Fungsi"
+
+#: interface\preferences\categories\hotKeys.py:46
+msgid "Keystroke"
+msgstr "Ketukan kekunci"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Description"
+msgstr "Diskripsi"
+
+#: interface\preferences\categories\hotKeys.py:59
+msgid "&Change..."
+msgstr "&Menukar..."
+
+#: interface\preferences\categories\hotKeys.py:70
+msgid "Change keystroke for %s"
+msgstr "Tukar keystroke anda %s"
+
+#: interface\preferences\categories\hotKeys.py:79
+msgid "Modifiers"
+msgstr "Pengubah"
+
+#: interface\preferences\categories\hotKeys.py:86
+msgid "&Key:"
+msgstr "&Kunci:"
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "%s keystroke already in use. Please try another one."
+msgstr "%s keystroke telah digunakan. Sila cuba yang lain."
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "Change Keystroke Error"
+msgstr "Ralat penukaran keystroke"
+
+#: interface\preferences\categories\output.py:28
+msgid "Speech Output:"
+msgstr "Output Suara:"
+
+#: interface\preferences\categories\output.py:29
+msgid "Auto detect"
+msgstr "Kesan automatik"
+
+#: interface\preferences\categories\output.py:29
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "Kadar kelajuan suara SAPI5:"
+
+#: interface\preferences\categories\output.py:33
+msgid "SAPI5 Volume:"
+msgstr "Suara SAPI5:"
+
+#: interface\preferences\categories\output.py:36
+msgid "Enable &braille output"
+msgstr "menghidupkan output &braille"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Automatically check for %s updates"
+msgstr "&periksa secara automatik untuk kemas kini %s"
+
+#: interface\preferences\categories\updates.py:30
+msgid "&Download Type:"
+msgstr "&Jenis Muat Turun:"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Installer"
+msgstr "Installer"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Portable Archive"
+msgstr "Arkit Portable"
+
+#: interface\preferences\categories\verbosity.py:27
+#, fuzzy
+msgid "Speak message &time"
+msgstr "membaca mesej &beritahu waktu"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "memberitahu kenalan &nama dan mesej"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "Selepas pemberitahuan"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "Sebelum pemberitahuan"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Tidak pernah"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Maklumkan \"pemberitahuan pesan skype\""
+
+#: interface\preferences\main.py:38
+msgid "General"
+msgstr "Umum"
+
+#: interface\preferences\main.py:40
+msgid "Output"
+msgstr "Output"
+
+#: interface\preferences\main.py:42
+msgid "Alerts"
+msgstr "Peringatan"
+
+#: interface\preferences\main.py:44
+msgid "Verbosity"
+msgstr "Verbositi"
+
+#: interface\preferences\main.py:46
+msgid "Advanced"
+msgstr "Lebih maju"
+
+#: interface\preferences\main.py:48
+msgid "Updates"
+msgstr "Kemaskini"
+
+#: interface\preferences\main.py:52
+msgid "Hot keys"
+msgstr "Kekunci pintasan"
+
+#: interface\preferences\main.py:89
+msgid "Settings saved."
+msgstr "Tetapan disimpan."
+
+#: interface\preferences\main.py:94
+#, fuzzy
+msgid "Settings applied."
+msgstr "Tetapan disimpan."
+
+#: interface\preferences\main.py:97
+msgid "Settings canceled."
+msgstr "Tetapan dibatalkan."
+
+#: interface\preferences\main.py:108
+msgid "Error in %s language file"
+msgstr "Ralat dalam %s fail bahasa"
+
+#: interface\preferences\main.py:108
+msgid "Language Error"
+msgstr "Ralat bahasa"
+
+#: interface\preferences\main.py:160
+msgid "For the new language to fully take affect, I must now restart %s. Click OK to continue, or Cancel to restart later manually."
+msgstr "Untuk mengaktifkan bahasa pilihan, saya sekarang akan memula semula %s. Click OK untuk meneruskan, atau batal untuk memula semula secara manual kemudian."
+
+#: interface\smsDialog.py:32
+msgid "Message text:"
+msgstr "Teks mesej:"
+
+#: interface\smsDialog.py:37
+msgid "&Send"
+msgstr "&Hantar"
+
+#: interface\smsDialog.py:55
+msgid "SMS sending failed."
+msgstr "Penghantaran SMS gagal."
+
+#: interface\smsDialog.py:65
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "SMS %d, %d aksara yang tinggal, Harga saat ini %s."
+
+#: interface\smsDialog.py:67
+msgid "Empty"
+msgstr "Kosong"
+
+#: interface\systemTray.py:40
+msgid "&Contacts Manager..."
+msgstr "&Pengurus Kenalan..."
+
+#: interface\systemTray.py:40
+msgid "Open Contacts Manager"
+msgstr "Melancarkan Pengurus Kenalan"
+
+#: interface\systemTray.py:44
+msgid "&Send SMS Wizard..."
+msgstr "&Bahagian penghantaran SMS..."
+
+#: interface\systemTray.py:44
+msgid "Start SMS Send Wizard"
+msgstr "Melancarkan bahagian penghantaran SMS"
+
+#: interface\systemTray.py:48
+msgid "&Preferences..."
+msgstr "&Pilihan..."
+
+#: interface\systemTray.py:48
+msgid "Open Preferences Dialog"
+msgstr "Buka Dialog Pilihan"
+
+#: interface\systemTray.py:51
+msgid "&Tools"
+msgstr "&Alat"
+
+#: interface\systemTray.py:54
+msgid "&User Guide"
+msgstr "&Panduan Pengguna"
+
+#: interface\systemTray.py:54
+msgid "Read User Guide"
+msgstr "Baca Panduan Pengguna"
+
+#: interface\systemTray.py:58
+msgid "Read What's New"
+msgstr "Baca Apa Yang Terbaru"
+
+#: interface\systemTray.py:62
+msgid "&Contributors"
+msgstr "&Penyumbang"
+
+#: interface\systemTray.py:62
+msgid "View Contributors List"
+msgstr "Lihat Senarai Contributors"
+
+#: interface\systemTray.py:66
+msgid "&License"
+msgstr "&lesen"
+
+#: interface\systemTray.py:66
+msgid "View the license"
+msgstr "Lihat lesen"
+
+#: interface\systemTray.py:70
+msgid "%s on the &Web"
+msgstr "%s di atas &Talian"
+
+#: interface\systemTray.py:70
+msgid "Launch project Web Site in default browser"
+msgstr "Pelancaran projek di Tapak Web browser asal"
+
+#: interface\systemTray.py:74
+msgid "Check for the latest application updates"
+msgstr "Semak kemaskini aplikasi terbaru"
+
+#: interface\systemTray.py:78
+msgid "&About %s..."
+msgstr "&Tentang %s..."
+
+#: interface\systemTray.py:81
+msgid "&Help"
+msgstr "&Bantuan"
+
+#: interface\systemTray.py:83
+msgid "E&xit"
+msgstr "K&eluar"
+
+#: interface\systemTray.py:83
+msgid "Exit %s"
+msgstr "Keluar %s"
+
+#: updater.py:67
+msgid "New version available"
+msgstr "Versi baru sudah tersedia"
+
+#: updater.py:67
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Versi anda: %s. Versi terkini: %s. Adakah anda ingin memuat turun versi terkini untuk %s?"
+
+#: updater.py:75
+msgid "Update cancelled."
+msgstr "kemaskini dibatalkan."
+
+#: updater.py:81
+msgid "Accessing download URL... Please wait..."
+msgstr "Mengakses URL muat turun... Sila tunggu ..."
+
+#: updater.py:93
+msgid "Downloading update... Please wait..."
+msgstr "memuat turun versi kemaskini... Sila tunggu..."
+
+#: updater.py:105
+msgid "Update ready! Choose Ok to continue."
+msgstr "Kemaskini tersedia! Pilih OK untuk teruskan."
+
+#: updater.py:105
+#: updater.py:113
+msgid "Download completed"
+msgstr "Muat turun lengkap"
+
+#: updater.py:113
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Kemaskini telah siap untuk dipasang! Pilih Ok untuk keluar %s dan lancarkan pemasangan program yang telah dikemaskini."
+
+#: updater.py:125
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Tidak boleh mendapatkan nombor versi online, mungkin kerana hilang atau penyelenggaraan sambungan rangkaian. Semak sambungan anda atau cuba lagi kemudian."
+
+#: updater.py:125
+#: updater.py:131
+#: updater.py:137
+#: updater.py:143
+msgid "Update error"
+msgstr "Ralat kemaskini"
+
+#: updater.py:131
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Tidak dapat mencari nombor versi online. Ini mungkin kerana laman sesawang sementara tidak tersedia atau kandungannya yang diubah. Sila cuba lagi nanti."
+
+#: updater.py:137
+msgid "Couldn't access download URL. Please try again later."
+msgstr "Tidak boleh mengakses URL muat turun. Sila cuba lagi nanti."
+
+#: updater.py:143
+msgid "Download failed!"
+msgstr "Muat turun gagal!"
+
+#: updater.py:149
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Versi %s anda adalah yang terkini. Pengemaskinian tidak diperlukan. Versi terkini: %s. Versi dalam talian: %s."
+
+#: updater.py:157
+msgid "Checking for updates... Please wait..."
+msgstr "Periksa untuk kemaskini... Sila tunggu..."
+

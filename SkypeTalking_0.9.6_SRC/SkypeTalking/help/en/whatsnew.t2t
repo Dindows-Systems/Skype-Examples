@@ -1,0 +1,206 @@
+What's new in SkypeTalking
+Last Updated: %%mtime(%x)
+
+=Version 0.9.3=
+
+- SkypeTalking will now work again on computers with user names containing non-english characters.
+- SkypeTalking should again detect older JAWS versions such as 8.0, rather than switching to SAPI5. Fixed in Accessible Output 0.7.4.
+-
+
+=Version 0.9.2=
+
+- Updated serbian translation.
+- Fixed Sapi5 support and screen reader auto-detection which was broken in 0.9.
+-
+
+=Version 0.9.1=
+
+- Implemented better configuration file handling. The default config settings will be used in case if configuration may not be loaded.
+- Updated Accessible Output library. It should fix the problem where SkypeTalking will not detect some certain JAWS builds, and will switch to Sapi5 instead.
+- Updated russian documentation.
+-
+
+=Version 0.9=
+
+==New Features==[features]
+
+- Implemented SkypeTalking updater feature, that will allow you to download and update to the latest minor or major version of SkypeTalking, by using the default Alt+Control+Shift+U keystroke. You can also configure what type of update you'd like to retrieve (the installer or portable self-extracting archive), as well as turn on or off the automatic update checking at SkypeTalking startup. These options can be found under Preferences->Updates category.
+- Added new SkypeTalking Key Describer feature, that can be toggled by default with Alt+Control+Shift+K keystroke. It simply describes SkypeTalking keystrokes when they're pressed, instead of executing commands associated with them. In other words, it works like Keyboard Help feature in JAWS, or Input Help in NVDA screen reader.
+- Added new Hotkeys category to preferences, that will allow you to view and change all SkypeTalking keystrokes to your liking. It doesn't require restart, and manual .ini file editing is no longer needed.
+- Added new feature to review past events that happened during the SkypeTalking session. You can view between status change events, call events, message events, file transfer events, user action events, and Voicemail events. The default keystrokes for exploring the event history buffer are listed in SkypeTalking documentation.
+- Added basic voicemail support. You can play and delete your Voicemails. The default keystroke for reviewing last Voicemail is Alt+Control+Shift+W. If you press it twice, a Voicemail will open and play. If you press it thrice, Voicemail will be deleted.
+- You can now choose between two review modes for Alt+Control+Shift+numbers 1 through 0, Voicemail mode or Message mode. They can be toggled by using the default Alt+Control+Shift+Z keystroke. If in Message mode, Alt+Control+Shift+numbers 1 through 0 will allow you to review last 10 chat messages, like in previous versions. If in Voicemail mode, Alt+Control+Shift+numbers 1 through 0 will allow you to review, play, and delete last 10 voicemails.
+- Added Report Call Status command, Alt+Control+Shift+L by default. It'll also say the mute status of your microphone. If pressed twice, will open a dialog box allowing you to call someone by entering user's Skype name, or make a conference by entering multiple Skype names separated by commas or semicolons.
+- Added command for reporting current Skype input/output status, Alt+Control+Shift+X by default. It will speak the name of the input and output audio/video devices currently being used by your Skype client application.
+- Added the ability to monitor active file transfers (if more than one is active) by pressing the default Alt+Control+Shift+F keystroke twice. You can then pick one of the active file transfers from a List Box, and then press Enter to set monitor to it.
+- SkypeTalking will now let you know when someone wants to add you to his/her contact list. However, you still have to accept or reject a person via Skype interface. Accepting person via SkypeTalking is planned for a future version.
+- Added new alert feature that will allow you to automatically hear when someone has changed his/her mood text. Find this under Preferences/Alerts category. It's unchecked by default.
+- Added new "Start SkypeTalking with Windows" option. If enabled, SkypeTalking will start automatically when you log-on to Windows. It will then also start Skype if configured to do so. Find this under preferences/General category.
+- Added new Verbosity category to preferences, that allows you to configure how much information will be read by SkypeTalking. It includes speaking message time, speaking contact name with message, or saying "Skype alert" before or after any Skype alert.
+- Added new Advanced category to preferences, that is used for configuring options such as how Skype will start when launched by SkypeTalking, or how many times will SkypeTalking automatically attempt to connect to Skype if connection has failed.
+- Added the option for showing offline contacts in Contacts Manager. It is unchecked by default, which means that only contacts who are currently online will be displayed. It can be found under Preferences->Contacts Manager category.
+- Profile Viewer in Contacts Manager now contains the additional field, that will tell you if the selected contact has a call equipment, a webcam, or Voicemail enabled.
+- Reimplemented SkypeTalking taskbar icon. You can make it hidden by unchecking a checkbox "Show SkypeTalking icon on the taskbar" under Preferences->General category.
+- The right-click popup menu for the SkypeTalking taskbar icon has been expanded with Tools and Help menus. The Tools menu contains shortcuts for accessing Contacts Manager, SMS Wizard and Preferences, while the Help menu contains the options such as Check for Updates, Read What's New, User Guide and About.
+- The About dialog is completely new, and contains the additional buttons such as Contributors, View the License Online, Read What's New, User Guide and Check for updates.
+- Added languages: Belarusian, Danish, Hebrew, georgian, Latvian, Lithuanian and Slovenian.
+-
+
+==Changes and Improvements==[improvements]
+
+- Better speaking of file transfer statuses. You can now hear the percentage and time remaining on a currently monitored file transfer.
+- SkypeTalking will now properly recognize display names of renamed contacts, rather than always speaking their original full name or Skype name even if they were renamed by the user.
+- Change Status command, Alt+Control+Shift+Backspace has been simplified. Now you just have to pick a new status with the arrow keys from within a listbox and then press Enter to switch to that status.
+- Removed Say Caller Name command. It was replaced with Call Status command.
+- Settings are now renamed to Preferences.
+- Preferences dialog has been reworked and modernized, so there's now a treeview with categories instead of page tabs. You can navigate treeview with up and down arrows, and move between the options in a category with Tab and Shift+Tab keys.
+- Added Apply button to the preferences in addition to OK and Cancel.
+- Modified labels for some options in preferences. They are now shorter and hopefully they sound better.
+- SkypeTalking will now restart itself when switching to a new language, so the changes can fully take affect.
+- SkypeTalking settings and logs are now user-specific, unless you are running a portable version. User-specific settings are saved to documents and settings\UserName\Application Data\SkypeTalking folder.
+- SkypeTalking installation folder is now located under Program Files again.
+- Contacts Manager design has been reworked, so it now shows the contact list in a list view control with checkable items.
+- Loading of contacts in Contacts Manager is now much faster.
+- Various improvements to SkypeTalking startup and connection process.
+- SkypeTalking will now retry connection to Skype in case of failure, rather than just exiting. A number of connection retries can be configured under Preferences->Advanced category.
+- SkypeTalking will now show the message about specific initialization/startup problem, rather than just making an error beep.
+- SkypeTalking will now continue tracking the last active call and/or file transfer after the restart, rather than just saying that there's no active call or file transfer in progress.
+- SkypeTalking keystrokes with more than one function now react faster.
+-
+
+==Bug Fixes==[bugfixes]
+
+- Fixed slow reaction for ending a call with Alt+Control+Shift+End keystroke.
+- Fixed bug with SkypeTalking not exiting properly on some systems.
+- Fixed bug with shutting down Skype if the Skype version is 5.1 or newer.
+-
+
+==Updates==[updates]
+
+- SkypeTalking is now developed and compiled with Python 2.7.
+- Accessible Output library updated to version 0.6.1. With this version, SkypeTalking will also support Dolphin products (Hal, Lunar and Supernova version 12 or later).
+-
+
+=Version 0.8.1=
+
+==New Features==[features]
+
+- Added languages: Arabic, Finnish and Serbian.
+- Added command Alt+Ctrl+Shift+N which speaks call partner name of the active or incoming call.
+-
+
+==Changes and Improvements==[improvements]
+
+- Prevented echoing of SkypeTalking keystrokes when SkypeTalking is used with screen readers that are configured to echo pressed key combinations by default such as JAWS.
+- Loading of contacts in Contacts Manager may hopefully now be a bit faster.
+-
+
+==Bug Fixes==[bugfixes]
+
+- Settings dialog no longer fails to launch with SkypeTalking in german language.
+-
+
+==Updates==[updates]
+
+- Accessible Output library updated to version 0.4.3. This means that SkypeTalking will now work properly with latest update for JAWS 11.
+-
+
+=Version 0.8=
+
+==New Features==[features]
+
+- Added the ability to monitor active chats, in other words, opened chat windows. Use keystrokes Alt+Ctrl+Shift+Function keys F1 through F10 to set monitor on one of the last 10 active chats (press twice to bring focus to that chat window). You can then use Alt+Ctrl+Shift+Numbers for reading last 10 messages in currently monitored chat. Pressing Alt+Ctrl+Shift+C will announce currently monitored chat, and pressing it twice will bring focus to that chat window.
+- Added the ability to read and/or change your Skype mood text. Pressing Alt+Ctrl+Shift+M will speak your current mood text, and pressing it twice will open a dialog box that lets you change your mood text.
+- Alt+Ctrl+Shift+O command reports the current user online status, and when pressed twice, will report the user's current balance on a Skype credit.
+- Added command for speaking the current call duration, Alt+Ctrl+Shift+D.
+- Added contacts Manager, accessed with Alt+Ctrl+Shift+F11, which is the alternative to Skype contact list. It will display your contacts in a multi-select list box allowing you to select them with a spacebar and perform various actions on them such as Call, Chat or View Profile. It will also display the Last Seen information for offline contacts, which is inaccessible with some Skype versions and to some screen readers such as NVDA. The View Profile action will open a profile viewer that will allow you to review the selected contact's details by using the Tab and Shift+Tab and the arrow keys. The Call and Chat actions are self-describing. Pressing Alt+Ctrl+Shift+F11 twice will focus the original Skype contact list. If multiple contacts are selected, then you will have options for creating a conference or a multi-chat.
+- Added commands for answering and ending a call, Alt+Ctrl+Shift+Home and Alt+Ctrl+Shift+End (not on the NumPad). Pressing Alt+Ctrl+Shift+Home during a call will toggle between hold and resume for the current call. Pressing Alt+Ctrl+Shift+Home twice quickly will answer and join the incoming call to a conference. Pressing Alt+Ctrl+Shift+End twice quickly will toggle microphone mute or unmute.
+- Added support for sending SMS with SkypeTalking. The command Alt+Ctrl+Shift+S will now open an SMS wizard which will allow you to send SMS to any phone number. There are two dialogs, one for the phone number and the another one for the message text. When entering a number, use semicolons to separate multiple phone numbers and also include your country code. If everything is correct, press Enter to continue. Next, enter your SMS text, then press Enter or tab to Send button to send a message, or press Escape or Cancel Button to cancel sending. While composing a message, you can press F2 to check out your current SMS count, how many characters you have left, and also the current SMS price. A Critical Stop sound will play in case when there are 0 characters left in a message text.
+- Added a new option to settings dialog to automatically quit Skype when exiting SkypeTalking. It's set to On by default.
+- Added a new option to settings dialog, "Confirm when exiting SkypeTalking". It's turned on by default, so now when exiting SkypeTalking, you should also confirm that you want to exit. If it's turned off, SkypeTalking will behave like in previous versions, which means that it will exit immediately. This option was added to prevent users from exiting program by accident.
+- Added the ability to customize SkypeTalking keyboard shortcuts, though currently you have to use INI file for this. The Key Bindings tab in the Settings dialog is scheduled for the next release. If the keyboard assignment in SkypeTalking.INI is incorrect, than the default assignment will be used, but user will also be warned about an invalid assignment. You can modify all keystrokes under the [shortcuts] section. Please use this carefully, and also restart SkypeTalking if the changes didn't take affect immediately.
+- Added languages: Danish and French.
+-
+
+==Changes and Improvements==[improvements]
+
+- Read last chat message command changed from Alt+Ctrl+Shift+M to Alt+Ctrl+Shift+R. Also when pressed twice, will move the focus and monitor to that chat.
+- Exit SkypeTalking command changed from Alt+Ctrl+Shift+F4 to Alt+Ctrl+Shift+Q (for Quit).
+- The Settings Dialog command changed from Alt+Ctrl+Shift+S to Alt+Ctrl+Shift+P (for Preferences).
+- Removed taskbar icon. You can now use associated SkypeTalking commands instead of the right-click menu.
+- API wrapper version is now spoken when pressing Alt+Ctrl+Shift+V twice, since this information is not useful for the end users.
+- call duration is now reported in hours, minutes and seconds.
+- Added file transfer speed and data transferred information to File Transfer Status command (Alt+Ctrl+Shift+F).
+- SkypeTalking will no longer allow multiple instances running at the same time, and it will reproduce a Ding sound if the user tries launching another instance of SkypeTalking by accident while it's in memory.
+- If the critical error happens while loading SkypeTalking, an error tone will be played from your PC speaker. Please inform the developers about this as soon as it happens.
+-
+
+==Bug Fixes==[bugfixes]
+
+- SkypeTalking will no longer ignore contacts that haven't set their full names, and it'll speak their Skype Id's instead. Thus, you will no longer hear something like "Skype: is online".
+- When opening settings dialog, the focus is now properly set to Language Combo Box.
+- In settings dialog, the Ok and Cancel buttons are no longer bypassed when navigating with Shift+Tab.
+-
+
+=Version 0.7=
+
+==New Features==[features]
+
+- You can now view last 10 chat messages by using Alt+Ctrl+Shift+1 through 0. If pressed twice quickly, SkypeTalking will copy message to clipboard. If pressed thrice quickly, SkypeTalking will open URL in a message if there's one.
+- You can now toggle your status on the fly by using Alt+Ctrl+Shift+Backspace.
+- Toggle ignoring of Skype events by using Alt+Ctrl+Shift+I.
+- Basic support for file transfers. You can read the current status of last file transfer by using Alt+Ctrl+Shift+F.
+- Added languages: Czech, Turkish, Japanese and Malay.
+-
+
+==Changes and Improvements==[improvements]
+
+- Better handling of call statuses.
+- Changed default install location to a root directory of your Windows partition to avoid failures on Windows Vista and Windows 7 machines.
+-
+
+==Updates==[updates]
+
+- Accessible Output library is now up-to-date.
+-
+
+=Version 0.6.1=
+
+- Added languages: Bulgarian, Chinese (mandarin), German, Italian, Hungarian, Polish, Russian, Ukranian and Portuguese.
+- Added repeat last event command, keystroke Alt+Ctrl+Shift+E.
+- Alt+Ctrl+Shift+Tab keystroke changed to Alt+Ctrl+Shift+M for repeating the last chat message.
+-
+
+=Version 0.6=
+
+- Added settings dialog.
+- Implemented multilanguage support.
+- Added keyboard shortcuts.
+- SkypeTalking now supports Unknown and SkypeOut statuses.
+- You can now toggle announcement of incoming and outgoing messages separately.
+- Various minor fixes.
+-
+
+=Version 0.5.1=
+
+- Added support for JAWS, Window-Eyes and System Access screen readers as well as SAPI5 speech support.
+- Added configuration file SkypeTalking.ini where you can set parameters such as speech and braille output, SAPI5 voice parameters, and other configurable options of SkypeTalking. Note that currently there's no settings dialog, thus options must be configured manually by editing SkypeTalking.ini.
+- Added log file SkypeTalking.log which contains important info for developers. Please include this log file when reporting an issue!
+- Added option for automatic starting of Skype if it is not running at the moment of launching SkypeTalking application.
+- Added option for automatic reading of chat messages. It is recommended to turn it off if using SkypeTalking together with JAWS scripts for Skype to avoid duplicate speaking of messages.
+- Added the ability to turn on or off the announcement of individual user statuses. All statuses are announced by default.
+- Better speaking of user statuses.
+- Completely rewritten About Dialog. Added version information, URL and Copyright information.
+-
+
+=Version 0.5=
+
+First release, added basic features:
+- announce welcome message with currently logged-in user name
+- announce Skype API attach status
+- announce user status and user's contacts online status including online, offline, away, N/A etc.
+- announce call statuses and caller names on incoming calls
+- announce incoming and outgoing chat messages
+- support for NVDA (a free and open source screen reader) (output in both speech and braille)
+- runs in system tray, added options About and Exit to the right-click popup menu
+-

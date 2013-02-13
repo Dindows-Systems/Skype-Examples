@@ -1,0 +1,78 @@
+SkypeTalking-versiohistoria
+
+Versio 0.8.1:
+Uutta: Lisätty kielet: suomi ja serbia
+Uutta: Lisätty komento Alt+Ctrl+Shift+N joka sanoo nykyisen tai saapuvan puhelun toisen osapuolen nimen.
+Parannus: SkypeTalking-näppäinkomentojen kaiutus estetty, kun SkypeTalkingia käytetään sellaisen ruudunlukuohjelman kanssa, joissa näppäinyhdistelmien sanominen on oletusasetuksena, kuten JAWSissa.
+Parannus: Yhteystiedot latautuvat nyt toivottavasti hieman nopeammin Yhteystietojenhallinnassa.
+Korjaus: Asetusikkuna avautuu nyt kunnolla saksankielisessä SkypeTalkingissa.
+Päivitys: Accessible Output -kirjasto päivitetty versioon 0.4.3. Tämän ansiosta SkypeTalking toimii nyt oikein uusimman JAWS 11 -päivityksen kanssa.
+
+Versio 0.8
+Uutta: Lisätty mahdollisuus seurata meneillään olevia chatteja, toisin sanoen avattuja chatti-ikkunoita. Käytä näppäinkomentoja Alt+Ctrl+Shift+funktionäppäin F1 - F10 asettaaksesi seurantaan jonkin 10 viimeisimmästä chatti-ikkunoista (paina kahdesti siirtääksesi syöttökohdan kyseiseen chatti-ikkunaan). Voit sitten käyttää Alt+Ctrl+Shift+numeroita lukeaksesi 10 viimeisintä viestiä parhaillaan seurattavasta chatista. Näppäinkomento Alt+Ctrl+Shift+C ilmoittaa tällä hetkellä seurattavan chatin, ja painamalla sitä kahdesti syöttökohta siirtyy kyseiseen chatti-ikkunaan.
+Uutta: Lisätty mahdollisuus lukea ja/tai muuttaa oman Skype-tilannetekstisi. Paina Alt+Ctrl+Shift+M kuullaksesi nykyisen tilannetekstin, ja paina sitä kahdesti avataksesi ikkunan, jossa voit vaihtaa tekstin.
+Uutta: Alt+Ctrl+Shift+O-komento ilmoittaa nykyisen käyttäjän online-tilan, ja kun sitä painetaan kahdesti, kuulet tämänhetkisen Skype-krediittiesi saldon.
+Uutta: Lisätty komento puhelun keston sanomiseksi: Alt+Ctrl+Shift+D.
+Uutta: Lisätty Yhteystietojenhallinta, Alt+Ctrl+Shift+F11, joka on vaihtoehto Skypen yhteystietoluettelolle. Se näyttää yhteystietosi monivalintaluettelossa josta voidaan valita välilyönnillä ja tehdä näille erilaisia toimintoja, kuten soittaa, chatata tai tarkastella profiilia. Se näyttää myös tiedot offline-tilassa olevien yhteystietojen viimeisimmästä paikallaolosta, mikä ei ole mahdollista joissakin Skype-versioissa eikä joillakin ruudunlukuohjelmilla, kuten NVDA:lla. Näytä profiili -toiminto avaa profiilintarkasteluikkunan, jossa voit tarkastella valitun yhteystiedon profiilitietoja Tab- ja Shift+Tab-näppäimillä ja nuolinäppäimillä. Soita- ja Aloita keskustelu -toiminnot toteuttavat mainitun tehtävän. Kun painat Alt+Ctrl+Shift+F11 kahdesti, alkuperäinen Skype-yhteystietoluettelo tulee aktiiviseksi. Jos useita yhteystietoja on valittuna, sinulla on mahdollisuus luoda neuvottelupuhelu tai ryhmächatti.
+Uutta: Lisätty komento, jolla vastataan puheluun ja lopetetaan puhelu: Alt+Ctrl+Shift+Home ja Alt+Ctrl+Shift+End (ei laskinosasta). Painamalla Alt+Ctrl+Shift+Home puhelun aikana voit vuorotella tämänhetkisen puhelun pitoon ja pidosta pois. Kun painetaan Alt+Ctrl+Shift+Home kaksi kertaa nopeasti, saapuvaan puheluun vastataan ja puhelu liitetään neuvotteluun. Kun painetaan Alt+Ctrl+Shift+End kaksi kertaa nopeasti, mikrofoni saadaan mykistettyä tai jälleen käyttöön.
+Uutta: Lisätty mahdollisuus lähettää SMS-viestejä SkypeTalking-ohjelmalla. Komento Alt+Ctrl+Shift+S avaa SMS-viestin luonnin, jolla voit lähettää SMS-viestejä mihin tahansa puhelinnumeroon. Siinä on kaksi ikkunaa: yksi puhelinnumerolle ja toinen viestin tekstille. Kun syötät numeroita, erottele eri numerot puolipisteellä ja anna myös maatunnuksesi. Jos kaikki on oikein, paina Enter jatkaaksesi. Syötä sitten SMS-tekstisi, ja paina sitten Enter tai siirry sarkaimella Lähetä-painikkeeseen, lähettääksesi viestin, tai paina Esc tai Peruuta-painiketta peruaksesi lähettämisen. Kun kirjoitat viestiä, voit painaa F2 tarkistaaksesi merkkien määrän, montako merkkiä on jäljellä, sekä nykyisen SMS-viestin hinnan. Mikäli viestissä on jäljellä 0 merkkiä, kuuluu kriittisen pysähdyksen merkkiääni.
+Uutta: Lisätty uusi kohta Asetukset-ikkunaan: Skypen automaattinen sulkeminen kun SkypeTalking lopetetaan. Oletuksena se on käytössä.
+Uutta: Lisätty uusi kohta Asetukset-ikkunaan: "Vahvista SkypeTalkingin sulkeminen". Oletuksena se on käytössä, joten kun aiot sulkea SkypeTalking, sinun on vahvistettava, että haluat sulkea sen. Jos asetus ei ole valittuna, SkypeTalking toimii aiempien versioiden tapaan, mikä tarkoittaa, että se sulkeutuu välittömästi. Tämä asetus lisättiin sen estämiseksi, että käyttäjä sulkisi ohjelman vahingossa.
+Uutta: Lisätty mahdollisuus mukauttaa SkypeTalking-pikanäppäimiä, tosin tällä hetkellä joudut käyttämään siihen INI-tiedostoa. Asetusikkunan näppäinkomentojen välilehti on suunnitteilla seuraavaan julkaisuun. Mikäli näppäinmääritys on virheellinen SkypeTalking.INI-tiedostossa, käytetään oletusnäppäintä, mutta käyttäjää myös varoitetaan virheellisestä määrityksestä. Voit muokata kaikkia näppäinkomentoja [shortcuts]-osiosta. Ole tämän kanssa varovainen, ja käynnistä SkypeTalking uudestaan, elleivät muutokset tulleet voimaan heti.
+Uutta: Lisätty kielet: tanska ja ranska.
+Muutos: Viimeisen chattiviestin lukukomento vaihdettu Alt+Ctrl+Shift+M:stä Alt+Ctrl+Shift+R:ksi. Kun sitä painetaan kahdesti, syöttökohta ja seuranta siirtyy tähän chattiin.
+Muutos: Sulje SkypeTalking -kommento vaihdettu Alt+Ctrl+Shift+F4:stä Alt+Ctrl+Shift+Q:hun (= Quit).
+Muutos: Asetusikkunan komento vaihdettu Alt+Ctrl+Shift+S:stä Alt+Ctrl+Shift+P:ksi (= Preferences).
+Muutos: Poistettu tehtäväpalkin kuvake. Voit nyt käyttää vastaavia SkypeTalking-komentoja kuvakkeen pikavalikon sijaan.
+Muutos: API-liitännän versiota ei sanota, kun painetaan Alt+Ctrl+Shift+V kahdesti, sillä tämä tieto ei ole hyödyllistä peruskäyttäjälle.
+Parannus: Puhelunkesto ilmoitetaan nyt tunteina, minuutteina ja sekunteina.
+Parannus: Lisätty tiedostonsiirron nopeus- ja siirretyn määrän tiedot tiedostonsiirtotila-komentoon (Alt+Ctrl+Shift+F).
+Parannus: SkypeTalking ei enää anna käynnistää samanaikaisesti toista kopiota itsestään, ja antaa äänimerkin, jos käyttäjä yrittää käynnistää SkypeTalkingin toisen  kopion vahingossa, kun se on jo muistissa.
+Parannus: Jos SkypeTalkingia käynnistettäessä tapahtuu kriittinen virhe, tietokoneesi kaiuttimesta kuuluu virheääni. Ilmoita tästä kehittäjille heti kun näin tapahtuu.
+Korjaus: SkypeTalking ei enää jätä huomiotta yhteystietoja, jotka eivät ole asettaneet koko nimeään, vaan sanoo sen sijaan heidän Skype-nimensä. Täten jatkossa ei kuulu jotain tällaista: "Skype: on online-tilassa".
+Korjaus: Kun asetusikkuna avataan, syöttökohta siirtyy nyt oikein Kieli-yhdistelmäruutuun.
+Korjaus: Asetusikkunassa Ok- ja Peruuta-painikkeita ei enää ohiteta kun selataan Shift+Tab-näppäinkomennolla.
+
+Versio 0.7
+Uutta: Voit nyt tarkastella 10 viimeisintä chattiviestiä näppäinkomennoilla Alt+Ctrl+Shift+1 - 0. Jos näitä painetaan kaksi kertaa nopeasti, SkypeTalking kopioi viestit leikepöydälle. Jos niitä painetaan kolme kertaa nopeasti, SkypeTalking avaa viestissä olevan web-osoitteen, jos siinä on sellainen.
+Uutta: Voit nyt vaihtaa tilasi lennosta näppäinkomennolla Alt+Ctrl+Shift+Backspace.
+Uutta: Kytke Skype-tapahtumien ilmoitus päälle/pois näppäinkomennolla Alt+Ctrl+Shift+I.
+Uutta: Perustuki tiedostonsiirrolle. Voit lukea viimeisimmän tiedostonsiirron nykyisen tilan käyttämällä näppäinkomentoa Alt+Ctrl+Shift+F.
+Uutta: Lisätty kielet: tsekki, turkki, japani ja malaiji.
+Parannus: Puheluntila käsitellään nyt paremmin.
+Päivitys: Accessible Output -kirjasto on nyt ajantasainen.
+Asennusohjelma: Vaihdettu oletusasennuspaikaksi Windows-osion juurihakemisto virheiden välttämiseksi Windows Vista- ja Windows 7 -koneissa.
+
+Versio 0.6.1
+Uutta: Lisätty kielet: bulgaria, kiina (mandariini), saksa, italia, unkari, puola, venäjä, ukraina ja portugali.
+Uutta: Toista viimeisin tapahtuma -komento, pikanäppäin Alt+Ctrl+Shift+E.
+Muutos: Alt+Ctrl+Shift+Tab-näppäinkomento vaihdettu Alt+Ctrl+Shift+M-näppäimeksi viimeisen chattiviestin toistamiseksi.
+
+Versio 0.6
+Uutta: Lisätty asetusikkuna.
+Uutta: Monikielisyyden tuki.
+Uutta: Lisätty pikanäppäimiä.
+Uutta: SkypeTalking tukee nyt tiloja tuntematon ja SkypeOut.
+Uutta: Voit nyt määrittää saapuvien ja lähtevien viestien ilmoittamisesta erikseen.
+Korjaus: Erilaisia pienehköjä korjauksia.
+
+Versio 0.5.1
+Uutta: Lisätty tuki JAWS-, Window-Eyes- ja System Access -ruudunlukuohjelmille sekä SAPI5-puhetuki.
+Uutta: Lisätty asetustiedosto SkypeTalking.ini jossa voit määrittää parametreja, kuten puhe- ja pistetulostus, SAPI5-ääniparametreja ja muita SkypeTalkingin säädettäviä ominaisuuksia. Huomaa, että tällä hetkellä ei ole asetusikkunaa, joten asetukset pitää tehdä muokkaamalla SkypeTalking.ini-tiedostoa.
+Uutta: Lisätty lokitiedosto SkypeTalking.log jossa on tärkeää tietoa kehittäjille. Liitä lokitiedosto mukaan, kun raportoit ohjelmasta!
+Uutta: Lisätty mahdollisuus käynnistää Skype automaattisesti, ellei se ole käynnissä SkypeTalking-sovelluksen käynnistyshetkellä.
+Uutta: Lisätty mahdollisuus luettaa chattiviestit automaattisesti. Tämä on suositeltavaa kytkeä pois, jos SkypeTalkingia käytetään JAWSin Skype-skriptien kanssa, jotta viestejä ei puhuttaisi kahdesti.
+Uutta: Lisätty mahdollisuus kytkeä päälle tai pois yksittäisten käyttäjien tilan sanominen. Oletuksena kaikki tilat ilmoitetaan.
+Muutos: Käyttäjän tilan sanomista parannettu.
+Muutos: Täysin uudistettu Tietoa ohjelmasta -ikkuna. Lisätty versiotiedot, Web-osoite ja tekijänoikeustiedot.
+
+Versio 0.5
+Ensimmäinen julkaisu, lisätty perusominaisuudet:
+
++ ilmoittaa tervetuloviestissä kirjautuneen käyttäjänimen
++ ilmoittaa Skype API -kytkennän tilan
++ ilmoittaa käyttäjän ja yhteystietojen online-tilan: online, offline, poissa, ei tavoitettavissa jne.
++ ilmoittaa puhelujen tilat ja saapuvien puhelujen soittajan nimen
++ ilmoittaa saapuvat ja lähtevät chattiviestit
++ tukee NVDA:ta (maksuton avoimen koodin ruudunlukuohjelma); tulosteet puheeksi ja pistekirjoitusnäytölle
++ voidaan käyttää tehtäväpalkin ilmaisinalueelta, lisätty kohdat Tietoa ohjelmasta ja Sulje hiiren kakkosnapilla avattavaan valikkoon

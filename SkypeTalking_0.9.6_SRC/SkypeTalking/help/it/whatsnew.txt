@@ -1,0 +1,119 @@
+Novità in Skypetalking
+
+Versione 0.8.1:
+Nuovo: Aggiunte le lingue Finlandese, Arabo e serbo.
+
+Nuovo: Aggiunto il comando alt+ctrl+shift+n che annuncia il nome della persona con cui stiamo parlando o comunque inerente la chiamata attiva.
+
+Migliorato: I tasti caldi non verranno ripetuti più volte nel caso si utilizzi uno screen reader con eco tasti attivato.
+
+Migliorato: Il caricamento dei contatti quando si attiva "gestione contatti" ora dovrebbe avvenire più velocemente.
+
+BugFix: L'apertura della finestra impostazioni non genera più un errore nel caso si utilizzi la lingua tedesca.
+
+Aggiornamento: le librerie Accessible Output sono aggiornate alla versione 0.4.3, che consente un funzionamento ottimale anche con Jaws11.
+
+Versione 0.8
+
+Nuovo: aggiunta la possibilità di monitorare chat attive, in altre parole, finestre di chat aperte. Usare le combinazioni di tasti Alt+CTRL+Shift+tasti funzione da f1 a f10 per monitorare una delle ultime 10 chat attive, (premere due volte il tasto funzione per portare in primo piano quella finestra di chat). Sarà poi possibile utilizzare i tasti Alt+CTRL+Shift+Numeri per leggere gli ultimi 10 messaggi della chat attualmente monitorata.
+Premendo Alt+CTRL+Shift+C verrà annunciata la chat che si sta controllando al momento, mentre una doppia pressione del tasto C porterà in primo piano tale chat.
+
+Nuovo: Aggiunta la possibilità di conoscere/modificare il proprio messaggio d'umore. Premendo Alt+CTRL+Shift+M lo si potrà ascoltare, mentre premendo la M due volte provocherà l'apertura di una finestra di dialogo all'interno della quale sarà possibile modificarlo.
+
+Nuovo: Il Comando Alt+CTRL+Shift+O permette di conoscere il proprio stato, mentre premendolo due volte verranno fornite informazioni sul proprio credito Skype.
+
+Nuovo: aggiunto un comando per conoscere la durata della chiamata corrente, Alt+CTRL+Shift+D.
+
+Nuovo: Aggiunta la funzione Gestione contatti, accessibile con la combinazione di tasti Alt+CTRL+Shift+f11, che funge da alternativa alla finestra contatti classica di Skype. Verranno mostrati  i propri contatti in una visualizzazione ad elenco a selezione multipla, permettendo la selezione di ciascun contatto con la barra spazio e dando la possibilità di svolgere operazioni su di essi, come ad esempio chiamata, chat o visualizzazione profilo. Verrà visualizzata anche la voce "visto l'ultima volta" per gli utenti non in linea, un dato che spesso è poco accessibile in alcune versioni di Skype e con lo screen reader NVDA. La voce "Visualizza profilo" apre una finestra contenente tutte le informazioni inerente il contatto sul quale e' posizionato il cursore, ci si può spostare tra i vari campi con il tasto Tab e  i tasti freccia possono essere utilizzati per leggere i dati con maggior precisione.
+I bottoni "chiama" e "chat" si spiegano da se'. 
+Se vengono selezionati piu' contatti con la barra spazio, appariranno ulteriori pulsanti per creare conferenze e conversazioni multiple o a gruppi.
+La pressione della combinazione Alt+CTRL+Shift+f11, due volte, farà aprire la finestra contatti standard di Skype.
+
+Nuovo: aggiunti i comandi per rispondere e terminare una chiamata, Alt+CTRL+Shift+Home e Alt+CTRL+Shift+End.  Premendo Alt+CTRL+Shift+Home durante una chiamata, si ciclerà tra la  messa in attesa e la ripresa della chiamata corrente. Premendo Alt+CTRL+Shift+Home due volte velocemente, in caso vi sia una chiamata in arrivo 
+mentre ci si trova in conversazione, si risponderà a tale chiamata e verrà messa automaticamente in conferenza con la precedente.
+Premendo Alt+CTRL+Shift+End due volte velocemente, si ciclerà tra microfono silenziato e normale.
+
+Nuovo: Aggiunto il supporto per inviare Sms tramite Skypetalking. Il comando Alt+CTRL+Shift+S provocherà l'apertura di una procedura guidata all'interno della quale sarà possibile inviare Sms a qualsiasi numero telefonico.
+Vi sono due finestre di dialogo, una relativa al numero telefonico e l'altra inerente il testo dell'sms. Quando si inserisce un numero telefonico, è possibile aggiungere più destinatari separando ciascun numero con un punto e virgola, inoltre è bene ricordarsi di includere anche il codice della nazione prima del numero telefonico, ad esempio 39 per Italia. Una volta digitato il numero di telefono premere invio per continuare.
+Nella videata successiva scrivere il testo dell'sms, dopodiche' premere invio per spedirlo oppure esc per uscire dalla procedura guidata, o servirsi degli appositi bottoni. Durante la scrittura del messaggio, è possibile premere il tasto f2 per conoscere il totale degli sms che verranno inviati, il numero di caratteri rimanenti e il prezzo che si andrà a spendere. Ogni qualvolta si raggiungerà il massimo numero di caratteri di un sms, un segnale acustico avvertirà l'utente. 
+
+Nuovo: aggiunta una nuova opzione nella finestra delle impostazioni che permette di chiudere Skype all'uscita di Skypetalking. E' impostata su attivata di default.
+
+Nuovo: aggiunta un-opzione nella finestra di configurazione, conferma l'uscita da Skypetalking. Se attivata, come da impostazioni predefinite, il programma chiederà conferma prima di chiudersi.
+
+Nuovo: aggiunta la possibilità di personalizzare le scorciatoie da tastiera di Skypetalking, tuttavia al momento bisogna modificare il file skypetalking.ini, non esistendo ancora un'interfaccia grafica atta allo scopo, che risulta in progetto per la prossima versione.
+Nel caso le assegnazioni dei tasti caldi nel file skypetalking.ini risultassero errate, allora verranno utilizzate le impostazioni predefinite, ma l'utente verrà avvisato di un'assegnazione errata. E' possibile modificare tutte le combinazioni di tasti cercando la sezione [shortcuts]. Si prega di operare la massima attenzione in questo tipo di operazione e di riavviare Skypetalking nell'eventualità i cambiamenti desiderati non venissero applicati al volo.
+
+Nuovo: aggiunta traduzione danese.
+
+Nuovo: aggiunta traduzione francese.
+
+Modifica: Il comando per leggere l'ultimo messaggio chat è stato spostato da Alt+CTRL+Shift+M a Alt+CTRL+Shift+R, .
+La doppia pressione farà in modo che la chat venga messa in primo piano e venga monitorata.
+
+Modifica: Il comando Esci da Skypetalking è stato spostato da Alt+CTRL+Shift+F4 a Alt+CTRL+Shift+Q. 
+
+Modifica: il comando per aprire le impostazioni del programma è stato spostato da Alt+CTRL+Shift+S a Alt+CTRL+Shift+P.
+
+Modifica: Rimossa l'icona dalla barra delle applicazioni. Utilizzare i comandi appositi di Skypetalking piuttosto di cliccare di destro sull'icona.
+
+Modifica: Le informazioni circa la Versione di Api Wrapper vengono fornite solo se la combinazione Alt+CTRL+Shift+v viene premuta due volte, in quanto questo genere di dati non interessa all'utente finale.
+
+Migliorato: la durata delle chiamate ora è riportata in ore, minuti e secondi.
+
+Migliorato: aggiunte informazioni sulla velocità e sulla quantità di bytes trasferiti quando si utilizza il comando Alt+CTRL+Shift+F.
+
+Migliorato: Non sarà piu' possibile avviare più copie di Skypetalking in memoria, un suono di errore avviserà l'utente.
+
+Migliorato: se durante l'avvio del programma si verificasse un errore grave, verrà emesso un suono d'errore attraverso l'altoparlante del pc, non le casse. Si prega di avvisare gli sviluppatori nel caso si verifichi questa circostanza.
+
+Bugfix: Skypetalking non ignorerà piu' quei contatti che non hanno impostato il proprio nome reale, annunciando al suo posto il NomeSkype.
+
+BugFix: Durante l'apertura della finestra  impostazioni, il puntatore è correttamente posizionato sulla casella combinata inerente le lingue.
+
+
+Versione 0.7
+Nuovo: è possibile leggere gli ultimi 10 messaggi di chat con le combinazioni di tasti alt+shift+ctrl+1 fino allo 0. Se l'ultimo tasto, ad esempio 1, 2, 3, etc, viene premuto velocemente due volte, il messaggio sarà copiato negli appunti. Se viene premuto tre volte, verrà effettuata la ricerca di un indirizzo internet valido (url), e se trovato, verrà aperto il browser predefinito con la pagina a cui punta il link.
+Nuovo: è possibile selezionare il proprio Stato al volo con la combinazione di tasti Alt+ctrl+shift+backspace.
+Nuovo: attiva/disattiva lettura eventi skype con alt+ctrl+shift+i.
+Nuovo: supporto base al trasferimento file. E' possibile leggerne lo stato con la combinazione ctrl+alt+shift+f.
+Nuovo: aggiunte le lingue Ceco, Giapponese, Turco e Malese.
+Migliorato: gestione dello stato delle chiamate.
+Aggiornato: le librerie Accessible Output ora sono aggiornate all'ultima versione.
+Installer: cambiato il percorso di installazione del programma, ora viene utilizzata la cartella radice del proprio disco fisso per evitare problemi nei sistemi Windows Vista e Windows 7.
+
+Versione 0.6.1
+Nuovo: Aggiunte le lingue: Bulgaro, Cinese, Italiano, Tedesco, Ungherese, russo, polacco, portoghese e ucraino.
+Nuovo: ripete l'ultimo evento, comando ctrl+alt+shift+e.
+Cambiamento: alt+ctrl+shift+tab è stato cambiato in alt+ctrl+shift+m per leggere l'ultimo messaggio.
+
+Versione 0.6
+
+Nuovo: aggiunta la finestra impostazioni.
+Nuovo: supporto multilingue.
+Nuovo: aggiunte scorciatoie da tastiera.
+Nuovo: Skypetalking ora supporta gli stati sconosciuto e skype out.
+Nuovo: possibilità di commutare la lettura di messaggi inviati e ricevuti separatamente.
+Bug Fix: vari bug sistemati.
+
+Versione 0.5.1
+
+Nuovo: aggiunto il supporto agli screen reader Jaws, Window-Eyes e System Access, nonché alle sintesi vocali Sapi5.
+Nuovo: aggiunto il file di configurazione skypetalking.ini, dove sono contenuti i parametri di configurazione della voce, del braille e di tutte le opzioni di skypetalking. 
+Nuovo: aggiunto il file skypetalking.log, che contiene importanti informazioni per gli sviluppatori. In caso di segnalazione di bug o malfunzionamenti, si prega di allegare questo file!
+Nuovo: Aggiunta l'opzione per far partire skype automaticamente all'esecuzione di Skypetalking.
+Nuovo: aggiunta la possibilità di farsi leggere in automatico i messaggi delle chat. Si consiglia di disabilitare questa opzione nel caso si abbiano installati scripts per altri screen readers.
+Nuovo: aggiunta la possibilità di attivare/disattivare la lettura di ciascuno stato degli utenti. Tale opzione è attivata da impostazione predefinita.
+Cambiamento: migliore gestione dello stato degli utenti.
+Cambiamento: completamente riscritta la finestra Informazioni su. Aggiunte informazioni sulla versione, URL del progetto e informazioni di copyright.
+
+Versione 0.5
+Prima Release, aggiunte le funzioni di base:
+Annuncio del messaggio di benvenuto comprensivo dell'username loggato.
+Annuncio stato SkypeApi.
+Annuncio dello stato del proprio utente e di quello degli altri.
+Lettura dello stato della chiamata e del nome del chiamante in caso di chiamata in arrivo.
+Lettura di messaggi di chat inviati e ricevuti.
+Supporto per lo screen reader opensource NVDA, sia per quanto riguarda la sintesi vocale che i braille.
+Funziona nel System Tray, con la possibilità di chiudere il programma e di visualizzare le informazioni su Skypetalking.
+

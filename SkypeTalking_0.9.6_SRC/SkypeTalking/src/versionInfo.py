@@ -1,0 +1,10 @@
+name="SkypeTalking"
+version=["0.9.6"]
+description="Provides access to Skype using speech and refreshable braille"
+url="http://skypetalking.googlecode.com"
+license="GPL2.0"
+copyright="(C) 2010 - 2011"
+author="Hrvoje Katic"
+author_email="hrvojekatic@gmail.com"
+platform="Windows XP/Vista/7"
+isTestVersion = not version[0].isdigit() or "alpha" in version[0] or "beta" in version[0]

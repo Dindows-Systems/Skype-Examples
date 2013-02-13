@@ -1,0 +1,305 @@
+﻿SkypeTalking
+verzió 0.9
+Copyright (c)2011 Hrvoje Katic/SkypeTalking közreműködők
+Utolsó frissítés: %%mtime(%x)
+Magyarra honosította: "NVDA Honosítási Project (www.nvda.hu).
+
+=Bevezetés=[introduction]
+
+ A SkypeTalking egy olyan szoftver, amely még jobban használhatóvá teszi a Skype-ot a látássérültek számára. A Skype egy népszerű internetes telefonáló program. A SkypeTalking a Skype API wrapper segítségével nyeri ki a kellő információkat a Skype-ból, és kiküldi a felhasználó képernyőolvasó programjának szöveges, és braille üzenetként egyaránt. A SkypeTalking beszédtámogatást nyújt a legtöbb Skype üzenethez; ebbe beletartozik a felhasználók állapotváltozásának jelzése, ki és beérkező szöveges üzenetek olvasása, hívások információi, és még sok egyéb. A SkypeTalking főleg az NVDA programhoz készült, (mely egy ingyenes, és nyílt forráskódu program), mivel az nem támogatta teljeskörüen a Skype akadálymentes használatát. De ettől függetlenül, a SkypeTalking támogatja a Jaws for Windows, Window-eyes, System Access, Dolphin Hal/Supernova  képernyőolvasókat, ezen felül a sapi 5-ös hangokat (viszont ekkor nincsen braille támogatás).
+A SkypeTalking egyre több nyelvet kezel világszerte, így mindenki a saját nyelvén használhatja. Eddig a következő nyelveket ismeri a program:
+arab, bolgár, cseh, dán, német, spanyoll, finn, francia, héber, magyar, olasz, japán, grúz, litván, görög, maláj, lengyel, portugál, orosz, szerb, török, ukrán, és kínai
+
+==Rendszerkövetelmények==[SystemRequirements]
+
+- A SkypeTalking problémamentes használatához • Windows 2000, Xp, Vista, vagy 7 operációs rendszerre, 
+- valamelyik támogatott képernyőolvasó programra,
+- a Skype 3.x, 4.x vagy 5.x verziójára van szüksége: 
+-
+Jelenleg támogatott képernyőolvasók: NVDA 2010.1 vagy újabb, Dolphin termékek (12.0 vagy újabb verzió), Jaws for Windows Window-eyes és System Access (bármelyik verziója ide tartozik a System Access to Go is), 
+Ha ön egyik támogatott képernyőolvasót sem használja, a program a Sapi 5-ös hangokat fogja használni. A Windows rendszerhez alapból telepítve van egy angol Sapi 5-ös beszédhang. Az [Espeak for windows sapi 5-ös beszédszintetizátor http://sourceforge.net/espeak] telepítésével és a vezérlőpult/beszéd beállításával más nyelven is használhat sapi5 felületű beszédszintetizátort. 
+A Skype 1.x és 2.x verziókat nem teszteltük, ezek használata nem ajánlott." 
+
+=A program használata=[GettingStarted]
+
+==A program telepítése, és első indítása==[InstallationAndFirstRun]
+
+A program telepítéséhez futtassa a letöltött skypetalking_setup.exe fájlt, és kövesse az utasításokat. A telepítő létrehoz egy parancsikont az asztalon és a start menü-programok menüjében. A program mappáját SkypeTalking néven találhatja meg merevlemezének rendszer meghajtóján (ez legtöbb esetben a C betüvel van jelölve).
+A SkypeTalking eltávolításához válassza a start menü / programok / SkypeTalking / "Uninstall SkypeTalking" ikont.
+A programot értelemszerüen az asztalon, és a start menüben található ikonokkal indíthatja.
+Első indításkor a program még nincs hitelesítve a skype számára. Ekkor a Skypetalking egyik funkciója sem működik, így ezt legtöbbször kézzel kell megtennie. A program első indításakor a Skype fel fog dobni egy ablakot, amin az "engedélyezés" gombbal feloldhatja a SkypeTalking blokkolását a Skype számára. Ha nem jelenik meg ilyen ablak, tegye a következőket:
+1. Futtassa a Skypetalkingot az asztalon vagy a start menüben található ikonok egyikével
+2. Nyissa meg a skype-ot * jelentkezzen be *
+3. Válassza ki az eszközök menüt, és aktiválja a "beállítások" menüpontot
+4. A le nyíl segítségével keresse meg a haladó beállításokat
+5. Addig nyomogassa a shift+tab billentyűkombinációt, amig nem hallja a "más programok hozzáférésének kezelése" üzenetet. Ezt a linket aktiválja az enter lenyomásával.
+6. Keresse meg a Skypetalkingot a listában, majd a ktiválja a "módosítás" gombot a szóköz billentyűvel (2-3 tab leütésével juthat ide)
+7. A megnyíló ablakban a fel-le nyilak segítségével válassza ki a "Mindig hozzáférhet a skypehoz" választógombot, majd nyomja meg az enter billentyűt.
+8. Ezentúl a SkypeTalking hozzá fog férni az ön Skype programjához. Ha mindent jól csinált, hallani fogja a program üdvözlő szövegét, így az escape többszöri lenyomásával bezárhatja a beállítások ablakát. Ezt a műveletet szerencsére többször nem kell elvégeznie (csak akkor, ha megváltoztatja a SkypeTalking mappájának elérési útját).
+
+A SkypeTalking a háttérben fut, de az ikonja megtalálható a rendszertálcán. Ezen állva a menügomb megnyomására elérheti a beállításokat, és a program súgóját is.
+
+==A SkypeTalking frissítéseiről==[SkypeTalkingUpdates]
+
+A SkypeTalking stabil verzió megjelenése esetén frissül. A 0.9-es verziótól kezdve ezt a program automatikusan ellenőrzi, így nem kell minden alkalommal meglátogatni a project weboldalát. Alapértelmezetten a program minden indításkor keresi a frissítéseket, és figyelmeztet, ha talált újat. A frissítést természetesen megszakíthatja, vagy letilthatja a beállítások menü frissítések lapfülén. A letöltés a háttérben zajlik, és csak akkor küld értesítést, ha befejeződött a folyamat.
+Frissítéseket egyénileg is kérhet a control+shift+alt+u billentyűparanccsal vagy a program tálcaikonján jobb egérgombbal kattintva (vagy a menügombot megnyomva) a súgó/frissítések ellenőrzése menüpont segítségével.
+
+=a program billentyűparancsai=[CommandInterface]
+
+A SkypeTalking az elindítása után a háttérben fut, épp ezért a program irányítása különböző billentyűparancsokkal lehetséges. Minden billentyűparancs a control+alt+shift+valami egyszeri lenyomásából áll (a valami helyére mindig egy-egy betű/szám kerül), a következő fejezetben ezeket fogjuk bemutatni.
+Megjegyzés: Az összes billentyűparancsot átállíthatja a beállítások, billentyűparancsok kategóriáján.
+
+==A Skype chat és hangposta üzenetek áttekintése==[ReviewingSkypeChatMessagesAndVoicemails]
+
+===Üzenet/hangposta mód (control+alt+shift+z)===[MessageVoicemailMode]
+
+Az utolsó üzenetek és az utolsó hangposta üzenetek áttekintése között egy billentyűparanccsal válthat. Az üzeneteket a már megszokott billentyűparancsokkal, a control+alt+shift+0-9 kombinációkkal tekintheti meg. A két mód között a control+alt+shift+z billentyűparanccsal válthat.
+
+===Az utolsó tíz be és kimenő üzenet/hangposta elérése (ctrl+alt+shift+0-9 közötti számok)===[LastTen]
+Az üzenetmódban ha a ctrl+alt+shift+0-9 billentyűparancsokat lenyomja, az utolsó tíz be/kimenő üzenetet olvastathatja fel. Kétszer gyorsan lenyomva az adott üzenet a vágólapra kerül, háromszor lenyomva pedig , ha van az üzenetben url, a program egy böngészőablakban megnyitja azt.
+
+Hangpostamódban ha a ctrl+alt+shift+0-9 billentyűparancsokat lenyomja, az utolsó tíz be/kimenő hangüzenetet tekintheti át. Kétszeri megnyomásra az adott hangüzenetet megnyitja és lejátsza a program, háromszori lenyomásra törli azt. Épp ezért vigyázzon ennek a funkciónak a használatakor.
+
+===Aktív chatek figyelése (control+alt+shift+f1-f10 billentyűk)===[MonitoringActiveChats]
+
+Ezzel a beállítással egyszerre több chat ablakot is megfigyelhet (max tíz). Ha nyitva van egy olyan chat ablak, amit meg szeretne figyelni, nyomja le a ctrl+alt+shift+f1-f10 közötti gombok egyikét, ezáltal a chatablak bezárásáig a megfigyeltek listájára kerül. Ha bármilyen ablakban megnyomja újra a fentebb leütött billentyűkombinációt, akkor el tudja olvasni az utolsó tíz üzenetet a feljebb tárgyalt ctrl+alt+shift+számok kombinációk egyikével. Ha leüti a control+alt+shift+c billentyűparancsot, megtudhatja az éppen figyelt partner nevét. Ha kétszer üti le ugyanezt, akkor a fókusz a chat ablak beviteli mezőjére kerül. Megjegyzés: Ez a funkció a 4.x és 5.x Skype-ban csak akkor működik, ha be van kapcsolva a kompakt nézet.
+
+===Az utolsó chatüzenet megismétlése (ctrl+alt+shift+r)===[RepeatLastChatMessage]
+
+Egyszeri lenyomásra megismétli az utolsó üzenetet, kétszeri lenyomásra a fókusz a chatablak beviteli mezőjére kerül. Ekkor az ablakot beállíthatja figyeltnek is.
+
+===Az utolsó hangüzenet áttekintése(Alt+Control+Shift+W)===[ReviewLastVoicemail]
+
+Az alt+control+shift+w billentyűparanccsal megtekintheti az utolsó hangüzenetet. Kétszeri megnyomásra lejátsza, háromszori megnyomásra törlődik a hangüzenet, épp ezért óvatosan használja ezt a funkciót.
+
+===Az utolsó esemény megismétlése (ctrl+alt+shift+e)===[RepeatLastEvent]
+
+A billentyűparancs leütésével az utolsó skype üzenetet ismétli meg a program. Ebbe a chat üzenetek, az állapotváltozások és a hívás státuszok is beletartoznak.
+
+===A skype események ki és bekapcsolása (ctrl+alt+shift+i)===[IgnoreSkypeEvents]
+
+A billentyűparancs lenyomásával ki és be tudja kapcsolni a skype események bemondását
+
+===Az előzmény lista===[TheEventsHistory]
+
+Az előzmény listában áttekintheti azokat az eseményeket, amik a program indítása óta történtek. Ezekhez a következő billentyűparancsokat használhatja:
+- Alt+Control+Shift+Pont - A következő eseményre ugrik az előzmény listában.
+- Alt+Control+Shift+Vessző - Az előző eseményre ugrik az előzmény listában
+- Alt+Control+Shift+mínusz - Vált az állapotváltozások, a hívások, az üzenetek, a fájlátvitel, felhasználói műveletek, vagy a hangposta eseményei között.
+-
+
+==A skype állapot megváltoztatása (ctrl+alt+shift+back space)==[ChangeStatus]
+
+A billentyűparancs segítségével váltogathat a különböző állapotok között (elérhető, elfoglalt, láthatatlan, stb), az állapot a leütés után 1 másodperccel lép életbe.
+
+==Az aktív hívás és a mikrofon állapotának bemondása (ctrl+shift+alt+l)==[CallStatus]
+
+A billentyűparancs lenyomásakor bemondja, hogy van-e aktív hívás, ha igen, akkor a mikrofont lehet elnémítani, vagy feloldani. Kétszeri gyors megnyomásra előjön egy ablak, ahova vesszővel elválasztva beírhatja azokat a Skype neveket, akikkel közös konferenciabeszélgetést szeretne létesíteni. Az utolsó név után ne rakjon vesszőt!
+
+==A hívás időtartamának bemondása (Alt+Control+Shift+D)==[SayCallDuration]
+
+Ha van aktív hívás, bemondja annak időtartamát órában, percben, és másodpercben.
+
+==A legutolsó fájl átvitel státuszának bemondása (ctrl+alt+shift+f)==[FileTransferStatus]
+
+A legutolsó kimenő/bejövő fájl adatait hallgathatja meg. Ha a fájl átvitele még folyamatban van, elhangzik a fájl sebessége (kb/s), az, hogy hány mb érkezett meg a fogadó félhez, és mennyi a befejezésig kellő idő.
+
+==A jelenlegi állapot és a skype egyenleg bemondása (ctrl+shift+alt+o)==[CurrentStatus]
+
+Egyszeri lenyomásra a jelenlegi állapotot mondja be (elérhető, rejtett, stb), kétszeri lenyomásra pedig a skype egyenleget.
+
+==A Skype mottó bemondása (ctrl+alt+shift+m)==[ReportOrChangeMoodText]
+
+Egyszeri lenyomásra az aktuális mottót mondja be (ha van), kétszeri lenyomásra egy ablakot dob fel, amelyben megváltoztathatja azt.
+
+==Egyéb parancsok==[OtherCommands]
+
+===A Skypetalking névjegye (ctrl+alt+shift+a)===[AboutSkypeTalking]
+
+Megjeleníti a SkypeTalking névjegyét (aktuális verzió, copyright információk, stb), megtekintheti a SkypeTalking weboldalát, a felhasználói útmutatót, és a fordítók listáját is.
+
+===Skype verziójának lekérdezése (ctrl+alt+shift+v)===[ReportSkypeVersion]
+
+A billentyűparancs hatására megtudhatja a Skype programjának pontos verzióját.
+
+===A sapi 5-ös beszéd leállítása (ctrl+alt+shift+szóköz)===[StopSpeech]
+
+Ha a Sapi 5-ös szintetizátort használja, ezzel a paranccsal állíthatja le a beszédet. Ez ugyanúgy működik mint a képernyőolvasóknál a ctrl billentyű.
+
+===A SkypeTalking bezárása (ctrl+alt+shift+q)===[QuitSkypeTalking]
+
+A billentyűparancs lenyomása után a program rákérdez, hogy biztosan be szeretné-e zárni. Ha igent nyom, a program bezárul, és elfelejt minden eddigi eseményt. Ha nemet, akkor a program fut tovább a háttérben.
+
+===A billentyűzet leíró (Alt+Control+Shift+K)===[KeyDescriber]
+
+A billentyűzet leíró használatával nagyon egyszerűen megtanulhatja a programhoz tartozó billentyűparancsokat. Ha ezt a funkciót bekapcsolja, egy-egy SkypeTalking billentyűparancs lenyomásakor a hozzá tartozó leírás hangzik el. Más szavakkal, ez ugyanazt a funkciót látja el, mint a Jaws-ban vagy az NVDA-ban a billentyűzet súgó.
+
+=SkypeTalking beállításai=[preferences]
+
+A SkypeTalking beállításai alapértelmezetten a ctrl+alt+shift+p kombináció használatakor jelennek meg, de a SkypeTalking rendszertálcán található ikonján jobb egérgombbal kattintva is előhozható egy menüsor, ahol kiválaszthatja a beállításokat. A beállítások segítségével megváltoztathatja az alapértelmezett nyelvet, a kimenetet, vagy testre szabhatja a program billentyűparancsait.
+A beállítások párbeszédpanelen egy fanézetből választhatja ki az önnek kellő kategóriát a nyilak segítségével. Az ok gombbal a beállításokat elmenti és az ablak bezárul, az alkalmaz gombbal csak elmenti a beállításokat, de az ablak nyitva marad. A mégsem gombbal a beállítások nem mentődnek, és az ablak is bezárul.
+
+==Általános kategória==[general]
+
+Az általános kategórián átállíthatja a program nyelvét, és módosíthatja az in dítással és bezárással kapcsolatos beállításokat.
+
+===A nyelv===[language]
+
+A nyelvek kombinált listamezőben a SkypeTalking által támogatott nyelvek találhatóak. Ezek között a fel és a le nyil segítségével mozoghat. Miután kiválasztotta az önnek megfelelő nyelvet, az Ok gombbal hagyhatja jóvá a beállítást. Alapértelmezetten a SkypeTalking az operációs rendszer nyelvét használja. A billentyűzet leíró nyelvváltásához a program újraindítása szükséges.
+
+===A program indítása a Windows indulásakor===[StartSkypeTalkingWithWindows]
+
+A jelölőnégyzet bejelölése után a program rögtön elindul a Windowsba való bejelentkezéskor. Alapértelmezetten ez nincsen bejelölve.
+
+===A Skype automatikus elindítása a SkypeTalking programmal===[AutoStartSkype]
+
+Ha a SkypeTalkingot akkor indítja el, amikor a Skype nem fut és ez a beállítás be van kapcsolva, a Skype rögtön elindul.
+
+===A Skype bezárása, amikor a SkypeTalking kilép===[AutoCloseSkype]
+
+Ez a beállítás magáért beszél. Ha be van kapcsolva, a SkypeTalking bezárulásakor a Skype is bezárul.
+
+===A SkypeTalking rákérdez kilépéskor===[ConfirmExit]
+
+Ez a beállítás alapértelmezetten be van kapcsolva. Ha kikapcsolja, a SkypeTalking a kilépés billentyűparancs megnyomásakor kérdés nélkül bezárul.
+
+===A SkypeTalking ikonjának megjelenítése a tálcán===[SkypeTalkingTaskbarIcon]
+
+A beállítás kikapcsolása után a SkypeTalking ikonja nem látszik a rendszertálcán.
+
+==Kimenet kategória==[output]
+
+A kimenet kategórián a beszéd és a braille kimenet beállításait módosíthatja.
+
+===Beszédkimenet===[SpeechOutput]
+
+A Beszéd kimenet kombinált listamezőben kiválaszthatja, hogy hová szeretné kiküldeni az üzeneteket. Ha ez az automatikus felismerésen van, akkor a SkypeTalking az éppen futó képernyőolvasónak (ha ez nem elérhető, vagy ismeretlen a program számára a Sapi 5-nek) küldi ki az üzenetet. Ha a Sapi 5-öt választja ki, minden esetben ezt fogja használni a SkypeTalking, ekkor figyelmen kívül hagyja a képernyőolvasókat.
+
+===Sapi5 beállításai===[SpeechControls]
+
+A következő két mezőben testreszabhatja a Sapi5-ös szintetizátor hangerejét és tempóját. Az értékek csökkentéséhez a le, az értékek növeléséhez a fel nyilat használhatja, de beírhatja a pontos számot is a mezőbe.
+
+===A braille kimenet engedélyezése===[EnableBrailleOutput]
+
+Ha nem a Sapi5-öt használja, ezzel a beállítással kiküldheti a braille kijelzőjére is a megjelenő üzeneteket.
+
+==Figyelmeztetések kategória==[alerts]
+
+Ebben a kategóriában eggyesével be és kikapcsolhatja a különböző események bemondását (elérhető, elfoglalt, stb). 
+
+==Bőbeszéd kategória==[verbosity]
+
+Ebben a kategóriában beállíthatja, hogy a SkypeTalking milyen információkat mondjon vagy ne mondjon be.
+
+===Az üzenet idejének mutatása===[ShowMessageTime]
+
+Ez a beállítás alapértelmezetten be van kapcsolva, vagyis az idő bemondása elhangzik egy üzenet elküldésekor/fogadásakor. Mindez felhasználóbarát módon jelenik meg, pl. így: egy perccel ezelőtt, 10:56kor, Jani mondta: Hogy vagy?
+Ezt persze kikapcsolhatja a jelölőnégyzet bejelölésének megszüntetésével.
+
+===Az ismerős nevének bemondása az üzenettel===[SpeakContactNameWithMessage]
+
+Alapértelmezetten ez a beállítás be van kapcsolva. Ha kikapcsoljuk, a beérkező üzenet előtt nem hangzik el a küldőpartner neve.
+
+===A "Skype figyelmeztetés" üzenet bemondása===[SkypeAlertMessage]
+
+Itt három lehetőség közül választhat. Ha az esemény elött van kiválasztva, akkor egy Skype esemény elött elhangzik a "Skype figyelmeztetés" szöveg. Ugyanez történik az "esemény után" kiválasztásakor, de ekkor elöbb hangzik el maga az esemény, és csak utána a figyelmeztető üzenet. A "soha" kiválasztásakor csak maga az esemény hangzik el.
+
+==Haladó kategória==[advanced]
+
+Ebben a kategóriában néhány olyan beállítás található, amivel szabályozhatja a SkypeTalking és a Skype között i együttműködést.
+
+===kapcsolódások számának újrapróbálása===[ConnectionRetries]
+
+Itt beállíthatja, hogy hányszor próbáljon csatlakozni a SkypeTalking a Skypehoz. Alapértelmezetten ez ötre van állítva.
+
+===A Skype elindítása és kisméretre helyezése===[StartSkypeMinimized]
+
+Ha a Skype a SkypeTalkinggal együtt indul, a program főablaka nem fog megjelenni. Ez a beállítás alapértelmezetten be van jelölve.
+
+===A Skype üdvözlőképernyőjének kikapcsolása===[NoSplashScreen]
+
+Alapértelmezetten ez a beállítás ki van kapcsolva. Ha a Skype a SkypeTalking programmal indul, a Skype üdvözlőképernyője nem jelenik meg. (megjegyzés: A Skype-ben is ki lehet kapcsolni ezt a funkciót.)
+
+==Frissítések kategória==[updates]
+
+Ebben a kategóriában beállíthatja, hogy milyen gyakorisággal keressen a program frissítéseket.
+
+===A program frissítéseinek automatikus keresése===[AutoCheckForUpdates]
+
+Ha ez a beállítás be van kapcsolva, a program indításakor mindig leellenőrzi, hogy van-e új frissítés.
+
+===Letöltési típus===[DownloadType]
+
+A SkypeTalkingnak két verziója létezik, a telepítő és a hordozható. Ebből a listából kiválaszthatja, hogy melyiket töltse le automatikusan a program.
+
+==A partnerkezelő kategória==[ContactsManagerCategory]
+
+A partnerkezelőben megnézheti az online ismerősöket, hívásokat és üzenetváltásokat kezdeményezhet, erre majd egy következő fejezetben térünk ki.
+Ebben a kategóriában be- vagy kikapcsolhatja a kijelentkezett ismerősök megjelenítését. Ha a jelölőnégyzet be van jelölve, az elérhető partnerek találhatók meg elöl, és utána a kijelentkezettek.
+
+==Billentyűparancsok kategória==[hotkeys]
+
+Itt megváltoztathatja a program billentyűparancsait egy önnek tetszőre.
+
+===Billentyűparancsok listája===[KeystrokesList]
+
+A billentyűparancsok listában megtalálhatók azok a függvények, amelyekhez billentyűparancs van rendelve, kiegészítve a hozzájuk tartozó leírással. Sajnos a függvény neveket nem lehet lefordítani, de a leírásokból kikövetkeztethető a működésük. Ha kiválasztott egy függvényt a fel és le nyilak segítségével, megváltoztathatja a billentyűparancsát.
+
+===Billentyűparancs megváltoztatása===[ChangingKeystroke]
+
+Ha lenyomja a megváltoztat gombot, egy felugró ablakban megváltoztathatja a függvény billentyűparancsát. Négy jelölőnégyzet található itt, melyek a négy módosítóbillentyű be és kikapcsolására szolgálnak. Ha ön a control+h-t szeretné megadni egy megadott billentyűparancsnak, akkor itt csak a control jelölőnégyzetet jelölje be. Található egy "Betü" mező, ahova az önnek kellő betüt kell lenyomni, jelen esetben a h-t. Egy billentyűparancs az ok gomb aktiválásával lesz megváltoztatva. Ha egy billentyűparancsot a program valahol már használ, akkor nem engedi a módosítást. Fontos, hogy a kiválasztott billentyűparancs ne ütközzön semmilyen más programmal.
+
+=A partnerkezelő=[TheContactsManager]
+
+Az ismerősök listáját a ctrl+alt+shift+f11 billentyűkombinációval bármikor megjelenítheti. Ekkor kezdeményezhet hívást, írhat nekik üzenetet, stb (ezt majd a késöbbi fejezetekben tárgyaljuk). Ha kétszer egymás után gyorsan lenyomja ezt a billentyűparancsot, a skype ablaka jelenik meg, és a fókusz az első partnerre kerül.
+
+==Navigálás A partnerkezelőben==[NavigatingContactsManager]
+
+A partnerkezelő egy többválasztós listamező, ahol egyszerre kijelölhet több partnert is. A partnerek között a fel  és le nyillal tud mozogni, a kijelölést pedig a szóköz billentyűvel teheti meg. Ahogy a többi programban is megszokott, a kijelölés megszüntetése is ezzel a gombbal történik. A partnerkezelő megjeleníti a felhasználó állapotát, utolsó ittlétének dátumát (ha épp nem elérhető a felhasználó állapota), és mottóját.
+
+==Tevékenység kiválasztása egy aktuális felhasználónál==[ChoosingAnAction]
+
+Ha nem jelölt ki partnert, a program ezt jelzi.
+Ha egy partner van csak kiválasztva, a következő lehetőségeket választhatja:
+- Hívás: Mivel ez az alapértelmezett beállítás,egy enter leütésével aktiválhatja is.
+- Chat: A gomb lenyomására megnyílik a kiválasztott partner chat ablaka
+- Profil megtekintése: Megjelenik a kiválasztott partner profilja az adatlap megjelenítőben.
+-
+Ha több partnert választott ki, a következőket választhatja:
+- Konferencia készítése: A gomb aktiválásával a kijelölt partnerek felé konferencia beszélgetést kezdeményezhet.
+- Csoportos chat készítése: Csoportos chat beszélgetés kezdeményezése a kijelölt partnerek felé.
+-
+
+A gombokés a partnerlista között a tab és shift+tab billentyűkkel közlekedhet.
+
+==A profil megjelenítő==[ProfileViewer]
+
+A profil megjelenítő egyik része A partnerkezelőnek. Ez akkor jelenik meg, amikor aktiválja a "profil megtekintése" gombot. Ekkor a kiválasztott partner adatai szöveges formában egy-egy szerkesztőmezőben jelennek meg, közöttük a tab és shift+tab billentyűkkel mozoghat. Az ablakot a mégsem, vagy az "escape" gombbal zárhatja be.
+
+=Sms küldése és fogadása a SkypeTalking segítségével=[SMS]
+
+A SkypeTalking segítségével sms-eket küldhet és fogadhat, az sms varázsló használatával.
+
+==Az sms varázsló==[SMSWizard]
+
+Az sms varázslót a ctrl+alt+shift+s billentyűkombinációval érheti el.
+Az első ablakban a telefonszámot kell megadnia. Ha hibásan adta meg, visszatér ugyanebbe a mezőbe. Ha minden rendben, a következő ablakban egy szövegmezőt fog kapni, ahova beírhatja az sms üzenetét. Az üzenet írása közben az f2 billentyűvel megnézheti, hogy még hány karaktere van hátra, ha eléri a 0-t, egy hang figyelmeszteti erre. Ha elegendő skype kreditje van, az ok gomb aktiválása után az üzenetet a Skype elküldi a megadott számra.
+
+=Egyéb információk=[FinalInfo]
+
+==A program forrásának beszerzése==[ObtainingSourceCode]
+
+A SkypeTalking a [Python programozási nyelvben íródott http://www.python.org]. A program a gpl 2-es licensze alatt áll, amelyről részletesen olvashat a license.txt fájlban. A SkypeTalking nyilt forráskódú, ezért lehetősége van a forrás letöltésére és módosítására. A forráskódot a program [hivatalos oldaláról http://skypetalking.googlecode.com] töltheti le.
+
+==A program szerzőjének elérhetőségei==[ContactDetails]
+
+Email cím, ahová a szerző az ötleteket, hibákat várja (angolul): hrvojekatic@gmail.com
+[Twitter http://www.twitter.com/hkatic]
+[Facebook oldala http://www.facebook.com/jukebox2009]
+Klango felhasználóneve a klango.net-en: DJ_Jukebox
+Msn címe: hrkatic@hotmail.com
+Skype neve: hrvojekatic
+
+*** a magyar honosításért felelős az "NVDA Honosítási Project"
+A fordításban részt vettek: Bélteki Lajos, Ócsvári Áron, Dr. Simon Gergely.
+Friss honosítási információkért látogassa meg [oldalunkat http://www.nvda.hu]

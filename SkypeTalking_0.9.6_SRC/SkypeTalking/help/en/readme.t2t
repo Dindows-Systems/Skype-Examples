@@ -1,0 +1,338 @@
+SkypeTalking
+Version 0.9
+Copyright (c)2010 Hrvoje Katic/SkypeTalking Contributors
+Last Updated: %%mtime(%x)
+
+=Introduction=[introduction]
+
+==What is SkypeTalking?==[WhatIsSkypeTalking]
+
+SkypeTalking is a utility that makes Skype, a popular Internet telephony service more accessible and blind user friendly. It uses Skype API wrapper and your screen reader speech and braille output for obtaining information from Skype and sending that information to your screen reader. SkypeTalking will announce most Skype alerts, including user's status changes, incoming and outgoing chat messages, call statuses, and much more! In short, SkypeTalking will simply make Skype talk to you!
+SkypeTalking was primarily developed for NVDA, a free and open source screen reader, to allow NVDA more access to Skype application. However, it will also support JAWS, Window-Eyes, System Access, Dolphin Hal/Supernova and SAPI5 speech, though with SAPI5 you will not have braille support.
+SkypeTalking supports many languages world-wide, allowing you to use it into your native language. Currently supported languages in addition to US English are: Croatian, Arabic, Belarusian, Bulgarian, Czech, Danish, German, Spanish, Finish, French, Hebrew, Hungarian, Italian, Japanese, Georgian, Latvian, Lithuanian, Macedonian, Malay, Polish, Portuguese, Russian, Serbian, Slovenian, Turkish, Ukranian and Chinese. If you'd like to make SkypeTalking available into your language, see the contact details at the end of this documentation in order to contact me for assistance.
+
+==System requirements==[SystemRequirements]
+
+To use SkypeTalking successfully, you need the following:
+- Windows XP, Vista or 7
+- Any supported screen reader: Currently supported screen readers are NVDA 2010.1 or later, JAWS (any version), Window-Eyes (any version), System Access (any version) including System Access to Go, and Dolphin products (version 12 or later)
+- If you don't use any of supported screen readers, a SAPI5 speech will be used instead. In such case, you should have any SAPI5 compatible voices (Windows systems come with at least one SAPI5 voice)
+- And of course, Skype client application (3.x, 4.x, 5.x or later) - will probably work with Skype 2.x and possibly with 1.x, though not tested.
+-
+
+=Getting started=[GettingStarted]
+
+==Installation and first run==[InstallationAndFirstRun]
+
+To install SkypeTalking, launch SkypeTalking_X.X_setup.exe (where X is the current version number) and follow the instructions. The installation will create a desktop icon, a program group in the start menu, and the installation folder found under x:\Program Files\SkypeTalking where x is your system drive letter.
+To uninstall SkypeTalking, you can do this by opening SkypeTalking program group in the start menu and choose Uninstall SkypeTalking.
+To launch SkypeTalking, click SkypeTalking icon either from your desktop or SkypeTalking entry in a start menu under programs\SkypeTalking.
+When you launch SkypeTalking for the first time, it will be probably unauthorized to communicate with Skype application. For security reasons, Skype doesn't allow any 3rd-party plugins and extras to communicate with it without user permission. This is to prevent viruses and trojans from damaging Skype. Usually Skype will pop up a dialog asking you to allow the application to use it, in which case you have to tab to and activate the Allow Button or click it in order to allow SkypeTalking to connect to Skype. However, if that doesn't happen, in order to allow SkypeTalking's access to Skype, do the following:
++ Launch SkypeTalking, either from the desktop or from within the start menu under Programs>SkypeTalking. You should here "Connecting to Skype".
++ Open Skype.
++ Go to menu bar, select tools, and then arrow up to options and press Enter.
++ Arrow down to the Advanced category.
++ Press Shift+Tab repeatedly until you land on "Manage other program's access to Skype" link. Press Spacebar to activate it.
++ Find SkypeTalking in a list (it should be usually a first item), tab to Change button, and press Spacebar to activate it.
++ Press Tab. You should hear that you are positioned on a Radio Button that says "Do not allow this program access to Skype". Arrow up until you hear "Allow this program access to Skype", and then press Enter.
++ Voila! You just allowed SkypeTalking to use Skype! SkypeTalking should now speak it's welcome message. You can now press Escape multiple times to exit options. You even don't need to save them.
++
+
+Note, you will have to repeat these steps each time when you reinstall SkypeTalking, but don't worry, you have to do this only once per SkypeTalking installation. You will also have to do this if changing SkypeTalking.exe location.
+
+Once launched, SkypeTalking will run in a background and read alerts aloud until you close it. You will also see the icon of SkypeTalking in the Windows System Tray by default, however you can disable the icon under SkypeTalking preferences->General category.
+
+==SkypeTalking updates==[SkypeTalkingUpdates]
+
+SkypeTalking minor updates are released regularly to keep SkypeTalking as stable as possible. Starting from SkypeTalking version 0.9, you can automatically check for and download the latest updates without visiting project web site. SkypeTalking will by default automatically check for new updates on a project web site and alert you if there's something new. You can then either cancel the update, or let SkypeTalking download the update for you. When the download process completes, SkypeTalking will inform you and will let you run the update program. The automatic update checking can be disabled via SkypeTalking preferences under the Updates section.
+To check for updates manually, either press default SkypeTalking keystroke Alt+Control+Shift+U or right-click the taskbar icon of SkypeTalking and then find the Help->Check for updates menu option.
+
+=The commands=[CommandInterface]
+
+SkypeTalking has various commands associated with keyboard shortcuts that you can use to control SkypeTalking's behavior and get any particular information repeated or spoken. All SkypeTalking's keyboard shortcuts are in combination with Alt, Control and Shift keys (Alt+Control+Shift+Something). Thus we can say that Alt+Control+Shift keys act as a SkypeTalking modifier. So to issue a command, you hold Alt+Control+Shift (SkypeTalking Modifier), and press any other key while holding it down.
+Note: You can modify all SkypeTalking keyboard shortcuts to your liking via SkypeTalking preferences under Hotkeys category.
+The following sections describe all of the SkypeTalking commands and how to use them.
+
+==Reviewing Skype chat messages and Voicemails==[ReviewingSkypeChatMessagesAndVoicemails]
+
+===Message/Voicemail mode (Alt+Control+Shift+Z)===[MessageVoicemailMode]
+
+To toggle between reviewing last 10 chat messages or last 10 voicemails when using Alt+Control+Shift+1 through 0, use default keystroke Alt+Control+Shift+Z. SkypeTalking should say "Messages" or "Voicemail". The default mode is Messages.
+
+===Speak last 10 incoming/outgoing chat messages or voicemails (Alt+Control+Shift+Numbers 1 through 0)===[LastTen]
+
+In Message mode, by using Alt+Control+Shift+Numbers 1 through 0 on an alphanumeric keypad, you can read last incoming and outgoing chat messages (1 through 10) that you've received or sent during the SkypeTalking session. If pressed twice, will copy message associated with that number to clipboard. If pressed thrice, will open a URL in a default web browser (if message contains any URL address). Note, SkypeTalking accepts only one URL address in a single message.
+In Voicemail mode, you use Alt+Control+Shift+numbers 1 through 0 to review last 10 sent/received Voicemails. If pressed twice, SkypeTalking will open and play the Voicemail. If pressed thrice, SkypeTalking will delete a Voicemail, so be careful when using this feature.
+
+===Monitoring active chats (Alt+Control+Shift+Function Keys F1 through F10)===[MonitoringActiveChats]
+
+This feature allows you to monitor active chats, in other words, opened chat windows. This is useful if you wish to review only last 10 chat messages that are associated with a particular chat, and not all chats together. Use Alt+Control+Shift+Function keys F1 through F10 to set monitor to the one of up to 10 active chats (or press it twice to bring focus to that chat window), and then you can use Alt+Control+Shift+Numbers for reading last 10 messages in currently monitored chat. Pressing Alt+Control+Shift+C will announce currently monitored chat, and pressing it twice will bring focus to that chat window.
+Note, for this feature to work properly, you must be in a compact view if using Skype 4.x, 5.x or later.
+
+===Repeat last chat message (Alt+Control+Shift+R)===[RepeatLastChatMessage]
+
+This command repeats last incoming or outgoing chat message. If pressed twice, It will open a Skype chat window associated with that message, and will also set chat monitor to it.
+
+===Review last Voicemail (Alt+Control+Shift+W)===[ReviewLastVoicemail]
+
+You use Alt+Control+Shift+W by default to review the last sent or received Voicemail. If pressed twice, the Voicemail will open and play. If pressed thrice, the Voicemail will be deleted, so be careful when using this feature.
+
+==Reviewing Skype events==[ReviewingSkypeEvents]
+
+===Repeat last event (Alt+Control+Shift+E)===[RepeatLastEvent]
+
+This command repeats last Skype event including chat messages. The events that can be repeated by using this command include status changes, last chat message and call statuses.
+
+===Ignore Skype events toggle (Alt+Control+Shift+I)===[IgnoreSkypeEvents]
+
+This command will toggle ignoring of all Skype events. If turned on, SkypeTalking will simply ignore events and will not speak or record them.
+
+===The Events History===[TheEventsHistory]
+
+You can review all of the past events that happend during the SkypeTalking session including their time by using the following default keyboard commands:
+- Alt+Control+Shift+Period - go to next event in the event history buffer
+- Alt+Control+Shift+Comma - go to previous event in the event history buffer
+- Alt+Control+Shift+Dash - Toggle between reviewing status change events, call events, message events, file transfer events, user action events, or voicemail events.
+-
+
+==Change your Skype status on the fly (Alt+Control+Shift+Backspace)==[ChangeStatus]
+
+Use this command to change your Skype status on the fly. After issuing the command, just pick a new status from a list with the arrow keys and then press Enter to accept the change. You can do this wherever you are, without bringing Skype to focus first.
+
+==Say call and mike status (Alt+Control+Shift+L)==[CallStatus]
+
+This command will speak the status of the active Skype call. It will also report if a microphone is muted (in case when it is). If pressed twice, a dialog box will open allowing you to call someone by entering a Skype name of the person you wish to call. You can also make a conference call, by entering multiple Skype names separated by commas. For example: john2010,little.marry,perfect_paul. You don't have to put comma after the last Skype name.
+
+==Say call duration (Alt+Control+Shift+D)==[SayCallDuration]
+
+This command works during a Skype call, and will report the current call duration in hours/minutes/seconds.
+
+==Report file transfer status (Alt+Control+Shift+F)==[FileTransferStatus]
+
+This command will speak the status of the last incoming or outgoing file transfer. If the current file transfer is in progress, you will also hear the current transfer speed in megabytes per second, and the number of megabytes currently being transferred, as well as percentage and time remaining. If more than one file transfer is active, you can choose which file transfer you'd like to monitor by pressing Alt+Control+Shift+F command twice, and then picking a sender/receiver of the file from a list. Press Enter to accept the changes.
+
+==Report your current online status or credit balance (Alt+Control+Shift+O)==[CurrentStatus]
+
+This command when pressed once will say your current online status, and when pressed twice will say your current balance on your Skype credit.
+
+==Report or change your Skype Mood Text (Alt+Control+Shift+M)==[ReportOrChangeMoodText]
+
+This command will speak your current Skype Mood Text if any is set. If you press this twice, it will open a dialog box allowing you to enter a new Mood Text. You can then enter a new text, and then you can just press Enter when finished. Your Mood Text will then be changed.
+
+==Other commands==[OtherCommands]
+
+===The About SkypeTalking Dialog (Alt+Control+Shift+A)===[AboutSkypeTalking]
+
+This dialog shows the current version of SkypeTalking, copyright information, web site information etc. You can close it by pressing enter. There are also some additional options here, such as the option to visit project web site, view the license online, view contributors list, view the manual or a What's New document.
+
+===Report Skype version (Alt+Control+Shift+V)===[ReportSkypeVersion]
+
+This command speaks currently running version of Skype client application installed on a user's computer. If pressed twice, it'll speak version of Skype API wrapper (mainly useful for developers).
+
+===SAPI5 Stop Speech (Alt+Control+Shift+Spacebar)===[StopSpeech]
+
+This command will stop speech when SkypeTalking is used with SAPI5 speech. If you're using SkypeTalking with your screen reader, you can stop speech as usual by pressing the Control key.
+
+===Quit SkypeTalking (Alt+Control+Shift+Q)===[QuitSkypeTalking]
+
+This command unloads SkypeTalking from memory. By default, you will be asked for confirmation. If you answer Yes, SkypeTalking will be unloaded, and any events and chat messages will be forgotten since SkypeTalking keeps them in your computer's memory and thus they are removed from memory once SkypeTalking is unloaded. If you answer No, SkypeTalking will continue working in it's current session.
+
+===Key Describer (Alt+Control+Shift+K)===[KeyDescriber]
+
+The SkypeTalking Key Describer is the best way to learn SkypeTalking keystrokes. In this mode, when you press any keystrokes associated with SkypeTalking commands, SkypeTalking will describe what any particular keystroke does. It works like Keyboard Help modes in JAWS, Window-Eyes and NVDA. You can toggle Key Describer with Alt+Control+Shift+K by default.
+
+=SkypeTalking Preferences=[preferences]
+
+SkypeTalking preferences dialog can be invoked by pressing Alt+Control+Shift+P by default. You can also activate it by right-clicking the SkypeTalking icon on the system tray, and then choosing Tools->Preferences. It can be used to change behavior of SkypeTalking, and also your default language and speech output. You can also remap your SkypeTalking keystrokes from here.
+The preferences dialog has multiple Treeview categories that you can switch to by using the arrow keys, like you do in the Skype Options dialog. The OK button or Enter will save the changes made in all of the preferences categories, while the Apply button will save the settings without closing the dialog box. To cancel changes, hit Escape or Cancel Button. See sections below to become familiar with each preferences category.
+
+==General category==[general]
+
+The General preferences category is used to select your prefered SkypeTalking language, and also to configure how SkypeTalking will start and quit. This category contains the following options.
+
+===The language===[language]
+
+The language Combo Box displays all of the available languages that are currently supported by SkypeTalking. Here you can choose your preferred language, and it will be immediately applied after saving the settings. However, in order for the language change to fully take affect, SkypeTalking will need to be restarted. SkypeTalking will do this for you automatically if you answer Yes on a confirmation message. By default, SkypeTalking uses the language used by your operating system.
+
+===Start SkypeTalking with Windows===[StartSkypeTalkingWithWindows]
+
+This option when checked will configure SkypeTalking to start automatically as soon as you log-on to Windows. It's unchecked by default.
+
+===Automatically start Skype with SkypeTalking===[AutoStartSkype]
+
+This option when checked will allow SkypeTalking to automatically launch Skype for you if you forget to launch Skype before running SkypeTalking. This is also useful if you wish to run Skype and have an instant speech access to Skype. This option is checked by default, which means that SkypeTalking will load Skype if it detects that Skype isn't already running.
+
+===Automatically close Skype when SkypeTalking exits===[AutoCloseSkype]
+
+This option, when checked, will also unload Skype for you at the moment when you quit SkypeTalking. However, if you wish to continue using Skype after SkypeTalking is unloaded, you will probably want to uncheck this option, and it's unchecked by default.
+
+===Confirm when exiting SkypeTalking===[ConfirmExit]
+
+This option is checked by default. If you uncheck it, SkypeTalking will be unloaded immediately as soon as you issue the Quit command and the confirmation message will be skipped.
+
+===Show SkypeTalking icon on the taskbar===[SkypeTalkingTaskbarIcon]
+
+This option requires restart to take affect, and it's checked by default. Uncheck this if you don't want to see the SkypeTalking icon on the notification area.
+
+==Output category==[output]
+
+The Output category contains preferences related to speech and braille output. Here you can set the following options.
+
+===Speech Output===[SpeechOutput]
+
+The Speech Output combo box allows you to set your preferred speech output. If you set it to Auto Detect, it will automatically detect and use your running screen reader, or SAPI5 if your screen reader is not running or unknown to SkypeTalking. If set to SAPI5, it will automatically use SAPI5 speech and will ignore your screen reader.
+
+===SAPI5Speech controls===[SpeechControls]
+
+The next 3 controls are edit spin boxes with which you can control volume and speech rate of your SAPI5 synthesizer in case when SAPI5 is used. You can either use the arrow keys to adjust values or type a desired number.
+
+===Enable Braille Output===[EnableBrailleOutput]
+
+This checkbox allows you to decide would you like to see SkypeTalking output on your braille display. This option doesn't work with SAPI5.
+
+==The Alerts category==[alerts]
+
+This category allows you to toggle on and off the announcements of various Skype alerts currently supported by SkypeTalking. Anything unchecked here will be ignored by SkypeTalking. You can toggle the announcements of incoming chats, outgoing chats, online statuses etc. as well as the automatic announcement of changing Skype mood messages.
+
+==Verbosity category==[verbosity]
+
+This category contains preferences for configuring how much information will be given by SkypeTalking and what special SkypeTalking messages will or will not be announced. Here you can set the following options.
+
+===Show message time===[ShowMessageTime]
+
+This option is checked by default, which means that SkypeTalking will say the time when the message was sent/received. The message time is displayed in user-friendly format. For instance: "A minute ago at 10:56, John said: How are you today?". Uncheck this option to turn off the time announcements.
+
+===Speak contact name with message===[SpeakContactNameWithMessage]
+
+If this option is unchecked, SkypeTalking will not say the name of a person who's sending or receiving a message. It's checked by default.
+
+===Say "Skype Alert" message===[SkypeAlertMessage]
+
+This option is a group of radio buttons. It controls how SkypeTalking will alert you about new events. The "Before the alert" radio button will set SkypeTalking to say "Skype Alert" message before speaking the event text. The "After the alert" radio button will set SkypeTalking to speak the event text followed by the "Skype Alert" message. The "Never" radio button will set SkypeTalking to say just the event text without the "Skype Alert" message. By default, the "Before the alert" radio button is selected.
+
+==The Advanced category==[advanced]
+
+This category contains some advanced preferences that control how SkypeTalking handles Skype client and Skype connection. Here you can set the following options.
+
+===Number of connection retries before giving up===[ConnectionRetries]
+
+This option controls how many times will SkypeTalking retry to connect to Skype in case of failure. It's set to 5 by default.
+
+===Start Skype minimized===[StartSkypeMinimized]
+
+This option is checked by default, which means that Skype main window will not be shown when the Skype application is started by SkypeTalking.
+
+===No splash screen when starting Skype===[NoSplashScreen]
+
+This option is checked by default. It will hide Skype splash screen when the Skype application is started by SkypeTalking.
+
+==The Updates category==[updates]
+
+This category contains preferences for configuring SkypeTalking Updater. Here you can set the following options.
+
+===Automatically check for SkypeTalking updates===[AutoCheckForUpdates]
+
+This option is checked by default, which means that SkypeTalking will automatically check for new updates on each startup. Uncheck this option tu turn off automatic update checking.
+
+===Download type===[DownloadType]
+
+This option configures what type of SkypeTalking update will be downloaded from a web site. It is a Combo Box with two choices, the installer and portable archive. The installer option is set by default.
+
+==The Contacts Manager category==[ContactsManagerCategory]
+
+This category contains preferences for configuring SkypeTalking built-in Contacts Manager. It has the option to show offline contacts, which is unchecked by default. When checked, the Contacts Manager will also show contacts who's status is currently offline.
+
+==The Hotkeys category==[hotkeys]
+
+This category allows you to customize SkypeTalking keystrokes to your liking. Here's how to use it.
+
+===Keystrokes List===[KeystrokesList]
+
+The Keystrokes Listview displays a list of functions and their defined SkypeTalking keystrokes that you can customize. Here you can see the function name, currently defined keystroke for that function, and a function description. Use the Up and Down arrow keys to highlight a function for which you'd like to change the keystroke.
+
+===Changing keystroke===[ChangingKeystroke]
+
+The Change button will open a dialog box that will allow you to customize currently highlighted keystroke. There are 4 modifier Check Boxes (Alt, Win, Control and Shift), and an edit field in which you have to type a key name that will be used along with selected modifiers. For example, if you'd like to use Control+Shift+H as your new keystroke (Control and Shift as modifiers and H as a key), you have to check the Check Boxes for Control and Shift modifiers while the Alt and Win Check Boxes must be unchecked, and you have to type in the letter h into an edit field for the key. Your changes will be accepted when you hit OK Button. If a keystroke is already in use, you will get an error message, and then you have to try another combination. It's also important to enter a valid key name, otherwise your new keystroke will not work.
+
+=The Contacts Manager=[TheContactsManager]
+
+The Contacts Manager of SkypeTalking allows you to view and manage your Skype contacts on an easy and more accessible way. You can access it by pressing Alt+Control+Shift+F11 keyboard shortcut. If you press this command twice, SkypeTalking will focus the original Skype contact list window.
+
+==Navigating Contacts Manager==[NavigatingContactsManager]
+
+The SkypeTalking's Contacts Manager displays your contacts in a Listview with multi-selection capabilities, allowing you to select one or more contacts to perform some actions on. You use the Up and Down arrow keys to navigate your contacts, and you use the spacebar to toggle currently focused contact between selected and unselected. The Contacts Manager will also display the additional Listview columns with your contacts status, mood text, and the last seen date and time for offline contacts.
+
+==Choosing an action for selected contact==[ChoosingAnAction]
+
+What actions will be shown in Contacts Manager depends on number of contacts selected.
+If only one contact is selected, the following actions are available:
++ Call Button - Places a Skype Call to the selected contact - This is the default button, so pressing Enter when focused on a contact list will activate it
++ Chat Button - Opens a chat window with selected contact
++ View Profile - Opens a Profile Viewer of Contacts Manager
++
+
+If two or more contacts are selected, the following actions are available:
++ Create Conference Button - Creates a conference call with all of the selected contacts - This is the default button, so pressing Enter when focused on a contact list will activate it
++ Create Multichat Button - Openes a chat window and creates a multichat with all of the selected contacts
++
+
+You can use the Tab and Shift+Tab keys to navigate between the actions and a contact list. Press Alt+F4 or activate the Close Button at any time to close Contacts Manager.
+
+==The Profile Viewer==[ProfileViewer]
+
+The Profile Viewer is a part of Contacts Manager that will open when you activate the View Profile button for an individual contact. It displays the profile details of the selected contact in an accessible and easy to use dialog box. You use Tab and Shift+Tab to move from detail to detail, and then you can use the arrow keys and all standard text selection commands to copy any particular detail if you wish. To close Profile Viewer, activate the Close Button or press Escape to return back to the Contacts Manager.
+
+=Sending and receiving SMS Messages with SkypeTalking=[SMS]
+
+SkypeTalking allows you to send and receive SMS Messages on an easy way with it's built-in SMS wizard.
+
+==The SMS Wizard==[SMSWizard]
+
+You can access SMS Wizard by pressing Alt+Control+Shift+S.
+Once it's open, you will be asked to enter a phone number. You must enter a valid phone number here, including a country code. For example: +11234567. If the number is not valid, you will be returned back to the phone number field to try reentering it again. Press Enter to continue, or hit Escape to cancel.
+If the phone number was valid, the wizard will continue and you will be placed into an edit area where you should compose your SMS message. While in this dialog box, you can press the function key F2 at any time to get the current status of your SMS message currently being composed. A warning beep will be heard in case when number of characters left in a message reaches 0.
+Once you've composed your SMS message, you can press Enter or Tab to Send Button to send it or Cancel Button to cancel sending. If the Send Button is activated, and your credit balance is good, your SMS will be sent.
+
+=Final information and contact details=[FinalInfo]
+
+==Obtaining a source code==[ObtainingSourceCode]
+
+SkypeTalking is free and open source software, written in [Python programming language http://www.python.org]. Open source means that software source code is available to anyone who wants it. SkypeTalking uses GNU General Public License version 2.0. You can read full license in license.txt file that comes with SkypeTalking binary and source distributions.
+If you are a programmer, or want to contribute to a source code or may be run SkypeTalking directly from source, you can visit Mercurial repository of SkypeTalking located on [Bitbucket https://bitbucket.org/HKatic/skypetalking].
+
+==Contributing translation==[ContributingTranslation]
+
+If you are a translator and want to localize SkypeTalking and it's documentation into your own language, you can contact me via e-mail to get very latest language file plus instructions so you can then send me back your translations. Also if you have some knowledge of using Mercurial version control system, I will be glad to give you access rights to update translation from time to time.
+
+==The SkypeTalking Mailing List==[MailingList]
+
+You can join SkypeTalking mailing list hosted on Google Groups by using the following address: [skypetalking+subscribe@googlegroups.com skypetalking+subscribe@googlegroups.com]. To send e-mail to a mailing list, use [skypetalking@googlegroups.com skypetalking@googlegroups.com] address. Note that this is English-speaking list only. This is the best resource to get technical support and various tips and tricks regarding SkypeTalking. Here you will also get a daily information on what's happening with SkypeTalking development in it's repository. All questions are welcome, from beginner to developer questions.
+
+==Credits==[credits]
+
+The following people have contributed to SkypeTalking development on some way:
+- Hrvoje Katić, who is the project founder and a main guy behind SkypeTalking.
+- Gianluca Casalino, who has developed various advanced features of SkypeTalking, and has contributed a lot of work to SkypeTalking code. Thanks to his dedicated work and help, SkypeTalking is even much better than before!
+- René Linke, who also contributes to SkypeTalking on some way by creating patches and giving initial ideas.
+- Various cool people who made SkypeTalking available into their own languages, so SkypeTalking now speaks more than 20 languages!
+- And of course, all of the users around the world who are using SkypeTalking on a daily bases and promoting it so even more people will know for this product!
+-
+
+A big thanks to all of You!!!
+
+==My contact details==[ContactDetails]
+
+SkypeTalking project website for downloads, updates and other stuff: [skypetalking.googlecode.com http://skypetalking.googlecode.com]
+
+My E-Mail address for questions, suggestions, support and posting translation: [hrvojekatic@gmail.com hrvojekatic@gmail.com]
+
+You can follow me on Twitter at: [@hkatic http://www.twitter.com/hkatic]. For SkypeTalking news and updates to Mercurial repository, follow [@SkypeTalking http://www.twitter.com/SkypeTalking] on Twitter.
+
+My Facebook page: [www.facebook.com/jukebox2009 http://www.facebook.com/jukebox2009]
+
+My Klango Id on klango.net: DJ_Jukebox
+
+My MSN address: [hrkatic@hotmail.com hrkatic@hotmail.com]
+
+My Skype Id: skypetalkingproject
+

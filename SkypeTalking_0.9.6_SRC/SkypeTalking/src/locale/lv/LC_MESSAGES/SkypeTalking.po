@@ -1,0 +1,1784 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SkypeTalking v0.9\n"
+"POT-Creation-Date: 2010-12-15 07:34+Central European Standard Time\n"
+"PO-Revision-Date: 2011-02-02 00:48+0200\n"
+"Last-Translator: Andre Polykanine <andre@oire.org>\n"
+"Language-Team: Elensule <elensule@oire.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Latvian\n"
+"X-Poedit-Country: LATVIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: SkypeTalking.pyw:52
+msgid "Application already running."
+msgstr "Lietojumprogramma jau darbojas."
+
+#: SkypeTalking.pyw:58
+msgid "Error writing config file. The application may not be started. Please contact development team for help."
+msgstr "Kļūda konfigurācijas failā. Nav iespējams palaist lietojumprogrammu. Lūdzu sazinieties ar izstrādātājiem"
+
+#: SkypeTalking.pyw:58
+#: SkypeTalking.pyw:63
+#: SkypeTalking.pyw:69
+#: extras.py:108
+msgid "Error"
+msgstr "Kļūda"
+
+#: SkypeTalking.pyw:63
+msgid "Could not set application language. The application may not be started. Please contact development team for help."
+msgstr "Nespēja uzstādīt lietojumprogrammas valodu. Nav iespējams to palaist. Lūdzu sazinieties ar izstrādātājiem"
+
+#: SkypeTalking.pyw:67
+msgid "Connecting to Skype..."
+msgstr "Savienojas ar skype..."
+
+#: SkypeTalking.pyw:69
+msgid "Failed to initialize output subsystem. The application may not be started. Please contact development team for help."
+msgstr "Neizdevās inicializēt izvades apakšsistēmu. Nav iespējams palaist lietojumprogrammu. Lūdzu sazinieties ar izstrādātājiem"
+
+#: communication\calls.py:33
+msgid "Call from %s"
+msgstr "Zvans no %s"
+
+#: communication\calls.py:35
+msgid "Calling %s"
+msgstr "Zvana %s"
+
+#: communication\calls.py:37
+msgid "Phone call from %s"
+msgstr "Telefona zvans no %s"
+
+#: communication\calls.py:39
+msgid "Phone call to %s"
+msgstr "Zvans uz %s telefonu"
+
+#: communication\calls.py:41
+msgid "Call with %s finished, duration %s."
+msgstr "Saruna ar %s pabeigta, tās ilgums %s."
+
+#: communication\calls.py:44
+msgid "Calling %s, routing..."
+msgstr "Tiek zvanīts %s, uzgaidiet..."
+
+#: communication\calls.py:46
+msgid "Sorry, call with %s failed"
+msgstr "Atvainojiet, zvans %s nav izdevies"
+
+#: communication\calls.py:49
+msgid "Call with %s in progress"
+msgstr "Saruna ar %s"
+
+#: communication\calls.py:51
+msgid "Call with %s on hold"
+msgstr "Zvans %s aizturēts"
+
+#: communication\calls.py:53
+msgid "Missed call from %s"
+msgstr "Nokavēts zvans no %s"
+
+#: communication\calls.py:55
+msgid "Call refused"
+msgstr "Zvans noraidīts"
+
+#: communication\calls.py:57
+msgid "Call with %s, busy"
+msgstr "Zvans %s, aizņemts"
+
+#: communication\calls.py:59
+msgid "Call with %s, cancelled"
+msgstr "Zvans %s atcelts"
+
+#: communication\calls.py:61
+msgid "Call with %s on local hold"
+msgstr "Saruna ar %s lokāli aizturēta"
+
+#: communication\calls.py:63
+msgid "Call with %s on remote hold"
+msgstr "Saruna ar %s attālināti aizturēta"
+
+#: communication\calls.py:65
+msgid "Transferring call to %s"
+msgstr "Pāradresē zvanu uz %s"
+
+#: communication\calls.py:67
+msgid "Call transferred to %s"
+msgstr "Zvans pāradresēts uz %s"
+
+#: communication\calls.py:69
+msgid "Reason unknown"
+msgstr "Iemesls nav zināms"
+
+#: communication\calls.py:71
+msgid "Misc error"
+msgstr "Daudzpusēja kļūda"
+
+#: communication\calls.py:73
+msgid "User does not exist"
+msgstr "Lietotājs neeksistē"
+
+#: communication\calls.py:75
+msgid "User is offline"
+msgstr "Lietotājs atslēdzies"
+
+#: communication\calls.py:77
+msgid "No Proxy found"
+msgstr "Starpniekserveris nav atrasts"
+
+#: communication\calls.py:79
+msgid "Session terminated"
+msgstr "Seanss pārtraukts"
+
+#: communication\calls.py:81
+msgid "No common codec"
+msgstr "Nav kopējs kodeks"
+
+#: communication\calls.py:83
+msgid "Sound input/output error"
+msgstr "Skaņas ievades/izvades kļūda"
+
+#: communication\calls.py:85
+msgid "Remote device error"
+msgstr "Attālinātas ierīces kļūda"
+
+#: communication\calls.py:87
+msgid "You are blocked by recipient"
+msgstr "Saņēmējs jūs ir bloķējis"
+
+#: communication\calls.py:89
+msgid "The recipient is not in your contact list"
+msgstr "Saņēmējs nav jūsu kontaktu sarakstā"
+
+#: communication\calls.py:91
+msgid "You are not authorized by recipient"
+msgstr "Saņēmējs jūs nav autorizējis"
+
+#: communication\calls.py:93
+msgid "Sound recording error"
+msgstr "Skaņas ieraksta kļūda"
+
+#: communication\calls.py:99
+msgid "hour "
+msgstr "stunda"
+
+#: communication\calls.py:99
+msgid "hours "
+msgstr "stundas"
+
+#: communication\calls.py:100
+msgid "minute "
+msgstr "minūte"
+
+#: communication\calls.py:100
+msgid "minutes "
+msgstr "minūtes"
+
+#: communication\calls.py:100
+#: communication\calls.py:101
+msgid "and "
+msgstr "un"
+
+#: communication\calls.py:101
+msgid "second"
+msgstr "sekunde"
+
+#: communication\calls.py:101
+msgid "seconds"
+msgstr "sekundes"
+
+#: communication\files.py:35
+msgid "Receiving file %s from %s. "
+msgstr "Saņem failu %s no %s."
+
+#: communication\files.py:37
+msgid "Sending file %s to %s. "
+msgstr "Sūta failu %s adresātam %s."
+
+#: communication\files.py:39
+msgid "File transfer %s, file %s. "
+msgstr "Faila pārsūtīšana %s, fails %s"
+
+#: communication\files.py:41
+msgid "New file transfer: "
+msgstr "Jauna faila pārsūtīšana"
+
+#: communication\files.py:43
+msgid "Connecting..."
+msgstr "Savienojas..."
+
+#: communication\files.py:45
+msgid "Transferring..."
+msgstr "Pārsūta..."
+
+#: communication\files.py:47
+msgid "Transferring over relay..."
+msgstr "Pāradresē pārmaiņus..."
+
+#: communication\files.py:49
+msgid "Waiting for accept..."
+msgstr "Gaida apstiprinājumu..."
+
+#: communication\files.py:51
+msgid "Paused."
+msgstr "Apstādināts."
+
+#: communication\files.py:53
+msgid "Paused remotely."
+msgstr "Apstādināts attālināti."
+
+#: communication\files.py:55
+msgid "Cancelled!"
+msgstr "Atcelts!"
+
+#: communication\files.py:57
+msgid "Finished!"
+msgstr "Pabeigts!"
+
+#: communication\files.py:59
+msgid "File transfer failed."
+msgstr "Faila pārsūtīšana nav izdevusies."
+
+#: communication\files.py:61
+msgid "Sender not authorized."
+msgstr "Sūtītājs nav autorizēts"
+
+#: communication\files.py:63
+msgid "Remotely cancelled."
+msgstr "Atcelts attālināti"
+
+#: communication\files.py:65
+msgid "Failed read."
+msgstr "Neizdevās izlasīt"
+
+#: communication\files.py:67
+msgid "Failed remote read."
+msgstr "Neizdevās attālināti izlasīt"
+
+#: communication\files.py:69
+msgid "Failed write."
+msgstr "Neizdevās uzrakstīt"
+
+#: communication\files.py:71
+msgid "Failed remote write."
+msgstr "Neizdevās attālināti uzrakstīt"
+
+#: communication\files.py:73
+msgid "Remote does not support file transfer."
+msgstr "Attālināti neatbalsta faila pārsūtīšanu."
+
+#: communication\files.py:75
+msgid "Remote offline too long."
+msgstr "Attālināti atslēdzies pārāk ilgi."
+
+#: communication\files.py:80
+msgid "Transferred: %.1f Mb, Speed: %.1f kb/s"
+msgstr "Pārsūtīts: %. 1f mb, ātrums: %. 1f kb/s"
+
+#: communication\files.py:86
+msgid "Progress: %6.2f"
+msgstr "Norise: %6.2f"
+
+#: communication\files.py:96
+msgid "Time left: %d hours, %d minutes and %d seconds"
+msgstr "Atlikušais laiks: %d stundas, %d minūtes un %d sekundes"
+
+#: communication\main.py:34
+msgid "Waiting for authorization..."
+msgstr "Gaida autorizāciju..."
+
+#: communication\main.py:36
+msgid "Authorization refused."
+msgstr "Autorizācija noraidīta."
+
+#: communication\main.py:41
+msgid "Error, API not available."
+msgstr "Kļūda, API nav pieejams."
+
+#: communication\main.py:45
+msgid "%s is ready. Currently logged on user is %s."
+msgstr "%s ir ielādēts. pašreiz pieteicies lietotājs ir %s."
+
+#: communication\main.py:62
+msgid "Error! Skype attach timeout. Making retry %d of %d for 5 seconds."
+msgstr "Kļūda! Skype pielikumam beidzies laiks. Atkārtoti mēģina %d no %d 5 sekundēs."
+
+#: communication\main.py:69
+msgid "Error! Skype attach timeout. Please restart the application and try again. Exiting."
+msgstr "Kļūda! Skype pielikumam izbeidzies laiks. Lūdzu pārstartējiet lietojumprogrammu un mēģiniet vēlreiz! Iziet..."
+
+#: communication\messages.py:33
+msgid "Sending..."
+msgstr "Sūta..."
+
+#: communication\messages.py:37
+#: communication\messages.py:41
+msgid "Instant message from %s: %s"
+msgstr "Ziņa no %s: %s"
+
+#: communication\messages.py:43
+msgid "SMS message by %s: %s"
+msgstr "Īsziņa no %s: %s"
+
+#: communication\messages.py:56
+msgid "at %s, %s said: %s"
+msgstr "%s, %s sacīja: %s"
+
+#: communication\messages.py:58
+msgid "%s at %s, %s said: %s"
+msgstr "%s, %s sacīja: %s"
+
+#: communication\messages.py:61
+msgid "at %s, %s says: %s"
+msgstr "%s, %s saka: %s"
+
+#: communication\messages.py:63
+msgid "%s at %s, %s says: %s"
+msgstr "%s %s, %s saka: %s"
+
+#: communication\messages.py:66
+msgid "at %s: %s"
+msgstr "%s: %s"
+
+#: communication\messages.py:68
+msgid "%s at %s: %s"
+msgstr "%s %s: %s"
+
+#: communication\messages.py:71
+msgid "%s said: %s"
+msgstr "%s sacīja: %s"
+
+#: communication\messages.py:73
+msgid "%s says: %s"
+msgstr "%s saka: %s"
+
+#: communication\messages.py:77
+msgid "Message not delivered yet."
+msgstr "Ziņa vēl nav nogādāta."
+
+#: communication\messages.py:86
+msgid "Message copied to clipboard."
+msgstr "Ziņa no sarakstes loga izkopēta."
+
+#: communication\messages.py:88
+msgid "copy failed"
+msgstr "kopēšana nav izdevusies"
+
+#: communication\messages.py:97
+msgid "opening URL"
+msgstr "atver adresi"
+
+#: communication\messages.py:100
+msgid "Failed to open this URL."
+msgstr "Neizdevās atvērt šo adresi"
+
+#: communication\messages.py:102
+msgid "url not found"
+msgstr "Adrese nav atrasta"
+
+#: communication\misc.py:35
+msgid "Skype client version %s"
+msgstr "skype versija %s"
+
+#: communication\misc.py:38
+msgid "API wrapper version %s"
+msgstr "API iesaiņojuma versija %s"
+
+#: communication\misc.py:42
+msgid "No new events since you've launched %s."
+msgstr "Nav jaunu notikumu, kopš jūs palaidāt %s."
+
+#: communication\misc.py:48
+msgid "No new messages since you've launched %s."
+msgstr "Nav jaunu ziņu, kopš jūs palaidāt %s."
+
+#: communication\misc.py:61
+msgid "There are no new file transfers yet."
+msgstr "Vēl nav jaunas failu pārsūtīšanas."
+
+#: communication\misc.py:72
+msgid "No active file transfers."
+msgstr "Nav aktīvas failu pārsūtīšanas."
+
+#: communication\misc.py:75
+msgid "%s, file %s"
+msgstr "%s, fails %s"
+
+#: communication\misc.py:76
+msgid "Active File Transfers"
+msgstr "Aktīvās failu pārsūtīšanas"
+
+#: communication\misc.py:76
+msgid "Select file sender/receiver"
+msgstr "Izvēlēties faila sūtītāju/saņēmēju"
+
+#: communication\misc.py:91
+#: communication\sms.py:32
+msgid "Your Skype Credit Balance is %s"
+msgstr "Jūsu skype kredītbilance ir %s"
+
+#: communication\misc.py:95
+msgid "No chat Monitor at this position, the first is at position %s."
+msgstr "Šim funkcionālajam taustiņam nav aplūkojamas sarakstes, pirmā atbilst taustiņam F%s"
+
+#: communication\misc.py:99
+#: communication\misc.py:101
+msgid "Monitoring chat with %s"
+msgstr "Aplūko saraksti ar %s"
+
+#: communication\misc.py:101
+#: communication\misc.py:118
+msgid "and"
+msgstr "un"
+
+#: communication\misc.py:105
+msgid "no active chats"
+msgstr "nav aktīvas sarakstes"
+
+#: communication\misc.py:111
+#: communication\misc.py:120
+msgid "no active chat monitor"
+msgstr "nav aktīvās sarakstes pārlūka"
+
+#: communication\misc.py:116
+#: communication\misc.py:118
+msgid "monitor on chat with %s"
+msgstr "aplūkot saraksti ar %s"
+
+#: communication\misc.py:126
+msgid "No new messages since %s loaded or no chat Monitor selected yet."
+msgstr "Nav jaunu ziņu kopš %s ielādes vai nav vēl izvēlēta aplūkojamā sarakste."
+
+#: communication\misc.py:129
+msgid "no message at this position. The first is at position %d"
+msgstr "Šim funkcionālajam taustiņam nav atbilstošas ziņas. Pirmā pieejamā ziņa atbilst taustiņam F%s"
+
+#: communication\misc.py:142
+msgid "No mood text set. Press this command twice to set one."
+msgstr "Nav ierakstīts garastāvokļa teksts. Lai to izdarītu, nospiediet šo komandu divreiz."
+
+#: communication\misc.py:143
+msgid "The current mood text is: %s."
+msgstr "Pašreizējais garastāvokļa teksts ir: %s."
+
+#: communication\misc.py:147
+msgid " - Change Mood Text"
+msgstr "Mainīt garastāvokļa tekstu"
+
+#: communication\misc.py:147
+msgid "Enter your new mood text:"
+msgstr "Ievadiet jūsu jauno garastāvokļa tekstu"
+
+#: communication\misc.py:153
+msgid "%s has changed his/her mood text to: %s"
+msgstr "%s nomainīja savu garastāvokļa tekstu uz: %s"
+
+#: communication\misc.py:169
+#: communication\misc.py:209
+msgid "no active call"
+msgstr "nav aktīva zvana"
+
+#: communication\misc.py:172
+#: communication\misc.py:178
+#: communication\misc.py:184
+#: communication\misc.py:198
+msgid "Not on call."
+msgstr "Nav zvanu."
+
+#: communication\misc.py:176
+msgid "Microphone unmuted"
+msgstr "Mikrofons ieslēgts"
+
+#: communication\misc.py:182
+#: communication\misc.py:230
+msgid "Microphone muted"
+msgstr "Mikrofons izslēgts"
+
+#: communication\misc.py:190
+msgid "call on hold "
+msgstr "zvans aizturēts"
+
+#: communication\misc.py:193
+msgid "call resumed"
+msgstr "zvans atsākts"
+
+#: communication\misc.py:195
+msgid "No incoming or active call."
+msgstr "Nav ienākošu vai aktīvu zvanu"
+
+#: communication\misc.py:201
+msgid "%s has joined the current call."
+msgstr "%s ir pievienojies šai sarunai."
+
+#: communication\misc.py:203
+msgid "only one active call"
+msgstr "tikai viens aktīvs zvans"
+
+#: communication\misc.py:216
+#: communication\misc.py:217
+#: communication\misc.py:218
+#: communication\misc.py:219
+#: interface\contactsManager.py:53
+msgid "Not available"
+msgstr "Nav pieejams"
+
+#: communication\misc.py:220
+msgid "Audio In: %s"
+msgstr "Ienākošā skaņa: %s"
+
+#: communication\misc.py:221
+msgid "Audio Out: %s"
+msgstr "Izejošā skaņa: %s"
+
+#: communication\misc.py:222
+msgid "Video In: %s"
+msgstr "Ienākošais attēls: %s"
+
+#: communication\misc.py:223
+msgid "Ringing device: %s"
+msgstr "Zvana ierīce: %s"
+
+#: communication\misc.py:232
+msgid "There are no new calls or calls in progress. Press this command twice to call someone."
+msgstr "Nav jaunu zvanu vai notiekošu sarunu. Lai kādam piezvanītu, nospiediet šo komandu divreiz."
+
+#: communication\misc.py:237
+msgid " - make call"
+msgstr "izdarīt zvanu"
+
+#: communication\misc.py:237
+msgid "Enter user's Skype name or names separated by commas:"
+msgstr "Ievadiet skype lietotājvārdu vai lietotājvārdus, atdalot tos ar komatiem:"
+
+#: communication\misc.py:257
+#: communication\misc.py:280
+#: communication\misc.py:291
+#: communication\misc.py:303
+msgid "There are no voicemails."
+msgstr "Balss pastu nav."
+
+#: communication\misc.py:265
+#: communication\misc.py:287
+msgid "Error, cannot open that voicemail."
+msgstr "Kļūda, nevar atvērt šo balss pastu."
+
+#: communication\misc.py:267
+msgid "No voicemail to play."
+msgstr "Nav balss pasta, ko atskaņot."
+
+#: communication\misc.py:272
+#: communication\misc.py:297
+msgid "Voicemail deleted."
+msgstr "Balss pasts izdzēsts."
+
+#: communication\misc.py:274
+#: communication\misc.py:299
+msgid "Error, voicemail cannot be deleted."
+msgstr "Kļūda, nevar izdzēst balss pastu."
+
+#: communication\misc.py:276
+msgid "No voicemail to delete."
+msgstr "Nav balss pasta, ko dzēst."
+
+#: communication\misc.py:282
+#: communication\misc.py:293
+#: communication\misc.py:305
+msgid "No voicemail at this position, the first is at position %s."
+msgstr "Šim funkcionālajam taustiņam nav atbilstoša balss pasta, pirmais atbilst taustiņam F%s"
+
+#: communication\misc.py:308
+#: communication\voicemail.py:31
+msgid "Voicemail from %s. "
+msgstr "Balss pasts no %s."
+
+#: communication\misc.py:310
+#: communication\voicemail.py:33
+msgid "Voicemail to %s. "
+msgstr "Balss pasts adresātam %s."
+
+#: communication\misc.py:312
+#: communication\voicemail.py:35
+msgid "Default greeting voicemail. "
+msgstr "Balss pasts ar standarta sveicienu."
+
+#: communication\misc.py:314
+#: communication\voicemail.py:37
+msgid "Custom greeting voicemail. "
+msgstr "Balss pasts ar pieskaņotu sveicienu."
+
+#: communication\misc.py:316
+#: communication\voicemail.py:39
+msgid "Unknown voicemail type. "
+msgstr "Nezināms balss pasta tips"
+
+#: communication\misc.py:318
+msgid "Not played."
+msgstr "Nav atskaņots."
+
+#: communication\sms.py:28
+msgid "Composing"
+msgstr "Sastāda"
+
+#: communication\sms.py:28
+msgid "Delivered"
+msgstr "Nogādāts"
+
+#: communication\sms.py:28
+msgid "SMS read"
+msgstr "Īsziņa izlasīta"
+
+#: communication\sms.py:28
+msgid "SMS received"
+msgstr "Īsziņa saņemta"
+
+#: communication\sms.py:28
+msgid "Sending Failed"
+msgstr "Nosūtīšana neizdevās"
+
+#: communication\sms.py:28
+msgid "Sending to server"
+msgstr "Sūta uz serveri"
+
+#: communication\sms.py:28
+msgid "Sent to server"
+msgstr "Nosūtīta uz serveri"
+
+#: communication\sms.py:28
+msgid "Unable to deliver to some numbers."
+msgstr "Nav iespējams nogādāt uz dažiem numuriem"
+
+#: communication\sms.py:28
+#: interface\contactsManager.py:53
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: communication\sms.py:31
+msgid "You've paid %s"
+msgstr "Jūs esat samaksājis %s"
+
+#: communication\sms.py:35
+msgid "Enter Phone Number or numbers separated by semicolons:"
+msgstr "Ievadiet telefona numuru vai numurus, atdalot tos ar semikolu:"
+
+#: communication\sms.py:35
+msgid "New SMS Wizard"
+msgstr "Jauns īsziņas veidnis"
+
+#: communication\sms.py:43
+msgid "New SMS Wizard: from %s to %s"
+msgstr "Jauns SMS veidnis: no %s adresātam %s"
+
+#: communication\sms.py:46
+msgid "Invalid number. Please check your input and try again."
+msgstr "Nederīgs numurs. Lūdzu pārbaudiet ievadīto un mēģiniet atkal."
+
+#: communication\status.py:33
+#: interface\contactsManager.py:53
+msgid "Online"
+msgstr "Pieslēdzies"
+
+#: communication\status.py:34
+#: interface\contactsManager.py:53
+msgid "Away"
+msgstr "Izgājis"
+
+#: communication\status.py:35
+msgid "Not Available"
+msgstr "Nav pieejams"
+
+#: communication\status.py:36
+#: interface\contactsManager.py:53
+msgid "Do not disturb"
+msgstr "Netraucēt"
+
+#: communication\status.py:37
+#: interface\contactsManager.py:53
+msgid "Invisible"
+msgstr "Neredzams"
+
+#: communication\status.py:38
+#: interface\contactsManager.py:53
+msgid "Skype Me"
+msgstr "Skype Me"
+
+#: communication\status.py:39
+#: interface\contactsManager.py:53
+msgid "Offline"
+msgstr "Atslēdzies"
+
+#: communication\status.py:45
+msgid "%s's status is unknown"
+msgstr "%s statuss nav zināms"
+
+#: communication\status.py:47
+msgid "%s went Offline"
+msgstr "%s ir atslēdzies"
+
+#: communication\status.py:49
+msgid "%s is Online"
+msgstr "%s ir pieslēdzies"
+
+#: communication\status.py:51
+msgid "%s is Away"
+msgstr "%s ir izgājis"
+
+#: communication\status.py:53
+msgid "%s is Not Available"
+msgstr "%s nav pieejams"
+
+#: communication\status.py:55
+msgid "%s is Do Not Disturb"
+msgstr "%s lūdz netraucēt"
+
+#: communication\status.py:57
+msgid "%s went offline"
+msgstr "%s atslēdzies"
+
+#: communication\status.py:59
+msgid "%s is Skype Me"
+msgstr "%s vēlas skaipot"
+
+#: communication\status.py:61
+msgid "%s is Skype Out"
+msgstr "%s ir Skype Out"
+
+#: communication\status.py:64
+msgid "Change Status"
+msgstr "Mainīt statusu"
+
+#: communication\status.py:64
+msgid "Select status"
+msgstr "Izvēlēties statusu"
+
+#: communication\status.py:74
+msgid "Changing status to %s"
+msgstr "Maina statusu uz %s"
+
+#: communication\status.py:85
+msgid "Current online status is %s"
+msgstr "Pašreizējais tiešsaistes statuss ir %s"
+
+#: communication\users.py:30
+msgid "User %s %s requests authorization. Intro text: %s"
+msgstr "Lietotājs %s %s pieprasa autorizāciju. Stādās priekšā ar tekstu: %s"
+
+#: communication\users.py:32
+msgid "You are now friend with %s %s."
+msgstr "Jūs tagad esat draugi ar %s %s."
+
+#: communication\users.py:34
+msgid "User %s %s is blocked."
+msgstr "Lietotājs %s %s ir bloķēts."
+
+#: communication\users.py:39
+msgid "%s removed his/her Mood Text"
+msgstr "%s ir novācis savu garastāvokļa tekstu"
+
+#: communication\users.py:41
+msgid "%s changed his/her Mood Text to %s"
+msgstr "%s ir mainījis savu garastāvokļa tekstu uz %s"
+
+#: communication\voicemail.py:41
+msgid "Status unknown."
+msgstr "Statuss nav zināms."
+
+#: communication\voicemail.py:43
+msgid "Not downloaded."
+msgstr "Nav lejupielādēts."
+
+#: communication\voicemail.py:45
+msgid "Downloading..."
+msgstr "Lejupielādē..."
+
+#: communication\voicemail.py:47
+msgid "Not played, duration %d seconds."
+msgstr "Nav atskaņots, ilgums %d sekundes."
+
+#: communication\voicemail.py:49
+msgid "Buffering..."
+msgstr "Bufferizējas..."
+
+#: communication\voicemail.py:51
+msgid "Playing..."
+msgstr "Atskaņo..."
+
+#: communication\voicemail.py:53
+msgid "Played, duration %d seconds."
+msgstr "Atskaņots, ilgums %d sekundes."
+
+#: communication\voicemail.py:55
+msgid "Blank voicemail."
+msgstr "Tukšs balss pasts."
+
+#: communication\voicemail.py:57
+msgid "Recording..."
+msgstr "Ieraksta..."
+
+#: communication\voicemail.py:59
+msgid "Recorded."
+msgstr "Ierakstīts."
+
+#: communication\voicemail.py:61
+msgid "Uploading..."
+msgstr "Augšupielādē..."
+
+#: communication\voicemail.py:63
+msgid "Uploaded."
+msgstr "Augšupielādēts."
+
+#: communication\voicemail.py:65
+msgid "Deleting..."
+msgstr "Dzēš..."
+
+#: communication\voicemail.py:67
+msgid "Voicemail error."
+msgstr "Balss pasta kļūda."
+
+#: communication\voicemail.py:69
+msgid "No error."
+msgstr "Nav kļūdas."
+
+#: communication\voicemail.py:71
+msgid "Miscellaneous error."
+msgstr "Daudzveidīga kļūda."
+
+#: communication\voicemail.py:73
+msgid "Couldn't connect."
+msgstr "Nevarēja savienoties."
+
+#: communication\voicemail.py:75
+msgid "No voicemail privilege."
+msgstr "Nav balss pasta ar priekšroku."
+
+#: communication\voicemail.py:77
+msgid "No such voicemail."
+msgstr "Nav tāda balss pasta."
+
+#: communication\voicemail.py:79
+msgid "Couldn't read a file."
+msgstr "Nevarēja izlasīt failu."
+
+#: communication\voicemail.py:81
+msgid "Couldn't write a file."
+msgstr "Nevarēja uzrakstīt failu."
+
+#: communication\voicemail.py:83
+msgid "Couldn't record voicemail."
+msgstr "Nevarēja ierakstīt balsspastu."
+
+#: communication\voicemail.py:85
+msgid "Couldn't play voicemail."
+msgstr "Nevarēja atskaņot balss pastu."
+
+#: events.py:65
+#: events.py:69
+msgid "Skype alert"
+msgstr "Skype paziņojums"
+
+#: events.py:153
+msgid "%s (%s at %s)"
+msgstr "%s (%s %s)"
+
+#: events.py:155
+msgid "%s (just now at %s)"
+msgstr "%s (tieši tagad %s)"
+
+#: events.py:157
+msgid "No new events yet for this event type."
+msgstr "Šim notikumu tipam vēl nav jaunu notikumu."
+
+#: extras.py:78
+msgid "%d seconds ago"
+msgstr "pirms %d sekundēm"
+
+#: extras.py:80
+msgid "a minute ago"
+msgstr "pirms minūtes"
+
+#: extras.py:82
+msgid "%d minutes ago"
+msgstr "pirms %d minūtēm"
+
+#: extras.py:84
+msgid "an hour ago"
+msgstr "pirms stundas"
+
+#: extras.py:86
+msgid "%d hours ago"
+msgstr "pirms %d stundām"
+
+#: extras.py:88
+msgid "yesterday"
+msgstr "vakardien"
+
+#: extras.py:90
+msgid "%d days ago"
+msgstr "pirms %d dienām"
+
+#: extras.py:92
+msgid "%d weeks ago"
+msgstr "pirms %d nedēļām"
+
+#: extras.py:94
+msgid "%d months ago"
+msgstr "pirms %d mēnešiem"
+
+#: extras.py:95
+msgid "%d years ago"
+msgstr "pirms %d gadiem"
+
+#: extras.py:108
+msgid "An error has occured while attempting to configure autostart."
+msgstr "Notikusi kļūda, mēģinot konfigurēt automātisko palaišanu."
+
+#: extras.py:128
+msgid "Goodbye!"
+msgstr "Uz redzēšanos!"
+
+#: interface\__init__.py:31
+msgid "Are you sure you want to exit %s? This will also unload Skype if you've configured such behavior."
+msgstr "Vai esat drošs, ka gribat iziet no %s? Tas vienlaikus izslēgs arī skype, ja esat devis tādu uzstādījumu."
+
+#: interface\__init__.py:31
+msgid "Confirm Exit"
+msgstr "Apstiprināt iziešanu"
+
+#: interface\about.py:30
+#: interface\systemTray.py:81
+msgid "About %s"
+msgstr "Par %s"
+
+#: interface\about.py:43
+msgid "Project &Web site"
+msgstr "Projekta &web lapa"
+
+#: interface\about.py:44
+msgid "&License online"
+msgstr "&Licence tiešsaistē"
+
+#: interface\about.py:45
+msgid "C&ontributors"
+msgstr "&Atbalstītāji"
+
+#: interface\about.py:46
+msgid "User &Guide"
+msgstr "Lietotāja &ceļvedis"
+
+#: interface\about.py:47
+#: interface\systemTray.py:61
+msgid "&What's New"
+msgstr "&Kas jauns"
+
+#: interface\about.py:48
+#: interface\systemTray.py:77
+msgid "Check for &updates..."
+msgstr "Pārbaudīt &atjauninājumus..."
+
+#: interface\about.py:64
+msgid ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking Contributors\n"
+"Project URL: %s\n"
+"This software is distributed under the terms of the GNU General Public License version 2.\n"
+"For more information, please click View License Online Button or view the file license.txt included with this software.\n"
+msgstr ""
+"\n"
+"%s %s\n"
+"Copyright %s Hrvoje Katic / SkypeTalking izstrādātāju komanda\n"
+"Projekta adrese: %s\n"
+"Šī programmatūra tiek izplatīta atbilstoši GNU General Public License version 2.\n"
+"Lai iegūtu plašāku informāciju, lūdzu nospiediet pogu Aplūkot licenci tiešsaistē vai skatieties failu license.txt šajā programmā.\n"
+
+#: interface\contactsManager.py:40
+#: interface\preferences\main.py:48
+msgid "Contacts Manager"
+msgstr "Kontaktu pārvaldnieks"
+
+#: interface\contactsManager.py:53
+msgid "Skype Out"
+msgstr "Skype Out"
+
+#: interface\contactsManager.py:85
+#: interface\contactsManager.py:160
+msgid "Checked"
+msgstr "Atzīmēts"
+
+#: interface\contactsManager.py:88
+msgid "Unchecked"
+msgstr "Nav atzīmēts"
+
+#: interface\contactsManager.py:90
+msgid "&Create Conference"
+msgstr "&Izveidot konferenci"
+
+#: interface\contactsManager.py:91
+msgid "Create multi c&hat"
+msgstr "Izveidot multi&saraksti"
+
+#: interface\contactsManager.py:94
+#: interface\contactsManager.py:135
+msgid "&Call"
+msgstr "&Zvans"
+
+#: interface\contactsManager.py:95
+#: interface\contactsManager.py:137
+msgid "C&hat"
+msgstr "&Sarakste"
+
+#: interface\contactsManager.py:115
+msgid "&Contact List"
+msgstr "&Kontaktu saraksts"
+
+#: interface\contactsManager.py:117
+msgid "Contact"
+msgstr "Kontakts"
+
+#: interface\contactsManager.py:118
+msgid "Skype Name"
+msgstr "Lietotājvārds"
+
+#: interface\contactsManager.py:119
+msgid "Status"
+msgstr "Statuss"
+
+#: interface\contactsManager.py:120
+msgid "Mood Text"
+msgstr "Garastāvokļa teksts"
+
+#: interface\contactsManager.py:121
+msgid "Last seen"
+msgstr "Pēdējo reizi manīts"
+
+#: interface\contactsManager.py:128
+msgid "%s at %s"
+msgstr "%s %s"
+
+#: interface\contactsManager.py:138
+msgid "View &Profile..."
+msgstr "Apskatīt &profilu..."
+
+#: interface\contactsManager.py:189
+msgid "Profile Viewer for %s (%s)"
+msgstr "Profila apskate %s %s"
+
+#: interface\contactsManager.py:193
+msgid "Skype name:"
+msgstr "Lietotājvārds:"
+
+#: interface\contactsManager.py:199
+msgid "Full name:"
+msgstr "Pilns vārds:"
+
+#: interface\contactsManager.py:205
+msgid "Mood:"
+msgstr "Garastāvoklis:"
+
+#: interface\contactsManager.py:211
+msgid "Birth date:"
+msgstr "Dzimšanas datums:"
+
+#: interface\contactsManager.py:217
+msgid "Gender:"
+msgstr "Dzimums:"
+
+#: interface\contactsManager.py:220
+msgid "Male"
+msgstr "Vīrietis"
+
+#: interface\contactsManager.py:221
+msgid "Female"
+msgstr "Sieviete"
+
+#: interface\contactsManager.py:224
+msgid "Language:"
+msgstr "Valoda:"
+
+#: interface\contactsManager.py:230
+msgid "Location:"
+msgstr "Atrašanās vieta:"
+
+#: interface\contactsManager.py:236
+msgid "Home phone:"
+msgstr "Mājas telefons:"
+
+#: interface\contactsManager.py:242
+msgid "Office phone:"
+msgstr "Darba telefons:"
+
+#: interface\contactsManager.py:248
+msgid "Mobile phone:"
+msgstr "Mobīlais telefons:"
+
+#: interface\contactsManager.py:254
+msgid "Home page:"
+msgstr "Mājas lapa:"
+
+#: interface\contactsManager.py:260
+msgid "About me:"
+msgstr "Par mani:"
+
+#: interface\contactsManager.py:266
+msgid "Number of contacts:"
+msgstr "Kontaktu skaits:"
+
+#: interface\contactsManager.py:273
+msgid "This user is not authorized to contact me.\n"
+msgstr "Šis lietotājs nav autorizēts, lai kontaktētu ar mani.\n"
+
+#: interface\contactsManager.py:275
+msgid "This user is blocked.\n"
+msgstr "Šis lietotājs ir bloķēts.\n"
+
+#: interface\contactsManager.py:277
+msgid "This user doesn't have a call equipment.\n"
+msgstr "Šim lietotājam nav zvana aprīkojums.\n"
+
+#: interface\contactsManager.py:279
+msgid "This user has call forwarding activated.\n"
+msgstr "Šis lietotājs ir aktivizējis zvanu pāradresāciju.\n"
+
+#: interface\contactsManager.py:281
+msgid "This user has a camera.\n"
+msgstr "Šim lietotājam ir kamera.\n"
+
+#: interface\contactsManager.py:283
+msgid "This user can send and receive Voice Mail.\n"
+msgstr "Šis lietotājs var sūtīt un saņemt balss pastu.\n"
+
+#: interface\contactsManager.py:285
+msgid "Other information:"
+msgstr "Cita informācija:"
+
+#: interface\interfaceCommands.py:35
+msgid "Allows access to SkypeTalking Preferences Dialog where you can configure application behavior, or change your SkypeTalking language and speech output."
+msgstr "Atver SkypeTalking dialogu Iestatījumi, kur jūs varat konfigurēt lietojumprogrammas darbību vai mainīt SkypeTalking valodu un runas izvadi."
+
+#: interface\interfaceCommands.py:42
+msgid "Opens the Contacts Manager for viewing and managing your Skype contacts on the easy way. If pressed twice, the original Skype contact list will be displayed."
+msgstr "Atver kontaktu pārvaldnieku Skype kontaktu atvieglotai aplūkošanai un pārvaldīšanai. Nospiežot divreiz, tiks parādīts oriģinālais Skype kontaktu saraksts."
+
+#: interface\interfaceCommands.py:46
+msgid "Displays some basic information about SkypeTalking application, such as current version, copyright details and program web site."
+msgstr "Rāda pamatinformāciju par SkypeTalking lietojumprogrammu, tādu kā pašreizējā versija, autortiesību detaļas un programmas mājas lapa."
+
+#: interface\interfaceCommands.py:50
+msgid "Quits SkypeTalking application."
+msgstr "Aizver SkypeTalking."
+
+#: interface\interfaceCommands.py:54
+msgid "Silences speech if your speech output is set to SAPI5."
+msgstr "Apklusina skaņu, ja jūsu runas izvade ir uzstādīta uz SAPI5."
+
+#: interface\interfaceCommands.py:59
+#: interface\interfaceCommands.py:69
+msgid "on"
+msgstr "ieslēgts"
+
+#: interface\interfaceCommands.py:62
+#: interface\interfaceCommands.py:72
+msgid "off"
+msgstr "izslēgts"
+
+#: interface\interfaceCommands.py:63
+msgid "Ignore Skype events %s."
+msgstr "Ignorēt skype notikumus %s"
+
+#: interface\interfaceCommands.py:64
+msgid "Toggles ignoring of all Skype events. If turned on, SkypeTalking will ignore all Skype events and will not speak nor record them."
+msgstr "Slēdzis visu Skype notikumu ignorēšanai. Ja tas ieslēgts, SkypeTalking ignorēs visus Skype notikumus, nenosauks un neierakstīstos."
+
+#: interface\interfaceCommands.py:73
+msgid "Key describer %s."
+msgstr "Taustiņu aprakstītājs %s."
+
+#: interface\interfaceCommands.py:74
+msgid "Toggles on or off key describer. When turned on, it will describe a command associated with SkypeTalking keystroke being pressed."
+msgstr "Slēdzis taustiņu aprakstīšanai. Ieslēgts tas nosauks nospiestajai taustiņu kombinācijai atbilstošo SkypeTalking komandu."
+
+#: interface\interfaceCommands.py:78
+msgid "Change the Skype online status for the current user on the fly."
+msgstr "Mainīt Skype tiešsaistes statusu pašreizējam lietotājam."
+
+#: interface\interfaceCommands.py:82
+msgid "Checks for new versions or updates of SkypeTalking application."
+msgstr "Pārbauda jaunas versijas vai atjauninājumus lietojumprogrammai Skypetalking."
+
+#: interface\interfaceCommands.py:89
+msgid "Reports the current user Mood Text. If pressed twice, calls a function to change your Mood Text."
+msgstr "Paziņo šī lietotāja garastāvokļa tekstu. Nospiežot divreiz, ļauj mainīt jūsu garastāvokļa tekstu."
+
+#: interface\interfaceCommands.py:96
+msgid "Reports the current user online status. If pressed twice, calls a function to report the Skype credit balance for the current user."
+msgstr "Paziņo pašreizējā lietotāja tiešsaistes statusu. Nospiežot divreiz, izsauc funkciju šī lietotāja Skype kredīta bilances paziņošanai."
+
+#: interface\interfaceCommands.py:103
+msgid "Reports the currently running version of Skype. If pressed twice, calls a function to report an API Wrapper version, which is mainly useful for developers."
+msgstr "Paziņo pašreizējo Skype versiju. Nospiežot divreiz, izsauc funkciju API iesaiņojuma versijas paziņošanai, kas pamatā attiecas uz izstrādātājiem."
+
+#: interface\interfaceCommands.py:107
+msgid "Repeats the last Skype event that happened during the SkypeTalking session."
+msgstr "Atkārto pēdējo Skype notikumu SkypeTalking sessijas laikā"
+
+#: interface\interfaceCommands.py:114
+msgid "Reports the status of the last incoming or outgoing file transfer. If pressed twice, allows you to choose one of the active file transfers to monitor."
+msgstr "Paziņo pēdējā ienākošā vai izejošā faila pārsūtīšanas statusu. Nospiežot divreiz, ļauj jums izvēlēties un pārraudzīt vienu no aktīvajiem failu transferiem."
+
+#: interface\interfaceCommands.py:118
+msgid "Reports duration of an active call in hours/minutes/seconds."
+msgstr "Paziņo aktīvā zvana ilgumu stundās/minūtēs/sekundēs."
+
+#: interface\interfaceCommands.py:125
+msgid "Reports the status of an active call. If pressed twice, will open a dialog box allowing you to call someone by entering the Skype name of a user, or multiple users separated by commas to create a conference."
+msgstr "Paziņo aktīvā zvana statusu. Nospiežot divreiz, atvērs dialogu, kas ļauj piezvanīt kādam, ievadot viņa lietotājvārdu , vai vairākiem lietotājiem, atdalot viņu lietotājvārdusar komatiem, tādējādi veidojot konferenci."
+
+#: interface\interfaceCommands.py:129
+msgid "Launches a wizard for sending SMS messages on the easy way via SkypeTalking."
+msgstr "Izsauc atvieglotu īsziņu nosūtīšanas veidni caur SkypeTalking."
+
+#: interface\interfaceCommands.py:133
+msgid "Go to next event in the events history buffer."
+msgstr "Doties uz nākamo notikumu vēstures sadaļā."
+
+#: interface\interfaceCommands.py:137
+msgid "Go to previous event in the events history buffer."
+msgstr "Doties uz iepriekšējjo notikumu vēstures sadaļā."
+
+#: interface\interfaceCommands.py:142
+msgid "calls"
+msgstr "zvani"
+
+#: interface\interfaceCommands.py:145
+msgid "messages"
+msgstr "ziņojumi"
+
+#: interface\interfaceCommands.py:148
+msgid "file transfers"
+msgstr "failu pārsūtīšana"
+
+#: interface\interfaceCommands.py:151
+msgid "user actions"
+msgstr "lietotāja darbības"
+
+#: interface\interfaceCommands.py:154
+msgid "voicemail"
+msgstr "balss pasts"
+
+#: interface\interfaceCommands.py:157
+msgid "status changes"
+msgstr "statusa maiņas"
+
+#: interface\interfaceCommands.py:158
+msgid "Selects the event type to view in the events history buffer between status changes, calls, messages, file transfers, or user actions."
+msgstr "Izvēlas notikumu veidu, ko aplūkot notikumu vēstures bufferī: statusa maiņa, zvani, ziņas, failu pārsūtīšana vai lietotāja darbības."
+
+#: interface\interfaceCommands.py:165
+#: interface\interfaceCommands.py:172
+#: interface\interfaceCommands.py:179
+#: interface\interfaceCommands.py:186
+#: interface\interfaceCommands.py:193
+#: interface\interfaceCommands.py:200
+#: interface\interfaceCommands.py:207
+#: interface\interfaceCommands.py:214
+#: interface\interfaceCommands.py:221
+#: interface\interfaceCommands.py:228
+msgid "Selects chat monitor. If pressed twice, opens a chat window of the chat currently being monitored."
+msgstr "Izvēlas aplūkojamo saraksti. Nospiežot divreiz, atver pašreiz aplūkojamās sarakstes logu."
+
+#: interface\interfaceCommands.py:235
+msgid "Reports the current chat monitor. If pressed twice, opens the Skype chat window for the chat currently being monitored."
+msgstr "Paziņo pašreiz aplūkojamo saraksti. Nospiežot divreiz, atver Skype pašreiz aplūkojamās sarakstes logu ."
+
+#: interface\interfaceCommands.py:253
+#: interface\interfaceCommands.py:271
+#: interface\interfaceCommands.py:289
+#: interface\interfaceCommands.py:307
+#: interface\interfaceCommands.py:325
+#: interface\interfaceCommands.py:343
+#: interface\interfaceCommands.py:361
+#: interface\interfaceCommands.py:379
+#: interface\interfaceCommands.py:397
+#: interface\interfaceCommands.py:415
+msgid "Review one of the last 10 items depending on selected review mode. Press it twice or thrice to execute the 2nd or 3rd action for the item (if possible)."
+msgstr "Pārbauda kādu no pēdējiem 10 punktiem, atkarībā no norādītā pārbaudes režīma. Nospiediet divreiz vai trīsreiz, lai izpildītu otro un trešo darbību šim punktam (ja tas iespējams)"
+
+#: interface\interfaceCommands.py:420
+msgid "Voicemail mode"
+msgstr "Balss pasta režīms"
+
+#: interface\interfaceCommands.py:423
+msgid "Message mode"
+msgstr "Ziņojumu režīms"
+
+#: interface\interfaceCommands.py:424
+msgid "Toggles between Message mode or Voicemail mode."
+msgstr "Pārslēdz starp ziņojumu režīmu un balss pasta režīmu."
+
+#: interface\interfaceCommands.py:431
+msgid "Repeats the last incoming or outgoing chat message. If pressed twice, opens the Skype chat window associated with that message and sets chat monitor to it."
+msgstr "Atkārto pēdējo ienākušo vai izsūtīto sarakstes ziņu. Nospiežot divreiz, atver sarakstes logu."
+
+#: interface\interfaceCommands.py:435
+msgid "Answers the call, or toggles between hold and resume for calls in progress."
+msgstr "Atbild uz zvanu vai pārslēdzas starp zvana aizturēšanu un atsākšanu."
+
+#: interface\interfaceCommands.py:439
+msgid "Answers the call and joins it to a conference (if on a conference call)."
+msgstr "Atbild uz zvanu un pievieno to konferencei (ja tas ir konferences zvans)"
+
+#: interface\interfaceCommands.py:443
+msgid "Ends the call or stops recording voicemail."
+msgstr "Beidz zvanu vai aptur balss pasta ierakstīšanu."
+
+#: interface\interfaceCommands.py:447
+msgid "Mutes or unmutes microphone depending on it's current state."
+msgstr "Izslēdz vai ieslēdz mikrofonu atkarībā no tā pašreizējā stāvokļa"
+
+#: interface\interfaceCommands.py:451
+msgid "Reports currently used input/output devices."
+msgstr "Paziņo pašreiz izmantojamās ievades/izvades ierīces."
+
+#: interface\interfaceCommands.py:460
+msgid "Reports the status of the last voicemail. If pressed twice, opens and plays the voicemail. If pressed thrice, deletes the voicemail."
+msgstr "Paziņo pēdējā balss pasta statusu. Nospiežot divreiz, atver un atskaņo balss pastu. Nospiežot trīsreiz, izdzēš balss pastu."
+
+#: interface\main.py:169
+#: interface\preferences\categories\hotKeys.py:55
+msgid "No description"
+msgstr "Nav apraksta"
+
+#: interface\preferences\__init__.py:27
+msgid "Preferences"
+msgstr "Iestatījumi"
+
+#: interface\preferences\categories\advanced.py:28
+msgid "Number of &connection retries before giving up:"
+msgstr "&Savienojuma mēģinājumu skaits, pirms tos pārtraukt:"
+
+#: interface\preferences\categories\advanced.py:32
+msgid "Start Skype &minimized"
+msgstr "Palaist skype sa&ritinātā veidā"
+
+#: interface\preferences\categories\advanced.py:33
+msgid "No &splash screen when starting Skype"
+msgstr "&Neuzplaiksnīt ekrānu, kad tiek palaists Skype"
+
+#: interface\preferences\categories\alerts.py:27
+msgid "User changed his/her Mood &Text"
+msgstr "Lietotājs ir mainījis savu &garastāvokļa tekstu"
+
+#: interface\preferences\categories\alerts.py:28
+msgid "Chat message &received"
+msgstr "Sarakstes ziņa &saņemta"
+
+#: interface\preferences\categories\alerts.py:29
+msgid "Chat message &sent"
+msgstr "Sarakstes ziņa &nosūtīta"
+
+#: interface\preferences\categories\alerts.py:30
+msgid "Online status &unknown"
+msgstr "Tiešsaistes statuss nav &zināms"
+
+#: interface\preferences\categories\alerts.py:31
+msgid "Online status O&ffline"
+msgstr "Tiešsaistes statuss a&tslēdzies"
+
+#: interface\preferences\categories\alerts.py:32
+msgid "Online status &Online"
+msgstr "Tiešsaistes statuss &pieslēdzies"
+
+#: interface\preferences\categories\alerts.py:33
+msgid "Online status &Away"
+msgstr "Tiešsaistes statuss &izgājis"
+
+#: interface\preferences\categories\alerts.py:34
+msgid "Online status &Not Available"
+msgstr "Tiešsaistes statuss n&epieejams"
+
+#: interface\preferences\categories\alerts.py:35
+msgid "Online status &Do Not Disturb"
+msgstr "Tiešsaistes statuss ne&traucēt"
+
+#: interface\preferences\categories\alerts.py:36
+msgid "Online status &Invisible"
+msgstr "Tiešsaistes statuss ne&redzams"
+
+#: interface\preferences\categories\alerts.py:37
+msgid "Online status &SkypeOut"
+msgstr "Tiešsaistes statuss Skype&Out"
+
+#: interface\preferences\categories\alerts.py:38
+msgid "Online status &Skype Me!"
+msgstr "Tiešsaistes statuss Skype &Me!"
+
+#: interface\preferences\categories\contactsManager.py:28
+msgid "Show &offline contacts"
+msgstr "Rādīt kontaktus, kas ir a&tslēgušies"
+
+#: interface\preferences\categories\general.py:31
+msgid "&Language:"
+msgstr "&Valoda"
+
+#: interface\preferences\categories\general.py:40
+msgid "Start %s with &Windows"
+msgstr "Palaist %s reizē ar &Windows"
+
+#: interface\preferences\categories\general.py:43
+msgid "Automatically &start Skype with %s"
+msgstr "Automātiski &palaist Skype ar %s"
+
+#: interface\preferences\categories\general.py:44
+msgid "Automatically &close Skype when %s exits"
+msgstr "Automātiski aiz&vērt Skype, kad %s tiek izslēgts"
+
+#: interface\preferences\categories\general.py:45
+msgid "C&onfirm when exiting %s"
+msgstr "Ap&stiprināt, kad %s tiek izslēgts"
+
+#: interface\preferences\categories\general.py:46
+msgid "Show %s icon on the &taskbar"
+msgstr "Rādīt %s ikonu &uzdevumu joslā"
+
+#: interface\preferences\categories\hotKeys.py:43
+msgid "&Keystrokes"
+msgstr "Taustiņu &kombinācijas"
+
+#: interface\preferences\categories\hotKeys.py:45
+msgid "Function"
+msgstr "Funkcija"
+
+#: interface\preferences\categories\hotKeys.py:46
+msgid "Keystroke"
+msgstr "Taustiņu kombinācija"
+
+#: interface\preferences\categories\hotKeys.py:47
+msgid "Description"
+msgstr "Apraksts"
+
+#: interface\preferences\categories\hotKeys.py:59
+msgid "&Change..."
+msgstr "&Mainīt..."
+
+#: interface\preferences\categories\hotKeys.py:70
+msgid "Change keystroke for %s"
+msgstr "Mainīt taustiņu kombināciju priekš %s"
+
+#: interface\preferences\categories\hotKeys.py:79
+msgid "Modifiers"
+msgstr "Modifikatori"
+
+#: interface\preferences\categories\hotKeys.py:86
+msgid "&Key:"
+msgstr "&Taustiņš"
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "%s keystroke already in use. Please try another one."
+msgstr "Ttaustiņu kombinācija %s jau tiek izmantota. Lūdzu mēģiniet citu."
+
+#: interface\preferences\categories\hotKeys.py:121
+msgid "Change Keystroke Error"
+msgstr "Mainīt taustiņu kombinācijas kļūdu"
+
+#: interface\preferences\categories\output.py:28
+msgid "Speech Output:"
+msgstr "Runas izvade"
+
+#: interface\preferences\categories\output.py:29
+msgid "Auto detect"
+msgstr "Automātiskā noteikšana"
+
+#: interface\preferences\categories\output.py:29
+msgid "SAPI5"
+msgstr "SAPI5"
+
+#: interface\preferences\categories\output.py:30
+msgid "SAPI5 Speech Rate:"
+msgstr "SAPI5 runas ātrums"
+
+#: interface\preferences\categories\output.py:33
+msgid "SAPI5 Volume:"
+msgstr "SAPI5 skaļums"
+
+#: interface\preferences\categories\output.py:36
+msgid "Enable &braille output"
+msgstr "Iespējot &braila izvadi"
+
+#: interface\preferences\categories\updates.py:29
+msgid "&Automatically check for %s updates"
+msgstr "&Automātiski pārbaudīt %s atjauninājumus"
+
+#: interface\preferences\categories\updates.py:30
+msgid "&Download Type:"
+msgstr "&Lejupielādes tips"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Installer"
+msgstr "Instalators"
+
+#: interface\preferences\categories\updates.py:31
+msgid "Portable Archive"
+msgstr "Pārvietojamais arhīvs"
+
+#: interface\preferences\categories\verbosity.py:27
+msgid "Speak message &time"
+msgstr "Teikt ziņas nosūtīšanas &laiku"
+
+#: interface\preferences\categories\verbosity.py:28
+msgid "Speak contact &name with message"
+msgstr "Teikt kontakta &vārdu kopā ar ziņu"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "After the alert"
+msgstr "Pēc paziņojuma"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Before the alert"
+msgstr "Pirms paziņojuma"
+
+#: interface\preferences\categories\verbosity.py:29
+msgid "Never"
+msgstr "Nekad"
+
+#: interface\preferences\categories\verbosity.py:30
+msgid "Say \"Skype Alert\" message"
+msgstr "Teikt frāzi \"Skype paziņojums\""
+
+#: interface\preferences\main.py:36
+msgid "General"
+msgstr "Vispārīgi"
+
+#: interface\preferences\main.py:38
+msgid "Output"
+msgstr "Izvade"
+
+#: interface\preferences\main.py:40
+msgid "Alerts"
+msgstr "Paziņojumi"
+
+#: interface\preferences\main.py:42
+msgid "Verbosity"
+msgstr "Daudzvārdība"
+
+#: interface\preferences\main.py:44
+msgid "Advanced"
+msgstr "Papildus"
+
+#: interface\preferences\main.py:46
+msgid "Updates"
+msgstr "Atjauninājumi"
+
+#: interface\preferences\main.py:50
+msgid "Hot keys"
+msgstr "Karstie taustiņi"
+
+#: interface\preferences\main.py:86
+msgid "Settings saved."
+msgstr "Iestatījumi saglabāti."
+
+#: interface\preferences\main.py:89
+msgid "Settings applied."
+msgstr "Iestatījumi uzlikti."
+
+#: interface\preferences\main.py:92
+msgid "Settings canceled."
+msgstr "Iestatījumi atcelti."
+
+#: interface\preferences\main.py:102
+msgid "Error in %s language file"
+msgstr "Kļūda %s valodas failā"
+
+#: interface\preferences\main.py:102
+msgid "Language Error"
+msgstr "Valodas kļūda"
+
+#: interface\smsDialog.py:32
+msgid "Message text:"
+msgstr "Ziņas teksts"
+
+#: interface\smsDialog.py:37
+msgid "&Send"
+msgstr "&Sūtīt"
+
+#: interface\smsDialog.py:56
+msgid "SMS sending failed."
+msgstr "Īsziņas nosūtīšana neizdevās."
+
+#: interface\smsDialog.py:66
+msgid "SMS %d, %d characters left, Current price %s."
+msgstr "Īsziņa %d, %d zīmes atlikušas, pašreizējā cena %s."
+
+#: interface\smsDialog.py:68
+msgid "Empty"
+msgstr "Tukšs"
+
+#: interface\systemTray.py:43
+msgid "&Contacts Manager..."
+msgstr "&Kontaktu pārvaldnieks..."
+
+#: interface\systemTray.py:43
+msgid "Open Contacts Manager"
+msgstr "Atvērt kontaktu pārvaldnieku"
+
+#: interface\systemTray.py:47
+msgid "&Send SMS Wizard..."
+msgstr "&Sūtīt īsziņu veidnis..."
+
+#: interface\systemTray.py:47
+msgid "Start SMS Send Wizard"
+msgstr "Sākt īsziņas sūtīšanu veidnis"
+
+#: interface\systemTray.py:51
+msgid "&Preferences..."
+msgstr "&Iestatījumi..."
+
+#: interface\systemTray.py:51
+msgid "Open Preferences Dialog"
+msgstr "Atvērt dialogu Iestatījumi"
+
+#: interface\systemTray.py:54
+msgid "&Tools"
+msgstr "&Rīki"
+
+#: interface\systemTray.py:57
+msgid "&User Guide"
+msgstr "&Lietotāja ceļvedis"
+
+#: interface\systemTray.py:57
+msgid "Read User Guide"
+msgstr "Lasīt lietotāja ceļvedi"
+
+#: interface\systemTray.py:61
+msgid "Read What's New"
+msgstr "Lasīt Kas jauns"
+
+#: interface\systemTray.py:65
+msgid "&Contributors"
+msgstr "&Izstrādātāji"
+
+#: interface\systemTray.py:65
+msgid "View Contributors List"
+msgstr "Aplūkot izstrādātāju sarakstu"
+
+#: interface\systemTray.py:69
+msgid "&License"
+msgstr "&Licence"
+
+#: interface\systemTray.py:69
+msgid "View the license"
+msgstr "Apskatīt licenci"
+
+#: interface\systemTray.py:73
+msgid "%s on the &Web"
+msgstr "%s &internetā"
+
+#: interface\systemTray.py:73
+msgid "Launch project Web Site in default browser"
+msgstr "Atvērt projekta mājas lapu pārlūkā pēc noklusējuma"
+
+#: interface\systemTray.py:77
+msgid "Check for the latest application updates"
+msgstr "Pārbaudīt jaunākos lietojumprogrammas atjauninājumus"
+
+#: interface\systemTray.py:81
+msgid "&About %s..."
+msgstr "&Par %s..."
+
+#: interface\systemTray.py:84
+msgid "&Help"
+msgstr "&Palīdzība"
+
+#: interface\systemTray.py:86
+msgid "E&xit"
+msgstr "&Iziet"
+
+#: interface\systemTray.py:86
+msgid "Exit %s"
+msgstr "Iziet no %s"
+
+#: updater.py:67
+msgid "New version available"
+msgstr "Ir pieejama jauna versija"
+
+#: updater.py:67
+msgid "Your version: %s. Latest version: %s. Do you wish to download the latest version of %s?"
+msgstr "Jūsu versija: %s. Jaunākā versija: %s. Vai vēlaties lejupielādēt %s jaunāko versiju?"
+
+#: updater.py:75
+msgid "Update cancelled."
+msgstr "Atjauninājums atcelts."
+
+#: updater.py:81
+msgid "Accessing download URL... Please wait..."
+msgstr "Piekļūst lejupielādes adresei... Lūdzu uzgaidiet..."
+
+#: updater.py:93
+msgid "Downloading update... Please wait..."
+msgstr "Lejupielādē atjauninājumu... Lūdzu uzgaidiet..."
+
+#: updater.py:105
+msgid "Update ready! Choose Ok to continue."
+msgstr "Atjauninājums gatavs! Izvēlieties OK, lai turpinātu."
+
+#: updater.py:105
+#: updater.py:110
+msgid "Download completed"
+msgstr "Lejupielāde pabeigta"
+
+#: updater.py:110
+msgid "Update ready to install! Choose Ok to exit %s and launch the update installation program."
+msgstr "Atjauninājums gatavs uzstādīšanai! Izvēlieties OK, lai izietu no %s un palaistu atjauninājuma instalācijas programmu."
+
+#: updater.py:119
+msgid "Unable to get online version number, probably due to a lost connection or network maintenance. Please check your connection or try again later."
+msgstr "Nespēj saņemt tiešsaistē versijas numuru, visticamāk pārtrūkuša savienojuma vai tīkla noslogotības dēļ. Lūdzu pārbaudiet jūsu savienojumu vai mēģiniet atkal vēlāk."
+
+#: updater.py:119
+#: updater.py:123
+#: updater.py:127
+#: updater.py:131
+msgid "Update error"
+msgstr "Atjaunināšanas kļūda"
+
+#: updater.py:123
+msgid "Unable to find online version number. It may be due to a website temporarily unavailable or it's content being modified. Please try again later."
+msgstr "Nespēj atrast tiešsaistē versijas numuru. Par iemeslu tam var būt INTERNETA VIETNES PAGAIDU NEPIEEJAMĪBA VAI ARĪ TĀS SATURS IR MAINĪTS. Lūdzu mēģiniet vēlāk."
+
+#: updater.py:127
+msgid "Couldn't access download URL. Please try again later."
+msgstr "Nevarēja piekļūt lejupielādes adresei. Lūdzu mēģiniet vēlāk."
+
+#: updater.py:131
+msgid "Download failed!"
+msgstr "Lejupielāde nav izdevusies!"
+
+#: updater.py:135
+msgid "Your version of %s is up-to-date. Updating is not necessary. Current version: %s. Online version: %s."
+msgstr "Jums ir jaunākā %s versija. Atjaunināšana nav nepieciešama. Pašreizējā versija: %s online versija"
+
+#: updater.py:141
+msgid "Checking for updates... Please wait..."
+msgstr "Pārbauda atjauninājumus, lūdzu uzgaidiet.."
+
+#~ msgid "Authorization refused. %s may not be started. Exiting."
+#~ msgstr "Autorizācija noraidīta. %s nav iespējams palaist. Iziet."
+
+#~ msgid "Error, API not available. %s may not be started. Exiting."
+#~ msgstr "Kļūda, saskarne nav pieejama. %s nav iespējams palaist. Iziet."
+
+#~ msgid "Exiting."
+#~ msgstr "Iziet."
+
+#~ msgid "Reports the status of the last incoming or outgoing file transfer."
+#~ msgstr "Paziņo pēdējās ienākošās vai izejošās faila pārsūtīšanas statusu"
+
+#~ msgid "Messages"
+#~ msgstr "ziņas"
+
+#~ msgid ""
+#~ "Toggles the review mode between last 10 chat messages or last 10 "
+#~ "voicemails."
+#~ msgstr ""
+#~ "Pārslēdz pārbaudes režīmu starp pēdējām 10 sarakstes ziņām vai pēdējiem "
+#~ "10 balss pastiem."
